@@ -59,6 +59,9 @@
                 @filtered="onTollReportTableFiltered"
                 :busy="isTollReportTableBusy"
               >
+                <template v-slot:cell(sl)="row">
+                  {{row.index+1}}
+                </template>
                 <template v-slot:cell(type)="row">
                   {{tollType(row.item)}}
                 </template>

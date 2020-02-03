@@ -180,7 +180,7 @@
                 :busy="isTableBusy"
               >
               <template v-slot:cell(sl)="row">
-                {{row.index}}
+                {{row.index+1}}
               </template>
               <template v-slot:cell(destination)="row">
                 {{row.item.destination}}
