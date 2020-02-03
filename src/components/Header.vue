@@ -6,8 +6,8 @@
         </div>
         <div class="app-header-right mr-5">
             <!-- <button type="btn btn-sm" style="margin-right:50px" @click="goDash">DASHBOARD</button> -->
-            <!-- <button v-if="isAdmin" type="btn btn-sm" style="margin-right:50px" @click="goFuelPrice">FUEL PRICE</button> -->
-            <button type="btn btn-sm" style="margin-right:50px" @click="goTollPrice">Toll Price</button>
+            <button type="btn btn-sm" style="margin-right:50px" @click="goTollReport">TOLL REPORT</button>
+            <button type="btn btn-sm" style="margin-right:50px" @click="goTollPrice">TOLL PRICE</button>
             <button type="btn btn-sm" @click="logout">LOGOUT</button>
         </div>
     </div>
@@ -91,6 +91,9 @@ export default {
         },
         goTollPrice(){
             this.$router.push({name: "toll-price"})
+        },
+        goTollReport(){
+            this.$router.push({name: "toll-report"})
         },
     }
 }

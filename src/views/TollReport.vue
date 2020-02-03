@@ -59,7 +59,14 @@
                 @filtered="onTollReportTableFiltered"
                 :busy="isTollReportTableBusy"
               >
+                <template v-slot:cell(type)="row">
+                  {{tollType(row.item)}}
+                </template>
+                <template v-slot:cell(price)="row">
+                  {{tollPrice(row.item)}}
+                </template>
               </b-table>
+              
             </b-card>
           </div>
         </v-card-text>
@@ -177,6 +184,20 @@ export default {
           thClass: "text-left",
           tdClass: "text-left"
         },
+        {
+          key: "type",
+          label: "Type",
+          sortable: true,
+          thClass: "text-left",
+          tdClass: "text-left"
+        },
+        {
+          key: "price",
+          label: "Price",
+          sortable: true,
+          thClass: "text-left",
+          tdClass: "text-left"
+        },
       ],
       tollReportSettings: {
         currentPage: 1,
@@ -189,11 +210,13 @@ export default {
         filter: null
       },
       isTollReportTableBusy: true,
+      openTolls: []
     };
   },
   async created() {
     this.width = window.innerWidth;
     this.height = window.innerHeight;
+    this.getOpenTolls()
     this.WIALON()
   },
   methods: {
@@ -206,8 +229,30 @@ export default {
     ...mapMutations("dashboardFields", [
       "SET_GEOFENCES"
     ]),
+    tollType(data){
+      console.log("DATA")
+      console.log(data)
+      let toll = this.openTolls.find(t=>t.name==data.plaza)
+      console.log(toll)
+      if(toll) return "OPEN"
+      return ""
+    },
+    tollPrice(data){
+      let toll = this.openTolls.find(t=>t.name==data.plaza)
+      if(toll) return toll.price
+      return ""
+    },
     handleFuelTypeChange(item){
       item.fuelPrice = item.fuelTypes.find(x=>x.type==item.fuelType).price
+    },
+    async getOpenTolls(){
+      await db.collection('openTolls').get()
+      .then(docs=>{
+        docs.forEach(doc=>{
+          this.openTolls.push(Object.assign({},{id:doc.id},doc.data()))
+        })
+        console.log(this.openTolls)
+      })
     },
     async getFuelTypes(){
       await db.collection('fuelType').orderBy('date','desc').get()
@@ -533,12 +578,19 @@ export default {
           console.log("RESOURCES", resources);
           let gfences = []
           resources.forEach(resource => {
-            for(let geo in resource.getZones()){
-              if(geo) gfences.push(geo)
-            }
+            // gfences = gfences.concat(...resource.getZones())
+            
             if (resource.getName() == "Toll Geofence") {
               _this.tollRes = resource;
               _this.tollReportObj = resource[0];
+              let zones = resource.getZones()
+              for(let geo in zones){
+                gfences.push({
+                  id: zones[geo].id,
+                  name: zones[geo].n,
+                  destination: zones[geo].d
+                })
+              }
             }
           });
           _this.SET_GEOFENCES(gfences)
