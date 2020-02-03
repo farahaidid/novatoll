@@ -203,6 +203,9 @@ export default {
       "CLEAR_LOGIN_DATA",
       "SET_SESSION_ID"
     ]),
+    ...mapMutations("dashboardFields", [
+      "SET_GEOFENCES"
+    ]),
     handleFuelTypeChange(item){
       item.fuelPrice = item.fuelTypes.find(x=>x.type==item.fuelType).price
     },
@@ -528,12 +531,17 @@ export default {
           let allDrivers = {};
           let allTrailers = {};
           console.log("RESOURCES", resources);
+          let gfences = []
           resources.forEach(resource => {
+            for(let geo in resource.getZones()){
+              if(geo) gfences.push(geo)
+            }
             if (resource.getName() == "Toll Geofence") {
               _this.tollRes = resource;
               _this.tollReportObj = resource[0];
             }
           });
+          _this.SET_GEOFENCES(gfences)
           _this.units = _this.sess.getItems("avl_unit");
           _this.units.sort((a,b)=>{
             if(a.getName()>b.getName()) return 1

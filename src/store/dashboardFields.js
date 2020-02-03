@@ -30,17 +30,23 @@
         {selected: true, key: "startTime", label: "Start Time",  },
         {selected: false, key: "media", label: "Media",  },
         {selected: false, key: "video", label: "Video",  },
-      ]
+      ],
+      geofences: []
     },
     getters: {
         dashboardTableKeys:(state)=>state.dashboardTableKeys,
+        geofences:(state)=>state.geofences,
     },
     mutations: {
-        SET_SELECTED_VAL_OF_FIELD: (state,val)=>{
-            state.dashboardTableKeys[val.index].selected = val.value
-        },
+      SET_SELECTED_VAL_OF_FIELD: (state,val)=>{
+          state.dashboardTableKeys[val.index].selected = val.value
+      },
+      SET_GEOFENCES: (state,val)=>{
+          state.geofences[val.index].selected = val.value
+      },
       CLEAR_FIELDS_DATA: (state,val) => {
         state.dashboardTableKeys = []
+        state.geofences = []
       }
     }
   };

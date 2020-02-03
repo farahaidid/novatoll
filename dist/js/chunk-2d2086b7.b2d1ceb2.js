@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2086b7"],{a55b:function(t,e,n){"use strict";n.r(e);var c=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div")},a=[],i={created:function(){window.location="http://fleet.novatrack.biz/login.html?access_type=-1&redirect_uri=http://103.6.245.78:80/dashboard"}},o=i,r=n("2877"),l=Object(r["a"])(o,c,a,!1,null,null,null);e["default"]=l.exports}}]);
-//# sourceMappingURL=chunk-2d2086b7.b2d1ceb2.js.map
