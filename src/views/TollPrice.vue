@@ -151,7 +151,7 @@
                               :selected="i==0"
                               v-for="(geo,i) in prices"
                               :key="i"
-                            >{{geo.destination}}</option>
+                            >{{geo.name}}</option>
                           </b-form-select>
                         </b-input-group>
                       </b-form-group>
@@ -387,14 +387,21 @@ export default {
     // if(!this.isAdmin){
     //   this.$router.push({name: 'dashboard'})
     // }
+    let ps = []
     this.geofences.forEach(geo=>{
-      this.prices.push({
+      ps.push({
         id: geo.id,
         name: geo.name,
         destination: geo.destination,
         price: geo.price || 0
       })
     })
+    ps.sort((a,b)=>{
+      if(a.name > b.name) return 1 
+      else if(a.name < b.name) return -1
+      return 0 
+    })
+    this.prices = ps
     this.getClosedTolls()
     this.getOpenTolls()
     console.log(this.geofences)
@@ -410,11 +417,10 @@ export default {
     ...mapGetters('loginInfo',["isAdmin"]),
     ...mapGetters('dashboardFields',["geofences"]),
     computedTolls(){
-      console.log(this.selectedGeofence)
       if(!this.selectedGeofence) return []
       let tolls = this.closeTolls.find(p=>p.id==this.selectedGeofence)
-      if(tolls) return tolls.tolls
-      return this.prices.filter(p=>p.id==this.selectedGeofence)
+      if(tolls != null) return tolls.tolls
+      return this.prices.filter(p=>p.id!=this.selectedGeofence)
     }
   },
   methods:{
