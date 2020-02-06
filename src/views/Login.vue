@@ -20,9 +20,9 @@ export default {
   created(){
     // window.location = "http://fleet.novatrack.biz/login.html?client_id=Dashboard&access_type=0X100&activation_time=0&duration=2592000&lang=en&flags=0&redirect_uri=https://test-b21ad.firebaseapp.com/dashboard&response_type=token"
 
-    window.location = "http://fleet.novatrack.biz/login.html?access_type=-1&redirect_uri=https://test-b21ad.firebaseapp.com/toll-report"
+    // window.location = "http://fleet.novatrack.biz/login.html?access_type=-1&redirect_uri=https://test-b21ad.firebaseapp.com/toll-report"
     // window.location = "http://fleet.novatrack.biz/login.html?access_type=-1&redirect_uri=http://103.6.245.78:80/dashboard"
-    // window.location = "http://fleet.novatrack.biz/login.html?access_type=-1&redirect_uri=http://localhost:3080/toll-report"
+    window.location = "http://fleet.novatrack.biz/login.html?access_type=-1&redirect_uri=http://localhost:3080/toll-report"
   }
 };
 </script>

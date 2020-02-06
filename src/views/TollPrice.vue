@@ -183,7 +183,7 @@
                 {{row.index+1}}
               </template>
               <template v-slot:cell(destination)="row">
-                {{row.item.destination}}
+                {{row.item.name}}
               </template>
               <template v-slot:cell(price)="row">
                 <v-text-field solo v-model="row.item.price" >

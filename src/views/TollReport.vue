@@ -50,6 +50,7 @@
                 show-empty
                 small
                 responsive
+                foot-clone
                 :items="tollReports"
                 :fields="tollReportTableHeader"
                 :filter="tollReportSettings.filter"
@@ -63,10 +64,25 @@
                   {{row.index+1}}
                 </template>
                 <template v-slot:cell(type)="row">
-                  {{tollType(row.item)}}
+                  {{tollType(row.item,row.index)}}
                 </template>
                 <template v-slot:cell(price)="row">
-                  {{tollPrice(row.item)}}
+                  {{tollPrice(row.item,row.index)}}
+                </template>
+                <template v-slot:foot(sl)="data">
+                  <span></span>
+                </template>
+                <template v-slot:foot(time)="data">
+                  <span></span>
+                </template>
+                <template v-slot:foot(plaza)="data">
+                  <span ></span>
+                </template>
+                <template v-slot:foot(type)="data">
+                  <span class="text-success">TOTAL</span>
+                </template>
+                <template v-slot:foot(price)="data">
+                  <span>{{totalPrice}}</span>
                 </template>
               </b-table>
               
@@ -213,13 +229,15 @@ export default {
         filter: null
       },
       isTollReportTableBusy: true,
-      openTolls: []
+      openTolls: [],
+      closedTolls: []
     };
   },
   async created() {
     this.width = window.innerWidth;
     this.height = window.innerHeight;
     this.getOpenTolls()
+    this.getClosedTolls()
     this.WIALON()
   },
   methods: {
@@ -232,17 +250,48 @@ export default {
     ...mapMutations("dashboardFields", [
       "SET_GEOFENCES"
     ]),
-    tollType(data){
-      console.log("DATA")
-      console.log(data)
+    async getClosedTolls(){
+      await db.collection('closedToll').get()
+      .then(docs=>{
+        docs.forEach(doc=>{
+          this.closedTolls.push(Object.assign({},{id:doc.id},doc.data()))
+        })
+      })
+    },
+    tollType(data,index){
       let toll = this.openTolls.find(t=>t.name==data.plaza)
-      console.log(toll)
       if(toll) return "OPEN"
+      if(index > 0){
+        let closedToll = this.closedTolls.find(t=>t.name==data.plaza)
+        if(closedToll){
+          let prevReport = this.tollReports[index-1]
+          let prevClosedToll = this.closedTolls.find(x=>x.name == prevReport.plaza)
+          if(prevClosedToll){
+            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name == data.plaza)
+            if(priceFromPrev){
+              return "CLOSED"
+            }
+          }
+        }
+      }
       return ""
     },
-    tollPrice(data){
+    tollPrice(data,index){
       let toll = this.openTolls.find(t=>t.name==data.plaza)
       if(toll) return toll.price
+      if(index > 0){
+        let closedToll = this.closedTolls.find(t=>t.name==data.plaza)
+        if(closedToll){
+          let prevReport = this.tollReports[index-1]
+          let prevClosedToll = this.closedTolls.find(x=>x.name == prevReport.plaza)
+          if(prevClosedToll){
+            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name == data.plaza)
+            if(priceFromPrev){
+              return priceFromPrev.price
+            }
+          }
+        }
+      }
       return ""
     },
     handleFuelTypeChange(item){
@@ -254,43 +303,6 @@ export default {
         docs.forEach(doc=>{
           this.openTolls.push(Object.assign({},{id:doc.id},doc.data()))
         })
-        console.log(this.openTolls)
-      })
-    },
-    async getFuelTypes(){
-      await db.collection('fuelType').orderBy('date','desc').get()
-      .then(docs=>{
-        docs.forEach(doc=>{
-          this.fuelTypesFromDB.push(Object.assign({},{id:doc.id},doc.data()))
-        })
-        let data = docs.docs
-        let flag = true
-        if(data.length == 0){
-          let today = moment().format('X')
-          this.fuelTypes = [
-            {type: 'Diesel',price: 0, date: today},
-            {type: 'Euro 5',price: 0, date: today},
-            {type: 'Petrol',price: 0, date: today},
-          ]
-        }
-        for(let i=0;i<data.length;i++){
-          if(data[i].data().selected){
-            this.fuelTypes = [
-              {type: 'Diesel',price:data[i].data().diesel || 0, date: data[i].data().date},
-              {type: 'Euro 5',price:data[i].data().euro5 || 0 , date: data[i].data().date},
-              {type: 'Petrol',price:data[i].data().petrol || 0, date: data[i].data().date},
-            ]
-            flag = false
-            break
-          }
-        }
-        if(flag){
-          this.fuelTypes = [
-            {type: 'Diesel',price:data[0].data().diesel || 0, date: data[0].data().date},
-            {type: 'Euro 5',price:data[0].data().euro5 || 0 , date: data[0].data().date},
-            {type: 'Petrol',price:data[0].data().petrol || 0, date: data[0].data().date},
-          ]
-        }
       })
     },
     WIALON(){
@@ -324,62 +336,6 @@ export default {
         _this.getUnits()
       }
     },
-    enableEditing(){
-      this.editMode = true
-      this.editingRows = new Array(this.editingRows.length).fill(true)
-    },
-    disableEditing(){
-      
-      let _this = this
-      this.editMode = false
-      this.editingRows = new Array(this.editingRows.length).fill(false)
-
-      // console.log(wialon.util.DateTime.getTimezoneOffset())
-      let i = -1;
-      this.fuelReportData.forEach(data=>{
-        i++
-        if(this.rowsTouchedForEditing[i] == true){
-          // console.log(this.selectedUnit.getId())
-          if(data.bill.trim().length == 0) data.bill = '-'
-          if(!data.bill.includes('-')){
-            let dt = moment(data.time).tz('Etc/GMT+8').subtract(0,'hours').format('X')
-            console.log(dt)
-            // let dt = moment(data.time).format('X')
-            let pos = this.selectedUnit.getPosition()
-            let desc = `Fuel filling of ${parseFloat(data.bill)} l to the amount of ${parseFloat(data.billRM)} was made.`
-            let unit = this.sess.getItem(this.selectedUnit.getId());
-            let defRep = this.fuelDefaultReports.find(x=>x.time==data.time)
-            let defIndex = this.fuelDefaultReports.findIndex(x=>x.time==data.time)
-            let customRenderer = this.sess.getRenderer();
-            console.log('def-rep',defRep.bill)
-            if(defRep.bill != ''){
-              customRenderer.setLocale(wialon.util.DateTime.getTimezone(),"en",{flags:256,formatDate:"%Y-%m-%E %H:%M:%S"}, (code) => { 
-                if(code){
-                  console.log(wialon.core.Errors.getErrorText(code))
-                }
-                unit.registryFuelFillingEvent(parseInt(dt), desc, 0, 0, data.location,(-1)*parseFloat(data.bill), (-1)*parseFloat(data.billRM), 30, function (code) {  
-                  if (code) {
-                    console.log(wialon.core.Errors.getErrorText(code));
-                  }
-                });  
-              })
-            }
-            customRenderer.setLocale(wialon.util.DateTime.getTimezone(),"en",{flags:256,formatDate:"%Y-%m-%E %H:%M:%S"}, (code) => { 
-              if(code){
-                console.log(wialon.core.Errors.getErrorText(code))
-              }  
-              unit.registryFuelFillingEvent(parseInt(dt), desc, 0, 0, data.location,parseFloat(data.bill), parseFloat(data.billRM), 30, function (code) {  
-                if (code) {
-                  console.log(wialon.core.Errors.getErrorText(code));
-                }
-                _this.fuelDefaultReports[defIndex] = Object.assign({},data)
-              });
-            })
-          }
-        }
-      })
-      _this.rowsTouchedForEditing = new Array(this.fuelReportData.length).fill(false)
-    },
     onTollReportTableFiltered(filteredItems) {
       this.tollReportSettings.totalRows = filteredItems.length;
       this.tollReportSettings.currentPage = 1;
@@ -387,42 +343,6 @@ export default {
     onFuelReportSummaryTableFiltered(filteredItems) {
       this.fuelReportSummaryTableSettings.totalRows = filteredItems.length;
       this.fuelReportSummaryTableSettings.currentPage = 1;
-    },
-    calculateDiffL(item){
-      let d = (parseFloat(item.bill.split('lt')[0]) - parseFloat(item.filled.split('lt')[0])).toFixed(2)
-      if(isNaN(d)) return '-'
-      return d
-    },
-    calculatefilledRM(item){
-      let d = (parseFloat(item.filled.split('lt')[0]) * parseFloat(item.fuelPrice)).toFixed(2)
-      if(isNaN(d)) return '-'
-      return d
-    },
-    calculateAccuracy(item){
-      let d = ((parseFloat(item.filled.split('lt')[0])/parseFloat(item.bill.split('lt')[0]))*100).toFixed(2)
-      if(isNaN(d)) return '-'
-      return d
-    },
-    calculateBillRM(item){
-      if(item.bill.trim().length==0) {
-        item.billRM = ''
-      }else{
-        let d = ((parseFloat(item.bill.split('lt')[0])*parseFloat(item.fuelPrice))).toFixed(2)
-        if(isNaN(d)) {
-          item.billRM = ''
-        }else{
-          item.billRM = d
-        }
-      }
-      this.$forceUpdate()
-      return item.billRM
-    },
-    calculateBill(item){
-      if(item.billRM.trim().length==0) {
-        item.bill = ''
-        return
-      }
-      item.bill = (item.billRM/item.fuelPrice).toFixed(2)
     },
     async getUnits() {
       this.units = [];
@@ -571,14 +491,12 @@ export default {
         ],
         async function(code) {
           if (code) {
-            console.log(wialon.core.Errors.getErrorText(code));
             _this.WIALON()
             return;
           }
           var resources = _this.sess.getItems("avl_resource");
           let allDrivers = {};
           let allTrailers = {};
-          console.log("RESOURCES", resources);
           let gfences = []
           resources.forEach(resource => {
             // gfences = gfences.concat(...resource.getZones())
@@ -612,22 +530,13 @@ export default {
       if(this.selectedUnit==null)return
       let _this = this;
       this.fetchingReport = true
-      // let ydm = moment().format("YYYY-MM-DD");
       let from = new Date(this.fromDate + " 00:00").getTime() / 1000;
       let to = new Date(this.toDate + " 23:59").getTime() / 1000;
 
       this.selectedDate.from = this.fromDate
       this.selectedDate.to = this.toDate
-      
-      // console.log("YDM",ydm,sess.getServerTime(),from,to)
-      console.log(unit);
       let uId = unit.getId();
       let template = this.tollRes.getReport(1);
-      console.log("FUEL-RES", this.fuelRes);
-      console.log(
-        moment(from * 1000).format("YYYY-MM-DD HH:mm:ss"),
-        moment(to * 1000).format("YYYY-MM-DD HH:mm:ss")
-      );
       // specify time interval object
       let interval = {
         from: from,
@@ -642,17 +551,12 @@ export default {
         function(code, data) {
           // execReport template
           if (code) {
-            console.log("ERROR->", wialon.core.Errors.getErrorText(code));
             return;
           } // exit i
           var tables = data.getTables(); // get report tables
           if (!tables) return; // exit if no tables
-          // console.log("datas",data)
-          console.log("tables", tables);
           for (var i = 0; i < tables.length; i++) {
             if(tables[i].name != "unit_zones_visit") continue
-            // cycle on tables
-            // console.log("table",tables[i])
             let config = {
               type: "range",
               data: { from: 0, to: tables[i].rows, level: 0 }
@@ -662,13 +566,7 @@ export default {
               config, // get Table rows
               qx.lang.Function.bind(
                 async function(i, code, rows) {
-                  // getTableRows callback
-                  console.log("all-rows", rows);
                   if (code) {
-                    console.log(
-                      "ERROR_____@",
-                      wialon.core.Errors.getErrorText(code)
-                    );
                     return;
                   } // exit if error code
                   let rowIndex = -1;
@@ -682,11 +580,10 @@ export default {
                     let obj = {
                       sl: rowIndex,
                       time: typeof(rows[j].c[1]) == 'object' ? rows[j].c[1].t : rows[j].c,
-                      plaza: rows[j].c[2]
+                      plaza: rows[j].c[2],
                     }
                     arr.push(obj)
                   }
-                  console.log("ARRAY",arr);
                   _this.tollReports = arr
                 },
                 this,
@@ -703,24 +600,14 @@ export default {
       let _this = this;
       var tables = result.getTables(); // get report tables
       if (!tables) return; // exit if no tables
-      // console.log("results",result)
-      console.log("tables", tables);
       for (var i = 0; i < tables.length; i++) {
-        // cycle on tables
-        // console.log("table",tables[i])
         result.getTableRows(
           i,
           0,
           tables[i].rows, // get Table rows
           qx.lang.Function.bind(
             async function(i, code, rows) {
-              // getTableRows callback
-              console.log("all-rows", rows);
               if (code) {
-                console.log(
-                  "ERROR_____@",
-                  wialon.core.Errors.getErrorText(code)
-                );
                 return;
               } // exit if error code
               let rowIndex = -1;
@@ -738,19 +625,27 @@ export default {
   },
   computed:{
     ...mapGetters("loginInfo", ["isLogged", "token", "sessionId"]),
+    totalPrice(){
+      let price = 0
+      this.tollReports.forEach((tr,index)=>{
+        let p = this.tollPrice(tr,index)
+        if(p.trim().length>0){
+          price += parseFloat(p)
+        }
+      })
+      return price
+    },
     fuelReportSummaryData(){
       if(this.reportSummary==null) return []
       return [this.reportSummary]
     },
     dateRange(){
-      console.log(this.fromDate,this.toDate,this.selectedDate)
       let from = moment(this.selectedDate.from).format("D MMM YYYY")
       let to = moment(this.selectedDate.to).format("D MMM YYYY")
       return from + ' - ' + to
     },
     selectedUnitName(){
       if(this.selectedUnit == null) return ''
-      console.log("selected-unit",this.selectedUnit)
       let from = moment(this.selectedDate.from).format("D/MM/YYYY")
       let to = moment(this.selectedDate.to).format("D/MM/YYYY")
       let name = this.selectedUnit.getName()
