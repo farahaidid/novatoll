@@ -100,7 +100,7 @@
 
     <v-card>
         <v-card-title>
-          <h5 class="text-xs-center">Open Toll Prices</h5>
+          <h5 class="text-xs-center">Close Toll Prices</h5>
           <v-layout row align-center justify-right>
             <v-spacer></v-spacer>
           </v-layout>
@@ -185,11 +185,42 @@
               <template v-slot:cell(destination)="row">
                 {{row.item.name}}
               </template>
-              <template v-slot:cell(price)="row">
+              <!--<template v-slot:cell(price)="row">
                 <v-text-field solo v-model="row.item.price" >
 
                 </v-text-field>
+              </template>-->
+
+              <template v-slot:cell(class1)="row">
+                <v-text-field solo v-model="row.item.class1" >
+
+                </v-text-field>
               </template>
+
+              <template v-slot:cell(class2)="row">
+                <v-text-field solo v-model="row.item.class2" >
+
+                </v-text-field>
+              </template>
+
+              <template v-slot:cell(class3)="row">
+                <v-text-field solo v-model="row.item.class3" >
+
+                </v-text-field>
+              </template>
+
+              <template v-slot:cell(class4)="row">
+                <v-text-field solo v-model="row.item.class4" >
+
+                </v-text-field>
+              </template>
+
+              <template v-slot:cell(class5)="row">
+                <v-text-field solo v-model="row.item.class5" >
+
+                </v-text-field>
+              </template>
+              
               <!-- <template v-slot:cell(diesel)="row">
                 <div @click="showInfo(row.item)">
                   {{row.item.diesel}}
@@ -519,8 +550,21 @@ export default {
     computedTolls(){
       if(!this.selectedGeofence) return []
       let tolls = this.closeTolls.find(p=>p.id==this.selectedGeofence)
-      if(tolls != null) return tolls.tolls
-      return this.prices.filter(p=>p.id!=this.selectedGeofence)
+      if(tolls != null) return tolls.tolls;
+
+      let closeTolls = this.prices.filter(p=>p.id !== this.selectedGeofence);
+
+      closeTolls.forEach(toll => {
+        if ( typeof toll.price !== "object") {
+          toll.class1 = 0;
+          toll.class2 = 0;
+          toll.class3 = 0;
+          toll.class4 = 0;
+          toll.class5 = 0;
+        }
+      })
+      
+      return closeTolls; //this.prices.filter(p=>p.id !== this.selectedGeofence)
     }
   },
   methods:{
@@ -531,7 +575,8 @@ export default {
         })
       })
     },
-    async saveClosedTollPrices(){
+    
+    async saveClosedTollPrices() {
       this.submittingToll = true
       let sel = this.prices.find(p=>p.id==this.selectedGeofence)
       let obj = {
@@ -540,17 +585,42 @@ export default {
         destination: sel.destination,
         tolls: []
       }
+
+      console.log("this.computedTolls", this.computedTolls);
       this.computedTolls.forEach(p=>{
-        if(p.id != this.selectedGeofence){
+        if(p.id !== this.selectedGeofence) {
           obj.tolls.push({
             id: p.id,
             name: p.name,
             destination: p.destination,
-            price: p.price
+            price: [
+              {
+                className: "class1",
+                price: p.class1 *1
+              }, 
+              {
+                className: "class2",
+                price: p.class2 *1
+              },
+              {
+                className: "class3",
+                price: p.class3 *1
+              },
+              {
+                className: "class4",
+                price: p.class4 *1
+              },
+              {
+                className: "class5",
+                price: p.class5 *1
+              }
+            ]
           })
         }
-      })
-      console.log(`geotoll${this.selectedGeofence}`,obj)
+      });
+
+
+      // console.log(`geotoll${this.selectedGeofence}`,obj)
       await db.collection("closedToll").doc(`geotoll${this.selectedGeofence}`).set(obj).then(res=>{
         this.submittingToll = false
       }).catch(err=>{
@@ -558,6 +628,7 @@ export default {
         this.submittingToll = false
       })
     },
+
     formatDateTime(dt){
       return moment(dt*1000).tz('Etc/GMT+8').format("DD MMMM, YYYY hh:mm A")
     },
