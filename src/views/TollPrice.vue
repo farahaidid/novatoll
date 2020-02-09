@@ -255,9 +255,34 @@
               item-text="name"
               item-value="name"
             ></v-combobox>
+
             <v-text-field
-              v-model="formData.price"
-              label="Price"
+              v-model="formData.classOne"
+              label="Class One"
+              required
+            ></v-text-field>
+
+            <v-text-field
+              v-model="formData.classTwo"
+              label="Class Two"
+              required
+            ></v-text-field>
+
+            <v-text-field
+              v-model="formData.classThree"
+              label="Class Three"
+              required
+            ></v-text-field>
+
+            <v-text-field
+              v-model="formData.classFour"
+              label="Class Four"
+              required
+            ></v-text-field>
+
+            <v-text-field
+              v-model="formData.classFive"
+              label="Class Five"
               required
             ></v-text-field>
 
@@ -321,13 +346,48 @@ export default {
           tdClass: "text-left",
           sortable: false
         },
+        // {
+        //   key: 'price',
+        //   label: 'Price',
+        //   thClass: "text-left",
+        //   tdClass: "text-left",
+        //   sortable: false
+        // },
         {
-          key: 'price',
-          label: 'Price',
+          key: 'class1',
+          label: 'Class One',
           thClass: "text-left",
           tdClass: "text-left",
           sortable: false
         },
+        {
+          key: 'class2',
+          label: 'Class Two',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
+        },
+        {
+          key: 'class3',
+          label: 'Class Three',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
+        },
+        {
+          key: 'class4',
+          label: 'Class Four',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
+        },
+        {
+          key: 'class5',
+          label: 'Class Five',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
+        }
       ],
       prices: [],
       tableHeader: [
@@ -345,12 +405,47 @@ export default {
           thClass: "text-left",
           tdClass: "text-left"
         },
+        // {
+        //   key: "price",
+        //   label: "Price",
+        //   sortable: true,
+        //   thClass: "text-left",
+        //   tdClass: "text-left"
+        // },
         {
-          key: "price",
-          label: "Price",
-          sortable: true,
+          key: 'class1',
+          label: 'Class One',
           thClass: "text-left",
-          tdClass: "text-left"
+          tdClass: "text-left",
+          sortable: false
+        },
+        {
+          key: 'class2',
+          label: 'Class Two',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
+        },
+        {
+          key: 'class3',
+          label: 'Class Three',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
+        },
+        {
+          key: 'class4',
+          label: 'Class Four',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
+        },
+        {
+          key: 'class5',
+          label: 'Class Five',
+          thClass: "text-left",
+          tdClass: "text-left",
+          sortable: false
         },
         {
           key: "actions",
@@ -368,7 +463,12 @@ export default {
       formData: {
         id: '',
         tollPlazaName: '',
-        price: 0
+        // price: 0,
+        classOne: 0,
+        classTwo: 0,
+        classThree: 0,
+        classFour: 0,
+        classFive: 0
       },
       defaultFormData: {
         id: '',
@@ -477,7 +577,19 @@ export default {
       .then(docs=>{
         docs.forEach(doc=>{
           this.openTolls.push(Object.assign({},{id:doc.id},doc.data()))
-        })
+        });
+
+        if (this.openTolls.length) {
+          this.openTolls.forEach(toll => {
+            if (toll.price && toll.price.length && typeof toll.price === "object") {
+              toll.price.forEach((price, index) => {
+                let i = index + 1;
+                toll[price.className] = price.price;
+              });
+            }
+          });
+        }
+
         this.isTableBusy = false
       })
     },
@@ -490,8 +602,10 @@ export default {
       this.selectedType = null
     },
     openModal(){
-      this.formData = Object.assign({},this.defaultFormData)
-      this.formDialog = true
+      this.formData = Object.assign({},this.defaultFormData);
+      this.formDialog = true;
+
+      console.log("this.fro", this.formData);
     },
     closeModal(){
       this.selectedType = null
@@ -514,9 +628,32 @@ export default {
         date: d,
         name: this.formData.tollPlazaName.name,
         tollPlazaName: this.formData.tollPlazaName.destination,
-        price: this.formData.price
+        // price: this.formData.price,
+        price: [
+          {
+            className: "class1",
+            price: this.formData.classOne *1
+          }, 
+          {
+            className: "class2",
+            price: this.formData.classTwo *1
+          },
+          {
+            className: "class3",
+            price: this.formData.classThree *1
+          },
+          {
+            className: "class4",
+            price: this.formData.classFour *1
+          },
+          {
+            className: "class5",
+            price: this.formData.classFive *1
+          }
+        ]
       }
-      if(this.selectedType==null){
+
+      if(this.selectedType==null) {
         //add
         await db.collection("openTolls").add(obj)
         .then(ref=>{
@@ -526,7 +663,7 @@ export default {
           this.closeModal()
           this.getOpenTolls()
         })
-      }else{
+      } else {
         //update
         let id = this.selectedType.id
         // obj.date = this.selectedType.date
@@ -543,12 +680,17 @@ export default {
       }
     },
     showInfo(type){
-      this.selectedType = type
+      this.selectedType = type;
       this.formData = {
         id: type.id,
         date: type.date,
         tollPlazaName: type.tollPlazaName,
-        price: type.price
+        // price: type.price
+        classOne: type.class1 || 0,
+        classTwo: type.class2 || 0,
+        classThree: type.class3 || 0,
+        classFour: type.class4 || 0,
+        classFive: type.class5 || 0
       }
       this.formDialog = true
     },
