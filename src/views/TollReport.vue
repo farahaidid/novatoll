@@ -152,6 +152,7 @@ export default {
       editingRows: [],
       rowsTouchedForEditing: [],
       editMode: false,
+      className: "Class 1",
 
       
       fuelReportData: [],
@@ -276,23 +277,55 @@ export default {
       }
       return ""
     },
-    tollPrice(data,index){
+    tollPrice(data, index) {
+      
+      let name = "";
+
+      if (this.className === "Class 1") {
+        name = "class1"
+      } else if (this.className === "Class 2") {
+        name = "class2"
+      } else if (this.className === "Class 3") {
+        name = "class3"
+      } else if (this.className === "Class 4") {
+        name = "class4"
+      } else if (this.className === "Class 5") {
+        name = "class5"
+      }
+
       let toll = this.openTolls.find(t=>t.name==data.plaza)
-      if(toll) return toll.price
-      if(index > 0){
+      if(toll) {
+        if (typeof toll.price === "object") {
+          let priceData =  toll.price.find(p => p.className === name);
+
+          if (priceData && priceData.price) return priceData.price;
+        }
+
+        // return toll.price;
+      }
+
+      if(index > 0) {
         let closedToll = this.closedTolls.find(t=>t.name==data.plaza)
+        
         if(closedToll){
           let prevReport = this.tollReports[index-1]
           let prevClosedToll = this.closedTolls.find(x=>x.name == prevReport.plaza)
           if(prevClosedToll){
             let priceFromPrev = prevClosedToll.tolls.find(p=>p.name == data.plaza)
-            if(priceFromPrev){
-              return priceFromPrev.price
+            if(priceFromPrev) {
+
+              if (typeof priceFromPrev.price === "object") {
+                let priceData =  priceFromPrev.price.find(p => p.className === name);
+
+                 if (priceData && priceData.price) return priceData.price;
+              }
+              // return priceFromPrev.price;
             }
           }
         }
+
       }
-      return ""
+      return "";
     },
     handleFuelTypeChange(item){
       item.fuelPrice = item.fuelTypes.find(x=>x.type==item.fuelType).price
@@ -526,7 +559,7 @@ export default {
         }
       );
     },
-    openFuelReport(unit) {
+    async openFuelReport(unit) {
       if(this.selectedUnit==null) return
       let _this = this;
       this.fetchingReport = true
@@ -538,6 +571,12 @@ export default {
       let uId = unit.getId();
       let template = this.tollRes.getReport(1);
       // specify time interval object
+
+      await wialon.core.Session.getInstance().searchItem(uId,4294967295,function (res, item) {
+        let a = item && item.$$user_profileFields && item.$$user_profileFields[1] ? item.$$user_profileFields[1] : null;
+        if (a && a.v) _this.className = a.v;
+      })
+
       let interval = {
         from: from,
         to: to,
