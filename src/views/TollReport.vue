@@ -30,7 +30,7 @@
           </b-row>
         </b-col>
       </b-row>
-      <v-card v-if="!fetchingReport && selectedUnit!=null && tollReports.length>0">
+      <v-card v-if="!fetchingReport && selectedUnit!==null && tollReports.length>0">
         <v-card-title>
           <v-layout row align-center justify-right>
             <v-spacer></v-spacer>
@@ -527,7 +527,7 @@ export default {
       );
     },
     openFuelReport(unit) {
-      if(this.selectedUnit==null)return
+      if(this.selectedUnit==null) return
       let _this = this;
       this.fetchingReport = true
       let from = new Date(this.fromDate + " 00:00").getTime() / 1000;
@@ -572,7 +572,7 @@ export default {
                   let rowIndex = -1;
                   let rDs = [];
                   this.isTollReportTableBusy = true;
-                  let arr = []
+                  let arr = [];
                   for (var j in rows) {
                     // cycle on table rows
                     rowIndex++;
@@ -627,7 +627,7 @@ export default {
     ...mapGetters("loginInfo", ["isLogged", "token", "sessionId"]),
     totalPrice(){
       let price = 0
-      this.tollReports.forEach((tr,index)=>{
+      this.tollReports.forEach((tr, index)=>{
         let p = this.tollPrice(tr,index)
         if(p.trim().length>0){
           price += parseFloat(p)
