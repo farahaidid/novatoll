@@ -40,7 +40,7 @@
           <div id="chart"></div>
           <div id="summary">
             <b-card class="my-2">
-              <h6 class="text-xs-center">Toll Report</h6>
+              <h6 class="text-xs-center">Toll Report of <span style="font-weight:bold">{{selectedUnit.getName()}}</span>  <span>[{{className}}]</span> </h6>
               <b-table
                 class="caption w-100 data-table"
                 sticky-header
@@ -301,7 +301,7 @@ export default {
           if (priceData && priceData.price) return priceData.price;
         }
 
-        // return toll.price;
+        return toll.price;
       }
 
       if(index > 0) {
@@ -319,7 +319,7 @@ export default {
 
                  if (priceData && priceData.price) return priceData.price;
               }
-              // return priceFromPrev.price;
+              return priceFromPrev.price;
             }
           }
         }
@@ -668,8 +668,11 @@ export default {
       let price = 0
       this.tollReports.forEach((tr, index)=>{
         let p = this.tollPrice(tr,index)
-        if(p.trim().length>0){
+        console.log(typeof p)
+        if(typeof p == "string" && p.trim().length>0){
           price += parseFloat(p)
+        }else if(typeof p == "number"){
+          price += p
         }
       })
       return price
