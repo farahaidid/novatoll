@@ -567,7 +567,7 @@ export default {
       return closeTolls; //this.prices.filter(p=>p.id !== this.selectedGeofence)
     }
   },
-  methods:{
+methods:{
     async getClosedTolls(){
       await db.collection("closedToll").get().then(res=>{
         res.docs.forEach(doc=>{

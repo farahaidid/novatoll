@@ -240,6 +240,7 @@ export default {
     this.getOpenTolls()
     this.getClosedTolls()
     this.WIALON()
+    
   },
   methods: {
     ...mapMutations("loginInfo", [

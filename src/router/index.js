@@ -41,6 +41,10 @@ const routes = [
       },
     ]
   },
+  {
+    path:'/csv',
+    component:loadViews('csvfileReader')
+  },
 ]
 
 const router = new VueRouter({
