@@ -279,7 +279,7 @@ export default {
       return ""
     },
     tollPrice(data, index) {
-      if(index % 2 == 0) return ""
+      if(index % 2 == 0 && this.tollType(data,index) == "CLOSED") return ""
       return this.calculateClosedTollPrice(data,index)
     },
     calculateClosedTollPrice(data, index) {
@@ -582,85 +582,63 @@ export default {
         to: to,
         flags: wialon.item.MReport.intervalFlag.absolute
       };
-      this.tollRes.execReport(
-        template,
-        uId,
-        0,
-        interval, // execute selected report
-        function(code, data) {
-          // execReport template
-          if (code) {
-            return;
-          } // exit i
-          var tables = data.getTables(); // get report tables
-          if (!tables) return; // exit if no tables
-          for (var i = 0; i < tables.length; i++) {
-            if(tables[i].name != "unit_zones_visit") continue
-            let config = {
-              type: "range",
-              data: { from: 0, to: tables[i].rows, level: 0 }
-            };
-            data.selectRows(
-              i,
-              config, // get Table rows
-              qx.lang.Function.bind(
-                async function(i, code, rows) {
-                  if (code) {
-                    return;
-                  } // exit if error code
-                  let rowIndex = -1;
-                  let rDs = [];
-                  this.isTollReportTableBusy = true;
-                  let arr = [];
-                  for (var j in rows) {
-                    // cycle on table rows
-                    rowIndex++;
-                    if (typeof rows[j].c == "undefined") continue; // skip empty rows
-                    let obj = {
-                      sl: rowIndex,
-                      time: typeof(rows[j].c[1]) == 'object' ? rows[j].c[1].t : rows[j].c,
-                      plaza: rows[j].c[2],
+      let customRenderer = wialon.core.Session.getInstance().getRenderer();
+      customRenderer.setLocale(wialon.util.DateTime.getTimezone(),"en",{flags:256,formatDate:"%Y-%m-%E %H:%M:%S"}, (code) => { 
+        if(code){ console.log("ERROR---->",wialon.core.Errors.getErrorText(code)); return; } // exit if error code
+        this.tollRes.execReport(
+          template,
+          uId,
+          0,
+          interval, // execute selected report
+          function(code, data) {
+            // execReport template
+            if (code) {
+              return;
+            } // exit i
+            var tables = data.getTables(); // get report tables
+            if (!tables) return; // exit if no tables
+            for (var i = 0; i < tables.length; i++) {
+              if(tables[i].name != "unit_zones_visit") continue
+              let config = {
+                type: "range",
+                data: { from: 0, to: tables[i].rows, level: 0 }
+              };
+              data.selectRows(
+                i,
+                config, // get Table rows
+                qx.lang.Function.bind(
+                  async function(i, code, rows) {
+                    if (code) {
+                      return;
+                    } // exit if error code
+                    let rowIndex = -1;
+                    let rDs = [];
+                    this.isTollReportTableBusy = true;
+                    let arr = [];
+                    for (var j in rows) {
+                      // cycle on table rows
+                      rowIndex++;
+                      if (typeof rows[j].c == "undefined") continue; // skip empty rows
+                      let obj = {
+                        sl: rowIndex,
+                        time: typeof(rows[j].c[1]) == 'object' ? rows[j].c[1].t : rows[j].c,
+                        plaza: rows[j].c[2],
+                      }
+                      arr.push(obj)
                     }
-                    arr.push(obj)
-                  }
-                  _this.tollReports = arr
-                },
-                this,
-                ""
-              )
-            );
+                    _this.tollReports = arr
+                  },
+                  this,
+                  ""
+                )
+              );
+            }
+            _this.fetchingReport = false
           }
-          _this.fetchingReport = false
-        }
-      );
+        );
+      });
       // this.getTemplateObject('unit_trips','Trips',unit.id,this.fuelRes)
     },
-    getFuelReportRows(result) {
-      let _this = this;
-      var tables = result.getTables(); // get report tables
-      if (!tables) return; // exit if no tables
-      for (var i = 0; i < tables.length; i++) {
-        result.getTableRows(
-          i,
-          0,
-          tables[i].rows, // get Table rows
-          qx.lang.Function.bind(
-            async function(i, code, rows) {
-              if (code) {
-                return;
-              } // exit if error code
-              let rowIndex = -1;
-              for (var j in rows) {
-                // cycle on table rows
-                rowIndex++;
-              }
-            },
-            this,
-            ""
-          )
-        );
-      }
-    }
   },
   computed:{
     ...mapGetters("loginInfo", ["isLogged", "token", "sessionId"]),
