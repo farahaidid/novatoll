@@ -40,7 +40,7 @@
           <div id="chart"></div>
           <div id="summary">
             <b-card class="my-2">
-              <h6 class="text-xs-center">Toll Report of <span style="font-weight:bold">{{selectedUnit.getName()}}</span>  <span>[{{className}}]</span> </h6>
+              <h6 class="text-xs-center">Toll Report of <span style="font-weight:bold">{{selectedUnit.getName()}}</span> </h6>
               <b-table
                 class="caption w-100 data-table"
                 sticky-header
@@ -261,15 +261,15 @@ export default {
       })
     },
     tollType(data,index){
-      let toll = this.openTolls.find(t=>t.name==data.plaza)
+      let toll = this.openTolls.find(t=>t.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
       if(toll) return "OPEN"
       if(index > 0){
-        let closedToll = this.closedTolls.find(t=>t.name==data.plaza)
+        let closedToll = this.closedTolls.find(t=>t.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
         if(closedToll){
           let prevReport = this.tollReports[index-1]
-          let prevClosedToll = this.closedTolls.find(x=>x.name == prevReport.plaza)
+          let prevClosedToll = this.closedTolls.find(x=>x.name.toLowerCase().trim() == prevReport.plaza.toLowerCase().trim())
           if(prevClosedToll){
-            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name == data.plaza)
+            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
             if(priceFromPrev){
               return "CLOSED"
             }
@@ -279,6 +279,10 @@ export default {
       return ""
     },
     tollPrice(data, index) {
+      if(index % 2 == 0) return ""
+      return this.calculateClosedTollPrice(data,index)
+    },
+    calculateClosedTollPrice(data, index) {
       
       let name = "";
 
@@ -294,7 +298,7 @@ export default {
         name = "class5"
       }
 
-      let toll = this.openTolls.find(t=>t.name==data.plaza)
+      let toll = this.openTolls.find(t=>t.name.toLowerCase().trim() ==data.plaza.toLowerCase().trim())
       if(toll) {
         if (typeof toll.price === "object") {
           let priceData =  toll.price.find(p => p.className === name);
@@ -306,21 +310,16 @@ export default {
       }
 
       if(index > 0) {
-        let closedToll = this.closedTolls.find(t=>t.name==data.plaza)
+        let closedToll = this.closedTolls.find(t=>t.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
         
         if(closedToll){
           let prevReport = this.tollReports[index-1]
-          let prevClosedToll = this.closedTolls.find(x=>x.name == prevReport.plaza)
+          let prevClosedToll = this.closedTolls.find(x=>x.name.toLowerCase().trim() == prevReport.plaza.toLowerCase().trim())
           if(prevClosedToll){
-            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name == data.plaza)
+            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
             if(priceFromPrev) {
-
-              if (typeof priceFromPrev.price === "object") {
-                let priceData =  priceFromPrev.price.find(p => p.className === name);
-
-                 if (priceData && priceData.price) return priceData.price;
-              }
-              return priceFromPrev.price;
+              let priceData =  priceFromPrev.price.find(p => p.className === name);
+              if (priceData && priceData.price) return priceData.price;
             }
           }
         }

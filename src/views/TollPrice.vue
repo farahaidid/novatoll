@@ -192,31 +192,31 @@
               </template>-->
 
               <template v-slot:cell(class1)="row">
-                <v-text-field solo v-model="row.item.class1" >
+                <v-text-field solo v-model="row.item.price[0].price" >
 
                 </v-text-field>
               </template>
 
               <template v-slot:cell(class2)="row">
-                <v-text-field solo v-model="row.item.class2" >
+                <v-text-field solo v-model="row.item.price[1].price" >
 
                 </v-text-field>
               </template>
 
               <template v-slot:cell(class3)="row">
-                <v-text-field solo v-model="row.item.class3" >
+                <v-text-field solo v-model="row.item.price[2].price" >
 
                 </v-text-field>
               </template>
 
               <template v-slot:cell(class4)="row">
-                <v-text-field solo v-model="row.item.class4" >
+                <v-text-field solo v-model="row.item.price[3].price" >
 
                 </v-text-field>
               </template>
 
               <template v-slot:cell(class5)="row">
-                <v-text-field solo v-model="row.item.class5" >
+                <v-text-field solo v-model="row.item.price[4].price" >
 
                 </v-text-field>
               </template>
@@ -371,7 +371,7 @@ export default {
           sortable: false
         },
         {
-          key: 'destination',
+          key: 'name',
           label: 'Toll',
           thClass: "text-left",
           tdClass: "text-left",
@@ -430,7 +430,7 @@ export default {
           tdClass: "text-left"
         },
         {
-          key: "tollPlazaName",
+          key: "name",
           label: "Toll",
           sortable: true,
           thClass: "text-left",
@@ -551,7 +551,7 @@ export default {
       if(!this.selectedGeofence) return []
       let tolls = this.closeTolls.find(p=>p.id==this.selectedGeofence)
       if(tolls != null) return tolls.tolls;
-
+      console.log("SEC");
       let closeTolls = this.prices.filter(p=>p.id !== this.selectedGeofence);
 
       closeTolls.forEach(toll => {
@@ -596,23 +596,23 @@ methods:{
             price: [
               {
                 className: "class1",
-                price: p.class1 *1
+                price: p.price[0].price
               }, 
               {
                 className: "class2",
-                price: p.class2 *1
+                price: p.price[1].price
               },
               {
                 className: "class3",
-                price: p.class3 *1
+                price: p.price[2].price
               },
               {
                 className: "class4",
-                price: p.class4 *1
+                price: p.price[3].price
               },
               {
                 className: "class5",
-                price: p.class5 *1
+                price: p.price[4].price
               }
             ]
           })
