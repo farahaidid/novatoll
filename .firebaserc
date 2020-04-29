@@ -1,5 +1,5 @@
 {
   "projects": {
-    "staging": "test-b21ad"
+    "default": "nova-toll"
   }
 }

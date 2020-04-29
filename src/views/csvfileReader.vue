@@ -12,7 +12,7 @@
 import {db} from "@/firebase"
 import { mapGetters } from "vuex";
 import csvtojsonV2 from "csvtojson/v2";
-import csvString from "./CSVSTRING"
+import csvString from "@/assets/CSVSTRING"
 export default {
   data() {
     return {
@@ -25,6 +25,8 @@ export default {
         console.log("CSV_DATD",res)
         this.makeClosedTollData()
     })
+
+    // this.uploadCl()
 
     /* console.log(this.geofencesName)  */
     // console.log(this.CsvData);
@@ -82,9 +84,22 @@ export default {
     }
   },
   methods: {
+    async uploadCl(){
+      let i = 0
+      for(let key in closedTolls){
+        await db.collection("closedTolls").doc(key).set(closedTolls[key])
+        console.log(i++);
+      }
+    },
     makeClosedTollData(){
         let final = []
-        this.geofences.forEach(geofence => {
+        console.log(this.geofences);
+        this.geofences.forEach(g => {
+          console.log(g.name.toUpperCase())
+        })
+        this.csvData.forEach(csvD => {
+          let geofence = this.geofences.find(geo => csvD.From.toLowerCase().trim() == geo.name.toLowerCase().trim())
+          if(geofence){
             let obj = Object.assign({},geofence,{tolls:[]})
             let csvs = this.csvData.filter(csv => csv.From.toLowerCase().trim() == geofence.name.toLowerCase().trim())
             if(csvs){
@@ -105,8 +120,37 @@ export default {
                 })
             }
             final.push(obj)
+          }
         })
-        console.log("FINAL",final)
+        // this.geofences.forEach(geofence => {
+        //     let obj = Object.assign({},geofence,{tolls:[]})
+        //     let csvs = this.csvData.filter(csv => csv.From.toLowerCase().trim() == geofence.name.toLowerCase().trim())
+        //     if(csvs){
+        //         csvs.forEach(csv => {
+        //             let geos = this.geofences.filter(g => g.name.toLowerCase().trim() == csv.To.toLowerCase().trim())
+        //             if(geos){
+        //                 geos.forEach(geo => {
+        //                     let tObj = Object.assign({},geo,{price:[
+        //                         {className: "class1", price: parseFloat(csv['Class 1'])},
+        //                         {className: "class2", price: parseFloat(csv['Class 2'])},
+        //                         {className: "class3", price: parseFloat(csv['Class 3'])},
+        //                         {className: "class4", price: parseFloat(csv['Class 4'])},
+        //                         {className: "class5", price: parseFloat(csv['Class 5'])},
+        //                     ]})
+        //                     obj.tolls.push(tObj)
+        //                 })
+        //             }
+        //         })
+        //     }
+        //     final.push(obj)
+        // })
+        final = final.filter( (value, index, self) => index === self.findIndex((t) => (t.id === value.id)))
+        // console.log("FINAL",final)
+        // final.forEach(async toll => {
+        //   await db.collection("closedToll").doc("geotoll"+toll.id).get().then(doc => {
+        //     console.log(doc.id, doc.data(),toll.id);
+        //   })
+        // })
         // this.saveToFirebase(final)
     },
     async saveToFirebase(closedTolls){

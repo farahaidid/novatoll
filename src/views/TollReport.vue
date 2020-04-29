@@ -266,6 +266,7 @@ export default {
       if(index > 0){
         let closedToll = this.closedTolls.find(t=>t.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
         if(closedToll){
+          return "CLOSED"
           let prevReport = this.tollReports[index-1]
           let prevClosedToll = this.closedTolls.find(x=>x.name.toLowerCase().trim() == prevReport.plaza.toLowerCase().trim())
           if(prevClosedToll){
@@ -356,9 +357,9 @@ export default {
           "", // try to login
           function(code) {
             if (code) {
-              // EventBus.$emit("LOG_OUT");
+              EventBus.$emit("LOG_OUT");
               // _this.logout()
-              alert(wialon.core.Errors.getErrorText(code))
+              // alert(wialon.core.Errors.getErrorText(code))
               return;
             }
             _this.SET_SESSION_ID(wialon.core.Session.getInstance().__cT);
@@ -531,11 +532,12 @@ export default {
           let allDrivers = {};
           let allTrailers = {};
           let gfences = []
+          console.log("RESOURCES",resources);
           resources.forEach(resource => {
             // gfences = gfences.concat(...resource.getZones())
-            
+            console.log("NAME",resource.getName());
             if (resource.getName() == "Toll Geofence") {
-              _this.tollRes = resource;
+              console.log("GEPO",resource);
               _this.tollReportObj = resource[0];
               let zones = resource.getZones()
               for(let geo in zones){
@@ -545,6 +547,10 @@ export default {
                   destination: zones[geo].d
                 })
               }
+            }
+            if(resource.getName() == ".Toll Report"){
+              console.log(">TOLL",resource.getReports());
+              _this.tollRes = resource;
             }
           });
           _this.SET_GEOFENCES(gfences)
@@ -560,6 +566,7 @@ export default {
       );
     },
     async openFuelReport(unit) {
+      console.log("TOLL-RES",this.tollRes.getReports());
       if(this.selectedUnit==null) return
       let _this = this;
       this.fetchingReport = true
@@ -596,9 +603,10 @@ export default {
               return;
             } // exit i
             var tables = data.getTables(); // get report tables
+            console.log("TABLES",tables);
             if (!tables) return; // exit if no tables
             for (var i = 0; i < tables.length; i++) {
-              if(tables[i].name != "unit_zones_visit") continue
+              if(tables[i].name != "unit_events") continue
               let config = {
                 type: "range",
                 data: { from: 0, to: tables[i].rows, level: 0 }
@@ -611,6 +619,7 @@ export default {
                     if (code) {
                       return;
                     } // exit if error code
+                    console.log("ROWS",rows);
                     let rowIndex = -1;
                     let rDs = [];
                     this.isTollReportTableBusy = true;
@@ -622,7 +631,7 @@ export default {
                       let obj = {
                         sl: rowIndex,
                         time: typeof(rows[j].c[1]) == 'object' ? rows[j].c[1].t : rows[j].c,
-                        plaza: rows[j].c[2],
+                        plaza: typeof(rows[j].c[2]) == 'object' ? rows[j].c[2].t : rows[j].c[2],
                       }
                       arr.push(obj)
                     }
@@ -653,7 +662,7 @@ export default {
           price += p
         }
       })
-      return price
+      return price.toFixed(2)
     },
     fuelReportSummaryData(){
       if(this.reportSummary==null) return []
