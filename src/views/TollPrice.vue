@@ -515,9 +515,9 @@ export default {
     }
   },
   created(){
-    // if(!this.isAdmin){
-    //   this.$router.push({name: 'dashboard'})
-    // }
+    if(wialon.core.Session.getInstance().getCurrUser().$$user_name != 'novatrack'){
+      this.$router.push({path: '/'})
+    }
     let ps = []
     this.geofences.forEach(geo=>{
       ps.push({

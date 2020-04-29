@@ -13,6 +13,7 @@ import {db} from "@/firebase"
 import { mapGetters } from "vuex";
 import csvtojsonV2 from "csvtojson/v2";
 import csvString from "@/assets/CSVSTRING"
+import closedTolls from "../assets/fields.json"
 export default {
   data() {
     return {
@@ -20,10 +21,14 @@ export default {
     };
   },
   created() {
-    this.readCsv(csvString).then(res=>{
-        this.csvData = res
-        console.log("CSV_DATD",res)
-        this.makeClosedTollData()
+    // this.readCsv(csvString).then(res=>{
+    //     this.csvData = res
+    //     console.log("CSV_DATD",res)
+    //     this.makeClosedTollData()
+    // })
+
+    this.geofences.forEach(geo => {
+      console.log(geo.name);
     })
 
     // this.uploadCl()
@@ -87,7 +92,7 @@ export default {
     async uploadCl(){
       let i = 0
       for(let key in closedTolls){
-        await db.collection("closedTolls").doc(key).set(closedTolls[key])
+        await db.collection("closedToll").doc(key).set(closedTolls[key])
         console.log(i++);
       }
     },
@@ -151,7 +156,7 @@ export default {
         //     console.log(doc.id, doc.data(),toll.id);
         //   })
         // })
-        // this.saveToFirebase(final)
+        this.saveToFirebase(final)
     },
     async saveToFirebase(closedTolls){
         for(let i = 0;i<closedTolls.length;i++){
