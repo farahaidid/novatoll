@@ -8709,4 +8709,6165 @@ TEMERLOH TOLL,SRI JAYA TOLL,7.7,15.3,23,3.8,7.7
 TEMERLOH TOLL,TELEMUNG TOLL,36.3,72.6,108.8,18.1,36.3
 TEMERLOH TOLL,TEMERLOH TOLL,0,0,0,0,0`
 
-export default c2
+
+let c3 = `From,To,Class 1,Class 2,Class 3,Class 4,Class 5
+ALOR PONGSU Toll,BANDAR BAHARU Toll,0.57,1.1,1.5,0.33,0.49
+ALOR PONGSU Toll,BUKIT MERAH Toll,1.64,3,3.9,0.82,1.23
+ALOR PONGSU Toll,JAWI Toll,2.13,3.9,5.2,1.07,1.56
+ALOR PONGSU Toll,TAIPING UTARA Toll,2.87,5.3,7.1,1.48,2.21
+ALOR PONGSU Toll,BKT. TAMBUN UTARA Toll,3.44,6.3,8.4,1.72,2.62
+ALOR PONGSU Toll,JURU Toll,4.18,7.6,10.2,2.13,3.12
+ALOR PONGSU Toll,CANGKAT JERING Toll,4.51,8.3,11,2.3,3.36
+ALOR PONGSU Toll,BERTAM Toll,5.49,9.9,13.3,2.86,4.72
+ALOR PONGSU Toll,KUALA KANGSAR Toll,6.97,12.7,17,3.53,5.25
+ALOR PONGSU Toll,SG. PETANI SELATAN Toll,7.13,12.9,17.2,3.68,5.41
+ALOR PONGSU Toll,SG. PETANI UTARA Toll,7.87,14.2,19,4.01,5.9
+ALOR PONGSU Toll,IPOH UTARA Toll,9.68,17.7,23.7,4.84,7.3
+ALOR PONGSU Toll,GURUN Toll,9.67,17.6,23.5,5,7.3
+ALOR PONGSU Toll,SIMPANG PULAI Toll,11.15,20.4,27.2,5.58,8.36
+ALOR PONGSU Toll,PENDANG Toll,11.88,21.6,28.8,6.06,8.94
+ALOR PONGSU Toll,GOPENG Toll,12.3,22.4,29.9,6.15,9.18
+ALOR PONGSU Toll,Alor Setar Selatan Toll,13.52,24.6,32.8,6.88,10.62
+ALOR PONGSU Toll,Alor Setar Utara Toll,14.18,25.7,34.3,7.21,10.66
+ALOR PONGSU Toll,Hutan Kampung Toll,14.84,27,36,7.54,11.42
+ALOR PONGSU Toll,TAPAH Toll,15.58,28.5,38.1,7.79,11.73
+ALOR PONGSU Toll,BIDOR Toll,17.14,31.3,41.7,8.53,12.87
+ALOR PONGSU Toll,SUNGKAI Toll,18.61,34.1,45.4,9.35,13.94
+ALOR PONGSU Toll,SLIM RIVER Toll,20.75,37.9,50.6,10.33,15.58
+ALOR PONGSU Toll,BEHRANG Toll,22.39,41,54.7,11.23,16.81
+ALOR PONGSU Toll,Tg. Malim Toll,24.03,43.9,58.6,12.05,18.04
+ALOR PONGSU Toll,LEMBAH BERINGIN Toll,25.01,45.8,61,12.55,18.78
+ALOR PONGSU Toll,BUKIT TAGAR Toll,26.08,47.6,63.5,13.04,19.52
+ALOR PONGSU Toll,BUKIT BERUNTUNG Toll,26.98,49.3,65.8,13.53,20.25
+ALOR PONGSU Toll,SUNGAI BUAYA Toll,27.8,50.8,67.7,13.86,20.83
+ALOR PONGSU Toll,RAWANG Toll,28.7,52.5,70,14.35,21.57
+ALOR PONGSU Toll,RAWANG SELATAN Toll,29.19,53.4,71.2,14.6,21.89
+ALOR PONGSU Toll,SG. BULOH HOSPITAL Toll,29.85,54.6,72.9,14.92,22.39
+ALOR PONGSU Toll,SG. BULOH Toll,30.09,55.1,73.4,15.09,22.55
+ALOR PONGSU Toll,KOTA DAMANSARA Toll,30.75,56.3,75,15.42,23.12
+ALOR PONGSU Toll,DAMANSARA Toll,31.24,57.1,76.1,15.58,23.45
+ALOR PONGSU Toll,Jalan Duta Toll,31.41,57.4,76.5,15.66,23.53
+ALOR PONGSU Toll,SUBANG Toll,31.41,57.4,76.5,15.66,23.53
+ALOR PONGSU Toll,Shah Alam Toll,31.98,58.4,77.9,15.99,23.94
+ALOR PONGSU Toll,Seafield Toll,32.64,59.7,79.6,16.32,24.44
+ALOR PONGSU Toll,Setia Alam Toll,32.88,60.2,80.2,16.48,24.68
+ALOR PONGSU Toll,USJ Toll,33.05,60.4,80.5,16.48,24.76
+ALOR PONGSU Toll,Bukit Raja Toll,33.05,60.5,80.6,16.56,24.76
+ALOR PONGSU Toll,PUTRA HEIGHTS Toll,33.54,61.4,81.8,16.81,25.17
+ALOR PONGSU Toll,Bandar Saujana Putra Toll,33.87,61.9,82.6,16.97,25.42
+ALOR PONGSU Toll,BANDAR GAMUDA COVE Toll,35.01,64,85.3,17.47,26.24
+ALOR PONGSU Toll,Putra Jaya Toll,35.42,64.8,86.4,17.71,26.57
+ALOR PONGSU Toll,BANDAR SERENIA Toll,36.24,66.2,88.3,18.12,27.14
+ALOR PONGSU Toll,KLIA Toll,36.65,66.8,88.9,18.53,27.63
+ALOR PONGSU Toll,Nilai Toll,37.88,69.3,92.4,18.94,28.45
+ALOR PONGSU Toll,Putera Mahkota Toll,37.97,69.4,92.5,18.94,28.45
+ALOR PONGSU Toll,SOUTHVILLE CITY Toll,38.38,70.2,93.6,19.19,28.78
+ALOR PONGSU Toll,BANDAR CASSIA Toll,9.37,36.9,78.6,10.28,29
+ALOR PONGSU Toll,BANGI Toll,38.7,70.8,94.4,19.35,29.03
+ALOR PONGSU Toll,KAJANG Toll,39.36,72,96,19.68,29.52
+ALOR PONGSU Toll,Bandar Ainsdale Toll,39.52,72.3,96.5,19.76,29.68
+ALOR PONGSU Toll,UPM Toll,39.61,72.4,96.6,19.84,29.68
+ALOR PONGSU Toll,SEREMBAN Toll,39.93,72.9,97.3,19.93,29.93
+ALOR PONGSU Toll,Sg. Besi Toll,40.1,73.4,97.8,20.09,30.09
+ALOR PONGSU Toll,Port Dickson Toll,40.34,73.8,98.4,20.17,30.26
+ALOR PONGSU Toll,Senawang Toll,40.75,74.6,99.4,20.42,30.59
+ALOR PONGSU Toll,PEDAS LINGGI Toll,42.56,77.8,103.8,21.32,31.9
+ALOR PONGSU Toll,Simpang Ampat Toll,45.1,82.5,110.1,22.55,33.87
+ALOR PONGSU Toll,Ayer Keroh Toll,47.56,86.9,115.9,23.78,35.67
+ALOR PONGSU Toll,Jasin Toll,49.28,90.2,120.2,24.68,36.98
+ALOR PONGSU Toll,Tangkak Toll,50.51,92.3,123.1,25.26,37.88
+ALOR PONGSU Toll,Bukit Gambir Toll,51.82,94.8,126.4,25.91,38.87
+ALOR PONGSU Toll,Pagoh Toll,53.63,98,130.7,26.81,40.18
+ALOR PONGSU Toll,Yong Peng Utara Toll,58.38,106.7,142.3,29.19,43.79
+ALOR PONGSU Toll,Ayer Hitam Toll,60.52,110.7,147.6,30.26,45.43
+ALOR PONGSU Toll,Machap Toll,61.34,112.2,149.6,30.67,46
+ALOR PONGSU Toll,Spg. Renggam Toll,62.89,115.1,153.4,31.49,47.23
+ALOR PONGSU Toll,Sedenak Toll,65.03,118.8,158.5,32.47,48.71
+ALOR PONGSU Toll,KULAI Toll,66.5,121.6,162.1,33.21,49.86
+ALOR PONGSU Toll,Senai Utara Toll,67.49,123.4,164.6,33.78,50.59
+ALOR PONGSU Toll,Skudai Toll,67.81,124,165.4,33.95,50.84
+Alor Setar Selatan Toll,Alor Setar Utara Toll,0.98,1.8,2.4,0.49,0.73
+Alor Setar Selatan Toll,Hutan Kampung Toll,1.14,2.2,2.9,0.57,0.9
+Alor Setar Selatan Toll,PENDANG Toll,1.96,3.6,4.8,0.98,1.47
+Alor Setar Selatan Toll,GURUN Toll,3.93,7.2,9.5,1.96,2.95
+Alor Setar Selatan Toll,SG. PETANI UTARA Toll,5.9,10.8,14.5,2.95,4.42
+Alor Setar Selatan Toll,SG. PETANI SELATAN Toll,6.97,12.8,17,3.52,5.24
+Alor Setar Selatan Toll,BERTAM Toll,8.28,15.1,20.1,4.1,6.15
+Alor Setar Selatan Toll,Ipoh Selatan Toll,9.34,17,22.6,4.75,7.5
+Alor Setar Selatan Toll,SG. DUA Toll,9.34,17,22.6,4.75,7.5
+Alor Setar Selatan Toll,BKT. TAMBUN SELATAN Toll,10.24,18.6,24.8,5.16,8.16
+Alor Setar Selatan Toll,JAWI Toll,11.64,21.2,28.2,5.9,9.22
+Alor Setar Selatan Toll,BANDAR BAHARU Toll,12.95,23.6,31.4,6.55,10.21
+Alor Setar Selatan Toll,ALOR PONGSU Toll,13.52,24.6,32.8,6.88,10.62
+Alor Setar Selatan Toll,BUKIT MERAH Toll,15,27.4,36.5,7.62,11.76
+Alor Setar Selatan Toll,TAIPING UTARA Toll,16.31,29.7,39.6,8.28,12.75
+Alor Setar Selatan Toll,CANGKAT JERING Toll,17.95,32.7,43.5,9.01,13.98
+Alor Setar Selatan Toll,KUALA KANGSAR Toll,20.41,37.2,49.5,10.24,15.78
+Alor Setar Selatan Toll,IPOH UTARA Toll,23.12,42.2,56.2,11.64,17.83
+Alor Setar Selatan Toll,SIMPANG PULAI Toll,24.59,44.9,59.7,12.38,18.9
+Alor Setar Selatan Toll,GOPENG Toll,25.66,46.9,62.5,12.95,19.72
+Alor Setar Selatan Toll,TAPAH Toll,29.02,53,70.6,14.59,22.26
+Alor Setar Selatan Toll,BIDOR Toll,30.5,55.8,74.3,15.33,23.41
+Alor Setar Selatan Toll,SUNGKAI Toll,32.05,58.5,78,16.07,24.56
+Alor Setar Selatan Toll,SLIM RIVER Toll,34.19,62.4,83.1,17.13,26.11
+Alor Setar Selatan Toll,BEHRANG Toll,35.83,65.4,87.2,18.03,27.34
+Alor Setar Selatan Toll,Tg. Malim Toll,37.47,68.4,91.1,18.77,28.57
+Alor Setar Selatan Toll,LEMBAH BERINGIN Toll,38.45,70.2,93.6,19.35,29.31
+Alor Setar Selatan Toll,BUKIT TAGAR Toll,39.43,72.1,96,19.84,30.05
+Alor Setar Selatan Toll,BUKIT BERUNTUNG Toll,40.42,73.8,98.3,20.25,30.79
+Alor Setar Selatan Toll,SUNGAI BUAYA Toll,41.16,75.2,100.2,20.66,31.36
+Alor Setar Selatan Toll,RAWANG Toll,42.14,77,102.6,21.15,32.1
+Alor Setar Selatan Toll,RAWANG SELATAN Toll,42.63,77.9,103.8,21.4,32.51
+Alor Setar Selatan Toll,SG. BULOH HOSPITAL Toll,43.29,79.1,105.4,21.72,33
+Alor Setar Selatan Toll,SG. BULOH Toll,43.53,79.5,106,21.81,33.17
+Alor Setar Selatan Toll,KOTA DAMANSARA Toll,44.19,80.7,107.6,22.22,33.66
+Alor Setar Selatan Toll,DAMANSARA Toll,44.6,81.6,108.7,22.38,33.99
+Alor Setar Selatan Toll,Jalan Duta Toll,44.85,81.9,109.1,22.46,34.07
+Alor Setar Selatan Toll,SUBANG Toll,44.85,81.9,109.1,22.46,34.07
+Alor Setar Selatan Toll,Shah Alam Toll,45.34,82.9,110.4,22.79,34.56
+Alor Setar Selatan Toll,Seafield Toll,46.08,84.2,112.1,23.12,34.97
+Alor Setar Selatan Toll,BANDAR CASSIA Toll,16.83,50.4,96.6,14.12,35.02
+Alor Setar Selatan Toll,Setia Alam Toll,46.32,84.6,112.8,23.2,35.22
+Alor Setar Selatan Toll,USJ Toll,46.49,84.9,113.1,23.28,35.3
+Alor Setar Selatan Toll,Bukit Raja Toll,46.49,84.9,113.2,23.28,35.38
+Alor Setar Selatan Toll,PUTRA HEIGHTS Toll,46.98,85.9,114.4,23.53,35.71
+Alor Setar Selatan Toll,Bandar Saujana Putra Toll,47.31,86.4,115.1,23.69,35.95
+Alor Setar Selatan Toll,BANDAR GAMUDA COVE Toll,48.37,88.4,117.8,24.27,36.77
+Alor Setar Selatan Toll,Putra Jaya Toll,48.86,89.3,118.9,24.51,37.1
+Alor Setar Selatan Toll,BANDAR SERENIA Toll,49.6,90.6,120.8,24.92,37.68
+Alor Setar Selatan Toll,KLIA Toll,50.09,91.3,121.4,25.33,38.09
+Alor Setar Selatan Toll,Nilai Toll,51.32,93.8,124.9,25.74,38.99
+Alor Setar Selatan Toll,Putera Mahkota Toll,51.32,93.9,125.1,25.82,38.99
+Alor Setar Selatan Toll,SOUTHVILLE CITY Toll,51.82,94.6,126.1,25.99,39.32
+Alor Setar Selatan Toll,BANGI Toll,52.14,95.3,127,26.15,39.56
+Alor Setar Selatan Toll,KAJANG Toll,52.8,96.5,128.6,26.56,40.05
+Alor Setar Selatan Toll,Bandar Ainsdale Toll,52.96,96.8,129,26.64,40.22
+Alor Setar Selatan Toll,UPM Toll,53.05,96.9,129.1,26.64,40.22
+Alor Setar Selatan Toll,SEREMBAN Toll,53.29,97.5,129.8,26.81,40.46
+Alor Setar Selatan Toll,Sg. Besi Toll,53.54,97.9,130.4,26.89,40.63
+Alor Setar Selatan Toll,Port Dickson Toll,53.78,98.3,130.9,26.97,40.79
+Alor Setar Selatan Toll,Senawang Toll,54.19,99.1,132,27.22,41.12
+Alor Setar Selatan Toll,PEDAS LINGGI Toll,56,102.3,136.3,28.12,42.43
+Alor Setar Selatan Toll,Simpang Ampat Toll,58.54,107,142.6,29.43,44.4
+Alor Setar Selatan Toll,Ayer Keroh Toll,60.92,111.4,148.4,30.58,46.2
+Alor Setar Selatan Toll,Jasin Toll,62.72,114.7,152.8,31.48,47.52
+Alor Setar Selatan Toll,Tangkak Toll,63.87,116.8,155.6,32.06,48.42
+Alor Setar Selatan Toll,Bukit Gambir Toll,65.26,119.3,158.9,32.71,49.4
+Alor Setar Selatan Toll,Pagoh Toll,66.99,122.5,163.3,33.61,50.71
+Alor Setar Selatan Toll,Yong Peng Utara Toll,71.74,131.2,174.8,35.99,54.32
+Alor Setar Selatan Toll,Ayer Hitam Toll,73.96,135.2,180.1,37.06,55.96
+Alor Setar Selatan Toll,Machap Toll,74.78,136.7,182.2,37.47,56.54
+Alor Setar Selatan Toll,Spg. Renggam Toll,76.33,139.6,186,38.29,57.77
+Alor Setar Selatan Toll,Sedenak Toll,78.38,143.3,191,39.35,59.24
+Alor Setar Selatan Toll,KULAI Toll,79.94,146.1,194.7,40.09,60.39
+Alor Setar Selatan Toll,Senai Utara Toll,80.93,147.9,197.1,40.58,61.13
+Alor Setar Selatan Toll,Skudai Toll,81.25,148.5,197.9,40.75,61.37
+Alor Setar Utara Toll,Hutan Kampung Toll,0.32,0.7,0.9,0.16,0.24
+Alor Setar Utara Toll,Alor Setar Selatan Toll,0.98,1.8,2.4,0.49,0.73
+Alor Setar Utara Toll,PENDANG Toll,2.54,4.7,6.3,1.31,1.88
+Alor Setar Utara Toll,GURUN Toll,4.59,8.4,11.1,2.29,3.44
+Alor Setar Utara Toll,SG. PETANI UTARA Toll,6.56,12,16,3.28,4.92
+Alor Setar Utara Toll,SG. PETANI SELATAN Toll,7.62,13.9,18.5,3.77,5.65
+Alor Setar Utara Toll,BERTAM Toll,8.85,16.2,21.6,4.42,6.64
+Alor Setar Utara Toll,Ipoh Selatan Toll,10,18.1,24.1,5.08,7.54
+Alor Setar Utara Toll,SG. DUA Toll,10,18.1,24.1,5.08,7.54
+Alor Setar Utara Toll,BKT. TAMBUN SELATAN Toll,10.9,19.7,26.3,5.49,8.2
+Alor Setar Utara Toll,JAWI Toll,12.3,22.3,29.7,6.23,9.26
+Alor Setar Utara Toll,BANDAR BAHARU Toll,13.61,24.7,32.9,6.88,10.25
+Alor Setar Utara Toll,ALOR PONGSU Toll,14.18,25.7,34.3,7.21,10.66
+Alor Setar Utara Toll,BUKIT MERAH Toll,15.66,28.5,38,7.95,11.8
+Alor Setar Utara Toll,TAIPING UTARA Toll,16.97,30.8,41.1,8.61,12.79
+Alor Setar Utara Toll,CANGKAT JERING Toll,18.61,33.8,45,9.34,14.02
+Alor Setar Utara Toll,KUALA KANGSAR Toll,21.07,38.3,51,10.57,15.82
+Alor Setar Utara Toll,IPOH UTARA Toll,23.78,43.3,57.7,11.97,17.87
+Alor Setar Utara Toll,SIMPANG PULAI Toll,25.25,46,61.2,12.71,18.94
+Alor Setar Utara Toll,GOPENG Toll,26.32,48,64,13.28,19.76
+Alor Setar Utara Toll,TAPAH Toll,29.68,54.1,72.1,14.92,22.3
+Alor Setar Utara Toll,BIDOR Toll,31.16,56.9,75.8,15.66,23.45
+Alor Setar Utara Toll,SUNGKAI Toll,32.71,59.6,79.5,16.4,24.6
+Alor Setar Utara Toll,SLIM RIVER Toll,34.85,63.5,84.6,17.46,26.15
+Alor Setar Utara Toll,BEHRANG Toll,36.49,66.5,88.7,18.36,27.38
+Alor Setar Utara Toll,Tg. Malim Toll,38.13,69.5,92.6,19.1,28.61
+Alor Setar Utara Toll,LEMBAH BERINGIN Toll,39.11,71.3,95.1,19.68,29.35
+Alor Setar Utara Toll,BUKIT TAGAR Toll,40.09,73.2,97.5,20.17,30.09
+Alor Setar Utara Toll,BUKIT BERUNTUNG Toll,41.08,74.9,99.8,20.58,30.83
+Alor Setar Utara Toll,SUNGAI BUAYA Toll,41.82,76.3,101.7,20.99,31.4
+Alor Setar Utara Toll,RAWANG Toll,42.8,78.1,104.1,21.48,32.14
+Alor Setar Utara Toll,RAWANG SELATAN Toll,43.29,79,105.3,21.73,32.55
+Alor Setar Utara Toll,SG. BULOH HOSPITAL Toll,43.95,80.2,106.9,22.05,33.04
+Alor Setar Utara Toll,SG. BULOH Toll,44.19,80.6,107.5,22.14,33.21
+Alor Setar Utara Toll,KOTA DAMANSARA Toll,44.85,81.8,109.1,22.55,33.7
+Alor Setar Utara Toll,DAMANSARA Toll,45.26,82.7,110.2,22.71,34.03
+Alor Setar Utara Toll,Jalan Duta Toll,45.51,83,110.6,22.79,34.11
+Alor Setar Utara Toll,SUBANG Toll,45.51,83,110.6,22.79,34.11
+Alor Setar Utara Toll,Shah Alam Toll,46,84,111.9,23.12,34.6
+Alor Setar Utara Toll,Seafield Toll,46.74,85.3,113.6,23.45,35.01
+Alor Setar Utara Toll,BANDAR CASSIA Toll,17.49,51.5,98.1,14.45,35.06
+Alor Setar Utara Toll,Setia Alam Toll,46.98,85.7,114.3,23.53,35.26
+Alor Setar Utara Toll,USJ Toll,47.15,86,114.6,23.61,35.34
+Alor Setar Utara Toll,Bukit Raja Toll,47.15,86,114.7,23.61,35.42
+Alor Setar Utara Toll,PUTRA HEIGHTS Toll,47.64,87,115.9,23.86,35.75
+Alor Setar Utara Toll,Bandar Saujana Putra Toll,47.97,87.5,116.6,24.02,35.99
+Alor Setar Utara Toll,BANDAR GAMUDA COVE Toll,49.03,89.5,119.3,24.6,36.81
+Alor Setar Utara Toll,Putra Jaya Toll,49.52,90.4,120.4,24.84,37.14
+Alor Setar Utara Toll,BANDAR SERENIA Toll,50.26,91.7,122.3,25.25,37.72
+Alor Setar Utara Toll,KLIA Toll,50.75,92.4,122.9,25.66,38.13
+Alor Setar Utara Toll,Nilai Toll,51.98,94.9,126.4,26.07,39.03
+Alor Setar Utara Toll,Putera Mahkota Toll,51.98,95,126.6,26.15,39.03
+Alor Setar Utara Toll,SOUTHVILLE CITY Toll,52.48,95.7,127.6,26.32,39.36
+Alor Setar Utara Toll,BANGI Toll,52.8,96.4,128.5,26.48,39.6
+Alor Setar Utara Toll,KAJANG Toll,53.46,97.6,130.1,26.89,40.09
+Alor Setar Utara Toll,Bandar Ainsdale Toll,53.62,97.9,130.5,26.97,40.26
+Alor Setar Utara Toll,UPM Toll,53.71,98,130.6,26.97,40.26
+Alor Setar Utara Toll,SEREMBAN Toll,53.95,98.6,131.3,27.14,40.5
+Alor Setar Utara Toll,Sg. Besi Toll,54.2,99,131.9,27.22,40.67
+Alor Setar Utara Toll,Port Dickson Toll,54.44,99.4,132.4,27.3,40.83
+Alor Setar Utara Toll,Senawang Toll,54.85,100.2,133.5,27.55,41.16
+Alor Setar Utara Toll,PEDAS LINGGI Toll,56.66,103.4,137.8,28.45,42.47
+Alor Setar Utara Toll,Simpang Ampat Toll,59.2,108.1,144.1,29.76,44.44
+Alor Setar Utara Toll,Ayer Keroh Toll,61.58,112.5,149.9,30.91,46.24
+Alor Setar Utara Toll,Jasin Toll,63.38,115.8,154.3,31.81,47.56
+Alor Setar Utara Toll,Tangkak Toll,64.53,117.9,157.1,32.39,48.46
+Alor Setar Utara Toll,Bukit Gambir Toll,65.92,120.4,160.4,33.04,49.44
+Alor Setar Utara Toll,Pagoh Toll,67.65,123.6,164.8,33.94,50.75
+Alor Setar Utara Toll,Yong Peng Utara Toll,72.4,132.3,176.3,36.32,54.36
+Alor Setar Utara Toll,Ayer Hitam Toll,74.62,136.3,181.6,37.39,56
+Alor Setar Utara Toll,Machap Toll,75.44,137.8,183.7,37.8,56.58
+Alor Setar Utara Toll,Spg. Renggam Toll,76.99,140.7,187.5,38.62,57.81
+Alor Setar Utara Toll,Sedenak Toll,79.04,144.4,192.5,39.68,59.28
+Alor Setar Utara Toll,KULAI Toll,80.6,147.2,196.2,40.42,60.43
+Alor Setar Utara Toll,Senai Utara Toll,81.59,149,198.6,40.91,61.17
+Alor Setar Utara Toll,Skudai Toll,81.91,149.6,199.4,41.08,61.41
+Ayer Hitam SKVE Toll,Saujana Putra SKVE Toll,2.4,3.5,4.7,1.2,1.5
+Ayer Hitam SKVE Toll,TELUK PANGLIMA GARANG Toll,4.5,6.7,8.9,2.2,2.8
+Ayer Hitam SKVE Toll,PULAU INDAH Toll,8.1,12.2,16.3,4.1,5
+Ayer Hitam Toll,Machap Toll,0.98,1.8,2.4,0.49,0.74
+Ayer Hitam Toll,Yong Peng Selatan Toll,1.8,3.3,4.4,0.9,1.31
+Ayer Hitam Toll,Yong Peng Utara Toll,2.38,4.3,5.7,1.15,1.72
+Ayer Hitam Toll,Spg. Renggam Toll,2.54,4.7,6.3,1.31,1.89
+Ayer Hitam Toll,Sedenak Toll,4.67,8.6,11.4,2.38,3.53
+Ayer Hitam Toll,KULAI Toll,6.15,11.2,15,3.03,4.59
+Ayer Hitam Toll,Pagoh Toll,7.13,13,17.4,3.61,5.33
+Ayer Hitam Toll,Senai Utara Toll,7.13,13,17.4,3.61,5.33
+Ayer Hitam Toll,Skudai Toll,7.46,13.7,18.2,3.77,5.58
+Ayer Hitam Toll,Bukit Gambir Toll,8.77,16.1,21.5,4.43,6.64
+Ayer Hitam Toll,Tangkak Toll,10.09,18.5,24.6,5.08,7.54
+Ayer Hitam Toll,Jasin Toll,11.56,21.1,28.1,5.74,8.69
+Ayer Hitam Toll,Ayer Keroh Toll,13.04,23.9,31.8,6.56,9.76
+Ayer Hitam Toll,Simpang Ampat Toll,15.58,28.4,37.9,7.79,11.64
+Ayer Hitam Toll,PEDAS LINGGI Toll,18.12,33.1,44.2,9.1,13.61
+Ayer Hitam Toll,Senawang Toll,19.93,36.5,48.7,10,15.01
+Ayer Hitam Toll,Port Dickson Toll,20.25,37,49.3,10.09,15.17
+Ayer Hitam Toll,SEREMBAN Toll,20.66,37.7,50.3,10.33,15.5
+Ayer Hitam Toll,Bandar Ainsdale Toll,21.32,38.9,51.9,10.66,15.99
+Ayer Hitam Toll,Nilai Toll,23.12,42.3,56.4,11.56,17.38
+Ayer Hitam Toll,Putera Mahkota Toll,23.62,43.1,57.5,11.81,17.71
+Ayer Hitam Toll,SOUTHVILLE CITY Toll,24.03,43.9,58.6,12.05,18.04
+Ayer Hitam Toll,BANGI Toll,24.44,44.7,59.5,12.22,18.29
+Ayer Hitam Toll,BANDAR SERENIA Toll,24.68,45.1,60.2,12.38,18.53
+Ayer Hitam Toll,KAJANG Toll,25.17,46,61.3,12.55,18.86
+Ayer Hitam Toll,UPM Toll,25.34,46.4,61.9,12.71,19.02
+Ayer Hitam Toll,BANDAR GAMUDA COVE Toll,25.5,46.6,62.2,12.71,19.11
+Ayer Hitam Toll,Sg. Besi Toll,25.91,47.3,63.1,12.96,19.43
+Ayer Hitam Toll,KLIA Toll,26.08,47.4,63,13.2,19.68
+Ayer Hitam Toll,Bandar Saujana Putra Toll,26.98,49.2,65.6,13.45,20.25
+Ayer Hitam Toll,Putra Jaya Toll,27.31,49.9,66.5,13.61,20.5
+Ayer Hitam Toll,PUTRA HEIGHTS Toll,27.39,50.1,66.7,13.69,20.58
+Ayer Hitam Toll,USJ Toll,27.88,51,67.9,13.94,20.91
+Ayer Hitam Toll,Seafield Toll,28.37,51.8,69.1,14.1,21.32
+Ayer Hitam Toll,Ebor Selatan Toll,28.37,51.9,69.1,14.19,21.32
+Ayer Hitam Toll,Shah Alam Toll,29.03,53,70.6,14.43,21.81
+Ayer Hitam Toll,SUBANG Toll,29.44,53.8,71.7,14.76,22.06
+Ayer Hitam Toll,Setia Alam Toll,29.85,54.5,72.8,14.92,22.39
+Ayer Hitam Toll,DAMANSARA Toll,29.93,54.7,72.9,15.01,22.39
+Ayer Hitam Toll,Bukit Raja Toll,30.01,54.8,73.2,15.01,22.47
+Ayer Hitam Toll,KOTA DAMANSARA Toll,30.09,55.2,73.5,15.09,22.55
+Ayer Hitam Toll,SG. BULOH Toll,30.75,56.3,75,15.42,23.04
+Ayer Hitam Toll,SG. BULOH HOSPITAL Toll,31,56.8,75.6,15.58,23.29
+Ayer Hitam Toll,Jalan Duta Toll,31.24,57.2,76.2,15.66,23.45
+Ayer Hitam Toll,RAWANG SELATAN Toll,31.49,57.7,76.9,15.83,23.62
+Ayer Hitam Toll,RAWANG Toll,32.14,58.8,78.4,16.07,24.11
+Ayer Hitam Toll,SUNGAI BUAYA Toll,33.13,60.7,80.8,16.65,24.85
+Ayer Hitam Toll,BUKIT BERUNTUNG Toll,33.78,61.9,82.4,16.97,25.34
+Ayer Hitam Toll,BUKIT TAGAR Toll,34.77,63.6,84.8,17.38,26.08
+Ayer Hitam Toll,LEMBAH BERINGIN Toll,35.92,65.7,87.5,17.96,26.9
+Ayer Hitam Toll,Tg. Malim Toll,36.9,67.6,90.1,18.53,27.72
+Ayer Hitam Toll,BEHRANG Toll,38.13,69.8,93.1,19.11,28.62
+Ayer Hitam Toll,SLIM RIVER Toll,39.93,73.1,97.4,20.01,29.93
+Ayer Hitam Toll,SUNGKAI Toll,41.98,76.9,102.4,21.07,31.49
+Ayer Hitam Toll,BIDOR Toll,43.62,79.8,106.4,21.89,32.72
+Ayer Hitam Toll,TAPAH Toll,45.1,82.5,109.9,22.55,33.78
+Ayer Hitam Toll,GOPENG Toll,48.46,88.6,118.1,24.27,36.33
+Ayer Hitam Toll,SIMPANG PULAI Toll,49.45,90.5,120.6,24.76,37.06
+Ayer Hitam Toll,Ipoh Selatan Toll,50.84,93,123.9,25.42,38.13
+Ayer Hitam Toll,KUALA KANGSAR Toll,53.71,98.3,130.9,26.9,40.26
+Ayer Hitam Toll,CANGKAT JERING Toll,56.09,102.6,136.7,28.04,42.07
+Ayer Hitam Toll,TAIPING UTARA Toll,57.89,105.8,141,28.95,43.38
+Ayer Hitam Toll,BUKIT MERAH Toll,59.12,108.1,144,29.52,44.28
+Ayer Hitam Toll,ALOR PONGSU Toll,60.52,110.7,147.6,30.26,45.43
+Ayer Hitam Toll,BANDAR BAHARU Toll,61.01,111.7,148.8,30.5,45.76
+Ayer Hitam Toll,JAWI Toll,62.57,114.4,152.4,31.24,46.9
+Ayer Hitam Toll,BKT. TAMBUN UTARA Toll,63.88,116.9,155.7,31.98,47.89
+Ayer Hitam Toll,JURU Toll,64.62,118.2,157.5,32.31,48.46
+Ayer Hitam Toll,BERTAM Toll,65.93,120.5,160.6,33.04,50.06
+Ayer Hitam Toll,SG. PETANI SELATAN Toll,67.57,123.5,164.5,33.86,50.75
+Ayer Hitam Toll,SG. PETANI UTARA Toll,68.31,124.8,166.3,34.19,51.24
+Ayer Hitam Toll,GURUN Toll,70.11,128.2,170.8,35.18,52.64
+Ayer Hitam Toll,PENDANG Toll,72.32,132.2,176.1,36.24,54.28
+Ayer Hitam Toll,Alor Setar Selatan Toll,73.96,135.2,180.1,37.06,55.96
+Ayer Hitam Toll,Alor Setar Utara Toll,74.62,136.3,181.6,37.39,56
+Ayer Hitam Toll,Hutan Kampung Toll,75.28,137.6,183.3,37.72,56.76
+Ayer Hitam Toll,BANDAR CASSIA Toll,69.81,147.4,225.9,40.53,74.26
+Ayer Keroh Toll,Jasin Toll,1.97,3.6,4.8,0.98,1.48
+Ayer Keroh Toll,Simpang Ampat Toll,2.54,4.7,6.3,1.31,1.89
+Ayer Keroh Toll,Tangkak Toll,3.12,5.6,7.5,1.56,2.3
+Ayer Keroh Toll,Bukit Gambir Toll,4.43,8.2,10.9,2.21,3.36
+Ayer Keroh Toll,PEDAS LINGGI Toll,5.08,9.3,12.4,2.54,3.85
+Ayer Keroh Toll,Pagoh Toll,6.07,11.1,14.8,3.03,4.59
+Ayer Keroh Toll,Senawang Toll,6.97,12.7,17,3.44,5.25
+Ayer Keroh Toll,Port Dickson Toll,7.22,13.2,17.6,3.61,5.41
+Ayer Keroh Toll,SEREMBAN Toll,7.63,13.9,18.6,3.85,5.74
+Ayer Keroh Toll,Bandar Ainsdale Toll,8.28,15.2,20.3,4.18,6.23
+Ayer Keroh Toll,Nilai Toll,10.17,18.6,24.7,5.08,7.63
+Ayer Keroh Toll,Putera Mahkota Toll,10.58,19.4,25.8,5.33,7.95
+Ayer Keroh Toll,Yong Peng Utara Toll,10.91,19.9,26.5,5.41,8.12
+Ayer Keroh Toll,SOUTHVILLE CITY Toll,11.07,20.2,26.9,5.49,8.28
+Ayer Keroh Toll,BANGI Toll,11.4,20.9,27.8,5.74,8.53
+Ayer Keroh Toll,BANDAR SERENIA Toll,11.64,21.3,28.4,5.82,8.69
+Ayer Keroh Toll,KAJANG Toll,12.14,22.2,29.6,6.07,9.1
+Ayer Keroh Toll,UPM Toll,12.38,22.6,30.2,6.15,9.27
+Ayer Keroh Toll,BANDAR GAMUDA COVE Toll,12.46,22.8,30.3,6.23,9.35
+Ayer Keroh Toll,Sg. Besi Toll,12.87,23.5,31.4,6.4,9.68
+Ayer Keroh Toll,Ayer Hitam Toll,13.04,23.9,31.8,6.56,9.76
+Ayer Keroh Toll,KLIA Toll,13.04,23.5,31.2,6.72,9.84
+Ayer Keroh Toll,Machap Toll,13.86,25.3,33.7,6.89,10.33
+Ayer Keroh Toll,Bandar Saujana Putra Toll,13.94,25.3,33.8,6.97,10.41
+Ayer Keroh Toll,Putra Jaya Toll,14.27,26,34.7,7.13,10.66
+Ayer Keroh Toll,PUTRA HEIGHTS Toll,14.35,26.2,34.9,7.22,10.74
+Ayer Keroh Toll,USJ Toll,14.84,27.1,36.1,7.46,11.07
+Ayer Keroh Toll,Seafield Toll,15.33,27.9,37.3,7.63,11.48
+Ayer Keroh Toll,Ebor Selatan Toll,15.33,28,37.3,7.71,11.48
+Ayer Keroh Toll,Spg. Renggam Toll,15.42,28.1,37.5,7.71,11.56
+Ayer Keroh Toll,Shah Alam Toll,15.99,29.1,38.8,7.95,11.97
+Ayer Keroh Toll,SUBANG Toll,16.4,30.1,40,8.28,12.3
+Ayer Keroh Toll,Setia Alam Toll,16.89,30.8,41.1,8.36,12.63
+Ayer Keroh Toll,DAMANSARA Toll,16.89,31,41.3,8.53,12.63
+Ayer Keroh Toll,Bukit Raja Toll,16.97,31,41.4,8.45,12.71
+Ayer Keroh Toll,KOTA DAMANSARA Toll,17.14,31.4,41.8,8.61,12.87
+Ayer Keroh Toll,Sedenak Toll,17.55,32,42.7,8.77,13.12
+Ayer Keroh Toll,SG. BULOH Toll,17.79,32.5,43.3,8.94,13.28
+Ayer Keroh Toll,SG. BULOH HOSPITAL Toll,18.04,33,44,9.02,13.53
+Ayer Keroh Toll,Jalan Duta Toll,18.29,33.4,44.5,9.18,13.69
+Ayer Keroh Toll,RAWANG SELATAN Toll,18.53,33.9,45.2,9.35,13.86
+Ayer Keroh Toll,KULAI Toll,18.94,34.7,46.2,9.51,14.19
+Ayer Keroh Toll,RAWANG Toll,19.19,35.1,46.7,9.59,14.35
+Ayer Keroh Toll,Senai Utara Toll,19.93,36.5,48.7,10,15.01
+Ayer Keroh Toll,SUNGAI BUAYA Toll,20.17,36.9,49.1,10.09,15.09
+Ayer Keroh Toll,Skudai Toll,20.34,37.2,49.6,10.17,15.25
+Ayer Keroh Toll,BUKIT BERUNTUNG Toll,20.83,38.1,50.8,10.41,15.58
+Ayer Keroh Toll,BUKIT TAGAR Toll,21.73,39.9,53.1,10.91,16.32
+Ayer Keroh Toll,LEMBAH BERINGIN Toll,22.88,41.9,55.8,11.48,17.14
+Ayer Keroh Toll,Tg. Malim Toll,23.94,43.8,58.4,12.05,17.96
+Ayer Keroh Toll,BEHRANG Toll,25.17,46.1,61.4,12.63,18.86
+Ayer Keroh Toll,SLIM RIVER Toll,26.98,49.3,65.7,13.53,20.17
+Ayer Keroh Toll,SUNGKAI Toll,29.03,53.1,70.8,14.51,21.73
+Ayer Keroh Toll,BIDOR Toll,30.59,56,74.6,15.33,22.88
+Ayer Keroh Toll,TAPAH Toll,32.06,58.7,78.2,16.07,24.03
+Ayer Keroh Toll,GOPENG Toll,35.42,64.8,86.4,17.79,26.57
+Ayer Keroh Toll,SIMPANG PULAI Toll,36.49,66.8,89,18.29,27.39
+Ayer Keroh Toll,Ipoh Selatan Toll,37.8,69.2,92.2,18.94,28.37
+Ayer Keroh Toll,KUALA KANGSAR Toll,40.67,74.5,99.2,20.42,30.5
+Ayer Keroh Toll,CANGKAT JERING Toll,43.05,78.8,105,21.57,32.31
+Ayer Keroh Toll,TAIPING UTARA Toll,44.85,82,109.3,22.47,33.62
+Ayer Keroh Toll,BUKIT MERAH Toll,46.08,84.3,112.3,23.04,34.52
+Ayer Keroh Toll,ALOR PONGSU Toll,47.56,86.9,115.9,23.78,35.67
+Ayer Keroh Toll,BANDAR BAHARU Toll,47.97,87.9,117.1,24.03,36
+Ayer Keroh Toll,JAWI Toll,49.53,90.6,120.7,24.76,37.15
+Ayer Keroh Toll,BKT. TAMBUN UTARA Toll,50.84,93.1,124,25.5,38.13
+Ayer Keroh Toll,JURU Toll,51.58,94.4,125.8,25.83,38.7
+Ayer Keroh Toll,BERTAM Toll,52.89,96.7,128.9,26.56,40.3
+Ayer Keroh Toll,SG. PETANI SELATAN Toll,54.53,99.7,132.8,27.38,40.99
+Ayer Keroh Toll,SG. PETANI UTARA Toll,55.27,101,134.6,27.71,41.48
+Ayer Keroh Toll,GURUN Toll,57.07,104.4,139.1,28.7,42.88
+Ayer Keroh Toll,PENDANG Toll,59.28,108.4,144.4,29.76,44.52
+Ayer Keroh Toll,Alor Setar Selatan Toll,60.92,111.4,148.4,30.58,46.2
+Ayer Keroh Toll,Alor Setar Utara Toll,61.58,112.5,149.9,30.91,46.24
+Ayer Keroh Toll,Hutan Kampung Toll,62.24,113.8,151.6,31.24,47
+Ayer Keroh Toll,BANDAR CASSIA Toll,56.77,123.6,194.2,34.06,64.5
+Bandar Ainsdale Toll,SEREMBAN Toll,0.74,1.3,1.8,0.33,0.57
+Bandar Ainsdale Toll,Port Dickson Toll,1.15,2,2.7,0.57,0.82
+Bandar Ainsdale Toll,Senawang Toll,1.56,2.9,3.8,0.82,1.15
+Bandar Ainsdale Toll,Nilai Toll,1.72,3.2,4.2,0.9,1.31
+Bandar Ainsdale Toll,Putera Mahkota Toll,2.71,4.9,6.5,1.31,1.97
+Bandar Ainsdale Toll,SOUTHVILLE CITY Toll,3.12,5.7,7.6,1.56,2.38
+Bandar Ainsdale Toll,PEDAS LINGGI Toll,3.36,6.1,8.2,1.64,2.54
+Bandar Ainsdale Toll,BANGI Toll,3.44,6.3,8.4,1.72,2.62
+Bandar Ainsdale Toll,BANDAR SERENIA Toll,3.77,6.9,9.2,1.89,2.87
+Bandar Ainsdale Toll,KAJANG Toll,4.18,7.6,10.2,2.13,3.12
+Bandar Ainsdale Toll,UPM Toll,4.43,8.1,10.7,2.21,3.28
+Bandar Ainsdale Toll,BANDAR GAMUDA COVE Toll,4.59,8.4,11.2,2.3,3.44
+Bandar Ainsdale Toll,Sg. Besi Toll,4.92,9,12,2.46,3.69
+Bandar Ainsdale Toll,KLIA Toll,5.17,9.2,12.1,2.79,3.94
+Bandar Ainsdale Toll,Simpang Ampat Toll,5.9,10.8,14.4,2.95,4.43
+Bandar Ainsdale Toll,Bandar Saujana Putra Toll,5.99,10.9,14.5,3.03,4.51
+Bandar Ainsdale Toll,Putra Jaya Toll,6.4,11.7,15.6,3.2,4.76
+Bandar Ainsdale Toll,PUTRA HEIGHTS Toll,6.4,11.8,15.6,3.28,4.84
+Bandar Ainsdale Toll,USJ Toll,6.89,12.7,16.8,3.53,5.17
+Bandar Ainsdale Toll,Seafield Toll,7.38,13.5,18,3.69,5.58
+Bandar Ainsdale Toll,Ebor Selatan Toll,7.38,13.6,18,3.77,5.58
+Bandar Ainsdale Toll,Shah Alam Toll,8.04,14.7,19.5,4.02,6.07
+Bandar Ainsdale Toll,Ayer Keroh Toll,8.28,15.2,20.3,4.18,6.23
+Bandar Ainsdale Toll,SUBANG Toll,8.53,15.6,20.7,4.26,6.31
+Bandar Ainsdale Toll,Setia Alam Toll,8.94,16.3,21.8,4.43,6.72
+Bandar Ainsdale Toll,DAMANSARA Toll,8.94,16.4,21.8,4.51,6.72
+Bandar Ainsdale Toll,Bukit Raja Toll,9.02,16.5,22.1,4.51,6.81
+Bandar Ainsdale Toll,KOTA DAMANSARA Toll,9.18,16.8,22.4,4.59,6.89
+Bandar Ainsdale Toll,SG. BULOH Toll,9.76,17.9,23.9,4.92,7.3
+Bandar Ainsdale Toll,SG. BULOH HOSPITAL Toll,10.09,18.6,24.7,5.08,7.54
+Bandar Ainsdale Toll,Jasin Toll,10.17,18.6,24.7,5.08,7.63
+Bandar Ainsdale Toll,Jalan Duta Toll,10.33,19,25.2,5.25,7.71
+Bandar Ainsdale Toll,RAWANG SELATAN Toll,10.58,19.5,25.9,5.33,7.95
+Bandar Ainsdale Toll,RAWANG Toll,11.23,20.6,27.4,5.66,8.36
+Bandar Ainsdale Toll,Tangkak Toll,11.23,20.6,27.5,5.66,8.45
+Bandar Ainsdale Toll,SUNGAI BUAYA Toll,12.22,22.3,29.7,6.15,9.1
+Bandar Ainsdale Toll,Bukit Gambir Toll,12.22,22.3,29.8,6.07,9.18
+Bandar Ainsdale Toll,BUKIT BERUNTUNG Toll,12.87,23.5,31.3,6.48,9.59
+Bandar Ainsdale Toll,BUKIT TAGAR Toll,13.86,25.4,33.8,6.97,10.33
+Bandar Ainsdale Toll,Pagoh Toll,14.35,26.3,35.1,7.22,10.82
+Bandar Ainsdale Toll,LEMBAH BERINGIN Toll,14.92,27.3,36.4,7.46,11.15
+Bandar Ainsdale Toll,Tg. Malim Toll,15.99,29.4,39.1,8.04,11.97
+Bandar Ainsdale Toll,BEHRANG Toll,17.22,31.6,42.1,8.69,12.96
+Bandar Ainsdale Toll,SLIM RIVER Toll,18.94,34.8,46.3,9.51,14.19
+Bandar Ainsdale Toll,Yong Peng Utara Toll,19.19,35.1,46.8,9.59,14.35
+Bandar Ainsdale Toll,SUNGKAI Toll,21.07,38.6,51.5,10.58,15.83
+Bandar Ainsdale Toll,Ayer Hitam Toll,21.32,38.9,51.9,10.66,15.99
+Bandar Ainsdale Toll,Machap Toll,22.14,40.5,54,11.07,16.56
+Bandar Ainsdale Toll,BIDOR Toll,22.63,41.5,55.3,11.4,16.97
+Bandar Ainsdale Toll,Spg. Renggam Toll,23.7,43.3,57.8,11.89,17.79
+Bandar Ainsdale Toll,TAPAH Toll,24.11,44.1,58.8,12.14,18.04
+Bandar Ainsdale Toll,Sedenak Toll,25.83,47.2,62.9,12.87,19.35
+Bandar Ainsdale Toll,KULAI Toll,27.31,49.9,66.5,13.61,20.42
+Bandar Ainsdale Toll,GOPENG Toll,27.47,50.3,66.9,13.78,20.58
+Bandar Ainsdale Toll,Senai Utara Toll,28.29,51.7,68.9,14.1,21.24
+Bandar Ainsdale Toll,SIMPANG PULAI Toll,28.54,52.3,69.7,14.35,21.4
+Bandar Ainsdale Toll,Skudai Toll,28.62,52.3,69.7,14.27,21.48
+Bandar Ainsdale Toll,Ipoh Selatan Toll,29.85,54.6,72.8,15.01,22.39
+Bandar Ainsdale Toll,KUALA KANGSAR Toll,32.72,59.9,79.8,16.48,24.52
+Bandar Ainsdale Toll,CANGKAT JERING Toll,35.1,64.2,85.6,17.63,26.32
+Bandar Ainsdale Toll,TAIPING UTARA Toll,36.9,67.4,89.9,18.53,27.63
+Bandar Ainsdale Toll,BUKIT MERAH Toll,38.13,69.7,92.9,19.11,28.54
+Bandar Ainsdale Toll,ALOR PONGSU Toll,39.52,72.3,96.5,19.76,29.68
+Bandar Ainsdale Toll,BANDAR BAHARU Toll,40.02,73.3,97.7,20.09,30.01
+Bandar Ainsdale Toll,JAWI Toll,41.57,76,101.3,20.83,31.16
+Bandar Ainsdale Toll,BKT. TAMBUN UTARA Toll,42.89,78.5,104.6,21.57,32.14
+Bandar Ainsdale Toll,JURU Toll,43.62,79.8,106.4,21.89,32.72
+Bandar Ainsdale Toll,BERTAM Toll,44.93,82.1,109.5,22.62,34.32
+Bandar Ainsdale Toll,SG. PETANI SELATAN Toll,46.57,85.1,113.4,23.44,35.01
+Bandar Ainsdale Toll,SG. PETANI UTARA Toll,47.31,86.4,115.2,23.77,35.5
+Bandar Ainsdale Toll,GURUN Toll,49.11,89.8,119.7,24.76,36.9
+Bandar Ainsdale Toll,PENDANG Toll,51.32,93.8,125,25.82,38.54
+Bandar Ainsdale Toll,Alor Setar Selatan Toll,52.96,96.8,129,26.64,40.22
+Bandar Ainsdale Toll,Alor Setar Utara Toll,53.62,97.9,130.5,26.97,40.26
+Bandar Ainsdale Toll,Hutan Kampung Toll,54.28,99.2,132.2,27.3,41.02
+Bandar Ainsdale Toll,BANDAR CASSIA Toll,48.82,109,174.8,30.12,58.52
+BANDAR BAHARU Toll,ALOR PONGSU Toll,0.57,1.1,1.5,0.33,0.49
+BANDAR BAHARU Toll,JAWI Toll,1.56,2.9,3.8,0.82,1.15
+BANDAR BAHARU Toll,BUKIT MERAH Toll,2.21,4.1,5.4,1.15,1.64
+BANDAR BAHARU Toll,BKT. TAMBUN UTARA Toll,2.87,5.3,7.1,1.48,2.21
+BANDAR BAHARU Toll,TAIPING UTARA Toll,3.61,6.5,8.7,1.8,2.71
+BANDAR BAHARU Toll,JURU Toll,3.61,6.6,8.8,1.8,2.71
+BANDAR BAHARU Toll,CANGKAT JERING Toll,5.17,9.5,12.6,2.62,3.85
+BANDAR BAHARU Toll,BERTAM Toll,4.92,8.9,11.9,2.53,4.31
+BANDAR BAHARU Toll,SG. PETANI SELATAN Toll,6.56,11.9,15.8,3.35,5
+BANDAR BAHARU Toll,SG. PETANI UTARA Toll,7.3,13.2,17.6,3.68,5.49
+BANDAR BAHARU Toll,KUALA KANGSAR Toll,7.63,14,18.6,3.85,5.74
+BANDAR BAHARU Toll,GURUN Toll,9.1,16.6,22.1,4.67,6.89
+BANDAR BAHARU Toll,IPOH UTARA Toll,10.17,18.7,24.9,5.08,7.63
+BANDAR BAHARU Toll,PENDANG Toll,11.31,20.6,27.4,5.73,8.53
+BANDAR BAHARU Toll,SIMPANG PULAI Toll,11.64,21.4,28.4,5.82,8.69
+BANDAR BAHARU Toll,GOPENG Toll,12.71,23.4,31.2,6.4,9.51
+BANDAR BAHARU Toll,Alor Setar Selatan Toll,12.95,23.6,31.4,6.55,10.21
+BANDAR BAHARU Toll,Alor Setar Utara Toll,13.61,24.7,32.9,6.88,10.25
+BANDAR BAHARU Toll,Hutan Kampung Toll,14.27,26,34.6,7.21,11.01
+BANDAR BAHARU Toll,TAPAH Toll,16.07,29.5,39.3,8.04,12.05
+BANDAR BAHARU Toll,BIDOR Toll,17.55,32.3,43,8.77,13.2
+BANDAR BAHARU Toll,SUNGKAI Toll,19.11,35,46.7,9.51,14.35
+BANDAR BAHARU Toll,SLIM RIVER Toll,21.24,38.9,51.8,10.58,15.91
+BANDAR BAHARU Toll,BEHRANG Toll,22.88,41.9,55.9,11.48,17.14
+BANDAR BAHARU Toll,Tg. Malim Toll,24.52,44.9,59.8,12.22,18.37
+BANDAR BAHARU Toll,LEMBAH BERINGIN Toll,25.5,46.7,62.3,12.79,19.11
+BANDAR BAHARU Toll,BUKIT TAGAR Toll,26.49,48.6,64.7,13.28,19.84
+BANDAR BAHARU Toll,BUKIT BERUNTUNG Toll,27.47,50.3,67,13.69,20.58
+BANDAR BAHARU Toll,SUNGAI BUAYA Toll,28.21,51.7,68.9,14.1,21.16
+BANDAR BAHARU Toll,RAWANG Toll,29.19,53.5,71.3,14.6,21.89
+BANDAR BAHARU Toll,RAWANG SELATAN Toll,29.68,54.4,72.5,14.84,22.3
+BANDAR BAHARU Toll,SG. BULOH HOSPITAL Toll,30.34,55.6,74.1,15.17,22.8
+BANDAR BAHARU Toll,SG. BULOH Toll,30.59,56,74.7,15.25,22.96
+BANDAR BAHARU Toll,KOTA DAMANSARA Toll,31.24,57.2,76.3,15.66,23.45
+BANDAR BAHARU Toll,DAMANSARA Toll,31.65,58.1,77.4,15.83,23.78
+BANDAR BAHARU Toll,Jalan Duta Toll,31.9,58.4,77.8,15.91,23.86
+BANDAR BAHARU Toll,SUBANG Toll,31.9,58.4,77.8,15.91,23.86
+BANDAR BAHARU Toll,Shah Alam Toll,32.39,59.4,79.1,16.24,24.35
+BANDAR BAHARU Toll,Seafield Toll,33.13,60.7,80.8,16.56,24.76
+BANDAR BAHARU Toll,Setia Alam Toll,33.37,61.1,81.5,16.65,25.01
+BANDAR BAHARU Toll,USJ Toll,33.54,61.4,81.8,16.73,25.09
+BANDAR BAHARU Toll,Bukit Raja Toll,33.54,61.4,81.9,16.73,25.17
+BANDAR BAHARU Toll,PUTRA HEIGHTS Toll,34.03,62.4,83.1,16.97,25.5
+BANDAR BAHARU Toll,Bandar Saujana Putra Toll,34.36,62.9,83.8,17.14,25.75
+BANDAR BAHARU Toll,BANDAR GAMUDA COVE Toll,35.51,64.9,86.5,17.71,26.65
+BANDAR BAHARU Toll,Putra Jaya Toll,35.92,65.8,87.6,17.96,26.9
+BANDAR BAHARU Toll,BANDAR SERENIA Toll,36.74,67.1,89.5,18.37,27.55
+BANDAR BAHARU Toll,KLIA Toll,37.15,67.8,90.1,18.78,27.88
+BANDAR BAHARU Toll,BANDAR CASSIA Toll,8.8,35.9,77.3,10.03,28.5
+BANDAR BAHARU Toll,Nilai Toll,38.38,70.3,93.6,19.19,28.78
+BANDAR BAHARU Toll,Putera Mahkota Toll,38.38,70.4,93.8,19.27,28.78
+BANDAR BAHARU Toll,SOUTHVILLE CITY Toll,38.87,71.1,94.8,19.43,29.19
+BANDAR BAHARU Toll,BANGI Toll,39.2,71.8,95.7,19.6,29.36
+BANDAR BAHARU Toll,KAJANG Toll,39.85,73,97.3,20.01,29.85
+BANDAR BAHARU Toll,Bandar Ainsdale Toll,40.02,73.3,97.7,20.09,30.01
+BANDAR BAHARU Toll,UPM Toll,40.1,73.4,97.8,20.09,30.01
+BANDAR BAHARU Toll,SEREMBAN Toll,40.34,74,98.5,20.25,30.26
+BANDAR BAHARU Toll,Sg. Besi Toll,40.59,74.4,99.1,20.34,30.42
+BANDAR BAHARU Toll,Port Dickson Toll,40.84,74.8,99.6,20.42,30.59
+BANDAR BAHARU Toll,Senawang Toll,41.25,75.6,100.7,20.66,30.91
+BANDAR BAHARU Toll,PEDAS LINGGI Toll,43.05,78.8,105,21.57,32.23
+BANDAR BAHARU Toll,Simpang Ampat Toll,45.59,83.5,111.3,22.88,34.19
+BANDAR BAHARU Toll,Ayer Keroh Toll,47.97,87.9,117.1,24.03,36
+BANDAR BAHARU Toll,Jasin Toll,49.77,91.2,121.5,24.93,37.31
+BANDAR BAHARU Toll,Tangkak Toll,50.92,93.3,124.3,25.5,38.21
+BANDAR BAHARU Toll,Bukit Gambir Toll,52.32,95.8,127.6,26.16,39.2
+BANDAR BAHARU Toll,Pagoh Toll,54.04,99,132,27.06,40.51
+BANDAR BAHARU Toll,Yong Peng Utara Toll,58.79,107.7,143.5,29.44,44.12
+BANDAR BAHARU Toll,Ayer Hitam Toll,61.01,111.7,148.8,30.5,45.76
+BANDAR BAHARU Toll,Machap Toll,61.83,113.2,150.9,30.91,46.33
+BANDAR BAHARU Toll,Spg. Renggam Toll,63.39,116.1,154.7,31.73,47.56
+BANDAR BAHARU Toll,Sedenak Toll,65.44,119.8,159.7,32.8,49.04
+BANDAR BAHARU Toll,KULAI Toll,66.99,122.6,163.4,33.54,50.18
+BANDAR BAHARU Toll,Senai Utara Toll,67.98,124.4,165.8,34.03,50.92
+BANDAR BAHARU Toll,Skudai Toll,68.31,125,166.6,34.19,51.17
+BANDAR CASSIA Toll,BKT. TAMBUN UTARA Toll,1.01,1.6,2.2,0.46,0.83
+BANDAR CASSIA Toll,JAWI Toll,1.75,2.9,3.9,0.87,1.32
+BANDAR CASSIA Toll,JURU Toll,1.75,2.9,3.9,0.87,1.32
+BANDAR CASSIA Toll,BANDAR BAHARU Toll,3.06,5.4,7.2,1.53,2.3
+BANDAR CASSIA Toll,ALOR PONGSU Toll,3.63,6.4,8.5,1.78,2.8
+BANDAR CASSIA Toll,BERTAM Toll,3.06,5.2,7,1.6,2.92
+BANDAR CASSIA Toll,SG. PETANI SELATAN Toll,4.7,8.2,10.9,2.42,3.61
+BANDAR CASSIA Toll,BUKIT MERAH Toll,5.11,9.2,12.2,2.6,3.86
+BANDAR CASSIA Toll,SG. PETANI UTARA Toll,5.44,9.5,12.7,2.75,4.1
+BANDAR CASSIA Toll,TAIPING UTARA Toll,6.42,11.5,15.3,3.17,4.85
+BANDAR CASSIA Toll,GURUN Toll,7.24,12.9,17.2,3.74,5.5
+BANDAR CASSIA Toll,CANGKAT JERING Toll,7.98,14.5,19.3,3.99,6.08
+BANDAR CASSIA Toll,PENDANG Toll,9.45,16.9,22.5,4.8,7.14
+BANDAR CASSIA Toll,KUALA KANGSAR Toll,10.44,18.9,25.3,5.22,7.88
+BANDAR CASSIA Toll,Alor Setar Selatan Toll,11.09,19.9,26.5,5.62,8.82
+BANDAR CASSIA Toll,Alor Setar Utara Toll,11.75,21,28,5.95,8.86
+BANDAR CASSIA Toll,Hutan Kampung Toll,12.41,22.3,29.7,6.28,9.62
+BANDAR CASSIA Toll,IPOH UTARA Toll,13.23,23.9,31.9,6.61,9.93
+BANDAR CASSIA Toll,SIMPANG PULAI Toll,14.7,26.6,35.4,7.35,11
+BANDAR CASSIA Toll,GOPENG Toll,15.77,28.6,38.2,7.93,11.82
+BANDAR CASSIA Toll,TAPAH Toll,19.13,34.7,46.3,9.57,14.36
+BANDAR CASSIA Toll,BIDOR Toll,20.61,37.5,50,10.3,15.51
+BANDAR CASSIA Toll,SUNGKAI Toll,22.17,40.2,53.7,11.04,16.65
+BANDAR CASSIA Toll,SLIM RIVER Toll,24.3,44.1,58.8,12.11,18.21
+BANDAR CASSIA Toll,BEHRANG Toll,25.94,47.1,62.9,13.01,19.44
+BANDAR CASSIA Toll,Tg. Malim Toll,27.58,50.1,66.8,13.75,20.67
+BANDAR CASSIA Toll,LEMBAH BERINGIN Toll,28.56,51.9,69.3,14.32,21.41
+BANDAR CASSIA Toll,BUKIT TAGAR Toll,29.55,53.8,71.7,14.81,22.15
+BANDAR CASSIA Toll,BUKIT BERUNTUNG Toll,30.53,55.5,74,15.22,22.89
+BANDAR CASSIA Toll,SUNGAI BUAYA Toll,31.27,56.9,75.9,15.63,23.46
+BANDAR CASSIA Toll,RAWANG Toll,32.25,58.7,78.3,16.13,24.2
+BANDAR CASSIA Toll,RAWANG SELATAN Toll,32.74,59.6,79.5,16.37,24.61
+BANDAR CASSIA Toll,SG. BULOH HOSPITAL Toll,33.4,60.8,81.1,16.7,25.1
+BANDAR CASSIA Toll,SG. BULOH Toll,33.65,61.2,81.7,16.78,25.26
+BANDAR CASSIA Toll,KOTA DAMANSARA Toll,34.3,62.4,83.3,17.19,25.76
+BANDAR CASSIA Toll,DAMANSARA Toll,34.71,63.3,84.4,17.36,26.08
+BANDAR CASSIA Toll,Jalan Duta Toll,34.96,63.6,84.8,17.44,26.17
+BANDAR CASSIA Toll,SUBANG Toll,34.96,63.6,84.8,17.44,26.17
+BANDAR CASSIA Toll,Shah Alam Toll,35.45,64.6,86.1,17.77,26.66
+BANDAR CASSIA Toll,Seafield Toll,36.19,65.9,87.8,18.09,27.07
+BANDAR CASSIA Toll,Setia Alam Toll,36.43,66.3,88.5,18.18,27.31
+BANDAR CASSIA Toll,USJ Toll,36.6,66.6,88.8,18.26,27.4
+BANDAR CASSIA Toll,Bukit Raja Toll,36.6,66.6,88.9,18.26,27.48
+BANDAR CASSIA Toll,PUTRA HEIGHTS Toll,37.09,67.6,90.1,18.5,27.81
+BANDAR CASSIA Toll,Bandar Saujana Putra Toll,37.42,68.1,90.8,18.67,28.05
+BANDAR CASSIA Toll,BANDAR GAMUDA COVE Toll,38.48,70.2,93.6,19.24,28.95
+BANDAR CASSIA Toll,Putra Jaya Toll,38.98,71,94.6,19.49,29.2
+BANDAR CASSIA Toll,BANDAR SERENIA Toll,39.71,72.4,96.5,19.82,29.86
+BANDAR CASSIA Toll,KLIA Toll,40.21,73,97.1,20.31,30.18
+BANDAR CASSIA Toll,Nilai Toll,41.44,75.5,100.6,20.72,31.09
+BANDAR CASSIA Toll,Putera Mahkota Toll,41.44,75.6,100.8,20.8,31.09
+BANDAR CASSIA Toll,SOUTHVILLE CITY Toll,41.93,76.4,101.9,20.96,31.5
+BANDAR CASSIA Toll,BANGI Toll,42.26,77,102.7,21.13,31.66
+BANDAR CASSIA Toll,KAJANG Toll,42.91,78.2,104.3,21.54,32.15
+BANDAR CASSIA Toll,Bandar Ainsdale Toll,43.08,78.5,104.7,21.62,32.32
+BANDAR CASSIA Toll,UPM Toll,43.16,78.6,104.8,21.62,32.32
+BANDAR CASSIA Toll,SEREMBAN Toll,43.4,79.2,105.5,21.78,32.56
+BANDAR CASSIA Toll,Sg. Besi Toll,43.65,79.6,106.1,21.87,32.73
+BANDAR CASSIA Toll,Port Dickson Toll,43.9,80,106.6,21.95,32.89
+BANDAR CASSIA Toll,Senawang Toll,44.31,80.8,107.7,22.19,33.22
+BANDAR CASSIA Toll,PEDAS LINGGI Toll,46.11,84,112,23.1,34.53
+BANDAR CASSIA Toll,Simpang Ampat Toll,48.65,88.7,118.3,24.41,36.5
+BANDAR CASSIA Toll,Ayer Keroh Toll,51.03,93.1,124.1,25.56,38.3
+BANDAR CASSIA Toll,Jasin Toll,52.83,96.4,128.5,26.46,39.61
+BANDAR CASSIA Toll,Tangkak Toll,53.98,98.5,131.3,27.03,40.52
+BANDAR CASSIA Toll,Bukit Gambir Toll,55.38,101,134.6,27.69,41.5
+BANDAR CASSIA Toll,Pagoh Toll,57.1,104.2,139,28.59,42.81
+BANDAR CASSIA Toll,Yong Peng Utara Toll,61.85,112.9,150.5,30.97,46.42
+BANDAR CASSIA Toll,Ayer Hitam Toll,64.07,116.9,155.8,32.03,48.06
+BANDAR CASSIA Toll,Machap Toll,64.89,118.4,157.9,32.44,48.63
+BANDAR CASSIA Toll,Spg. Renggam Toll,66.45,121.3,161.7,33.26,49.86
+BANDAR CASSIA Toll,Sedenak Toll,68.5,125,166.7,34.33,51.34
+BANDAR CASSIA Toll,KULAI Toll,70.05,127.8,170.4,35.07,52.49
+BANDAR CASSIA Toll,Senai Utara Toll,71.04,129.6,172.8,35.56,53.23
+BANDAR CASSIA Toll,Skudai Toll,71.37,130.2,173.6,35.72,53.47
+BANDAR GAMUDA COVE Toll,BANDAR SERENIA Toll,1.07,2,2.7,0.57,0.82
+BANDAR GAMUDA COVE Toll,Bandar Saujana Putra Toll,1.31,2.4,3.3,0.66,0.98
+BANDAR GAMUDA COVE Toll,Putra Jaya Toll,1.72,3.1,4.1,0.82,1.23
+BANDAR GAMUDA COVE Toll,PUTRA HEIGHTS Toll,1.8,3.3,4.4,0.9,1.31
+BANDAR GAMUDA COVE Toll,KLIA Toll,1.72,2.8,3.6,1.07,1.39
+BANDAR GAMUDA COVE Toll,USJ Toll,2.3,4.2,5.6,1.15,1.72
+BANDAR GAMUDA COVE Toll,Seafield Toll,2.79,5,6.7,1.39,2.05
+BANDAR GAMUDA COVE Toll,Ebor Selatan Toll,2.79,5.1,6.8,1.39,2.05
+BANDAR GAMUDA COVE Toll,Nilai Toll,2.79,5.1,6.8,1.39,2.13
+BANDAR GAMUDA COVE Toll,Putera Mahkota Toll,2.95,5.3,7.1,1.48,2.21
+BANDAR GAMUDA COVE Toll,SOUTHVILLE CITY Toll,3.36,6.1,8.2,1.64,2.54
+BANDAR GAMUDA COVE Toll,Shah Alam Toll,3.36,6.2,8.3,1.72,2.54
+BANDAR GAMUDA COVE Toll,BANGI Toll,3.69,6.8,9,1.89,2.79
+BANDAR GAMUDA COVE Toll,SUBANG Toll,3.85,7.1,9.5,1.97,2.87
+BANDAR GAMUDA COVE Toll,Setia Alam Toll,4.26,7.8,10.4,2.13,3.2
+BANDAR GAMUDA COVE Toll,DAMANSARA Toll,4.35,7.9,10.5,2.13,3.28
+BANDAR GAMUDA COVE Toll,KAJANG Toll,4.35,8,10.6,2.21,3.28
+BANDAR GAMUDA COVE Toll,Bukit Raja Toll,4.43,8.1,10.8,2.21,3.28
+BANDAR GAMUDA COVE Toll,KOTA DAMANSARA Toll,4.51,8.3,11.1,2.3,3.44
+BANDAR GAMUDA COVE Toll,Bandar Ainsdale Toll,4.59,8.4,11.2,2.3,3.44
+BANDAR GAMUDA COVE Toll,UPM Toll,4.59,8.4,11.2,2.3,3.44
+BANDAR GAMUDA COVE Toll,SEREMBAN Toll,4.84,8.9,11.9,2.46,3.61
+BANDAR GAMUDA COVE Toll,Sg. Besi Toll,5.08,9.3,12.4,2.54,3.85
+BANDAR GAMUDA COVE Toll,SG. BULOH Toll,5.17,9.4,12.6,2.54,3.85
+BANDAR GAMUDA COVE Toll,Port Dickson Toll,5.25,9.6,12.8,2.62,3.94
+BANDAR GAMUDA COVE Toll,SG. BULOH HOSPITAL Toll,5.41,9.8,13.1,2.71,4.02
+BANDAR GAMUDA COVE Toll,Senawang Toll,5.74,10.4,13.9,2.87,4.26
+BANDAR GAMUDA COVE Toll,Jalan Duta Toll,5.74,10.5,13.9,2.87,4.26
+BANDAR GAMUDA COVE Toll,RAWANG SELATAN Toll,5.9,10.8,14.3,2.95,4.43
+BANDAR GAMUDA COVE Toll,RAWANG Toll,6.64,12.1,16.1,3.28,4.92
+BANDAR GAMUDA COVE Toll,SUNGAI BUAYA Toll,7.46,13.7,18.3,3.77,5.66
+BANDAR GAMUDA COVE Toll,PEDAS LINGGI Toll,7.54,13.8,18.4,3.77,5.66
+BANDAR GAMUDA COVE Toll,BUKIT BERUNTUNG Toll,8.2,15,20.1,4.1,6.15
+BANDAR GAMUDA COVE Toll,BUKIT TAGAR Toll,9.18,16.8,22.4,4.59,6.89
+BANDAR GAMUDA COVE Toll,Simpang Ampat Toll,10.09,18.5,24.6,5.08,7.54
+BANDAR GAMUDA COVE Toll,LEMBAH BERINGIN Toll,10.25,18.8,25.1,5.17,7.71
+BANDAR GAMUDA COVE Toll,Tg. Malim Toll,11.4,20.9,27.8,5.74,8.53
+BANDAR GAMUDA COVE Toll,Ayer Keroh Toll,12.46,22.8,30.3,6.23,9.35
+BANDAR GAMUDA COVE Toll,BEHRANG Toll,12.63,23.1,30.8,6.31,9.51
+BANDAR GAMUDA COVE Toll,Jasin Toll,14.27,26.1,34.8,7.13,10.74
+BANDAR GAMUDA COVE Toll,SLIM RIVER Toll,14.35,26.3,35,7.22,10.74
+BANDAR GAMUDA COVE Toll,Tangkak Toll,15.42,28.2,37.6,7.71,11.56
+BANDAR GAMUDA COVE Toll,SUNGKAI Toll,16.48,30.1,40.2,8.2,12.38
+BANDAR GAMUDA COVE Toll,Bukit Gambir Toll,16.81,30.7,41,8.36,12.63
+BANDAR GAMUDA COVE Toll,BIDOR Toll,18.04,33,44,9.02,13.53
+BANDAR GAMUDA COVE Toll,Pagoh Toll,18.53,33.9,45.2,9.27,13.86
+BANDAR GAMUDA COVE Toll,TAPAH Toll,19.52,35.6,47.5,9.76,14.6
+BANDAR GAMUDA COVE Toll,GOPENG Toll,22.8,41.8,55.7,11.4,17.14
+BANDAR GAMUDA COVE Toll,Yong Peng Utara Toll,23.29,42.6,56.9,11.64,17.47
+BANDAR GAMUDA COVE Toll,SIMPANG PULAI Toll,23.94,43.8,58.4,11.97,17.96
+BANDAR GAMUDA COVE Toll,Ipoh Selatan Toll,25.26,46.2,61.7,12.63,18.94
+BANDAR GAMUDA COVE Toll,Ayer Hitam Toll,25.5,46.6,62.2,12.71,19.11
+BANDAR GAMUDA COVE Toll,Machap Toll,26.24,48,64.1,13.12,19.68
+BANDAR GAMUDA COVE Toll,Spg. Renggam Toll,27.8,50.9,67.9,13.94,20.91
+BANDAR GAMUDA COVE Toll,KUALA KANGSAR Toll,28.13,51.5,68.7,14.1,21.16
+BANDAR GAMUDA COVE Toll,Sedenak Toll,29.93,54.8,73,15.01,22.47
+BANDAR GAMUDA COVE Toll,CANGKAT JERING Toll,30.59,55.9,74.5,15.25,22.88
+BANDAR GAMUDA COVE Toll,KULAI Toll,31.41,57.4,76.6,15.66,23.53
+BANDAR GAMUDA COVE Toll,TAIPING UTARA Toll,32.31,59.1,78.8,16.15,24.27
+BANDAR GAMUDA COVE Toll,Senai Utara Toll,32.39,59.3,79,16.24,24.27
+BANDAR GAMUDA COVE Toll,Skudai Toll,32.8,60,80,16.4,24.6
+BANDAR GAMUDA COVE Toll,BUKIT MERAH Toll,33.54,61.3,81.8,16.81,25.17
+BANDAR GAMUDA COVE Toll,ALOR PONGSU Toll,35.01,64,85.3,17.47,26.24
+BANDAR GAMUDA COVE Toll,BANDAR BAHARU Toll,35.51,64.9,86.5,17.71,26.65
+BANDAR GAMUDA COVE Toll,JAWI Toll,36.98,67.6,90.2,18.53,27.72
+BANDAR GAMUDA COVE Toll,BKT. TAMBUN UTARA Toll,38.38,70.1,93.5,19.19,28.78
+BANDAR GAMUDA COVE Toll,JURU Toll,39.03,71.4,95.2,19.52,29.27
+BANDAR GAMUDA COVE Toll,BERTAM Toll,40.34,73.7,98.3,20.25,30.87
+BANDAR GAMUDA COVE Toll,SG. PETANI SELATAN Toll,41.98,76.7,102.2,21.07,31.56
+BANDAR GAMUDA COVE Toll,SG. PETANI UTARA Toll,42.72,78,104,21.4,32.05
+BANDAR GAMUDA COVE Toll,GURUN Toll,44.52,81.4,108.5,22.39,33.45
+BANDAR GAMUDA COVE Toll,PENDANG Toll,46.73,85.4,113.8,23.45,35.09
+BANDAR GAMUDA COVE Toll,Alor Setar Selatan Toll,48.37,88.4,117.8,24.27,36.77
+BANDAR GAMUDA COVE Toll,Alor Setar Utara Toll,49.03,89.5,119.3,24.6,36.81
+BANDAR GAMUDA COVE Toll,Hutan Kampung Toll,49.69,90.8,121,24.93,37.57
+BANDAR GAMUDA COVE Toll,BANDAR CASSIA Toll,44.22,100.7,163.7,27.74,55.15
+Bandar Saujana Putra Toll,PUTRA HEIGHTS Toll,0.74,1.3,1.7,0.33,0.49
+Bandar Saujana Putra Toll,USJ Toll,1.23,2.2,2.9,0.57,0.9
+Bandar Saujana Putra Toll,BANDAR GAMUDA COVE Toll,1.31,2.4,3.3,0.66,0.98
+Bandar Saujana Putra Toll,Seafield Toll,1.64,3,4,0.82,1.23
+Bandar Saujana Putra Toll,Ebor Selatan Toll,1.64,3.1,4.1,0.82,1.23
+Bandar Saujana Putra Toll,Putra Jaya Toll,1.8,3.2,4.3,0.9,1.31
+Bandar Saujana Putra Toll,Shah Alam Toll,2.3,4.2,5.6,1.15,1.72
+Bandar Saujana Putra Toll,BANDAR SERENIA Toll,2.54,4.7,6.2,1.31,1.89
+Bandar Saujana Putra Toll,SUBANG Toll,2.71,5,6.7,1.39,2.13
+Bandar Saujana Putra Toll,DAMANSARA Toll,3.2,5.8,7.8,1.56,2.46
+Bandar Saujana Putra Toll,Setia Alam Toll,3.2,5.8,7.8,1.56,2.46
+Bandar Saujana Putra Toll,KLIA Toll,3.12,5.4,7.1,1.8,2.46
+Bandar Saujana Putra Toll,Bukit Raja Toll,3.28,6,8.1,1.64,2.54
+Bandar Saujana Putra Toll,KOTA DAMANSARA Toll,3.44,6.2,8.3,1.72,2.62
+Bandar Saujana Putra Toll,SG. BULOH Toll,4.02,7.4,9.8,2.05,3.03
+Bandar Saujana Putra Toll,Nilai Toll,4.26,7.7,10.3,2.13,3.2
+Bandar Saujana Putra Toll,SG. BULOH HOSPITAL Toll,4.35,7.9,10.5,2.13,3.28
+Bandar Saujana Putra Toll,Putera Mahkota Toll,4.35,7.9,10.6,2.21,3.28
+Bandar Saujana Putra Toll,Jalan Duta Toll,4.59,8.4,11.2,2.3,3.44
+Bandar Saujana Putra Toll,SOUTHVILLE CITY Toll,4.76,8.8,11.7,2.38,3.61
+Bandar Saujana Putra Toll,RAWANG SELATAN Toll,4.84,8.8,11.7,2.38,3.61
+Bandar Saujana Putra Toll,BANGI Toll,5.17,9.3,12.5,2.54,3.85
+Bandar Saujana Putra Toll,RAWANG Toll,5.49,10,13.4,2.71,4.18
+Bandar Saujana Putra Toll,KAJANG Toll,5.82,10.6,14.1,2.95,4.35
+Bandar Saujana Putra Toll,Bandar Ainsdale Toll,5.99,10.9,14.5,3.03,4.51
+Bandar Saujana Putra Toll,UPM Toll,6.07,11,14.7,3.03,4.51
+Bandar Saujana Putra Toll,SEREMBAN Toll,6.31,11.5,15.3,3.2,4.76
+Bandar Saujana Putra Toll,SUNGAI BUAYA Toll,6.4,11.8,15.7,3.2,4.84
+Bandar Saujana Putra Toll,Sg. Besi Toll,6.56,11.9,15.9,3.28,4.92
+Bandar Saujana Putra Toll,Port Dickson Toll,6.72,12.2,16.3,3.36,5.08
+Bandar Saujana Putra Toll,BUKIT BERUNTUNG Toll,7.13,13,17.3,3.53,5.33
+Bandar Saujana Putra Toll,Senawang Toll,7.13,13,17.4,3.61,5.41
+Bandar Saujana Putra Toll,BUKIT TAGAR Toll,8.04,14.7,19.6,4.02,6.07
+Bandar Saujana Putra Toll,PEDAS LINGGI Toll,9.02,16.4,21.9,4.51,6.72
+Bandar Saujana Putra Toll,LEMBAH BERINGIN Toll,9.18,16.7,22.3,4.59,6.89
+Bandar Saujana Putra Toll,Tg. Malim Toll,10.25,18.8,25,5.17,7.71
+Bandar Saujana Putra Toll,BEHRANG Toll,11.48,21,28,5.74,8.69
+Bandar Saujana Putra Toll,Simpang Ampat Toll,11.56,21.1,28.1,5.82,8.69
+Bandar Saujana Putra Toll,SLIM RIVER Toll,13.2,24.2,32.3,6.64,9.92
+Bandar Saujana Putra Toll,Ayer Keroh Toll,13.94,25.3,33.8,6.97,10.41
+Bandar Saujana Putra Toll,SUNGKAI Toll,15.33,28.1,37.4,7.71,11.56
+Bandar Saujana Putra Toll,Jasin Toll,15.74,28.7,38.3,7.87,11.81
+Bandar Saujana Putra Toll,Tangkak Toll,16.89,30.8,41,8.45,12.63
+Bandar Saujana Putra Toll,BIDOR Toll,16.89,30.9,41.2,8.45,12.71
+Bandar Saujana Putra Toll,Bukit Gambir Toll,18.29,33.3,44.4,9.1,13.69
+Bandar Saujana Putra Toll,TAPAH Toll,18.37,33.6,44.8,9.18,13.78
+Bandar Saujana Putra Toll,Pagoh Toll,20.01,36.5,48.7,10,15.01
+Bandar Saujana Putra Toll,GOPENG Toll,21.73,39.7,52.9,10.82,16.32
+Bandar Saujana Putra Toll,SIMPANG PULAI Toll,22.8,41.7,55.6,11.4,17.14
+Bandar Saujana Putra Toll,Ipoh Selatan Toll,24.19,44.2,58.9,12.05,18.12
+Bandar Saujana Putra Toll,Yong Peng Utara Toll,24.76,45.2,60.3,12.38,18.61
+Bandar Saujana Putra Toll,Ayer Hitam Toll,26.98,49.2,65.6,13.45,20.25
+Bandar Saujana Putra Toll,KUALA KANGSAR Toll,27.06,49.5,65.9,13.53,20.25
+Bandar Saujana Putra Toll,Machap Toll,27.72,50.6,67.6,13.86,20.83
+Bandar Saujana Putra Toll,Spg. Renggam Toll,29.27,53.5,71.4,14.68,21.98
+Bandar Saujana Putra Toll,CANGKAT JERING Toll,29.44,53.8,71.7,14.68,22.06
+Bandar Saujana Putra Toll,TAIPING UTARA Toll,31.24,57,76,15.58,23.37
+Bandar Saujana Putra Toll,Sedenak Toll,31.41,57.4,76.5,15.74,23.53
+Bandar Saujana Putra Toll,BUKIT MERAH Toll,32.47,59.3,79,16.15,24.27
+Bandar Saujana Putra Toll,KULAI Toll,32.88,60,80.1,16.4,24.68
+Bandar Saujana Putra Toll,Senai Utara Toll,33.87,61.8,82.5,16.97,25.42
+Bandar Saujana Putra Toll,ALOR PONGSU Toll,33.87,61.9,82.6,16.97,25.42
+Bandar Saujana Putra Toll,Skudai Toll,34.28,62.6,83.5,17.14,25.67
+Bandar Saujana Putra Toll,BANDAR BAHARU Toll,34.36,62.9,83.8,17.14,25.75
+Bandar Saujana Putra Toll,JAWI Toll,35.92,65.6,87.4,17.88,26.9
+Bandar Saujana Putra Toll,BKT. TAMBUN UTARA Toll,37.23,68.1,90.7,18.61,27.88
+Bandar Saujana Putra Toll,JURU Toll,37.97,69.4,92.5,18.94,28.45
+Bandar Saujana Putra Toll,BERTAM Toll,39.28,71.7,95.6,19.67,30.05
+Bandar Saujana Putra Toll,SG. PETANI SELATAN Toll,40.92,74.7,99.5,20.49,30.74
+Bandar Saujana Putra Toll,SG. PETANI UTARA Toll,41.66,76,101.3,20.82,31.23
+Bandar Saujana Putra Toll,GURUN Toll,43.46,79.4,105.8,21.81,32.63
+Bandar Saujana Putra Toll,PENDANG Toll,45.67,83.4,111.1,22.87,34.27
+Bandar Saujana Putra Toll,Alor Setar Selatan Toll,47.31,86.4,115.1,23.69,35.95
+Bandar Saujana Putra Toll,Alor Setar Utara Toll,47.97,87.5,116.6,24.02,35.99
+Bandar Saujana Putra Toll,Hutan Kampung Toll,48.63,88.8,118.3,24.35,36.75
+Bandar Saujana Putra Toll,BANDAR CASSIA Toll,43.16,98.6,160.9,27.17,54.25
+BANDAR SERENIA Toll,BANDAR GAMUDA COVE Toll,1.07,2,2.7,0.57,0.82
+BANDAR SERENIA Toll,KLIA Toll,1.72,2.9,3.6,1.07,1.39
+BANDAR SERENIA Toll,Nilai Toll,1.97,3.6,4.9,0.98,1.48
+BANDAR SERENIA Toll,Putera Mahkota Toll,2.13,3.8,5.1,1.07,1.56
+BANDAR SERENIA Toll,Bandar Saujana Putra Toll,2.54,4.7,6.2,1.31,1.89
+BANDAR SERENIA Toll,SOUTHVILLE CITY Toll,2.54,4.7,6.2,1.31,1.89
+BANDAR SERENIA Toll,BANGI Toll,2.87,5.3,7,1.48,2.13
+BANDAR SERENIA Toll,Putra Jaya Toll,2.87,5.3,7.1,1.48,2.21
+BANDAR SERENIA Toll,PUTRA HEIGHTS Toll,3.03,5.5,7.4,1.48,2.3
+BANDAR SERENIA Toll,USJ Toll,3.53,6.4,8.6,1.72,2.62
+BANDAR SERENIA Toll,KAJANG Toll,3.53,6.5,8.7,1.8,2.62
+BANDAR SERENIA Toll,Bandar Ainsdale Toll,3.77,6.9,9.2,1.89,2.87
+BANDAR SERENIA Toll,UPM Toll,3.77,6.9,9.2,1.89,2.87
+BANDAR SERENIA Toll,Seafield Toll,3.94,7.2,9.7,1.97,2.95
+BANDAR SERENIA Toll,Ebor Selatan Toll,4.02,7.3,9.7,1.97,2.95
+BANDAR SERENIA Toll,SEREMBAN Toll,4.02,7.4,9.9,2.05,3.03
+BANDAR SERENIA Toll,Sg. Besi Toll,4.26,7.8,10.4,2.13,3.2
+BANDAR SERENIA Toll,Port Dickson Toll,4.43,8.1,10.8,2.21,3.36
+BANDAR SERENIA Toll,Shah Alam Toll,4.59,8.4,11.2,2.3,3.44
+BANDAR SERENIA Toll,Senawang Toll,4.92,8.9,11.9,2.46,3.69
+BANDAR SERENIA Toll,SUBANG Toll,5.08,9.3,12.4,2.54,3.85
+BANDAR SERENIA Toll,Setia Alam Toll,5.49,10,13.3,2.71,4.1
+BANDAR SERENIA Toll,DAMANSARA Toll,5.58,10.1,13.5,2.79,4.18
+BANDAR SERENIA Toll,Bukit Raja Toll,5.66,10.3,13.7,2.79,4.26
+BANDAR SERENIA Toll,KOTA DAMANSARA Toll,5.74,10.5,14,2.87,4.35
+BANDAR SERENIA Toll,SG. BULOH Toll,6.4,11.7,15.5,3.2,4.76
+BANDAR SERENIA Toll,SG. BULOH HOSPITAL Toll,6.56,12.1,16.1,3.28,4.92
+BANDAR SERENIA Toll,PEDAS LINGGI Toll,6.72,12.3,16.4,3.36,5.08
+BANDAR SERENIA Toll,Jalan Duta Toll,6.97,12.7,16.9,3.44,5.17
+BANDAR SERENIA Toll,RAWANG SELATAN Toll,7.13,13,17.3,3.53,5.33
+BANDAR SERENIA Toll,RAWANG Toll,7.79,14.3,19.1,3.94,5.9
+BANDAR SERENIA Toll,SUNGAI BUAYA Toll,8.69,15.9,21.2,4.35,6.56
+BANDAR SERENIA Toll,Simpang Ampat Toll,9.27,17,22.7,4.67,6.97
+BANDAR SERENIA Toll,BUKIT BERUNTUNG Toll,9.43,17.3,23,4.76,7.05
+BANDAR SERENIA Toll,BUKIT TAGAR Toll,10.41,19,25.3,5.17,7.79
+BANDAR SERENIA Toll,LEMBAH BERINGIN Toll,11.48,21,28,5.74,8.61
+BANDAR SERENIA Toll,Ayer Keroh Toll,11.64,21.3,28.4,5.82,8.69
+BANDAR SERENIA Toll,Tg. Malim Toll,12.63,23.1,30.8,6.31,9.43
+BANDAR SERENIA Toll,Jasin Toll,13.45,24.6,32.9,6.72,10.09
+BANDAR SERENIA Toll,BEHRANG Toll,13.86,25.3,33.8,6.89,10.41
+BANDAR SERENIA Toll,Tangkak Toll,14.6,26.7,35.6,7.3,10.91
+BANDAR SERENIA Toll,SLIM RIVER Toll,15.58,28.5,38,7.79,11.64
+BANDAR SERENIA Toll,Bukit Gambir Toll,15.99,29.2,39,7.95,11.97
+BANDAR SERENIA Toll,SUNGKAI Toll,17.71,32.3,43.1,8.86,13.28
+BANDAR SERENIA Toll,Pagoh Toll,17.71,32.4,43.2,8.86,13.28
+BANDAR SERENIA Toll,BIDOR Toll,19.27,35.2,46.9,9.59,14.43
+BANDAR SERENIA Toll,TAPAH Toll,20.66,37.9,50.5,10.33,15.5
+BANDAR SERENIA Toll,Yong Peng Utara Toll,22.55,41.2,54.9,11.23,16.89
+BANDAR SERENIA Toll,GOPENG Toll,24.03,44,58.6,12.05,18.04
+BANDAR SERENIA Toll,Ayer Hitam Toll,24.68,45.1,60.2,12.38,18.53
+BANDAR SERENIA Toll,SIMPANG PULAI Toll,25.17,46,61.4,12.55,18.86
+BANDAR SERENIA Toll,Machap Toll,25.5,46.6,62.1,12.71,19.11
+BANDAR SERENIA Toll,Ipoh Selatan Toll,26.49,48.5,64.6,13.28,19.84
+BANDAR SERENIA Toll,Spg. Renggam Toll,27.06,49.4,65.9,13.53,20.25
+BANDAR SERENIA Toll,Sedenak Toll,29.11,53.3,71.1,14.6,21.89
+BANDAR SERENIA Toll,KUALA KANGSAR Toll,29.36,53.7,71.6,14.68,22.06
+BANDAR SERENIA Toll,KULAI Toll,30.59,55.9,74.6,15.33,22.96
+BANDAR SERENIA Toll,Senai Utara Toll,31.57,57.8,77,15.83,23.7
+BANDAR SERENIA Toll,CANGKAT JERING Toll,31.73,58.1,77.5,15.91,23.86
+BANDAR SERENIA Toll,Skudai Toll,31.98,58.5,78,15.99,24.03
+BANDAR SERENIA Toll,TAIPING UTARA Toll,33.54,61.3,81.7,16.73,25.17
+BANDAR SERENIA Toll,BUKIT MERAH Toll,34.77,63.5,84.7,17.38,26.08
+BANDAR SERENIA Toll,ALOR PONGSU Toll,36.24,66.2,88.3,18.12,27.14
+BANDAR SERENIA Toll,BANDAR BAHARU Toll,36.74,67.1,89.5,18.37,27.55
+BANDAR SERENIA Toll,JAWI Toll,38.21,69.9,93.2,19.11,28.7
+BANDAR SERENIA Toll,BKT. TAMBUN UTARA Toll,39.52,72.3,96.4,19.76,29.68
+BANDAR SERENIA Toll,JURU Toll,40.26,73.6,98.2,20.17,30.18
+BANDAR SERENIA Toll,BERTAM Toll,41.57,75.9,101.3,20.9,31.78
+BANDAR SERENIA Toll,SG. PETANI SELATAN Toll,43.21,78.9,105.2,21.72,32.47
+BANDAR SERENIA Toll,SG. PETANI UTARA Toll,43.95,80.2,107,22.05,32.96
+BANDAR SERENIA Toll,GURUN Toll,45.75,83.6,111.5,23.04,34.36
+BANDAR SERENIA Toll,PENDANG Toll,47.96,87.6,116.8,24.1,36
+BANDAR SERENIA Toll,Alor Setar Selatan Toll,49.6,90.6,120.8,24.92,37.68
+BANDAR SERENIA Toll,Alor Setar Utara Toll,50.26,91.7,122.3,25.25,37.72
+BANDAR SERENIA Toll,Hutan Kampung Toll,50.92,93,124,25.58,38.48
+BANDAR SERENIA Toll,BANDAR CASSIA Toll,45.45,102.9,166.6,28.32,56.06
+BANGI Toll,SOUTHVILLE CITY Toll,0.33,0.6,0.8,0.16,0.25
+BANGI Toll,KAJANG Toll,0.82,1.5,2.1,0.41,0.66
+BANGI Toll,UPM Toll,1.07,2,2.6,0.57,0.82
+BANGI Toll,Putera Mahkota Toll,1.15,2,2.7,0.57,0.82
+BANGI Toll,Sg. Besi Toll,1.56,2.9,3.9,0.82,1.15
+BANGI Toll,Nilai Toll,1.8,3.3,4.4,0.9,1.31
+BANGI Toll,BANDAR SERENIA Toll,2.87,5.3,7,1.48,2.13
+BANGI Toll,Bandar Ainsdale Toll,3.44,6.3,8.4,1.72,2.62
+BANGI Toll,BANDAR GAMUDA COVE Toll,3.69,6.8,9,1.89,2.79
+BANGI Toll,SEREMBAN Toll,3.77,7,9.3,1.89,2.87
+BANGI Toll,Port Dickson Toll,4.18,7.7,10.3,2.13,3.12
+BANGI Toll,KLIA Toll,4.26,7.5,9.9,2.3,3.28
+BANGI Toll,Senawang Toll,4.67,8.5,11.3,2.3,3.53
+BANGI Toll,Bandar Saujana Putra Toll,5.17,9.3,12.5,2.54,3.85
+BANGI Toll,Putra Jaya Toll,5.49,10,13.4,2.71,4.1
+BANGI Toll,PUTRA HEIGHTS Toll,5.58,10.2,13.6,2.79,4.18
+BANGI Toll,USJ Toll,6.07,11.1,14.8,3.03,4.51
+BANGI Toll,PEDAS LINGGI Toll,6.48,11.8,15.8,3.2,4.84
+BANGI Toll,Seafield Toll,6.56,11.9,16,3.2,4.92
+BANGI Toll,Ebor Selatan Toll,6.56,12,16,3.28,4.92
+BANGI Toll,Shah Alam Toll,7.22,13.1,17.5,3.53,5.41
+BANGI Toll,SUBANG Toll,7.63,14.1,18.7,3.85,5.74
+BANGI Toll,Setia Alam Toll,8.12,14.8,19.8,4.02,6.07
+BANGI Toll,DAMANSARA Toll,8.12,14.9,19.8,4.1,6.07
+BANGI Toll,Bukit Raja Toll,8.2,15,20,4.1,6.15
+BANGI Toll,KOTA DAMANSARA Toll,8.36,15.3,20.3,4.18,6.23
+BANGI Toll,SG. BULOH Toll,8.94,16.4,21.8,4.51,6.72
+BANGI Toll,Simpang Ampat Toll,9.02,16.5,22,4.51,6.81
+BANGI Toll,SG. BULOH HOSPITAL Toll,9.18,16.9,22.5,4.67,6.89
+BANGI Toll,Jalan Duta Toll,9.43,17.3,23,4.76,7.05
+BANGI Toll,RAWANG SELATAN Toll,9.76,17.8,23.7,4.92,7.3
+BANGI Toll,RAWANG Toll,10.33,19,25.2,5.25,7.71
+BANGI Toll,SUNGAI BUAYA Toll,11.32,20.8,27.7,5.74,8.45
+BANGI Toll,Ayer Keroh Toll,11.4,20.9,27.8,5.74,8.53
+BANGI Toll,BUKIT BERUNTUNG Toll,11.97,22,29.3,6.07,9.02
+BANGI Toll,BUKIT TAGAR Toll,13.04,23.9,31.7,6.56,9.76
+BANGI Toll,Jasin Toll,13.2,24.2,32.2,6.64,9.92
+BANGI Toll,LEMBAH BERINGIN Toll,14.1,25.8,34.3,7.05,10.5
+BANGI Toll,Tangkak Toll,14.35,26.3,35,7.22,10.74
+BANGI Toll,Tg. Malim Toll,15.17,27.7,36.9,7.63,11.32
+BANGI Toll,Bukit Gambir Toll,15.74,28.7,38.3,7.87,11.81
+BANGI Toll,BEHRANG Toll,16.4,30.1,40,8.28,12.3
+BANGI Toll,Pagoh Toll,17.47,32,42.6,8.77,13.12
+BANGI Toll,SLIM RIVER Toll,18.12,33.2,44.2,9.1,13.61
+BANGI Toll,SUNGKAI Toll,20.17,37,49.3,10.17,15.17
+BANGI Toll,BIDOR Toll,21.81,40,53.2,10.99,16.32
+BANGI Toll,Yong Peng Utara Toll,22.22,40.7,54.2,11.15,16.65
+BANGI Toll,TAPAH Toll,23.29,42.6,56.8,11.64,17.47
+BANGI Toll,Ayer Hitam Toll,24.44,44.7,59.5,12.22,18.29
+BANGI Toll,Machap Toll,25.26,46.2,61.6,12.63,18.94
+BANGI Toll,GOPENG Toll,26.65,48.7,64.9,13.37,19.93
+BANGI Toll,Spg. Renggam Toll,26.81,49,65.4,13.45,20.09
+BANGI Toll,SIMPANG PULAI Toll,27.72,50.7,67.5,13.86,20.75
+BANGI Toll,Sedenak Toll,28.86,52.8,70.4,14.43,21.65
+BANGI Toll,Ipoh Selatan Toll,29.03,53.1,70.8,14.51,21.73
+BANGI Toll,KULAI Toll,30.42,55.6,74.1,15.17,22.8
+BANGI Toll,Senai Utara Toll,31.41,57.4,76.5,15.66,23.53
+BANGI Toll,Skudai Toll,31.73,58,77.4,15.83,23.78
+BANGI Toll,KUALA KANGSAR Toll,31.9,58.4,77.8,15.99,23.86
+BANGI Toll,CANGKAT JERING Toll,34.28,62.7,83.6,17.14,25.67
+BANGI Toll,TAIPING UTARA Toll,36.08,65.9,87.9,18.04,26.98
+BANGI Toll,BUKIT MERAH Toll,37.31,68.2,90.9,18.61,27.88
+BANGI Toll,ALOR PONGSU Toll,38.7,70.8,94.4,19.35,29.03
+BANGI Toll,BANDAR BAHARU Toll,39.2,71.8,95.7,19.6,29.36
+BANGI Toll,JAWI Toll,40.75,74.5,99.3,20.34,30.5
+BANGI Toll,BKT. TAMBUN UTARA Toll,42.07,77,102.6,21.07,31.49
+BANGI Toll,JURU Toll,42.8,78.3,104.4,21.4,32.06
+BANGI Toll,BERTAM Toll,44.11,80.6,107.5,22.13,33.66
+BANGI Toll,SG. PETANI SELATAN Toll,45.75,83.6,111.4,22.95,34.35
+BANGI Toll,SG. PETANI UTARA Toll,46.49,84.9,113.2,23.28,34.84
+BANGI Toll,GURUN Toll,48.29,88.3,117.7,24.27,36.24
+BANGI Toll,PENDANG Toll,50.5,92.3,123,25.33,37.88
+BANGI Toll,Alor Setar Selatan Toll,52.14,95.3,127,26.15,39.56
+BANGI Toll,Alor Setar Utara Toll,52.8,96.4,128.5,26.48,39.6
+BANGI Toll,Hutan Kampung Toll,53.46,97.7,130.2,26.81,40.36
+BANGI Toll,BANDAR CASSIA Toll,48,107.5,172.8,29.63,57.86
+BEHRANG Toll,Tg. Malim Toll,1.64,3.1,4.1,0.82,1.23
+BEHRANG Toll,SLIM RIVER Toll,1.8,3.4,4.5,0.9,1.39
+BEHRANG Toll,LEMBAH BERINGIN Toll,2.71,4.9,6.5,1.31,1.97
+BEHRANG Toll,SUNGKAI Toll,3.44,6.3,8.4,1.72,2.62
+BEHRANG Toll,BUKIT TAGAR Toll,3.69,6.7,9,1.8,2.79
+BEHRANG Toll,BUKIT BERUNTUNG Toll,4.59,8.5,11.3,2.3,3.44
+BEHRANG Toll,SUNGAI BUAYA Toll,5.49,10,13.3,2.71,4.1
+BEHRANG Toll,BIDOR Toll,5.49,10.1,13.5,2.79,4.1
+BEHRANG Toll,RAWANG Toll,6.4,11.6,15.5,3.2,4.76
+BEHRANG Toll,RAWANG SELATAN Toll,6.89,12.6,16.9,3.44,5.17
+BEHRANG Toll,TAPAH Toll,6.89,12.6,16.9,3.44,5.17
+BEHRANG Toll,SG. BULOH HOSPITAL Toll,7.54,13.8,18.4,3.77,5.66
+BEHRANG Toll,SG. BULOH Toll,7.79,14.2,18.9,3.85,5.82
+BEHRANG Toll,KOTA DAMANSARA Toll,8.45,15.4,20.5,4.18,6.31
+BEHRANG Toll,DAMANSARA Toll,8.86,16.2,21.6,4.43,6.64
+BEHRANG Toll,Jalan Duta Toll,9.02,16.5,22,4.51,6.81
+BEHRANG Toll,SUBANG Toll,9.1,16.6,22.2,4.51,6.81
+BEHRANG Toll,Shah Alam Toll,9.59,17.5,23.4,4.76,7.22
+BEHRANG Toll,Seafield Toll,10.25,18.8,25,5.17,7.71
+BEHRANG Toll,GOPENG Toll,10.33,18.9,25.2,5.17,7.71
+BEHRANG Toll,Setia Alam Toll,10.58,19.3,25.7,5.25,7.87
+BEHRANG Toll,USJ Toll,10.66,19.5,26,5.33,8.04
+BEHRANG Toll,Bukit Raja Toll,10.74,19.7,26.2,5.41,8.04
+BEHRANG Toll,PUTRA HEIGHTS Toll,11.15,20.5,27.3,5.58,8.45
+BEHRANG Toll,SIMPANG PULAI Toll,11.32,20.7,27.6,5.66,8.53
+BEHRANG Toll,Bandar Saujana Putra Toll,11.48,21,28,5.74,8.69
+BEHRANG Toll,BANDAR GAMUDA COVE Toll,12.63,23.1,30.8,6.31,9.51
+BEHRANG Toll,Ipoh Selatan Toll,12.71,23.2,31,6.4,9.51
+BEHRANG Toll,Putra Jaya Toll,13.04,23.9,31.8,6.56,9.84
+BEHRANG Toll,BANDAR SERENIA Toll,13.86,25.3,33.8,6.89,10.41
+BEHRANG Toll,KLIA Toll,14.43,26,34.5,7.38,10.82
+BEHRANG Toll,Nilai Toll,15.5,28.4,37.9,7.79,11.64
+BEHRANG Toll,KUALA KANGSAR Toll,15.58,28.5,38,7.87,11.64
+BEHRANG Toll,Putera Mahkota Toll,15.58,28.5,38,7.87,11.64
+BEHRANG Toll,SOUTHVILLE CITY Toll,16.07,29.3,39.1,8.04,12.05
+BEHRANG Toll,BANGI Toll,16.4,30.1,40,8.28,12.3
+BEHRANG Toll,KAJANG Toll,17.06,31.3,41.7,8.61,12.79
+BEHRANG Toll,Bandar Ainsdale Toll,17.22,31.6,42.1,8.69,12.96
+BEHRANG Toll,UPM Toll,17.3,31.7,42.2,8.69,12.96
+BEHRANG Toll,SEREMBAN Toll,17.55,32.2,42.9,8.86,13.2
+BEHRANG Toll,Sg. Besi Toll,17.79,32.6,43.4,8.94,13.37
+BEHRANG Toll,CANGKAT JERING Toll,17.96,32.8,43.8,9.02,13.45
+BEHRANG Toll,Port Dickson Toll,17.96,32.9,43.8,9.02,13.45
+BEHRANG Toll,Senawang Toll,18.45,33.7,44.9,9.27,13.78
+BEHRANG Toll,TAIPING UTARA Toll,19.76,36,48.1,9.92,14.76
+BEHRANG Toll,PEDAS LINGGI Toll,20.25,37.1,49.4,10.17,15.17
+BEHRANG Toll,BUKIT MERAH Toll,20.99,38.3,51.1,10.5,15.66
+BEHRANG Toll,ALOR PONGSU Toll,22.39,41,54.7,11.23,16.81
+BEHRANG Toll,Simpang Ampat Toll,22.8,41.8,55.7,11.48,17.14
+BEHRANG Toll,BANDAR BAHARU Toll,22.88,41.9,55.9,11.48,17.14
+BEHRANG Toll,JAWI Toll,24.44,44.6,59.5,12.22,18.29
+BEHRANG Toll,Ayer Keroh Toll,25.17,46.1,61.4,12.63,18.86
+BEHRANG Toll,BKT. TAMBUN UTARA Toll,25.75,47.1,62.8,12.96,19.27
+BEHRANG Toll,JURU Toll,26.49,48.4,64.6,13.28,19.84
+BEHRANG Toll,Jasin Toll,26.98,49.4,65.9,13.53,20.25
+BEHRANG Toll,Tangkak Toll,28.13,51.5,68.6,14.1,21.07
+BEHRANG Toll,BERTAM Toll,27.8,50.7,67.7,14.01,21.44
+BEHRANG Toll,SG. PETANI SELATAN Toll,29.44,53.7,71.6,14.83,22.13
+BEHRANG Toll,Bukit Gambir Toll,29.52,54,72,14.84,22.14
+BEHRANG Toll,SG. PETANI UTARA Toll,30.18,55,73.4,15.16,22.62
+BEHRANG Toll,Pagoh Toll,31.24,57.2,76.2,15.66,23.45
+BEHRANG Toll,GURUN Toll,31.98,58.4,77.9,16.15,24.02
+BEHRANG Toll,PENDANG Toll,34.19,62.4,83.2,17.21,25.66
+BEHRANG Toll,Yong Peng Utara Toll,36.08,66,87.9,18.04,26.98
+BEHRANG Toll,Alor Setar Selatan Toll,35.83,65.4,87.2,18.03,27.34
+BEHRANG Toll,Alor Setar Utara Toll,36.49,66.5,88.7,18.36,27.38
+BEHRANG Toll,Hutan Kampung Toll,37.15,67.8,90.4,18.69,28.14
+BEHRANG Toll,Ayer Hitam Toll,38.13,69.8,93.1,19.11,28.62
+BEHRANG Toll,Machap Toll,39.03,71.4,95.1,19.52,29.19
+BEHRANG Toll,Spg. Renggam Toll,40.59,74.2,98.9,20.34,30.42
+BEHRANG Toll,Sedenak Toll,42.64,78.1,104.1,21.4,31.98
+BEHRANG Toll,KULAI Toll,44.12,80.7,107.6,22.14,33.05
+BEHRANG Toll,Senai Utara Toll,45.1,82.6,110,22.63,33.87
+BEHRANG Toll,Skudai Toll,45.43,83.2,110.9,22.8,34.11
+BEHRANG Toll,BANDAR CASSIA Toll,31.68,77.6,133,21.51,45.64
+BERTAM Toll,SG. PETANI SELATAN Toll,1.8,3.4,4.5,0.9,1.39
+BERTAM Toll,Ipoh Selatan Toll,1.31,2.3,3.1,0.73,1.6
+BERTAM Toll,SG. DUA Toll,1.31,2.3,3.1,0.73,1.6
+BERTAM Toll,SG. PETANI UTARA Toll,2.54,4.7,6.3,1.31,1.88
+BERTAM Toll,BKT. TAMBUN SELATAN Toll,2.21,3.9,5.3,1.14,2.26
+BERTAM Toll,GURUN Toll,4.42,8.1,10.7,2.21,3.28
+BERTAM Toll,JAWI Toll,3.61,6.5,8.7,1.88,3.32
+BERTAM Toll,BANDAR BAHARU Toll,4.92,8.9,11.9,2.53,4.31
+BERTAM Toll,ALOR PONGSU Toll,5.49,9.9,13.3,2.86,4.72
+BERTAM Toll,PENDANG Toll,6.56,12,16,3.28,4.92
+BERTAM Toll,BUKIT MERAH Toll,6.97,12.7,17,3.6,5.86
+BERTAM Toll,Alor Setar Selatan Toll,8.28,15.1,20.1,4.1,6.15
+BERTAM Toll,Alor Setar Utara Toll,8.85,16.2,21.6,4.42,6.64
+BERTAM Toll,TAIPING UTARA Toll,8.28,15,20.1,4.26,6.85
+BERTAM Toll,Hutan Kampung Toll,9.51,17.4,23.2,4.75,7.13
+BERTAM Toll,CANGKAT JERING Toll,9.92,18,24,4.99,8.08
+BERTAM Toll,KUALA KANGSAR Toll,12.38,22.5,30,6.22,9.88
+BERTAM Toll,IPOH UTARA Toll,15.09,27.5,36.7,7.62,11.93
+BERTAM Toll,SIMPANG PULAI Toll,16.56,30.2,40.2,8.36,13
+BERTAM Toll,GOPENG Toll,17.63,32.2,43,8.93,13.82
+BERTAM Toll,TAPAH Toll,20.99,38.3,51.1,10.57,16.36
+BERTAM Toll,BIDOR Toll,22.47,41.1,54.8,11.31,17.51
+BERTAM Toll,SUNGKAI Toll,24.02,43.8,58.5,12.05,18.66
+BERTAM Toll,SLIM RIVER Toll,26.16,47.7,63.6,13.11,20.21
+BERTAM Toll,BEHRANG Toll,27.8,50.7,67.7,14.01,21.44
+BERTAM Toll,Tg. Malim Toll,29.44,53.7,71.6,14.75,22.67
+BERTAM Toll,LEMBAH BERINGIN Toll,30.42,55.5,74.1,15.33,23.41
+BERTAM Toll,BUKIT TAGAR Toll,31.4,57.4,76.5,15.82,24.15
+BERTAM Toll,BUKIT BERUNTUNG Toll,32.39,59.1,78.8,16.23,24.89
+BERTAM Toll,SUNGAI BUAYA Toll,33.13,60.5,80.7,16.64,25.46
+BERTAM Toll,RAWANG Toll,34.11,62.3,83.1,17.13,26.2
+BERTAM Toll,RAWANG SELATAN Toll,34.6,63.2,84.3,17.38,26.61
+BERTAM Toll,SG. BULOH HOSPITAL Toll,35.26,64.4,85.9,17.7,27.1
+BERTAM Toll,SG. BULOH Toll,35.5,64.8,86.5,17.79,27.27
+BERTAM Toll,KOTA DAMANSARA Toll,36.16,66,88.1,18.2,27.76
+BERTAM Toll,DAMANSARA Toll,36.57,66.9,89.2,18.36,28.09
+BERTAM Toll,Jalan Duta Toll,36.82,67.2,89.6,18.44,28.17
+BERTAM Toll,SUBANG Toll,36.82,67.2,89.6,18.44,28.17
+BERTAM Toll,Shah Alam Toll,37.31,68.2,90.9,18.77,28.66
+BERTAM Toll,Seafield Toll,38.05,69.5,92.6,19.1,29.07
+BERTAM Toll,BANDAR CASSIA Toll,8.8,35.7,77.1,10.1,29.12
+BERTAM Toll,Setia Alam Toll,38.29,69.9,93.3,19.18,29.32
+BERTAM Toll,USJ Toll,38.46,70.2,93.6,19.26,29.4
+BERTAM Toll,Bukit Raja Toll,38.46,70.2,93.7,19.26,29.48
+BERTAM Toll,PUTRA HEIGHTS Toll,38.95,71.2,94.9,19.51,29.81
+BERTAM Toll,Bandar Saujana Putra Toll,39.28,71.7,95.6,19.67,30.05
+BERTAM Toll,BANDAR GAMUDA COVE Toll,40.34,73.7,98.3,20.25,30.87
+BERTAM Toll,Putra Jaya Toll,40.83,74.6,99.4,20.49,31.2
+BERTAM Toll,BANDAR SERENIA Toll,41.57,75.9,101.3,20.9,31.78
+BERTAM Toll,KLIA Toll,42.06,76.6,101.9,21.31,32.19
+BERTAM Toll,Nilai Toll,43.29,79.1,105.4,21.72,33.09
+BERTAM Toll,Putera Mahkota Toll,43.29,79.2,105.6,21.8,33.09
+BERTAM Toll,SOUTHVILLE CITY Toll,43.79,79.9,106.6,21.97,33.42
+BERTAM Toll,BANGI Toll,44.11,80.6,107.5,22.13,33.66
+BERTAM Toll,KAJANG Toll,44.77,81.8,109.1,22.54,34.15
+BERTAM Toll,Bandar Ainsdale Toll,44.93,82.1,109.5,22.62,34.32
+BERTAM Toll,UPM Toll,45.02,82.2,109.6,22.62,34.32
+BERTAM Toll,SEREMBAN Toll,45.26,82.8,110.3,22.79,34.56
+BERTAM Toll,Sg. Besi Toll,45.51,83.2,110.9,22.87,34.73
+BERTAM Toll,Port Dickson Toll,45.75,83.6,111.4,22.95,34.89
+BERTAM Toll,Senawang Toll,46.16,84.4,112.5,23.2,35.22
+BERTAM Toll,PEDAS LINGGI Toll,47.97,87.6,116.8,24.1,36.53
+BERTAM Toll,Simpang Ampat Toll,50.51,92.3,123.1,25.41,38.5
+BERTAM Toll,Ayer Keroh Toll,52.89,96.7,128.9,26.56,40.3
+BERTAM Toll,Jasin Toll,54.69,100,133.3,27.46,41.62
+BERTAM Toll,Tangkak Toll,55.84,102.1,136.1,28.04,42.52
+BERTAM Toll,Bukit Gambir Toll,57.23,104.6,139.4,28.69,43.5
+BERTAM Toll,Pagoh Toll,58.96,107.8,143.8,29.59,44.81
+BERTAM Toll,Yong Peng Utara Toll,63.71,116.5,155.3,31.97,48.42
+BERTAM Toll,Ayer Hitam Toll,65.93,120.5,160.6,33.04,50.06
+BERTAM Toll,Machap Toll,66.75,122,162.7,33.45,50.64
+BERTAM Toll,Spg. Renggam Toll,68.3,124.9,166.5,34.27,51.87
+BERTAM Toll,Sedenak Toll,70.35,128.6,171.5,35.33,53.34
+BERTAM Toll,KULAI Toll,71.91,131.4,175.2,36.07,54.49
+BERTAM Toll,Senai Utara Toll,72.9,133.2,177.6,36.56,55.23
+BERTAM Toll,Skudai Toll,73.22,133.8,178.4,36.73,55.47
+BERUAS Toll,CHANGKAT CERMIN Toll,3.6,7.2,10.9,1.8,2.7
+BERUAS Toll,SETIAWAN (N) Toll,5.8,11.6,17.4,2.9,4.4
+BERUAS Toll,SETIAWAN Toll,7.3,14.6,21.9,3.7,5.5
+BERUAS Toll,KG LEKIR Toll,7.9,15.7,23.6,3.9,5.9
+BIDOR Toll,TAPAH Toll,1.64,3.1,4.1,0.82,1.23
+BIDOR Toll,SUNGKAI Toll,1.72,3.2,4.2,0.9,1.31
+BIDOR Toll,SLIM RIVER Toll,3.85,7,9.4,1.89,2.87
+BIDOR Toll,GOPENG Toll,5,9.2,12.2,2.54,3.77
+BIDOR Toll,BEHRANG Toll,5.49,10.1,13.5,2.79,4.1
+BIDOR Toll,SIMPANG PULAI Toll,6.07,11.1,14.8,3.03,4.59
+BIDOR Toll,Tg. Malim Toll,7.05,12.9,17.3,3.53,5.33
+BIDOR Toll,Ipoh Selatan Toll,7.38,13.6,18.1,3.69,5.58
+BIDOR Toll,LEMBAH BERINGIN Toll,8.12,14.8,19.7,4.02,6.07
+BIDOR Toll,BUKIT TAGAR Toll,9.1,16.6,22.2,4.51,6.81
+BIDOR Toll,BUKIT BERUNTUNG Toll,10,18.4,24.5,5,7.54
+BIDOR Toll,KUALA KANGSAR Toll,10.25,18.9,25.1,5.17,7.71
+BIDOR Toll,SUNGAI BUAYA Toll,10.91,19.9,26.5,5.41,8.12
+BIDOR Toll,RAWANG Toll,11.73,21.5,28.7,5.9,8.86
+BIDOR Toll,RAWANG SELATAN Toll,12.3,22.5,30,6.15,9.27
+BIDOR Toll,CANGKAT JERING Toll,12.63,23.2,30.9,6.31,9.51
+BIDOR Toll,SG. BULOH HOSPITAL Toll,12.96,23.7,31.5,6.48,9.68
+BIDOR Toll,SG. BULOH Toll,13.12,24.1,32.1,6.56,9.84
+BIDOR Toll,KOTA DAMANSARA Toll,13.86,25.4,33.9,6.97,10.41
+BIDOR Toll,DAMANSARA Toll,14.27,26.1,34.8,7.13,10.74
+BIDOR Toll,Jalan Duta Toll,14.43,26.4,35.2,7.22,10.82
+BIDOR Toll,TAIPING UTARA Toll,14.43,26.4,35.2,7.22,10.82
+BIDOR Toll,SUBANG Toll,14.51,26.5,35.3,7.22,10.91
+BIDOR Toll,Shah Alam Toll,15.09,27.5,36.7,7.54,11.32
+BIDOR Toll,BUKIT MERAH Toll,15.66,28.7,38.2,7.79,11.73
+BIDOR Toll,Seafield Toll,15.66,28.7,38.2,7.87,11.73
+BIDOR Toll,Setia Alam Toll,15.91,29.2,38.9,7.95,11.97
+BIDOR Toll,USJ Toll,16.07,29.4,39.2,8.04,12.05
+BIDOR Toll,Bukit Raja Toll,16.15,29.6,39.4,8.12,12.14
+BIDOR Toll,PUTRA HEIGHTS Toll,16.56,30.4,40.5,8.28,12.46
+BIDOR Toll,Bandar Saujana Putra Toll,16.89,30.9,41.2,8.45,12.71
+BIDOR Toll,ALOR PONGSU Toll,17.14,31.3,41.7,8.53,12.87
+BIDOR Toll,BANDAR BAHARU Toll,17.55,32.3,43,8.77,13.2
+BIDOR Toll,BANDAR GAMUDA COVE Toll,18.04,33,44,9.02,13.53
+BIDOR Toll,Putra Jaya Toll,18.45,33.8,45,9.27,13.86
+BIDOR Toll,JAWI Toll,19.11,35,46.6,9.51,14.35
+BIDOR Toll,BANDAR SERENIA Toll,19.27,35.2,46.9,9.59,14.43
+BIDOR Toll,KLIA Toll,19.84,35.9,47.7,10.09,14.92
+BIDOR Toll,BKT. TAMBUN UTARA Toll,20.42,37.5,49.9,10.25,15.33
+BIDOR Toll,Nilai Toll,20.91,38.3,51,10.5,15.66
+BIDOR Toll,Putera Mahkota Toll,20.99,38.4,51.2,10.5,15.74
+BIDOR Toll,JURU Toll,21.16,38.8,51.7,10.58,15.91
+BIDOR Toll,SOUTHVILLE CITY Toll,21.4,39.2,52.3,10.74,16.07
+BIDOR Toll,BANGI Toll,21.81,40,53.2,10.99,16.32
+BIDOR Toll,KAJANG Toll,22.47,41.2,54.8,11.32,16.81
+BIDOR Toll,Bandar Ainsdale Toll,22.63,41.5,55.3,11.4,16.97
+BIDOR Toll,UPM Toll,22.71,41.6,55.4,11.4,17.06
+BIDOR Toll,SEREMBAN Toll,22.96,42.1,56.1,11.56,17.22
+BIDOR Toll,Sg. Besi Toll,23.21,42.5,56.6,11.64,17.38
+BIDOR Toll,BERTAM Toll,22.47,41.1,54.8,11.31,17.51
+BIDOR Toll,Port Dickson Toll,23.37,42.8,57,11.73,17.55
+BIDOR Toll,Senawang Toll,23.86,43.6,58.1,11.97,17.88
+BIDOR Toll,SG. PETANI SELATAN Toll,24.11,44.1,58.7,12.13,18.2
+BIDOR Toll,SG. PETANI UTARA Toll,24.85,45.4,60.5,12.46,18.69
+BIDOR Toll,PEDAS LINGGI Toll,25.67,47,62.6,12.87,19.27
+BIDOR Toll,GURUN Toll,26.65,48.8,65,13.45,20.09
+BIDOR Toll,Simpang Ampat Toll,28.21,51.7,68.9,14.19,21.16
+BIDOR Toll,PENDANG Toll,28.86,52.8,70.3,14.51,21.73
+BIDOR Toll,Ayer Keroh Toll,30.59,56,74.6,15.33,22.88
+BIDOR Toll,Alor Setar Selatan Toll,30.5,55.8,74.3,15.33,23.41
+BIDOR Toll,Alor Setar Utara Toll,31.16,56.9,75.8,15.66,23.45
+BIDOR Toll,Hutan Kampung Toll,31.82,58.2,77.5,15.99,24.21
+BIDOR Toll,Jasin Toll,32.39,59.3,79,16.24,24.27
+BIDOR Toll,Tangkak Toll,33.54,61.4,81.8,16.81,25.09
+BIDOR Toll,Bukit Gambir Toll,34.93,63.9,85.2,17.47,26.16
+BIDOR Toll,Pagoh Toll,36.65,67.1,89.4,18.37,27.47
+BIDOR Toll,Yong Peng Utara Toll,41.49,75.8,101.1,20.75,31.08
+BIDOR Toll,Ayer Hitam Toll,43.62,79.8,106.4,21.89,32.72
+BIDOR Toll,Machap Toll,44.44,81.2,108.3,22.22,33.29
+BIDOR Toll,Spg. Renggam Toll,46,84.1,112.1,23.04,34.44
+BIDOR Toll,Sedenak Toll,48.05,88,117.3,24.11,36.08
+BIDOR Toll,KULAI Toll,49.53,90.6,120.8,24.85,37.15
+BIDOR Toll,Senai Utara Toll,50.51,92.5,123.2,25.34,37.88
+BIDOR Toll,Skudai Toll,50.92,93.2,124.2,25.5,38.21
+BIDOR Toll,BANDAR CASSIA Toll,26.35,68,120.1,18.8,41.71
+BKT. TAMBUN SELATAN Toll,JAWI Toll,1.56,2.9,3.8,0.82,1.15
+BKT. TAMBUN SELATAN Toll,BANDAR BAHARU Toll,2.87,5.3,7.1,1.48,2.21
+BKT. TAMBUN SELATAN Toll,ALOR PONGSU Toll,3.44,6.3,8.4,1.72,2.62
+BKT. TAMBUN SELATAN Toll,BUKIT MERAH Toll,5,9.1,12.1,2.46,3.69
+BKT. TAMBUN SELATAN Toll,TAIPING UTARA Toll,6.23,11.4,15.2,3.12,4.67
+BKT. TAMBUN SELATAN Toll,CANGKAT JERING Toll,7.87,14.4,19.2,3.94,5.9
+BKT. TAMBUN SELATAN Toll,KUALA KANGSAR Toll,10.33,18.9,25.2,5.17,7.71
+BKT. TAMBUN SELATAN Toll,IPOH UTARA Toll,13.04,23.9,31.8,6.56,9.76
+BKT. TAMBUN SELATAN Toll,SIMPANG PULAI Toll,14.51,26.6,35.3,7.3,10.82
+BKT. TAMBUN SELATAN Toll,GOPENG Toll,15.58,28.6,38.1,7.87,11.64
+BKT. TAMBUN SELATAN Toll,TAPAH Toll,18.94,34.7,46.2,9.51,14.19
+BKT. TAMBUN SELATAN Toll,BIDOR Toll,20.42,37.5,49.9,10.25,15.33
+BKT. TAMBUN SELATAN Toll,SUNGKAI Toll,21.98,40.2,53.6,10.99,16.48
+BKT. TAMBUN SELATAN Toll,SLIM RIVER Toll,24.11,44.1,58.7,12.05,18.04
+BKT. TAMBUN SELATAN Toll,BEHRANG Toll,25.75,47.1,62.8,12.96,19.27
+BKT. TAMBUN SELATAN Toll,Tg. Malim Toll,27.39,50.1,66.7,13.69,20.5
+BKT. TAMBUN SELATAN Toll,LEMBAH BERINGIN Toll,28.37,51.9,69.2,14.27,21.24
+BKT. TAMBUN SELATAN Toll,BUKIT TAGAR Toll,29.36,53.8,71.6,14.76,21.98
+BKT. TAMBUN SELATAN Toll,BUKIT BERUNTUNG Toll,30.34,55.5,73.9,15.17,22.71
+BKT. TAMBUN SELATAN Toll,SUNGAI BUAYA Toll,31.08,56.9,75.8,15.58,23.29
+BKT. TAMBUN SELATAN Toll,RAWANG Toll,32.06,58.7,78.2,16.07,24.03
+BKT. TAMBUN SELATAN Toll,RAWANG SELATAN Toll,32.55,59.6,79.4,16.32,24.44
+BKT. TAMBUN SELATAN Toll,SG. BULOH HOSPITAL Toll,33.21,60.8,81,16.65,24.93
+BKT. TAMBUN SELATAN Toll,SG. BULOH Toll,33.46,61.2,81.6,16.73,25.09
+BKT. TAMBUN SELATAN Toll,KOTA DAMANSARA Toll,34.11,62.4,83.2,17.14,25.58
+BKT. TAMBUN SELATAN Toll,DAMANSARA Toll,34.52,63.3,84.3,17.3,25.91
+BKT. TAMBUN SELATAN Toll,Jalan Duta Toll,34.77,63.6,84.7,17.38,25.99
+BKT. TAMBUN SELATAN Toll,SUBANG Toll,34.77,63.6,84.7,17.38,25.99
+BKT. TAMBUN SELATAN Toll,Shah Alam Toll,35.26,64.6,86,17.71,26.49
+BKT. TAMBUN SELATAN Toll,Seafield Toll,36,65.9,87.7,18.04,26.9
+BKT. TAMBUN SELATAN Toll,BANDAR CASSIA Toll,6.75,32.1,72.3,8.96,27.03
+BKT. TAMBUN SELATAN Toll,Setia Alam Toll,36.24,66.3,88.4,18.12,27.14
+BKT. TAMBUN SELATAN Toll,USJ Toll,36.41,66.6,88.7,18.2,27.22
+BKT. TAMBUN SELATAN Toll,Bukit Raja Toll,36.41,66.6,88.8,18.2,27.31
+BKT. TAMBUN SELATAN Toll,PUTRA HEIGHTS Toll,36.9,67.6,90,18.45,27.63
+BKT. TAMBUN SELATAN Toll,Bandar Saujana Putra Toll,37.23,68.1,90.7,18.61,27.88
+BKT. TAMBUN SELATAN Toll,BANDAR GAMUDA COVE Toll,38.38,70.1,93.5,19.19,28.78
+BKT. TAMBUN SELATAN Toll,Putra Jaya Toll,38.79,71,94.5,19.43,29.03
+BKT. TAMBUN SELATAN Toll,BANDAR SERENIA Toll,39.52,72.3,96.4,19.76,29.68
+BKT. TAMBUN SELATAN Toll,KLIA Toll,40.02,73,97,20.25,30.01
+BKT. TAMBUN SELATAN Toll,Nilai Toll,41.25,75.5,100.5,20.66,30.91
+BKT. TAMBUN SELATAN Toll,Putera Mahkota Toll,41.25,75.6,100.7,20.75,30.91
+BKT. TAMBUN SELATAN Toll,SOUTHVILLE CITY Toll,41.74,76.3,101.8,20.83,31.32
+BKT. TAMBUN SELATAN Toll,BANGI Toll,42.07,77,102.6,21.07,31.49
+BKT. TAMBUN SELATAN Toll,KAJANG Toll,42.72,78.2,104.2,21.48,31.98
+BKT. TAMBUN SELATAN Toll,Bandar Ainsdale Toll,42.89,78.5,104.6,21.57,32.14
+BKT. TAMBUN SELATAN Toll,UPM Toll,42.97,78.6,104.7,21.57,32.14
+BKT. TAMBUN SELATAN Toll,SEREMBAN Toll,43.21,79.2,105.4,21.73,32.39
+BKT. TAMBUN SELATAN Toll,Sg. Besi Toll,43.46,79.6,106,21.81,32.55
+BKT. TAMBUN SELATAN Toll,Port Dickson Toll,43.71,80,106.5,21.89,32.72
+BKT. TAMBUN SELATAN Toll,Senawang Toll,44.12,80.8,107.6,22.14,33.05
+BKT. TAMBUN SELATAN Toll,PEDAS LINGGI Toll,45.92,84,111.9,23.04,34.36
+BKT. TAMBUN SELATAN Toll,Simpang Ampat Toll,48.46,88.7,118.2,24.35,36.33
+BKT. TAMBUN SELATAN Toll,Ayer Keroh Toll,50.84,93.1,124,25.5,38.13
+BKT. TAMBUN SELATAN Toll,Jasin Toll,52.64,96.4,128.4,26.4,39.44
+BKT. TAMBUN SELATAN Toll,Tangkak Toll,53.79,98.5,131.2,26.98,40.34
+BKT. TAMBUN SELATAN Toll,Bukit Gambir Toll,55.19,101,134.5,27.63,41.33
+BKT. TAMBUN SELATAN Toll,Pagoh Toll,56.91,104.2,138.9,28.54,42.64
+BKT. TAMBUN SELATAN Toll,Yong Peng Utara Toll,61.66,112.9,150.4,30.91,46.25
+BKT. TAMBUN SELATAN Toll,Ayer Hitam Toll,63.88,116.9,155.7,31.98,47.89
+BKT. TAMBUN SELATAN Toll,Machap Toll,64.7,118.4,157.8,32.39,48.46
+BKT. TAMBUN SELATAN Toll,Spg. Renggam Toll,66.26,121.3,161.6,33.21,49.69
+BKT. TAMBUN SELATAN Toll,Sedenak Toll,68.31,125,166.6,34.28,51.17
+BKT. TAMBUN SELATAN Toll,KULAI Toll,69.86,127.8,170.3,35.01,52.32
+BKT. TAMBUN SELATAN Toll,Senai Utara Toll,70.85,129.6,172.7,35.51,53.05
+BKT. TAMBUN SELATAN Toll,Skudai Toll,71.18,130.2,173.5,35.67,53.3
+BKT. TAMBUN UTARA Toll,JURU Toll,0.9,1.6,2.2,0.41,0.66
+BKT. TAMBUN UTARA Toll,SG. DUA Toll,0.9,1.6,2.2,0.41,0.66
+BKT. TAMBUN UTARA Toll,BERTAM Toll,2.21,3.9,5.3,1.14,2.26
+BKT. TAMBUN UTARA Toll,SG. PETANI SELATAN Toll,3.85,6.9,9.2,1.96,2.95
+BKT. TAMBUN UTARA Toll,SG. PETANI UTARA Toll,4.59,8.2,11,2.29,3.44
+BKT. TAMBUN UTARA Toll,GURUN Toll,6.39,11.6,15.5,3.28,4.84
+BKT. TAMBUN UTARA Toll,PENDANG Toll,8.6,15.6,20.8,4.34,6.48
+BKT. TAMBUN UTARA Toll,Alor Setar Selatan Toll,10.24,18.6,24.8,5.16,8.16
+BKT. TAMBUN UTARA Toll,Alor Setar Utara Toll,10.9,19.7,26.3,5.49,8.2
+BKT. TAMBUN UTARA Toll,Hutan Kampung Toll,11.56,21,28,5.82,8.96
+BUKIT BERUNTUNG Toll,SUNGAI BUAYA Toll,1.07,1.9,2.6,0.49,0.82
+BUKIT BERUNTUNG Toll,BUKIT TAGAR Toll,1.15,2.1,2.9,0.57,0.9
+BUKIT BERUNTUNG Toll,RAWANG Toll,1.97,3.6,4.8,0.98,1.48
+BUKIT BERUNTUNG Toll,LEMBAH BERINGIN Toll,2.3,4.2,5.6,1.15,1.72
+BUKIT BERUNTUNG Toll,RAWANG SELATAN Toll,2.54,4.6,6.1,1.23,1.89
+BUKIT BERUNTUNG Toll,SG. BULOH HOSPITAL Toll,3.12,5.7,7.6,1.56,2.38
+BUKIT BERUNTUNG Toll,SG. BULOH Toll,3.36,6.1,8.2,1.64,2.54
+BUKIT BERUNTUNG Toll,Tg. Malim Toll,3.36,6.1,8.2,1.64,2.54
+BUKIT BERUNTUNG Toll,KOTA DAMANSARA Toll,4.1,7.4,9.9,2.05,3.03
+BUKIT BERUNTUNG Toll,DAMANSARA Toll,4.43,8.2,10.9,2.21,3.36
+BUKIT BERUNTUNG Toll,BEHRANG Toll,4.59,8.5,11.3,2.3,3.44
+BUKIT BERUNTUNG Toll,Jalan Duta Toll,4.59,8.5,11.3,2.3,3.44
+BUKIT BERUNTUNG Toll,SUBANG Toll,4.67,8.6,11.4,2.38,3.53
+BUKIT BERUNTUNG Toll,Shah Alam Toll,5.25,9.6,12.8,2.62,3.94
+BUKIT BERUNTUNG Toll,Seafield Toll,5.9,10.8,14.3,2.95,4.35
+BUKIT BERUNTUNG Toll,Setia Alam Toll,6.15,11.2,15,3.03,4.59
+BUKIT BERUNTUNG Toll,USJ Toll,6.31,11.5,15.3,3.12,4.67
+BUKIT BERUNTUNG Toll,Bukit Raja Toll,6.31,11.5,15.4,3.12,4.76
+BUKIT BERUNTUNG Toll,SLIM RIVER Toll,6.4,11.6,15.5,3.2,4.76
+BUKIT BERUNTUNG Toll,PUTRA HEIGHTS Toll,6.81,12.5,16.6,3.36,5.08
+BUKIT BERUNTUNG Toll,Bandar Saujana Putra Toll,7.13,13,17.3,3.53,5.33
+BUKIT BERUNTUNG Toll,BANDAR GAMUDA COVE Toll,8.2,15,20.1,4.1,6.15
+BUKIT BERUNTUNG Toll,SUNGKAI Toll,8.45,15.5,20.7,4.26,6.4
+BUKIT BERUNTUNG Toll,Putra Jaya Toll,8.69,15.9,21.1,4.35,6.48
+BUKIT BERUNTUNG Toll,BANDAR SERENIA Toll,9.43,17.3,23,4.76,7.05
+BUKIT BERUNTUNG Toll,BIDOR Toll,10,18.4,24.5,5,7.54
+BUKIT BERUNTUNG Toll,KLIA Toll,10,18,23.8,5.17,7.54
+BUKIT BERUNTUNG Toll,Nilai Toll,11.15,20.5,27.3,5.66,8.36
+BUKIT BERUNTUNG Toll,Putera Mahkota Toll,11.23,20.6,27.4,5.66,8.36
+BUKIT BERUNTUNG Toll,TAPAH Toll,11.56,21.1,28.1,5.74,8.69
+BUKIT BERUNTUNG Toll,SOUTHVILLE CITY Toll,11.64,21.3,28.3,5.82,8.69
+BUKIT BERUNTUNG Toll,BANGI Toll,11.97,22,29.3,6.07,9.02
+BUKIT BERUNTUNG Toll,KAJANG Toll,12.71,23.2,30.9,6.4,9.51
+BUKIT BERUNTUNG Toll,Bandar Ainsdale Toll,12.87,23.5,31.3,6.48,9.59
+BUKIT BERUNTUNG Toll,UPM Toll,12.87,23.6,31.5,6.48,9.68
+BUKIT BERUNTUNG Toll,SEREMBAN Toll,13.2,24.2,32.1,6.64,9.84
+BUKIT BERUNTUNG Toll,Sg. Besi Toll,13.37,24.6,32.7,6.72,10
+BUKIT BERUNTUNG Toll,Port Dickson Toll,13.61,24.9,33.1,6.81,10.17
+BUKIT BERUNTUNG Toll,Senawang Toll,14.02,25.7,34.2,7.05,10.5
+BUKIT BERUNTUNG Toll,GOPENG Toll,14.92,27.2,36.3,7.46,11.15
+BUKIT BERUNTUNG Toll,PEDAS LINGGI Toll,15.83,29.1,38.7,7.95,11.89
+BUKIT BERUNTUNG Toll,SIMPANG PULAI Toll,15.91,29.1,38.7,7.95,11.89
+BUKIT BERUNTUNG Toll,Ipoh Selatan Toll,17.3,31.6,42.1,8.61,12.96
+BUKIT BERUNTUNG Toll,Simpang Ampat Toll,18.45,33.7,44.9,9.27,13.78
+BUKIT BERUNTUNG Toll,KUALA KANGSAR Toll,20.17,36.9,49.1,10.09,15.09
+BUKIT BERUNTUNG Toll,Ayer Keroh Toll,20.83,38.1,50.8,10.41,15.58
+BUKIT BERUNTUNG Toll,CANGKAT JERING Toll,22.55,41.2,54.9,11.23,16.89
+BUKIT BERUNTUNG Toll,Jasin Toll,22.63,41.4,55.1,11.32,16.97
+BUKIT BERUNTUNG Toll,Tangkak Toll,23.78,43.5,58,11.89,17.79
+BUKIT BERUNTUNG Toll,TAIPING UTARA Toll,24.35,44.4,59.2,12.14,18.2
+BUKIT BERUNTUNG Toll,Bukit Gambir Toll,25.09,46,61.2,12.63,18.78
+BUKIT BERUNTUNG Toll,BUKIT MERAH Toll,25.58,46.7,62.2,12.71,19.11
+BUKIT BERUNTUNG Toll,Pagoh Toll,26.81,49.1,65.5,13.45,20.09
+BUKIT BERUNTUNG Toll,ALOR PONGSU Toll,26.98,49.3,65.8,13.53,20.25
+BUKIT BERUNTUNG Toll,BANDAR BAHARU Toll,27.47,50.3,67,13.69,20.58
+BUKIT BERUNTUNG Toll,JAWI Toll,29.03,53,70.6,14.43,21.73
+BUKIT BERUNTUNG Toll,BKT. TAMBUN UTARA Toll,30.34,55.5,73.9,15.17,22.71
+BUKIT BERUNTUNG Toll,JURU Toll,31.08,56.8,75.7,15.5,23.29
+BUKIT BERUNTUNG Toll,Yong Peng Utara Toll,31.65,57.9,77.1,15.83,23.7
+BUKIT BERUNTUNG Toll,BERTAM Toll,32.39,59.1,78.8,16.23,24.89
+BUKIT BERUNTUNG Toll,Ayer Hitam Toll,33.78,61.9,82.4,16.97,25.34
+BUKIT BERUNTUNG Toll,SG. PETANI SELATAN Toll,34.03,62.1,82.7,17.05,25.58
+BUKIT BERUNTUNG Toll,Machap Toll,34.69,63.4,84.5,17.38,25.99
+BUKIT BERUNTUNG Toll,SG. PETANI UTARA Toll,34.77,63.4,84.5,17.38,26.07
+BUKIT BERUNTUNG Toll,Spg. Renggam Toll,36.24,66.3,88.3,18.12,27.14
+BUKIT BERUNTUNG Toll,GURUN Toll,36.57,66.8,89,18.37,27.47
+BUKIT BERUNTUNG Toll,Sedenak Toll,38.29,70,93.3,19.19,28.7
+BUKIT BERUNTUNG Toll,PENDANG Toll,38.78,70.8,94.3,19.43,29.11
+BUKIT BERUNTUNG Toll,KULAI Toll,39.77,72.8,97,19.93,29.85
+BUKIT BERUNTUNG Toll,Senai Utara Toll,40.75,74.6,99.4,20.42,30.59
+BUKIT BERUNTUNG Toll,Alor Setar Selatan Toll,40.42,73.8,98.3,20.25,30.79
+BUKIT BERUNTUNG Toll,Alor Setar Utara Toll,41.08,74.9,99.8,20.58,30.83
+BUKIT BERUNTUNG Toll,Skudai Toll,41.08,75.2,100.3,20.58,30.83
+BUKIT BERUNTUNG Toll,Hutan Kampung Toll,41.74,76.2,101.5,20.91,31.59
+BUKIT BERUNTUNG Toll,BANDAR CASSIA Toll,36.27,86,144.1,23.72,49.09
+BUKIT BESI Toll,DUNGUN Toll,2.5,5,7.5,1.3,2.5
+BUKIT BESI Toll,PAKA Toll,4.5,8.9,13.4,2.2,4.5
+BUKIT BESI Toll,AJIL Toll,5.1,10.1,15.2,2.5,5.1
+BUKIT BESI Toll,KERTEH Toll,6,12.1,18.1,3,6
+BUKIT BESI Toll,TELEMUNG Toll,7.4,14.8,22.2,3.7,7.4
+BUKIT BESI Toll,KIJAL Toll,7.5,15.1,22.6,3.8,7.5
+BUKIT BESI Toll,Kuala Terengganu (Kg Gemuroh) Toll,8.6,17.2,25.7,4.3,8.6
+BUKIT BESI Toll,CUKAI Toll,9.8,19.5,29.3,4.9,9.8
+BUKIT BESI Toll,CHENEH Toll,11.5,23.1,34.6,5.8,11.5
+Bukit Gambir Toll,Tangkak Toll,1.48,2.8,3.7,0.74,1.15
+Bukit Gambir Toll,Pagoh Toll,1.8,3.4,4.5,0.9,1.39
+Bukit Gambir Toll,Jasin Toll,2.95,5.4,7.2,1.48,2.21
+Bukit Gambir Toll,Ayer Keroh Toll,4.43,8.2,10.9,2.21,3.36
+Bukit Gambir Toll,Yong Peng Utara Toll,6.64,12.1,16.2,3.28,5
+Bukit Gambir Toll,Simpang Ampat Toll,6.89,12.5,16.7,3.44,5.17
+Bukit Gambir Toll,Ayer Hitam Toll,8.77,16.1,21.5,4.43,6.64
+Bukit Gambir Toll,PEDAS LINGGI Toll,9.43,17.2,23,4.67,7.05
+Bukit Gambir Toll,Machap Toll,9.68,17.6,23.5,4.84,7.22
+Bukit Gambir Toll,Spg. Renggam Toll,11.23,20.5,27.3,5.58,8.45
+Bukit Gambir Toll,Senawang Toll,11.23,20.6,27.5,5.66,8.45
+Bukit Gambir Toll,Port Dickson Toll,11.64,21.3,28.4,5.82,8.77
+Bukit Gambir Toll,SEREMBAN Toll,11.97,21.8,29.1,5.99,8.94
+Bukit Gambir Toll,Bandar Ainsdale Toll,12.22,22.3,29.8,6.07,9.18
+Bukit Gambir Toll,Sedenak Toll,13.28,24.3,32.4,6.64,9.92
+Bukit Gambir Toll,Nilai Toll,14.02,25.6,34.1,6.97,10.5
+Bukit Gambir Toll,KULAI Toll,14.76,27,36,7.38,11.07
+Bukit Gambir Toll,Putera Mahkota Toll,14.92,27.3,36.4,7.46,11.23
+Bukit Gambir Toll,SOUTHVILLE CITY Toll,15.42,28.1,37.5,7.71,11.56
+Bukit Gambir Toll,BANGI Toll,15.74,28.7,38.3,7.87,11.81
+Bukit Gambir Toll,Senai Utara Toll,15.74,28.9,38.5,7.87,11.81
+Bukit Gambir Toll,BANDAR SERENIA Toll,15.99,29.2,39,7.95,11.97
+Bukit Gambir Toll,Skudai Toll,16.15,29.5,39.3,8.04,12.05
+Bukit Gambir Toll,KAJANG Toll,16.48,30.1,40.1,8.2,12.3
+Bukit Gambir Toll,UPM Toll,16.65,30.5,40.6,8.36,12.46
+Bukit Gambir Toll,BANDAR GAMUDA COVE Toll,16.81,30.7,41,8.36,12.63
+Bukit Gambir Toll,Sg. Besi Toll,17.14,31.4,41.9,8.61,12.87
+Bukit Gambir Toll,KLIA Toll,17.38,31.5,41.8,8.86,13.12
+Bukit Gambir Toll,Bandar Saujana Putra Toll,18.29,33.3,44.4,9.1,13.69
+Bukit Gambir Toll,Putra Jaya Toll,18.61,34.1,45.5,9.35,14.02
+Bukit Gambir Toll,PUTRA HEIGHTS Toll,18.7,34.2,45.5,9.35,14.02
+Bukit Gambir Toll,USJ Toll,19.19,35.1,46.7,9.59,14.35
+Bukit Gambir Toll,Seafield Toll,19.6,35.8,47.8,9.76,14.76
+Bukit Gambir Toll,Ebor Selatan Toll,19.68,36,47.9,9.84,14.76
+Bukit Gambir Toll,Shah Alam Toll,20.34,37.1,49.4,10.09,15.25
+Bukit Gambir Toll,SUBANG Toll,20.75,38,50.6,10.41,15.58
+Bukit Gambir Toll,Setia Alam Toll,21.24,38.7,51.7,10.58,15.91
+Bukit Gambir Toll,DAMANSARA Toll,21.24,38.8,51.7,10.66,15.91
+Bukit Gambir Toll,Bukit Raja Toll,21.32,38.9,52,10.66,15.99
+Bukit Gambir Toll,KOTA DAMANSARA Toll,21.4,39.2,52.3,10.74,16.07
+Bukit Gambir Toll,SG. BULOH Toll,22.06,40.4,53.8,11.07,16.48
+Bukit Gambir Toll,SG. BULOH HOSPITAL Toll,22.3,40.9,54.4,11.23,16.73
+Bukit Gambir Toll,Jalan Duta Toll,22.55,41.3,55,11.32,16.89
+Bukit Gambir Toll,RAWANG SELATAN Toll,22.88,41.9,55.8,11.48,17.14
+Bukit Gambir Toll,RAWANG Toll,23.45,42.9,57.2,11.73,17.55
+Bukit Gambir Toll,SUNGAI BUAYA Toll,24.44,44.8,59.6,12.3,18.29
+Bukit Gambir Toll,BUKIT BERUNTUNG Toll,25.09,46,61.2,12.63,18.78
+Bukit Gambir Toll,BUKIT TAGAR Toll,26.16,47.8,63.7,13.12,19.6
+Bukit Gambir Toll,LEMBAH BERINGIN Toll,27.14,49.7,66.3,13.61,20.34
+Bukit Gambir Toll,Tg. Malim Toll,28.21,51.7,68.9,14.19,21.16
+Bukit Gambir Toll,BEHRANG Toll,29.52,54,72,14.84,22.14
+Bukit Gambir Toll,SLIM RIVER Toll,31.24,57.2,76.2,15.66,23.45
+Bukit Gambir Toll,SUNGKAI Toll,33.37,61.1,81.4,16.73,25.01
+Bukit Gambir Toll,BIDOR Toll,34.93,63.9,85.2,17.47,26.16
+Bukit Gambir Toll,TAPAH Toll,36.41,66.6,88.7,18.2,27.22
+Bukit Gambir Toll,GOPENG Toll,39.69,72.7,96.9,19.93,29.77
+Bukit Gambir Toll,SIMPANG PULAI Toll,40.75,74.6,99.4,20.42,30.59
+Bukit Gambir Toll,Ipoh Selatan Toll,42.15,77.1,102.7,21.07,31.57
+Bukit Gambir Toll,KUALA KANGSAR Toll,45.02,82.4,109.7,22.55,33.7
+Bukit Gambir Toll,CANGKAT JERING Toll,47.4,86.7,115.5,23.7,35.51
+Bukit Gambir Toll,TAIPING UTARA Toll,49.2,89.9,119.8,24.6,36.82
+Bukit Gambir Toll,BUKIT MERAH Toll,50.43,92.2,122.8,25.17,37.72
+Bukit Gambir Toll,ALOR PONGSU Toll,51.82,94.8,126.4,25.91,38.87
+Bukit Gambir Toll,BANDAR BAHARU Toll,52.32,95.8,127.6,26.16,39.2
+Bukit Gambir Toll,JAWI Toll,53.87,98.5,131.2,26.9,40.34
+Bukit Gambir Toll,BKT. TAMBUN UTARA Toll,55.19,101,134.5,27.63,41.33
+Bukit Gambir Toll,JURU Toll,55.92,102.3,136.3,27.96,41.9
+Bukit Gambir Toll,BERTAM Toll,57.23,104.6,139.4,28.69,43.5
+Bukit Gambir Toll,SG. PETANI SELATAN Toll,58.87,107.6,143.3,29.51,44.19
+Bukit Gambir Toll,SG. PETANI UTARA Toll,59.61,108.9,145.1,29.84,44.68
+Bukit Gambir Toll,GURUN Toll,61.41,112.3,149.6,30.83,46.08
+Bukit Gambir Toll,PENDANG Toll,63.62,116.3,154.9,31.89,47.72
+Bukit Gambir Toll,Alor Setar Selatan Toll,65.26,119.3,158.9,32.71,49.4
+Bukit Gambir Toll,Alor Setar Utara Toll,65.92,120.4,160.4,33.04,49.44
+Bukit Gambir Toll,Hutan Kampung Toll,66.58,121.7,162.1,33.37,50.2
+Bukit Gambir Toll,BANDAR CASSIA Toll,61.12,131.5,204.7,36.19,67.7
+BUKIT MERAH Toll,TAIPING UTARA Toll,1.48,2.8,3.7,0.74,1.15
+BUKIT MERAH Toll,ALOR PONGSU Toll,1.64,3,3.9,0.82,1.23
+BUKIT MERAH Toll,BANDAR BAHARU Toll,2.21,4.1,5.4,1.15,1.64
+BUKIT MERAH Toll,CANGKAT JERING Toll,3.12,5.7,7.6,1.56,2.38
+BUKIT MERAH Toll,JAWI Toll,3.61,6.6,8.8,1.8,2.71
+BUKIT MERAH Toll,BKT. TAMBUN UTARA Toll,5,9.1,12.1,2.46,3.69
+BUKIT MERAH Toll,KUALA KANGSAR Toll,5.58,10.2,13.6,2.79,4.18
+BUKIT MERAH Toll,JURU Toll,5.66,10.4,13.9,2.87,4.26
+BUKIT MERAH Toll,BERTAM Toll,6.97,12.7,17,3.6,5.86
+BUKIT MERAH Toll,IPOH UTARA Toll,8.28,15.1,20.1,4.1,6.15
+BUKIT MERAH Toll,SG. PETANI SELATAN Toll,8.61,15.7,20.9,4.42,6.55
+BUKIT MERAH Toll,SG. PETANI UTARA Toll,9.35,17,22.7,4.75,7.04
+BUKIT MERAH Toll,SIMPANG PULAI Toll,9.76,17.8,23.6,4.84,7.22
+BUKIT MERAH Toll,GOPENG Toll,10.82,19.8,26.4,5.41,8.04
+BUKIT MERAH Toll,GURUN Toll,11.15,20.4,27.2,5.74,8.44
+BUKIT MERAH Toll,PENDANG Toll,13.36,24.4,32.5,6.8,10.08
+BUKIT MERAH Toll,TAPAH Toll,14.19,25.9,34.5,7.05,10.58
+BUKIT MERAH Toll,BIDOR Toll,15.66,28.7,38.2,7.79,11.73
+BUKIT MERAH Toll,Alor Setar Selatan Toll,15,27.4,36.5,7.62,11.76
+BUKIT MERAH Toll,Alor Setar Utara Toll,15.66,28.5,38,7.95,11.8
+BUKIT MERAH Toll,Hutan Kampung Toll,16.32,29.8,39.7,8.28,12.56
+BUKIT MERAH Toll,SUNGKAI Toll,17.22,31.4,41.9,8.53,12.87
+BUKIT MERAH Toll,SLIM RIVER Toll,19.35,35.3,47,9.59,14.43
+BUKIT MERAH Toll,BEHRANG Toll,20.99,38.3,51.1,10.5,15.66
+BUKIT MERAH Toll,Tg. Malim Toll,22.63,41.3,55,11.23,16.89
+BUKIT MERAH Toll,LEMBAH BERINGIN Toll,23.62,43.1,57.5,11.81,17.63
+BUKIT MERAH Toll,BUKIT TAGAR Toll,24.6,45,59.9,12.3,18.37
+BUKIT MERAH Toll,BUKIT BERUNTUNG Toll,25.58,46.7,62.2,12.71,19.11
+BUKIT MERAH Toll,SUNGAI BUAYA Toll,26.32,48.1,64.1,13.12,19.68
+BUKIT MERAH Toll,RAWANG Toll,27.31,49.9,66.5,13.61,20.42
+BUKIT MERAH Toll,RAWANG SELATAN Toll,27.8,50.8,67.7,13.86,20.83
+BUKIT MERAH Toll,SG. BULOH HOSPITAL Toll,28.45,52,69.3,14.19,21.32
+BUKIT MERAH Toll,SG. BULOH Toll,28.7,52.4,69.9,14.27,21.48
+BUKIT MERAH Toll,KOTA DAMANSARA Toll,29.36,53.6,71.5,14.68,21.98
+BUKIT MERAH Toll,DAMANSARA Toll,29.77,54.5,72.6,14.84,22.3
+BUKIT MERAH Toll,Jalan Duta Toll,30.01,54.8,73,14.92,22.39
+BUKIT MERAH Toll,SUBANG Toll,30.01,54.8,73,14.92,22.39
+BUKIT MERAH Toll,Shah Alam Toll,30.5,55.8,74.3,15.25,22.88
+BUKIT MERAH Toll,Seafield Toll,31.24,57.1,76,15.58,23.29
+BUKIT MERAH Toll,Setia Alam Toll,31.49,57.5,76.7,15.66,23.53
+BUKIT MERAH Toll,USJ Toll,31.65,57.8,77,15.74,23.62
+BUKIT MERAH Toll,Bukit Raja Toll,31.65,57.8,77.1,15.74,23.7
+BUKIT MERAH Toll,PUTRA HEIGHTS Toll,32.14,58.8,78.3,15.99,24.03
+BUKIT MERAH Toll,Bandar Saujana Putra Toll,32.47,59.3,79,16.15,24.27
+BUKIT MERAH Toll,BANDAR GAMUDA COVE Toll,33.54,61.3,81.8,16.81,25.17
+BUKIT MERAH Toll,Putra Jaya Toll,34.03,62.2,82.8,16.97,25.42
+BUKIT MERAH Toll,BANDAR SERENIA Toll,34.77,63.5,84.7,17.38,26.08
+BUKIT MERAH Toll,KLIA Toll,35.26,64.2,85.3,17.79,26.4
+BUKIT MERAH Toll,Nilai Toll,36.49,66.7,88.8,18.2,27.31
+BUKIT MERAH Toll,Putera Mahkota Toll,36.49,66.8,89,18.29,27.31
+BUKIT MERAH Toll,SOUTHVILLE CITY Toll,36.98,67.5,90.1,18.45,27.72
+BUKIT MERAH Toll,BANGI Toll,37.31,68.2,90.9,18.61,27.88
+BUKIT MERAH Toll,KAJANG Toll,37.97,69.4,92.5,19.02,28.37
+BUKIT MERAH Toll,Bandar Ainsdale Toll,38.13,69.7,92.9,19.11,28.54
+BUKIT MERAH Toll,UPM Toll,38.21,69.8,93,19.11,28.54
+BUKIT MERAH Toll,SEREMBAN Toll,38.46,70.4,93.7,19.27,28.78
+BUKIT MERAH Toll,Sg. Besi Toll,38.7,70.8,94.3,19.35,28.95
+BUKIT MERAH Toll,Port Dickson Toll,38.95,71.2,94.8,19.43,29.11
+BUKIT MERAH Toll,Senawang Toll,39.36,72,95.9,19.68,29.44
+BUKIT MERAH Toll,BANDAR CASSIA Toll,10.85,39.7,82.3,11.1,30.06
+BUKIT MERAH Toll,PEDAS LINGGI Toll,41.16,75.2,100.2,20.58,30.75
+BUKIT MERAH Toll,Simpang Ampat Toll,43.71,79.9,106.5,21.89,32.72
+BUKIT MERAH Toll,Ayer Keroh Toll,46.08,84.3,112.3,23.04,34.52
+BUKIT MERAH Toll,Jasin Toll,47.89,87.6,116.7,23.94,35.83
+BUKIT MERAH Toll,Tangkak Toll,49.04,89.7,119.5,24.52,36.74
+BUKIT MERAH Toll,Bukit Gambir Toll,50.43,92.2,122.8,25.17,37.72
+BUKIT MERAH Toll,Pagoh Toll,52.15,95.4,127.2,26.08,39.03
+BUKIT MERAH Toll,Yong Peng Utara Toll,56.91,104.1,138.7,28.45,42.64
+BUKIT MERAH Toll,Ayer Hitam Toll,59.12,108.1,144,29.52,44.28
+BUKIT MERAH Toll,Machap Toll,59.94,109.6,146.1,29.93,44.85
+BUKIT MERAH Toll,Spg. Renggam Toll,61.5,112.5,149.9,30.75,46.08
+BUKIT MERAH Toll,Sedenak Toll,63.55,116.2,154.9,31.82,47.56
+BUKIT MERAH Toll,KULAI Toll,65.11,119,158.6,32.55,48.71
+BUKIT MERAH Toll,Senai Utara Toll,66.09,120.8,161,33.05,49.45
+BUKIT MERAH Toll,Skudai Toll,66.42,121.4,161.8,33.21,49.69
+Bukit Raja Toll,Setia Alam Toll,0.57,1.1,1.5,0.33,0.49
+Bukit Raja Toll,Shah Alam Toll,1.31,2.3,3.1,0.66,0.98
+Bukit Raja Toll,SUBANG Toll,1.97,3.6,4.8,0.98,1.48
+Bukit Raja Toll,Seafield Toll,2.05,3.7,5.1,0.98,1.56
+Bukit Raja Toll,DAMANSARA Toll,2.46,4.5,6,1.23,1.8
+Bukit Raja Toll,USJ Toll,2.46,4.5,6,1.23,1.89
+Bukit Raja Toll,KOTA DAMANSARA Toll,2.54,4.7,6.3,1.31,1.89
+Bukit Raja Toll,PUTRA HEIGHTS Toll,2.95,5.5,7.4,1.48,2.3
+Bukit Raja Toll,SG. BULOH Toll,3.28,6,8,1.64,2.46
+Bukit Raja Toll,Bandar Saujana Putra Toll,3.28,6,8.1,1.64,2.54
+Bukit Raja Toll,SG. BULOH HOSPITAL Toll,3.53,6.4,8.6,1.72,2.62
+Bukit Raja Toll,Jalan Duta Toll,3.77,6.9,9.2,1.89,2.87
+Bukit Raja Toll,RAWANG SELATAN Toll,4.02,7.3,9.8,1.97,3.03
+Bukit Raja Toll,BANDAR GAMUDA COVE Toll,4.43,8.1,10.8,2.21,3.28
+Bukit Raja Toll,RAWANG Toll,4.67,8.6,11.5,2.38,3.53
+Bukit Raja Toll,Putra Jaya Toll,4.84,8.8,11.8,2.38,3.69
+Bukit Raja Toll,BANDAR SERENIA Toll,5.66,10.3,13.7,2.79,4.26
+Bukit Raja Toll,SUNGAI BUAYA Toll,5.66,10.3,13.7,2.79,4.26
+Bukit Raja Toll,KLIA Toll,6.15,10.9,14.4,3.28,4.67
+Bukit Raja Toll,BUKIT BERUNTUNG Toll,6.31,11.5,15.4,3.12,4.76
+Bukit Raja Toll,BUKIT TAGAR Toll,7.22,13.3,17.7,3.61,5.41
+Bukit Raja Toll,Nilai Toll,7.3,13.4,17.9,3.61,5.49
+Bukit Raja Toll,Putera Mahkota Toll,7.38,13.5,18,3.69,5.49
+Bukit Raja Toll,SOUTHVILLE CITY Toll,7.79,14.3,19.1,3.94,5.9
+Bukit Raja Toll,BANGI Toll,8.2,15,20,4.1,6.15
+Bukit Raja Toll,LEMBAH BERINGIN Toll,8.28,15.2,20.3,4.18,6.23
+Bukit Raja Toll,KAJANG Toll,8.86,16.2,21.7,4.43,6.64
+Bukit Raja Toll,Bandar Ainsdale Toll,9.02,16.5,22.1,4.51,6.81
+Bukit Raja Toll,UPM Toll,9.1,16.6,22.2,4.51,6.81
+Bukit Raja Toll,SEREMBAN Toll,9.43,17.1,22.9,4.67,7.05
+Bukit Raja Toll,Tg. Malim Toll,9.51,17.3,23.1,4.76,7.13
+Bukit Raja Toll,Sg. Besi Toll,9.59,17.5,23.4,4.76,7.22
+Bukit Raja Toll,Port Dickson Toll,9.76,17.8,23.9,4.84,7.3
+Bukit Raja Toll,Senawang Toll,10.25,18.7,24.9,5.08,7.63
+Bukit Raja Toll,BEHRANG Toll,10.74,19.7,26.2,5.41,8.04
+Bukit Raja Toll,PEDAS LINGGI Toll,12.05,22,29.4,5.99,9.02
+Bukit Raja Toll,SLIM RIVER Toll,12.46,22.8,30.5,6.23,9.35
+Bukit Raja Toll,SUNGKAI Toll,14.6,26.7,35.6,7.3,10.99
+Bukit Raja Toll,Simpang Ampat Toll,14.6,26.7,35.7,7.3,10.99
+Bukit Raja Toll,BIDOR Toll,16.15,29.6,39.4,8.12,12.14
+Bukit Raja Toll,Ayer Keroh Toll,16.97,31,41.4,8.45,12.71
+Bukit Raja Toll,TAPAH Toll,17.63,32.2,43,8.77,13.2
+Bukit Raja Toll,Jasin Toll,18.78,34.4,45.9,9.35,14.1
+Bukit Raja Toll,Tangkak Toll,19.93,36.4,48.6,9.92,14.92
+Bukit Raja Toll,GOPENG Toll,20.99,38.3,51.1,10.5,15.74
+Bukit Raja Toll,Bukit Gambir Toll,21.32,38.9,52,10.66,15.99
+Bukit Raja Toll,SIMPANG PULAI Toll,22.06,40.3,53.7,10.99,16.48
+Bukit Raja Toll,Pagoh Toll,23.04,42.1,56.2,11.48,17.3
+Bukit Raja Toll,Ipoh Selatan Toll,23.37,42.7,57,11.64,17.55
+Bukit Raja Toll,KUALA KANGSAR Toll,26.24,48,64,13.12,19.68
+Bukit Raja Toll,Yong Peng Utara Toll,27.88,50.9,67.9,13.86,20.83
+Bukit Raja Toll,CANGKAT JERING Toll,28.62,52.3,69.8,14.27,21.48
+Bukit Raja Toll,Ayer Hitam Toll,30.01,54.8,73.2,15.01,22.47
+Bukit Raja Toll,TAIPING UTARA Toll,30.42,55.5,74.1,15.17,22.8
+Bukit Raja Toll,Machap Toll,30.83,56.3,75.1,15.33,23.04
+Bukit Raja Toll,BUKIT MERAH Toll,31.65,57.8,77.1,15.74,23.7
+Bukit Raja Toll,Spg. Renggam Toll,32.39,59.1,78.9,16.15,24.27
+Bukit Raja Toll,ALOR PONGSU Toll,33.05,60.5,80.6,16.56,24.76
+Bukit Raja Toll,BANDAR BAHARU Toll,33.54,61.4,81.9,16.73,25.17
+Bukit Raja Toll,Sedenak Toll,34.52,63,84.1,17.22,25.83
+Bukit Raja Toll,JAWI Toll,35.1,64.1,85.5,17.47,26.32
+Bukit Raja Toll,KULAI Toll,35.92,65.7,87.6,17.96,26.9
+Bukit Raja Toll,BKT. TAMBUN UTARA Toll,36.41,66.6,88.8,18.2,27.31
+Bukit Raja Toll,Senai Utara Toll,36.9,67.5,90.1,18.45,27.72
+Bukit Raja Toll,JURU Toll,37.15,67.9,90.6,18.53,27.88
+Bukit Raja Toll,Skudai Toll,37.31,68.2,91,18.61,27.96
+Bukit Raja Toll,BERTAM Toll,38.46,70.2,93.7,19.26,29.48
+Bukit Raja Toll,SG. PETANI SELATAN Toll,40.1,73.2,97.6,20.08,30.17
+Bukit Raja Toll,SG. PETANI UTARA Toll,40.84,74.5,99.4,20.41,30.66
+Bukit Raja Toll,GURUN Toll,42.64,77.9,103.9,21.4,32.06
+Bukit Raja Toll,PENDANG Toll,44.85,81.9,109.2,22.46,33.7
+Bukit Raja Toll,Alor Setar Selatan Toll,46.49,84.9,113.2,23.28,35.38
+Bukit Raja Toll,Alor Setar Utara Toll,47.15,86,114.7,23.61,35.42
+Bukit Raja Toll,Hutan Kampung Toll,47.81,87.3,116.4,23.94,36.18
+Bukit Raja Toll,BANDAR CASSIA Toll,42.34,97.1,159,26.76,53.68
+BUKIT TAGAR Toll,BUKIT BERUNTUNG Toll,1.15,2.1,2.9,0.57,0.9
+BUKIT TAGAR Toll,LEMBAH BERINGIN Toll,1.31,2.4,3.3,0.66,0.98
+BUKIT TAGAR Toll,SUNGAI BUAYA Toll,1.97,3.7,4.9,0.98,1.48
+BUKIT TAGAR Toll,Tg. Malim Toll,2.38,4.4,5.8,1.23,1.8
+BUKIT TAGAR Toll,RAWANG Toll,2.95,5.4,7.2,1.48,2.21
+BUKIT TAGAR Toll,RAWANG SELATAN Toll,3.44,6.3,8.4,1.72,2.62
+BUKIT TAGAR Toll,BEHRANG Toll,3.69,6.7,9,1.8,2.79
+BUKIT TAGAR Toll,SG. BULOH HOSPITAL Toll,4.1,7.5,10.1,2.05,3.12
+BUKIT TAGAR Toll,SG. BULOH Toll,4.26,7.9,10.5,2.13,3.2
+BUKIT TAGAR Toll,KOTA DAMANSARA Toll,5,9.2,12.2,2.54,3.77
+BUKIT TAGAR Toll,DAMANSARA Toll,5.41,9.9,13.2,2.71,4.02
+BUKIT TAGAR Toll,SLIM RIVER Toll,5.41,9.9,13.2,2.71,4.02
+BUKIT TAGAR Toll,Jalan Duta Toll,5.66,10.3,13.7,2.79,4.26
+BUKIT TAGAR Toll,SUBANG Toll,5.66,10.4,13.9,2.87,4.26
+BUKIT TAGAR Toll,Shah Alam Toll,6.15,11.3,15.1,3.12,4.67
+BUKIT TAGAR Toll,Seafield Toll,6.81,12.5,16.6,3.44,5.08
+BUKIT TAGAR Toll,Setia Alam Toll,7.13,13,17.4,3.61,5.33
+BUKIT TAGAR Toll,USJ Toll,7.22,13.2,17.6,3.61,5.41
+BUKIT TAGAR Toll,Bukit Raja Toll,7.22,13.3,17.7,3.61,5.41
+BUKIT TAGAR Toll,SUNGKAI Toll,7.54,13.8,18.4,3.77,5.66
+BUKIT TAGAR Toll,PUTRA HEIGHTS Toll,7.71,14.2,18.9,3.85,5.82
+BUKIT TAGAR Toll,Bandar Saujana Putra Toll,8.04,14.7,19.6,4.02,6.07
+BUKIT TAGAR Toll,BIDOR Toll,9.1,16.6,22.2,4.51,6.81
+BUKIT TAGAR Toll,BANDAR GAMUDA COVE Toll,9.18,16.8,22.4,4.59,6.89
+BUKIT TAGAR Toll,Putra Jaya Toll,9.59,17.6,23.4,4.84,7.22
+BUKIT TAGAR Toll,BANDAR SERENIA Toll,10.41,19,25.3,5.17,7.79
+BUKIT TAGAR Toll,TAPAH Toll,10.58,19.3,25.7,5.25,7.87
+BUKIT TAGAR Toll,KLIA Toll,10.99,19.8,26.2,5.66,8.28
+BUKIT TAGAR Toll,Nilai Toll,12.14,22.2,29.6,6.07,9.1
+BUKIT TAGAR Toll,Putera Mahkota Toll,12.22,22.3,29.7,6.15,9.1
+BUKIT TAGAR Toll,SOUTHVILLE CITY Toll,12.96,23.7,31.6,6.48,9.76
+BUKIT TAGAR Toll,BANGI Toll,13.04,23.9,31.7,6.56,9.76
+BUKIT TAGAR Toll,KAJANG Toll,13.69,25.1,33.4,6.89,10.25
+BUKIT TAGAR Toll,Bandar Ainsdale Toll,13.86,25.4,33.8,6.97,10.33
+BUKIT TAGAR Toll,UPM Toll,13.94,25.5,33.9,6.97,10.41
+BUKIT TAGAR Toll,GOPENG Toll,13.94,25.5,34,6.97,10.5
+BUKIT TAGAR Toll,SEREMBAN Toll,14.19,26,34.6,7.13,10.66
+BUKIT TAGAR Toll,Sg. Besi Toll,14.51,26.5,35.3,7.3,10.82
+BUKIT TAGAR Toll,Port Dickson Toll,14.6,26.7,35.5,7.3,10.91
+BUKIT TAGAR Toll,SIMPANG PULAI Toll,14.92,27.3,36.4,7.46,11.23
+BUKIT TAGAR Toll,Senawang Toll,15.01,27.5,36.6,7.54,11.23
+BUKIT TAGAR Toll,Ipoh Selatan Toll,16.32,29.9,39.8,8.2,12.22
+BUKIT TAGAR Toll,PEDAS LINGGI Toll,16.89,30.9,41.1,8.45,12.63
+BUKIT TAGAR Toll,KUALA KANGSAR Toll,19.19,35.2,46.8,9.68,14.35
+BUKIT TAGAR Toll,Simpang Ampat Toll,19.43,35.6,47.4,9.76,14.51
+BUKIT TAGAR Toll,CANGKAT JERING Toll,21.57,39.5,52.6,10.82,16.15
+BUKIT TAGAR Toll,Ayer Keroh Toll,21.73,39.9,53.1,10.91,16.32
+BUKIT TAGAR Toll,TAIPING UTARA Toll,23.37,42.7,56.9,11.73,17.47
+BUKIT TAGAR Toll,Jasin Toll,23.62,43.2,57.6,11.81,17.71
+BUKIT TAGAR Toll,BUKIT MERAH Toll,24.6,45,59.9,12.3,18.37
+BUKIT TAGAR Toll,Tangkak Toll,24.76,45.3,60.3,12.38,18.53
+BUKIT TAGAR Toll,ALOR PONGSU Toll,26.08,47.6,63.5,13.04,19.52
+BUKIT TAGAR Toll,Bukit Gambir Toll,26.16,47.8,63.7,13.12,19.6
+BUKIT TAGAR Toll,BANDAR BAHARU Toll,26.49,48.6,64.7,13.28,19.84
+BUKIT TAGAR Toll,Pagoh Toll,27.88,51,67.9,13.94,20.83
+BUKIT TAGAR Toll,JAWI Toll,28.04,51.3,68.3,14.02,20.99
+BUKIT TAGAR Toll,BKT. TAMBUN UTARA Toll,29.36,53.8,71.6,14.76,21.98
+BUKIT TAGAR Toll,JURU Toll,30.09,55.1,73.4,15.09,22.55
+BUKIT TAGAR Toll,BERTAM Toll,31.4,57.4,76.5,15.82,24.15
+BUKIT TAGAR Toll,Yong Peng Utara Toll,32.64,59.7,79.6,16.4,24.44
+BUKIT TAGAR Toll,SG. PETANI SELATAN Toll,33.04,60.4,80.4,16.64,24.84
+BUKIT TAGAR Toll,SG. PETANI UTARA Toll,33.78,61.7,82.2,16.97,25.33
+BUKIT TAGAR Toll,Ayer Hitam Toll,34.77,63.6,84.8,17.38,26.08
+BUKIT TAGAR Toll,Machap Toll,35.59,65.1,86.8,17.88,26.65
+BUKIT TAGAR Toll,GURUN Toll,35.58,65.1,86.7,17.96,26.73
+BUKIT TAGAR Toll,Spg. Renggam Toll,37.15,68,90.6,18.61,27.88
+BUKIT TAGAR Toll,PENDANG Toll,37.79,69.1,92,19.02,28.37
+BUKIT TAGAR Toll,Sedenak Toll,39.28,71.9,95.8,19.68,29.44
+BUKIT TAGAR Toll,Alor Setar Selatan Toll,39.43,72.1,96,19.84,30.05
+BUKIT TAGAR Toll,Alor Setar Utara Toll,40.09,73.2,97.5,20.17,30.09
+BUKIT TAGAR Toll,KULAI Toll,40.75,74.5,99.3,20.42,30.5
+BUKIT TAGAR Toll,Hutan Kampung Toll,40.75,74.5,99.2,20.5,30.85
+BUKIT TAGAR Toll,Senai Utara Toll,41.74,76.4,101.8,20.91,31.24
+BUKIT TAGAR Toll,Skudai Toll,42.07,77,102.6,21.07,31.57
+BUKIT TAGAR Toll,BANDAR CASSIA Toll,35.29,84.3,141.8,23.31,48.35
+CAHAYA BARU Toll,Tiram Toll,5.6,8.5,11.3,2.8,3.5
+CAHAYA BARU Toll,PENAWAR Toll,7.2,10.8,14.4,3.6,4.5
+CAHAYA BARU Toll,Senai Toll,9.2,13.8,18.4,4.6,5.7
+CANGKAT JERING Toll,TAIPING UTARA Toll,1.8,3.4,4.5,0.9,1.39
+CANGKAT JERING Toll,KUALA KANGSAR Toll,2.46,4.5,6,1.23,1.89
+CANGKAT JERING Toll,BUKIT MERAH Toll,3.12,3.12,3.12,3.12,3.12
+CANGKAT JERING Toll,ALOR PONGSU Toll,4.51,8.3,11,2.3,3.36
+CANGKAT JERING Toll,BANDAR BAHARU Toll,5.17,9.5,12.6,2.62,3.85
+CANGKAT JERING Toll,IPOH UTARA Toll,5.25,9.6,12.8,2.62,3.94
+CANGKAT JERING Toll,JAWI Toll,6.56,12,16,3.28,4.92
+CANGKAT JERING Toll,SIMPANG PULAI Toll,6.72,12.3,16.3,3.36,5
+CANGKAT JERING Toll,GOPENG Toll,7.79,14.3,19.1,3.94,5.82
+CANGKAT JERING Toll,BKT. TAMBUN UTARA Toll,7.87,14.4,19.2,3.94,5.9
+CANGKAT JERING Toll,JURU Toll,8.61,15.7,20.9,4.26,6.48
+CANGKAT JERING Toll,BERTAM Toll,9.92,18,24,4.99,8.08
+CANGKAT JERING Toll,TAPAH Toll,11.15,20.4,27.2,5.58,8.36
+CANGKAT JERING Toll,SG. PETANI SELATAN Toll,11.56,21,27.9,5.81,8.77
+CANGKAT JERING Toll,SG. PETANI UTARA Toll,12.3,22.3,29.7,6.14,9.26
+CANGKAT JERING Toll,BIDOR Toll,12.63,23.2,30.9,6.31,9.51
+CANGKAT JERING Toll,SUNGKAI Toll,14.19,25.9,34.6,7.05,10.66
+CANGKAT JERING Toll,GURUN Toll,14.1,25.7,34.2,7.13,10.66
+CANGKAT JERING Toll,SLIM RIVER Toll,16.32,29.8,39.7,8.12,12.22
+CANGKAT JERING Toll,PENDANG Toll,16.31,29.7,39.5,8.19,12.3
+CANGKAT JERING Toll,BEHRANG Toll,17.96,32.8,43.8,9.02,13.45
+CANGKAT JERING Toll,Alor Setar Selatan Toll,17.95,32.7,43.5,9.01,13.98
+CANGKAT JERING Toll,Alor Setar Utara Toll,18.61,33.8,45,9.34,14.02
+CANGKAT JERING Toll,Tg. Malim Toll,19.6,35.8,47.7,9.76,14.68
+CANGKAT JERING Toll,Hutan Kampung Toll,19.27,35.1,46.7,9.67,14.78
+CANGKAT JERING Toll,LEMBAH BERINGIN Toll,20.58,37.6,50.2,10.33,15.42
+CANGKAT JERING Toll,BUKIT TAGAR Toll,21.57,39.5,52.6,10.82,16.15
+CANGKAT JERING Toll,BUKIT BERUNTUNG Toll,22.55,41.2,54.9,11.23,16.89
+CANGKAT JERING Toll,SUNGAI BUAYA Toll,23.29,42.6,56.8,11.64,17.47
+CANGKAT JERING Toll,RAWANG Toll,24.27,44.4,59.2,12.14,18.2
+CANGKAT JERING Toll,RAWANG SELATAN Toll,24.76,45.3,60.4,12.38,18.61
+CANGKAT JERING Toll,SG. BULOH HOSPITAL Toll,25.42,46.5,62,12.71,19.11
+CANGKAT JERING Toll,SG. BULOH Toll,25.67,46.9,62.6,12.79,19.27
+CANGKAT JERING Toll,KOTA DAMANSARA Toll,26.32,48.1,64.2,13.2,19.76
+CANGKAT JERING Toll,DAMANSARA Toll,26.73,49,65.3,13.37,20.09
+CANGKAT JERING Toll,Jalan Duta Toll,26.98,49.3,65.7,13.45,20.17
+CANGKAT JERING Toll,SUBANG Toll,26.98,49.3,65.7,13.45,20.17
+CANGKAT JERING Toll,Shah Alam Toll,27.47,50.3,67,13.78,20.66
+CANGKAT JERING Toll,Seafield Toll,28.21,51.6,68.7,14.1,21.07
+CANGKAT JERING Toll,Setia Alam Toll,28.45,52,69.4,14.19,21.32
+CANGKAT JERING Toll,USJ Toll,28.62,52.3,69.7,14.27,21.4
+CANGKAT JERING Toll,Bukit Raja Toll,28.62,52.3,69.8,14.27,21.48
+CANGKAT JERING Toll,PUTRA HEIGHTS Toll,29.11,53.3,71,14.51,21.81
+CANGKAT JERING Toll,Bandar Saujana Putra Toll,29.44,53.8,71.7,14.68,22.06
+CANGKAT JERING Toll,BANDAR GAMUDA COVE Toll,30.59,55.9,74.5,15.25,22.88
+CANGKAT JERING Toll,Putra Jaya Toll,31,56.7,75.5,15.5,23.21
+CANGKAT JERING Toll,BANDAR SERENIA Toll,31.73,58.1,77.5,15.91,23.86
+CANGKAT JERING Toll,KLIA Toll,32.23,58.7,78,16.32,24.19
+CANGKAT JERING Toll,Nilai Toll,33.46,61.2,81.5,16.73,25.09
+CANGKAT JERING Toll,Putera Mahkota Toll,33.46,61.3,81.7,16.81,25.09
+CANGKAT JERING Toll,SOUTHVILLE CITY Toll,33.95,62.1,82.8,16.97,25.5
+CANGKAT JERING Toll,BANGI Toll,34.28,62.7,83.6,17.14,25.67
+CANGKAT JERING Toll,KAJANG Toll,34.93,63.9,85.2,17.55,26.16
+CANGKAT JERING Toll,Bandar Ainsdale Toll,35.1,64.2,85.6,17.63,26.32
+CANGKAT JERING Toll,UPM Toll,35.18,64.3,85.7,17.63,26.32
+CANGKAT JERING Toll,SEREMBAN Toll,35.42,64.9,86.4,17.79,26.57
+CANGKAT JERING Toll,Sg. Besi Toll,35.67,65.3,87,17.88,26.73
+CANGKAT JERING Toll,Port Dickson Toll,35.92,65.7,87.5,17.96,26.9
+CANGKAT JERING Toll,Senawang Toll,36.33,66.5,88.6,18.2,27.22
+CANGKAT JERING Toll,PEDAS LINGGI Toll,38.13,69.7,92.9,19.11,28.54
+CANGKAT JERING Toll,Simpang Ampat Toll,40.67,74.4,99.2,20.42,30.5
+CANGKAT JERING Toll,BANDAR CASSIA Toll,13.72,45,89.4,12.49,32.28
+CANGKAT JERING Toll,Ayer Keroh Toll,43.05,78.8,105,21.57,32.31
+CANGKAT JERING Toll,Jasin Toll,44.85,82.1,109.4,22.47,33.62
+CANGKAT JERING Toll,Tangkak Toll,46,84.2,112.2,23.04,34.52
+CANGKAT JERING Toll,Bukit Gambir Toll,47.4,86.7,115.5,23.7,35.51
+CANGKAT JERING Toll,Pagoh Toll,49.12,89.9,119.9,24.6,36.82
+CANGKAT JERING Toll,Yong Peng Utara Toll,53.87,98.6,131.4,26.98,40.43
+CANGKAT JERING Toll,Ayer Hitam Toll,56.09,102.6,136.7,28.04,42.07
+CANGKAT JERING Toll,Machap Toll,56.91,104.1,138.8,28.45,42.64
+CANGKAT JERING Toll,Spg. Renggam Toll,58.47,107,142.6,29.27,43.87
+CANGKAT JERING Toll,Sedenak Toll,60.52,110.7,147.6,30.34,45.35
+CANGKAT JERING Toll,KULAI Toll,62.07,113.5,151.3,31.08,46.49
+CANGKAT JERING Toll,Senai Utara Toll,63.06,115.3,153.7,31.57,47.23
+CANGKAT JERING Toll,Skudai Toll,63.39,115.9,154.5,31.73,47.48
+CHANGKAT CERMIN Toll,SETIAWAN (N) Toll,2.7,5.3,8,1.3,2
+CHANGKAT CERMIN Toll,BERUAS Toll,3.6,7.2,10.9,1.8,2.7
+CHANGKAT CERMIN Toll,SETIAWAN Toll,4.2,8.3,12.5,2.1,3.1
+CHANGKAT CERMIN Toll,KG LEKIR Toll,4.7,9.5,14.2,2.4,3.6
+CHENEH Toll,CUKAI Toll,2.2,4.4,6.7,1.1,2.2
+CHENEH Toll,KIJAL Toll,4.5,9,13.4,2.2,4.5
+CHENEH Toll,KERTEH Toll,6.2,12.3,18.5,3.1,6.2
+CHENEH Toll,PAKA Toll,7.6,15.2,22.8,3.8,7.6
+CHENEH Toll,DUNGUN Toll,9.8,19.5,29.3,4.9,9.8
+CHENEH Toll,BUKIT BESI Toll,11.5,23.1,34.6,5.8,11.5
+CHENEH Toll,AJIL Toll,16.2,32.4,48.5,8.1,16.2
+CHENEH Toll,TELEMUNG Toll,18.5,37,55.5,9.3,18.5
+CHENEH Toll,Kuala Terengganu (Kg Gemuroh) Toll,19.7,39.4,59.1,9.9,19.7
+CHENOR Toll,TEMERLOH Toll,2,3.9,5.9,1,2
+CHENOR Toll,MARAN Toll,4.4,8.8,13.2,2.2,4.4
+CHENOR Toll,LANCANG Toll,5.2,10.3,15.5,2.6,5.2
+CHENOR Toll,SRI JAYA Toll,6.1,12.2,18.2,3,6.1
+CHENOR Toll,KARAK Toll,7.7,15.4,23.1,3.9,7.7
+CHENOR Toll,GAMBANG Toll,9.5,19,28.6,4.8,9.5
+CHENOR Toll,KUANTAN Toll,12.3,24.6,36.8,6.1,12.3
+CHENOR Toll,JABOR Toll,13.7,27.4,41.1,6.8,13.7
+CHENOR Toll,CHENEH Toll,16.7,33.3,50,8.3,16.7
+CHENOR Toll,CUKAI Toll,18.1,36.2,54.3,9,18.1
+CHENOR Toll,KIJAL Toll,20.4,40.7,61.1,10.1,20.4
+CHENOR Toll,KERTEH Toll,22.1,44.1,66.2,11,22.1
+CHENOR Toll,PAKA Toll,23.5,46.9,70.4,11.7,23.5
+CHENOR Toll,DUNGUN Toll,25.7,51.3,77,12.8,25.7
+CHENOR Toll,BUKIT BESI Toll,27.7,55.4,83.1,13.8,27.7
+CHENOR Toll,AJIL Toll,32.3,64.7,97,16.1,32.3
+CHENOR Toll,TELEMUNG Toll,34.7,69.4,104,17.3,34.7
+CHENOR Toll,Kuala Terengganu (Kg Gemuroh) Toll,35.9,71.7,107.6,17.9,35.9
+CUKAI Toll,CHENEH Toll,2.2,4.4,6.7,1.1,2.2
+CUKAI Toll,KIJAL Toll,2.7,5.4,8.1,1.4,2.7
+CUKAI Toll,KERTEH Toll,4.4,8.8,13.2,2.2,4.4
+CUKAI Toll,PAKA Toll,5.8,11.6,17.4,2.9,5.8
+CUKAI Toll,BUKIT BESI Toll,9.8,19.5,29.3,4.9,5.8
+CUKAI Toll,DUNGUN Toll,8,16,24,4,8
+CUKAI Toll,AJIL Toll,14.4,28.8,43.2,7.2,14.4
+CUKAI Toll,TELEMUNG Toll,16.8,33.5,50.3,8.4,16.8
+CUKAI Toll,Kuala Terengganu (Kg Gemuroh) Toll,17.9,35.9,53.8,9,17.9
+CUKAI Toll,KARAK Toll,25.5,51,76.5,12.8,25.5
+DAMANSARA Toll,KOTA DAMANSARA Toll,0.82,1.4,1.9,0.41,0.57
+DAMANSARA Toll,SUBANG Toll,0.82,1.4,1.9,0.41,0.57
+DAMANSARA Toll,Shah Alam Toll,1.31,2.4,3.3,0.66,1.07
+DAMANSARA Toll,SG. BULOH Toll,1.39,2.5,3.4,0.66,1.07
+DAMANSARA Toll,SG. BULOH HOSPITAL Toll,1.64,3.1,4.1,0.82,1.23
+DAMANSARA Toll,Jalan Duta Toll,1.89,3.5,4.6,0.98,1.39
+DAMANSARA Toll,Seafield Toll,1.97,3.6,4.8,0.98,1.48
+DAMANSARA Toll,RAWANG SELATAN Toll,2.21,4,5.3,1.07,1.64
+DAMANSARA Toll,Setia Alam Toll,2.21,4.1,5.4,1.15,1.64
+DAMANSARA Toll,USJ Toll,2.38,4.3,5.8,1.15,1.8
+DAMANSARA Toll,Bukit Raja Toll,2.46,4.5,6,1.23,1.8
+DAMANSARA Toll,RAWANG Toll,2.79,5.1,6.8,1.39,2.13
+DAMANSARA Toll,PUTRA HEIGHTS Toll,2.87,5.3,7.1,1.39,2.21
+DAMANSARA Toll,Bandar Saujana Putra Toll,3.2,5.8,7.8,1.56,2.46
+DAMANSARA Toll,SUNGAI BUAYA Toll,3.77,6.9,9.2,1.89,2.87
+DAMANSARA Toll,BANDAR GAMUDA COVE Toll,4.35,7.9,10.5,2.13,3.28
+DAMANSARA Toll,BUKIT BERUNTUNG Toll,4.43,8.2,10.9,2.21,3.36
+DAMANSARA Toll,Putra Jaya Toll,4.76,8.7,11.6,2.38,3.61
+DAMANSARA Toll,BUKIT TAGAR Toll,5.41,9.9,13.2,2.71,4.02
+DAMANSARA Toll,BANDAR SERENIA Toll,5.58,10.1,13.5,2.79,4.18
+DAMANSARA Toll,KLIA Toll,6.07,10.8,14.2,3.2,4.59
+DAMANSARA Toll,LEMBAH BERINGIN Toll,6.72,12.2,16.3,3.36,5
+DAMANSARA Toll,Nilai Toll,7.22,13.2,17.6,3.69,5.41
+DAMANSARA Toll,Putera Mahkota Toll,7.3,13.5,17.9,3.69,5.49
+DAMANSARA Toll,Tg. Malim Toll,7.54,13.9,18.5,3.77,5.66
+DAMANSARA Toll,SOUTHVILLE CITY Toll,7.71,14.1,18.8,3.85,5.82
+DAMANSARA Toll,BANGI Toll,8.12,14.9,19.8,4.1,6.07
+DAMANSARA Toll,KAJANG Toll,8.77,16.1,21.4,4.43,6.56
+DAMANSARA Toll,BEHRANG Toll,8.86,16.2,21.6,4.43,6.64
+DAMANSARA Toll,Bandar Ainsdale Toll,8.94,16.4,21.8,4.51,6.72
+DAMANSARA Toll,UPM Toll,9.02,16.5,21.9,4.51,6.72
+DAMANSARA Toll,SEREMBAN Toll,9.27,17,22.6,4.67,6.97
+DAMANSARA Toll,Sg. Besi Toll,9.51,17.4,23.2,4.76,7.13
+DAMANSARA Toll,Port Dickson Toll,9.68,17.7,23.6,4.84,7.22
+DAMANSARA Toll,Senawang Toll,10.09,18.6,24.7,5.08,7.54
+DAMANSARA Toll,SLIM RIVER Toll,10.58,19.4,25.8,5.33,7.95
+DAMANSARA Toll,PEDAS LINGGI Toll,11.97,21.9,29.2,5.99,8.94
+DAMANSARA Toll,SUNGKAI Toll,12.71,23.2,31,6.4,9.51
+DAMANSARA Toll,BIDOR Toll,14.27,26.1,34.8,7.13,10.74
+DAMANSARA Toll,Simpang Ampat Toll,14.51,26.6,35.4,7.3,10.91
+DAMANSARA Toll,TAPAH Toll,15.74,28.9,38.5,7.87,11.81
+DAMANSARA Toll,Ayer Keroh Toll,16.89,31,41.3,8.53,12.63
+DAMANSARA Toll,Jasin Toll,18.7,34.3,45.6,9.43,14.02
+DAMANSARA Toll,GOPENG Toll,19.11,35,46.6,9.59,14.35
+DAMANSARA Toll,Tangkak Toll,19.84,36.4,48.5,10,14.92
+DAMANSARA Toll,SIMPANG PULAI Toll,20.17,36.9,49.2,10.09,15.17
+DAMANSARA Toll,Bukit Gambir Toll,21.24,38.8,51.7,10.66,15.91
+DAMANSARA Toll,Ipoh Selatan Toll,21.48,39.4,52.5,10.74,16.15
+DAMANSARA Toll,Pagoh Toll,22.96,42,55.9,11.48,17.22
+DAMANSARA Toll,KUALA KANGSAR Toll,24.35,44.7,59.5,12.22,18.29
+DAMANSARA Toll,CANGKAT JERING Toll,26.73,49,65.3,13.37,20.09
+DAMANSARA Toll,Yong Peng Utara Toll,27.72,50.8,67.6,13.94,20.75
+DAMANSARA Toll,TAIPING UTARA Toll,28.54,52.2,69.6,14.27,21.4
+DAMANSARA Toll,BUKIT MERAH Toll,29.77,54.5,72.6,14.84,22.3
+DAMANSARA Toll,Ayer Hitam Toll,29.93,54.7,72.9,15.01,22.39
+DAMANSARA Toll,Machap Toll,30.75,56.3,75,15.42,23.04
+DAMANSARA Toll,ALOR PONGSU Toll,31.24,57.1,76.1,15.58,23.45
+DAMANSARA Toll,BANDAR BAHARU Toll,31.65,58.1,77.4,15.83,23.78
+DAMANSARA Toll,Spg. Renggam Toll,32.31,59.1,78.8,16.24,24.19
+DAMANSARA Toll,JAWI Toll,33.21,60.8,81,16.56,24.93
+DAMANSARA Toll,Sedenak Toll,34.36,62.9,83.8,17.22,25.75
+DAMANSARA Toll,BKT. TAMBUN UTARA Toll,34.52,63.3,84.3,17.3,25.91
+DAMANSARA Toll,JURU Toll,35.26,64.6,86.1,17.63,26.49
+DAMANSARA Toll,KULAI Toll,35.92,65.7,87.5,17.96,26.9
+DAMANSARA Toll,Senai Utara Toll,36.9,67.5,89.9,18.45,27.63
+DAMANSARA Toll,Skudai Toll,37.23,68.1,90.7,18.61,27.88
+DAMANSARA Toll,BERTAM Toll,36.57,66.9,89.2,18.36,28.09
+DAMANSARA Toll,SG. PETANI SELATAN Toll,38.21,69.9,93.1,19.18,28.78
+DAMANSARA Toll,SG. PETANI UTARA Toll,38.95,71.2,94.9,19.51,29.27
+DAMANSARA Toll,GURUN Toll,40.75,74.6,99.4,20.5,30.67
+DAMANSARA Toll,PENDANG Toll,42.96,78.6,104.7,21.56,32.31
+DAMANSARA Toll,Alor Setar Selatan Toll,44.6,81.6,108.7,22.38,33.99
+DAMANSARA Toll,Alor Setar Utara Toll,45.26,82.7,110.2,22.71,34.03
+DAMANSARA Toll,Hutan Kampung Toll,45.92,84,111.9,23.04,34.79
+DAMANSARA Toll,BANDAR CASSIA Toll,40.45,93.8,154.5,25.86,52.28
+Ebor Utara Toll,Seafield Toll,0.41,0.8,1,0.25,0.33
+Ebor Utara Toll,USJ Toll,0.82,1.5,2,0.41,0.66
+Ebor Utara Toll,PUTRA HEIGHTS Toll,1.39,2.5,3.3,0.66,0.98
+Ebor Utara Toll,Bandar Saujana Putra Toll,1.64,3.1,4.1,0.82,1.23
+Ebor Utara Toll,BANDAR GAMUDA COVE Toll,2.79,5.1,6.8,1.39,2.05
+Ebor Utara Toll,Putra Jaya Toll,3.2,5.9,7.8,1.64,2.38
+Ebor Utara Toll,BANDAR SERENIA Toll,4.02,7.3,9.7,1.97,2.95
+Ebor Utara Toll,KLIA Toll,4.51,7.9,10.4,2.46,3.44
+Ebor Utara Toll,Nilai Toll,5.66,10.4,13.8,2.87,4.26
+Ebor Utara Toll,Putera Mahkota Toll,5.74,10.6,14.1,2.95,4.35
+Ebor Utara Toll,SOUTHVILLE CITY Toll,6.15,11.3,15.1,3.12,4.59
+Ebor Utara Toll,BANGI Toll,6.56,12,16,3.28,4.92
+Ebor Utara Toll,KAJANG Toll,7.22,13.3,17.6,3.69,5.41
+Ebor Utara Toll,Bandar Ainsdale Toll,7.38,13.6,18,3.77,5.58
+Ebor Utara Toll,UPM Toll,7.46,13.7,18.2,3.77,5.58
+Ebor Utara Toll,SEREMBAN Toll,7.71,14.2,18.8,3.94,5.82
+Ebor Utara Toll,Sg. Besi Toll,7.95,14.6,19.4,4.02,5.99
+Ebor Utara Toll,Port Dickson Toll,8.12,14.9,19.8,4.1,6.15
+Ebor Utara Toll,Senawang Toll,8.53,15.7,20.9,4.35,6.48
+Ebor Utara Toll,PEDAS LINGGI Toll,10.41,19.1,25.4,5.25,7.79
+Ebor Utara Toll,Simpang Ampat Toll,12.96,23.8,31.6,6.56,9.76
+Ebor Utara Toll,Ayer Keroh Toll,15.33,28,37.3,7.71,11.48
+Ebor Utara Toll,Jasin Toll,17.14,31.4,41.8,8.61,12.87
+Ebor Utara Toll,Tangkak Toll,18.29,33.5,44.5,9.18,13.69
+Ebor Utara Toll,Bukit Gambir Toll,19.68,36,47.9,9.84,14.76
+Ebor Utara Toll,Pagoh Toll,21.4,39.2,52.2,10.74,16.07
+Ebor Utara Toll,Yong Peng Utara Toll,26.16,47.9,63.8,13.12,19.68
+Ebor Utara Toll,Ayer Hitam Toll,28.37,51.9,69.1,14.19,21.32
+Ebor Utara Toll,Machap Toll,29.11,53.3,71.1,14.6,21.89
+Ebor Utara Toll,Spg. Renggam Toll,30.67,56.2,74.9,15.42,23.04
+Ebor Utara Toll,Sedenak Toll,32.8,60.1,80,16.48,24.6
+Ebor Utara Toll,KULAI Toll,34.28,62.7,83.6,17.14,25.75
+Ebor Utara Toll,Senai Utara Toll,35.26,64.5,86,17.71,26.49
+Ebor Utara Toll,Skudai Toll,35.67,65.3,87,17.88,26.73
+ECO MAJESTIC Toll,Pajam Toll,1.4,2.1,2.7,0.7,1
+ECO MAJESTIC Toll,SEMENYIH Toll,1.4,2.1,2.8,0.7,1
+ECO MAJESTIC Toll,Kajang Selatan Toll,2,3,4,1,1.5
+ECO MAJESTIC Toll,MANTIN Toll,2.9,4.3,5.7,1.4,2.1
+ECO MAJESTIC Toll,Setul North Bound Toll,3.9,5.9,7.8,2,2.9
+GAMBANG Toll,KUANTAN Toll,2.9,5.8,8.8,1.5,2.9
+GAMBANG Toll,SRI JAYA Toll,3.8,7.7,11.5,1.9,3.8
+GAMBANG Toll,JABOR Toll,4.3,8.7,13,2.2,4.3
+GAMBANG Toll,MARAN Toll,5.4,10.8,16.3,2.7,5.4
+GAMBANG Toll,CHENEH Toll,7.4,14.6,22,3.7,7.4
+GAMBANG Toll,CUKAI Toll,8.8,17.5,26.3,4.4,8.8
+GAMBANG Toll,CHENOR Toll,9.5,19,28.6,4.8,9.5
+GAMBANG Toll,KIJAL Toll,11.1,22,33.1,5.5,11.1
+GAMBANG Toll,TEMERLOH Toll,11.1,22.2,33.3,5.6,11.1
+GAMBANG Toll,KERTEH Toll,12.8,25.4,38.2,6.4,12.8
+GAMBANG Toll,PAKA Toll,14.2,28.2,42.4,7.1,14.2
+GAMBANG Toll,LANCANG Toll,14.3,28.6,42.9,7.2,14.3
+GAMBANG Toll,DUNGUN Toll,16.4,32.6,49,8.2,16.4
+GAMBANG Toll,KARAK Toll,16.9,33.7,50.6,8.4,16.9
+GAMBANG Toll,BUKIT BESI Toll,18.4,36.7,55.1,9.2,18.4
+GAMBANG Toll,AJIL Toll,23,46,69,11.5,23
+GAMBANG Toll,TELEMUNG Toll,25.4,50.7,76,12.7,25.4
+GAMBANG Toll,Kuala Terengganu (Kg Gemuroh) Toll,26.6,53,79.6,13.3,26.6
+GOPENG Toll,SIMPANG PULAI Toll,1.23,2.2,3,0.57,0.9
+GOPENG Toll,Ipoh Selatan Toll,2.54,4.7,6.3,1.31,1.89
+GOPENG Toll,TAPAH Toll,3.53,6.4,8.6,1.72,2.62
+GOPENG Toll,BIDOR Toll,5,9.2,12.2,2.54,3.77
+GOPENG Toll,KUALA KANGSAR Toll,5.41,10,13.3,2.79,4.02
+GOPENG Toll,SUNGKAI Toll,6.56,11.9,15.9,3.28,4.92
+GOPENG Toll,CANGKAT JERING Toll,7.79,14.3,19.1,3.94,5.82
+GOPENG Toll,SLIM RIVER Toll,8.61,15.8,21.1,4.35,6.48
+GOPENG Toll,TAIPING UTARA Toll,9.59,17.5,23.4,4.84,7.13
+GOPENG Toll,BEHRANG Toll,10.33,18.9,25.2,5.17,7.71
+GOPENG Toll,BUKIT MERAH Toll,10.82,19.8,26.4,5.41,8.04
+GOPENG Toll,Tg. Malim Toll,11.97,21.8,29.1,5.99,8.94
+GOPENG Toll,ALOR PONGSU Toll,12.3,22.4,29.9,6.15,9.18
+GOPENG Toll,BANDAR BAHARU Toll,12.71,23.4,31.2,6.4,9.51
+GOPENG Toll,LEMBAH BERINGIN Toll,12.96,23.7,31.5,6.48,9.68
+GOPENG Toll,BUKIT TAGAR Toll,13.94,25.5,34,6.97,10.5
+GOPENG Toll,JAWI Toll,14.27,26.1,34.8,7.13,10.66
+GOPENG Toll,BUKIT BERUNTUNG Toll,14.92,27.2,36.3,7.46,11.15
+GOPENG Toll,BKT. TAMBUN UTARA Toll,15.58,28.6,38.1,7.87,11.64
+GOPENG Toll,SUNGAI BUAYA Toll,15.66,28.6,38.2,7.87,11.73
+GOPENG Toll,JURU Toll,16.32,29.9,39.9,8.2,12.22
+GOPENG Toll,RAWANG Toll,16.65,30.4,40.5,8.28,12.46
+GOPENG Toll,RAWANG SELATAN Toll,17.14,31.3,41.7,8.53,12.87
+GOPENG Toll,SG. BULOH HOSPITAL Toll,17.79,32.5,43.4,8.86,13.37
+GOPENG Toll,SG. BULOH Toll,18.04,32.9,43.9,9.02,13.53
+GOPENG Toll,BERTAM Toll,17.63,32.2,43,8.93,13.82
+GOPENG Toll,KOTA DAMANSARA Toll,18.7,34.2,45.5,9.35,14.02
+GOPENG Toll,DAMANSARA Toll,19.11,35,46.6,9.59,14.35
+GOPENG Toll,Jalan Duta Toll,19.27,35.3,47,9.68,14.43
+GOPENG Toll,SUBANG Toll,19.27,35.3,47,9.68,14.43
+GOPENG Toll,SG. PETANI SELATAN Toll,19.27,35.2,46.9,9.75,14.51
+GOPENG Toll,Shah Alam Toll,19.84,36.3,48.4,9.92,14.92
+GOPENG Toll,SG. PETANI UTARA Toll,20.01,36.5,48.7,10.08,15
+GOPENG Toll,Seafield Toll,20.5,37.5,49.9,10.25,15.33
+GOPENG Toll,Setia Alam Toll,20.83,38,50.7,10.41,15.58
+GOPENG Toll,USJ Toll,20.91,38.2,50.9,10.41,15.66
+GOPENG Toll,Bukit Raja Toll,20.99,38.3,51.1,10.5,15.74
+GOPENG Toll,PUTRA HEIGHTS Toll,21.4,39.2,52.2,10.66,16.07
+GOPENG Toll,Bandar Saujana Putra Toll,21.73,39.7,52.9,10.82,16.32
+GOPENG Toll,GURUN Toll,21.81,39.9,53.2,11.07,16.4
+GOPENG Toll,BANDAR GAMUDA COVE Toll,22.8,41.8,55.7,11.4,17.14
+GOPENG Toll,Putra Jaya Toll,23.29,42.6,56.7,11.64,17.47
+GOPENG Toll,BANDAR SERENIA Toll,24.03,44,58.6,12.05,18.04
+GOPENG Toll,PENDANG Toll,24.02,43.9,58.5,12.13,18.04
+GOPENG Toll,KLIA Toll,24.6,44.7,59.4,12.46,18.53
+GOPENG Toll,Nilai Toll,25.75,47.2,62.9,12.96,19.35
+GOPENG Toll,Putera Mahkota Toll,25.83,47.3,63,12.96,19.35
+GOPENG Toll,SOUTHVILLE CITY Toll,26.24,48,64,13.12,19.68
+GOPENG Toll,Alor Setar Selatan Toll,25.66,46.9,62.5,12.95,19.72
+GOPENG Toll,Alor Setar Utara Toll,26.32,48,64,13.28,19.76
+GOPENG Toll,BANGI Toll,26.65,48.7,64.9,13.37,19.93
+GOPENG Toll,KAJANG Toll,27.31,50,66.5,13.69,20.42
+GOPENG Toll,Hutan Kampung Toll,26.98,49.3,65.7,13.61,20.52
+GOPENG Toll,Bandar Ainsdale Toll,27.47,50.3,66.9,13.78,20.58
+GOPENG Toll,UPM Toll,27.55,50.4,67.1,13.78,20.58
+GOPENG Toll,SEREMBAN Toll,27.8,50.9,67.8,13.94,20.83
+GOPENG Toll,Sg. Besi Toll,28.04,51.3,68.3,14.02,20.99
+GOPENG Toll,Port Dickson Toll,28.21,51.6,68.7,14.1,21.16
+GOPENG Toll,Senawang Toll,28.62,52.4,69.8,14.35,21.48
+GOPENG Toll,PEDAS LINGGI Toll,30.5,55.8,74.3,15.25,22.8
+GOPENG Toll,Simpang Ampat Toll,33.05,60.5,80.5,16.56,24.76
+GOPENG Toll,Ayer Keroh Toll,35.42,64.8,86.4,17.79,26.57
+GOPENG Toll,Jasin Toll,37.23,68.1,90.7,18.61,27.88
+GOPENG Toll,Tangkak Toll,38.38,70.2,93.6,19.27,28.78
+GOPENG Toll,Bukit Gambir Toll,39.69,72.7,96.9,19.93,29.77
+GOPENG Toll,Pagoh Toll,41.49,75.8,101.1,20.75,31.08
+GOPENG Toll,Yong Peng Utara Toll,46.25,84.6,112.8,23.21,34.69
+GOPENG Toll,Ayer Hitam Toll,48.46,88.6,118.1,24.27,36.33
+GOPENG Toll,Machap Toll,49.28,90.1,120.1,24.68,36.9
+GOPENG Toll,BANDAR CASSIA Toll,21.51,59.1,108.3,16.43,38.02
+GOPENG Toll,Spg. Renggam Toll,50.84,93,123.9,25.42,38.13
+GOPENG Toll,Sedenak Toll,52.89,96.7,128.9,26.49,39.61
+GOPENG Toll,KULAI Toll,54.37,99.5,132.6,27.22,40.75
+GOPENG Toll,Senai Utara Toll,55.43,101.3,135.1,27.72,41.49
+GOPENG Toll,Skudai Toll,55.76,101.9,135.9,27.88,41.74
+GURUN Toll,SG. PETANI UTARA Toll,2.13,3.9,5.2,1.06,1.55
+GURUN Toll,PENDANG Toll,2.46,4.5,6,1.23,1.8
+GURUN Toll,SG. PETANI SELATAN Toll,3.11,5.7,7.6,1.55,2.37
+GURUN Toll,Alor Setar Selatan Toll,3.93,7.2,9.5,1.96,2.95
+GURUN Toll,BERTAM Toll,4.42,8.1,10.7,2.21,3.28
+GURUN Toll,Alor Setar Utara Toll,4.59,8.4,11.1,2.29,3.44
+GURUN Toll,Hutan Kampung Toll,4.75,8.7,11.6,2.37,3.6
+GURUN Toll,Ipoh Selatan Toll,5.49,10,13.3,2.87,4.18
+GURUN Toll,SG. DUA Toll,5.49,10,13.3,2.87,4.18
+GURUN Toll,BKT. TAMBUN SELATAN Toll,6.39,11.6,15.5,3.28,4.84
+GURUN Toll,JAWI Toll,7.79,14.2,18.9,4.02,5.9
+GURUN Toll,BANDAR BAHARU Toll,9.1,16.6,22.1,4.67,6.89
+GURUN Toll,ALOR PONGSU Toll,9.67,17.6,23.5,5,7.3
+GURUN Toll,BUKIT MERAH Toll,11.15,20.4,27.2,5.74,8.44
+GURUN Toll,TAIPING UTARA Toll,12.46,22.7,30.3,6.4,9.43
+GURUN Toll,CANGKAT JERING Toll,14.1,25.7,34.2,7.13,10.66
+GURUN Toll,KUALA KANGSAR Toll,16.56,30.2,40.2,8.36,12.46
+GURUN Toll,IPOH UTARA Toll,19.27,35.2,46.9,9.76,14.51
+GURUN Toll,SIMPANG PULAI Toll,20.74,37.9,50.4,10.5,15.58
+GURUN Toll,GOPENG Toll,21.81,39.9,53.2,11.07,16.4
+GURUN Toll,TAPAH Toll,25.17,46,61.3,12.71,18.94
+GURUN Toll,BIDOR Toll,26.65,48.8,65,13.45,20.09
+GURUN Toll,SUNGKAI Toll,28.2,51.5,68.7,14.19,21.24
+GURUN Toll,SLIM RIVER Toll,30.34,55.4,73.8,15.25,22.79
+GURUN Toll,BEHRANG Toll,31.98,58.4,77.9,16.15,24.02
+GURUN Toll,Tg. Malim Toll,33.62,61.4,81.8,16.89,25.25
+GURUN Toll,LEMBAH BERINGIN Toll,34.6,63.2,84.3,17.47,25.99
+GURUN Toll,BUKIT TAGAR Toll,35.58,65.1,86.7,17.96,26.73
+GURUN Toll,BUKIT BERUNTUNG Toll,36.57,66.8,89,18.37,27.47
+GURUN Toll,SUNGAI BUAYA Toll,37.31,68.2,90.9,18.78,28.04
+GURUN Toll,RAWANG Toll,38.29,70,93.3,19.27,28.78
+GURUN Toll,RAWANG SELATAN Toll,38.78,70.9,94.5,19.52,29.19
+GURUN Toll,SG. BULOH HOSPITAL Toll,39.44,72.1,96.1,19.84,29.68
+GURUN Toll,SG. BULOH Toll,39.68,72.5,96.7,19.93,29.85
+GURUN Toll,KOTA DAMANSARA Toll,40.34,73.7,98.3,20.34,30.34
+GURUN Toll,DAMANSARA Toll,40.75,74.6,99.4,20.5,30.67
+GURUN Toll,Jalan Duta Toll,41,74.9,99.8,20.58,30.75
+GURUN Toll,SUBANG Toll,41,74.9,99.8,20.58,30.75
+GURUN Toll,Shah Alam Toll,41.49,75.9,101.1,20.91,31.24
+GURUN Toll,Seafield Toll,42.23,77.2,102.8,21.24,31.65
+GURUN Toll,BANDAR CASSIA Toll,12.98,43.4,87.3,12.24,31.7
+GURUN Toll,Setia Alam Toll,42.47,77.6,103.5,21.32,31.9
+GURUN Toll,USJ Toll,42.64,77.9,103.8,21.4,31.98
+GURUN Toll,Bukit Raja Toll,42.64,77.9,103.9,21.4,32.06
+GURUN Toll,PUTRA HEIGHTS Toll,43.13,78.9,105.1,21.65,32.39
+GURUN Toll,Bandar Saujana Putra Toll,43.46,79.4,105.8,21.81,32.63
+GURUN Toll,BANDAR GAMUDA COVE Toll,44.52,81.4,108.5,22.39,33.45
+GURUN Toll,Putra Jaya Toll,45.01,82.3,109.6,22.63,33.78
+GURUN Toll,BANDAR SERENIA Toll,45.75,83.6,111.5,23.04,34.36
+GURUN Toll,KLIA Toll,46.24,84.3,112.1,23.45,34.77
+GURUN Toll,Nilai Toll,47.47,86.8,115.6,23.86,35.67
+GURUN Toll,Putera Mahkota Toll,47.47,86.9,115.8,23.94,35.67
+GURUN Toll,SOUTHVILLE CITY Toll,47.97,87.6,116.8,24.11,36
+GURUN Toll,BANGI Toll,48.29,88.3,117.7,24.27,36.24
+GURUN Toll,KAJANG Toll,48.95,89.5,119.3,24.68,36.73
+GURUN Toll,Bandar Ainsdale Toll,49.11,89.8,119.7,24.76,36.9
+GURUN Toll,UPM Toll,49.2,89.9,119.8,24.76,36.9
+GURUN Toll,SEREMBAN Toll,49.44,90.5,120.5,24.93,37.14
+GURUN Toll,Sg. Besi Toll,49.69,90.9,121.1,25.01,37.31
+GURUN Toll,Port Dickson Toll,49.93,91.3,121.6,25.09,37.47
+GURUN Toll,Senawang Toll,50.34,92.1,122.7,25.34,37.8
+GURUN Toll,PEDAS LINGGI Toll,52.15,95.3,127,26.24,39.11
+GURUN Toll,Simpang Ampat Toll,54.69,100,133.3,27.55,41.08
+GURUN Toll,Ayer Keroh Toll,57.07,104.4,139.1,28.7,42.88
+GURUN Toll,Jasin Toll,58.87,107.7,143.5,29.6,44.2
+GURUN Toll,Tangkak Toll,60.02,109.8,146.3,30.18,45.1
+GURUN Toll,Bukit Gambir Toll,61.41,112.3,149.6,30.83,46.08
+GURUN Toll,Pagoh Toll,63.14,115.5,154,31.73,47.39
+GURUN Toll,Yong Peng Utara Toll,67.89,124.2,165.5,34.11,51
+GURUN Toll,Ayer Hitam Toll,70.11,128.2,170.8,35.18,52.64
+GURUN Toll,Machap Toll,70.93,129.7,172.9,35.59,53.22
+GURUN Toll,Spg. Renggam Toll,72.48,132.6,176.7,36.41,54.45
+GURUN Toll,Sedenak Toll,74.53,136.3,181.7,37.47,55.92
+GURUN Toll,KULAI Toll,76.09,139.1,185.4,38.21,57.07
+GURUN Toll,Senai Utara Toll,77.08,140.9,187.8,38.7,57.81
+GURUN Toll,Skudai Toll,77.4,141.5,188.6,38.87,58.05
+Hutan Kampung Toll,Alor Setar Utara Toll,0.32,0.7,0.9,0.16,0.24
+Hutan Kampung Toll,Alor Setar Selatan Toll,1.14,2.2,2.9,0.57,0.9
+Hutan Kampung Toll,PENDANG Toll,3.19,5.9,7.9,1.64,2.46
+Hutan Kampung Toll,GURUN Toll,4.75,8.7,11.6,2.37,3.6
+Hutan Kampung Toll,SG. PETANI UTARA Toll,7.21,13.2,17.6,3.6,5.41
+Hutan Kampung Toll,SG. PETANI SELATAN Toll,8.28,15.1,20.1,4.1,6.15
+Hutan Kampung Toll,BERTAM Toll,9.51,17.4,23.2,4.75,7.13
+Hutan Kampung Toll,Ipoh Selatan Toll,10.66,19.4,25.8,5.41,8.3
+Hutan Kampung Toll,SG. DUA Toll,10.66,19.4,25.8,5.41,8.3
+Hutan Kampung Toll,BKT. TAMBUN SELATAN Toll,11.56,21,28,5.82,8.96
+Hutan Kampung Toll,JAWI Toll,12.96,23.6,31.4,6.56,10.02
+Hutan Kampung Toll,BANDAR BAHARU Toll,14.27,26,34.6,7.21,11.01
+Hutan Kampung Toll,ALOR PONGSU Toll,14.84,27,36,7.54,11.42
+Hutan Kampung Toll,BUKIT MERAH Toll,16.32,29.8,39.7,8.28,12.56
+Hutan Kampung Toll,TAIPING UTARA Toll,17.63,32.1,42.8,8.94,13.55
+Hutan Kampung Toll,CANGKAT JERING Toll,19.27,35.1,46.7,9.67,14.78
+Hutan Kampung Toll,KUALA KANGSAR Toll,21.73,39.6,52.7,10.9,16.58
+Hutan Kampung Toll,IPOH UTARA Toll,24.44,44.6,59.4,12.3,18.63
+Hutan Kampung Toll,SIMPANG PULAI Toll,25.91,47.3,62.9,13.04,19.7
+Hutan Kampung Toll,GOPENG Toll,26.98,49.3,65.7,13.61,20.52
+Hutan Kampung Toll,TAPAH Toll,30.34,55.4,73.8,15.25,23.06
+Hutan Kampung Toll,BIDOR Toll,31.82,58.2,77.5,15.99,24.21
+Hutan Kampung Toll,SUNGKAI Toll,33.37,60.9,81.2,16.73,25.36
+Hutan Kampung Toll,SLIM RIVER Toll,35.51,64.8,86.3,17.79,26.91
+Hutan Kampung Toll,BEHRANG Toll,37.15,67.8,90.4,18.69,28.14
+Hutan Kampung Toll,Tg. Malim Toll,38.79,70.8,94.3,19.43,29.37
+Hutan Kampung Toll,LEMBAH BERINGIN Toll,39.77,72.6,96.8,20.01,30.11
+Hutan Kampung Toll,BUKIT TAGAR Toll,40.75,74.5,99.2,20.5,30.85
+Hutan Kampung Toll,BUKIT BERUNTUNG Toll,41.74,76.2,101.5,20.91,31.59
+Hutan Kampung Toll,SUNGAI BUAYA Toll,42.48,77.6,103.4,21.32,32.16
+Hutan Kampung Toll,RAWANG Toll,43.46,79.4,105.8,21.81,32.9
+Hutan Kampung Toll,RAWANG SELATAN Toll,43.95,80.3,107,22.06,33.31
+Hutan Kampung Toll,SG. BULOH HOSPITAL Toll,44.61,81.5,108.6,22.38,33.8
+Hutan Kampung Toll,SG. BULOH Toll,44.85,81.9,109.2,22.47,33.97
+Hutan Kampung Toll,KOTA DAMANSARA Toll,45.51,83.1,110.8,22.88,34.46
+Hutan Kampung Toll,DAMANSARA Toll,45.92,84,111.9,23.04,34.79
+Hutan Kampung Toll,Jalan Duta Toll,46.17,84.3,112.3,23.12,34.87
+Hutan Kampung Toll,SUBANG Toll,46.17,84.3,112.3,23.12,34.87
+Hutan Kampung Toll,Shah Alam Toll,46.66,85.3,113.6,23.45,35.36
+Hutan Kampung Toll,Seafield Toll,47.4,86.6,115.3,23.78,35.77
+Hutan Kampung Toll,BANDAR CASSIA Toll,18.15,52.8,99.8,14.78,35.82
+Hutan Kampung Toll,Setia Alam Toll,47.64,87,116,23.86,36.02
+Hutan Kampung Toll,USJ Toll,47.81,87.3,116.3,23.94,36.1
+Hutan Kampung Toll,Bukit Raja Toll,47.81,87.3,116.4,23.94,36.18
+Hutan Kampung Toll,PUTRA HEIGHTS Toll,48.3,88.3,117.6,24.19,36.51
+Hutan Kampung Toll,Bandar Saujana Putra Toll,48.63,88.8,118.3,24.35,36.75
+Hutan Kampung Toll,BANDAR GAMUDA COVE Toll,49.69,90.8,121,24.93,37.57
+Hutan Kampung Toll,Putra Jaya Toll,50.18,91.7,122.1,25.17,37.9
+Hutan Kampung Toll,BANDAR SERENIA Toll,50.92,93,124,25.58,38.48
+Hutan Kampung Toll,KLIA Toll,51.41,93.7,124.6,25.99,38.89
+Hutan Kampung Toll,Nilai Toll,52.64,96.2,128.1,26.4,39.79
+Hutan Kampung Toll,Putera Mahkota Toll,52.64,96.3,128.3,26.48,39.79
+Hutan Kampung Toll,SOUTHVILLE CITY Toll,53.14,97,129.3,26.65,40.12
+Hutan Kampung Toll,BANGI Toll,53.46,97.7,130.2,26.81,40.36
+Hutan Kampung Toll,KAJANG Toll,54.12,98.9,131.8,27.22,40.85
+Hutan Kampung Toll,Bandar Ainsdale Toll,54.28,99.2,132.2,27.3,41.02
+Hutan Kampung Toll,UPM Toll,54.37,99.3,132.3,27.3,41.02
+Hutan Kampung Toll,SEREMBAN Toll,54.61,99.9,133,27.47,41.26
+Hutan Kampung Toll,Sg. Besi Toll,54.86,100.3,133.6,27.55,41.43
+Hutan Kampung Toll,Port Dickson Toll,55.1,100.7,134.1,27.63,41.59
+Hutan Kampung Toll,Senawang Toll,55.51,101.5,135.2,27.88,41.92
+Hutan Kampung Toll,PEDAS LINGGI Toll,57.32,104.7,139.5,28.78,43.23
+Hutan Kampung Toll,Simpang Ampat Toll,59.86,109.4,145.8,30.09,45.2
+Hutan Kampung Toll,Ayer Keroh Toll,62.24,113.8,151.6,31.24,47
+Hutan Kampung Toll,Jasin Toll,64.04,117.1,156,32.14,48.32
+Hutan Kampung Toll,Tangkak Toll,65.19,119.2,158.8,32.72,49.22
+Hutan Kampung Toll,Bukit Gambir Toll,66.58,121.7,162.1,33.37,50.2
+Hutan Kampung Toll,Pagoh Toll,68.31,124.9,166.5,34.27,51.51
+Hutan Kampung Toll,Yong Peng Utara Toll,73.06,133.6,178,36.65,55.12
+Hutan Kampung Toll,Ayer Hitam Toll,75.28,137.6,183.3,37.72,56.76
+Hutan Kampung Toll,Machap Toll,76.1,139.1,185.4,38.13,57.34
+Hutan Kampung Toll,Spg. Renggam Toll,77.65,142,189.2,38.95,58.57
+Hutan Kampung Toll,Sedenak Toll,79.7,145.7,194.2,40.01,60.04
+Hutan Kampung Toll,KULAI Toll,81.26,148.5,197.9,40.75,61.19
+Hutan Kampung Toll,Senai Utara Toll,82.25,150.3,200.3,41.24,61.93
+Hutan Kampung Toll,Skudai Toll,82.57,150.9,201.1,41.41,62.17
+HUTAN MELINTANG Toll,TELUK INTAN Toll,2.9,5.8,8.7,1.5,2.2
+Ipoh Selatan Toll,SIMPANG PULAI Toll,1.48,2.7,3.5,0.74,1.07
+Ipoh Selatan Toll,GOPENG Toll,2.54,4.7,6.3,1.31,1.89
+Ipoh Selatan Toll,TAPAH Toll,5.9,10.8,14.4,2.95,4.43
+Ipoh Selatan Toll,BIDOR Toll,7.38,13.6,18.1,3.69,5.58
+Ipoh Selatan Toll,SUNGKAI Toll,8.94,16.3,21.8,4.43,6.72
+Ipoh Selatan Toll,SLIM RIVER Toll,11.07,20.2,26.9,5.49,8.28
+Ipoh Selatan Toll,BEHRANG Toll,12.71,23.2,31,6.4,9.51
+Ipoh Selatan Toll,Tg. Malim Toll,14.35,26.2,34.9,7.13,10.74
+Ipoh Selatan Toll,LEMBAH BERINGIN Toll,15.33,28,37.4,7.71,11.48
+Ipoh Selatan Toll,BUKIT TAGAR Toll,16.32,29.9,39.8,8.2,12.22
+Ipoh Selatan Toll,BUKIT BERUNTUNG Toll,17.3,31.6,42.1,8.61,12.96
+Ipoh Selatan Toll,SUNGAI BUAYA Toll,18.04,33,44,9.02,13.53
+Ipoh Selatan Toll,RAWANG Toll,19.02,34.8,46.4,9.51,14.27
+Ipoh Selatan Toll,RAWANG SELATAN Toll,19.52,35.7,47.6,9.76,14.68
+Ipoh Selatan Toll,SG. BULOH HOSPITAL Toll,20.17,36.9,49.2,10.09,15.17
+Ipoh Selatan Toll,SG. BULOH Toll,20.42,37.3,49.8,10.17,15.33
+Ipoh Selatan Toll,KOTA DAMANSARA Toll,21.07,38.5,51.4,10.58,15.83
+Ipoh Selatan Toll,DAMANSARA Toll,21.48,39.4,52.5,10.74,16.15
+Ipoh Selatan Toll,Jalan Duta Toll,21.73,39.7,52.9,10.82,16.24
+Ipoh Selatan Toll,SUBANG Toll,21.73,39.7,52.9,10.82,16.24
+Ipoh Selatan Toll,Shah Alam Toll,22.22,40.7,54.2,11.15,16.73
+Ipoh Selatan Toll,Seafield Toll,22.96,42,55.9,11.48,17.14
+Ipoh Selatan Toll,Setia Alam Toll,23.21,42.4,56.6,11.56,17.38
+Ipoh Selatan Toll,USJ Toll,23.37,42.7,56.9,11.64,17.47
+Ipoh Selatan Toll,Bukit Raja Toll,23.37,42.7,57,11.64,17.55
+Ipoh Selatan Toll,PUTRA HEIGHTS Toll,23.86,43.7,58.2,11.89,17.88
+Ipoh Selatan Toll,Bandar Saujana Putra Toll,24.19,44.2,58.9,12.05,18.12
+Ipoh Selatan Toll,BANDAR GAMUDA COVE Toll,25.26,46.2,61.7,12.63,18.94
+Ipoh Selatan Toll,Putra Jaya Toll,25.75,47.1,62.7,12.87,19.27
+Ipoh Selatan Toll,BANDAR SERENIA Toll,26.49,48.5,64.6,13.28,19.84
+Ipoh Selatan Toll,KLIA Toll,26.98,49.1,65.2,13.69,20.25
+Ipoh Selatan Toll,Nilai Toll,28.21,51.6,68.7,14.1,21.16
+Ipoh Selatan Toll,Putera Mahkota Toll,28.21,51.7,68.9,14.19,21.16
+Ipoh Selatan Toll,SOUTHVILLE CITY Toll,28.7,52.5,69.9,14.35,21.48
+Ipoh Selatan Toll,BANGI Toll,29.03,53.1,70.8,14.51,21.73
+Ipoh Selatan Toll,KAJANG Toll,29.68,54.3,72.4,14.92,22.22
+Ipoh Selatan Toll,Bandar Ainsdale Toll,29.85,54.6,72.8,15.01,22.39
+Ipoh Selatan Toll,UPM Toll,29.93,54.7,72.9,15.01,22.39
+Ipoh Selatan Toll,SEREMBAN Toll,30.18,55.3,73.6,15.17,22.63
+Ipoh Selatan Toll,Sg. Besi Toll,30.42,55.7,74.2,15.25,22.8
+Ipoh Selatan Toll,Port Dickson Toll,30.67,56.1,74.7,15.33,22.96
+Ipoh Selatan Toll,Senawang Toll,31.08,56.9,75.8,15.58,23.29
+Ipoh Selatan Toll,PEDAS LINGGI Toll,32.88,60.1,80.1,16.48,24.6
+Ipoh Selatan Toll,Simpang Ampat Toll,35.42,64.8,86.4,17.79,26.57
+Ipoh Selatan Toll,Ayer Keroh Toll,37.8,69.2,92.2,18.94,28.37
+Ipoh Selatan Toll,Jasin Toll,39.61,72.5,96.6,19.84,29.68
+Ipoh Selatan Toll,Tangkak Toll,40.75,74.6,99.4,20.42,30.59
+Ipoh Selatan Toll,Bukit Gambir Toll,42.15,77.1,102.7,21.07,31.57
+Ipoh Selatan Toll,Pagoh Toll,43.87,80.3,107.1,21.98,32.88
+Ipoh Selatan Toll,Yong Peng Utara Toll,48.63,89,118.6,24.35,36.49
+Ipoh Selatan Toll,Ayer Hitam Toll,50.84,93,123.9,25.42,38.13
+Ipoh Selatan Toll,Machap Toll,51.66,94.5,126,25.83,38.7
+Ipoh Selatan Toll,Spg. Renggam Toll,53.22,97.4,129.8,26.65,39.93
+Ipoh Selatan Toll,Sedenak Toll,55.27,101.1,134.8,27.72,41.41
+Ipoh Selatan Toll,KULAI Toll,56.83,103.9,138.5,28.45,42.56
+Ipoh Selatan Toll,Senai Utara Toll,57.81,105.7,140.9,28.95,43.3
+Ipoh Selatan Toll,Skudai Toll,58.14,106.3,141.7,29.11,43.54
+IPOH UTARA Toll,KUALA KANGSAR Toll,2.87,5.3,7,1.48,2.13
+IPOH UTARA Toll,CANGKAT JERING Toll,5.25,9.6,12.8,2.62,3.94
+IPOH UTARA Toll,TAIPING UTARA Toll,7.05,12.8,17.1,3.53,5.25
+IPOH UTARA Toll,BUKIT MERAH Toll,8.28,15.1,20.1,4.1,6.15
+IPOH UTARA Toll,ALOR PONGSU Toll,9.68,17.7,23.7,4.84,7.3
+IPOH UTARA Toll,BANDAR BAHARU Toll,10.17,18.7,24.9,5.08,7.63
+IPOH UTARA Toll,JAWI Toll,11.73,21.4,28.5,5.82,8.77
+IPOH UTARA Toll,BKT. TAMBUN UTARA Toll,13.04,23.9,31.8,6.56,9.76
+IPOH UTARA Toll,JURU Toll,13.78,25.2,33.6,6.89,10.33
+IPOH UTARA Toll,BERTAM Toll,15.09,27.5,36.7,7.62,11.93
+IPOH UTARA Toll,SG. PETANI SELATAN Toll,16.73,30.5,40.6,8.44,12.62
+IPOH UTARA Toll,SG. PETANI UTARA Toll,17.47,31.8,42.4,8.77,13.11
+IPOH UTARA Toll,GURUN Toll,19.27,35.2,46.9,9.76,14.51
+IPOH UTARA Toll,PENDANG Toll,21.48,39.2,52.2,10.82,16.15
+IPOH UTARA Toll,Alor Setar Selatan Toll,23.12,42.2,56.2,11.64,17.83
+IPOH UTARA Toll,Alor Setar Utara Toll,23.78,43.3,57.7,11.97,17.87
+IPOH UTARA Toll,Hutan Kampung Toll,24.44,44.6,59.4,12.3,18.63
+IPOH UTARA Toll,BANDAR CASSIA Toll,18.97,54.4,102,15.11,36.13
+JABOR Toll,KUANTAN Toll,1.7,3.3,5,0.8,1.7
+JABOR Toll,CHENEH Toll,3.5,7,10.5,1.8,3.5
+JABOR Toll,GAMBANG Toll,4.3,8.7,13,2.2,4.3
+JABOR Toll,CUKAI Toll,4.9,9.9,14.8,2.5,4.9
+JABOR Toll,KIJAL Toll,7.2,14.4,21.6,3.6,7.2
+JABOR Toll,SRI JAYA Toll,8,16,24,4,8
+JABOR Toll,KERTEH Toll,8.9,17.8,26.7,4.5,8.9
+JABOR Toll,MARAN Toll,9.6,19.2,28.8,4.8,9.6
+JABOR Toll,PAKA Toll,10.3,20.6,30.9,5.2,10.3
+JABOR Toll,CHENOR Toll,13.7,27.4,41.1,6.8,13.7
+JABOR Toll,DUNGUN Toll,12.5,25,37.5,6.3,14.5
+JABOR Toll,TEMERLOH Toll,15.3,30.6,45.8,7.6,15.3
+JABOR Toll,LANCANG Toll,18.5,37,55.4,9.2,18.5
+JABOR Toll,AJIL Toll,19.1,38.4,57.5,9.6,19.1
+JABOR Toll,KARAK Toll,21,42.1,63.1,10.5,21
+JABOR Toll,TELEMUNG Toll,21.5,43.1,64.5,10.8,21.5
+JABOR Toll,Kuala Terengganu (Kg Gemuroh) Toll,22.7,45.4,68.1,11.4,22.7
+JABOR Toll,BUKIT BESI Toll,14.5,29.1,43.6,7.3,
+Jalan Duta Toll,KOTA DAMANSARA Toll,1.48,2.8,3.7,0.74,1.15
+Jalan Duta Toll,SG. BULOH Toll,1.56,2.9,3.8,0.82,1.15
+Jalan Duta Toll,SG. BULOH HOSPITAL Toll,1.8,3.4,4.5,0.9,1.39
+Jalan Duta Toll,DAMANSARA Toll,1.89,3.5,4.6,0.98,1.39
+Jalan Duta Toll,SUBANG Toll,2.13,3.9,5.2,1.07,1.56
+Jalan Duta Toll,RAWANG SELATAN Toll,2.38,4.3,5.7,1.15,1.72
+Jalan Duta Toll,Shah Alam Toll,2.71,4.9,6.5,1.31,2.05
+Jalan Duta Toll,RAWANG Toll,2.95,5.4,7.2,1.48,2.21
+Jalan Duta Toll,Seafield Toll,3.36,6.2,8.2,1.72,2.46
+Jalan Duta Toll,Setia Alam Toll,3.61,6.6,8.8,1.8,2.71
+Jalan Duta Toll,USJ Toll,3.77,6.9,9.2,1.89,2.79
+Jalan Duta Toll,Bukit Raja Toll,3.77,6.9,9.2,1.89,2.87
+Jalan Duta Toll,SUNGAI BUAYA Toll,3.94,7.2,9.7,1.97,2.95
+Jalan Duta Toll,PUTRA HEIGHTS Toll,4.26,7.9,10.5,2.13,3.2
+Jalan Duta Toll,Bandar Saujana Putra Toll,4.59,8.4,11.2,2.3,3.44
+Jalan Duta Toll,BUKIT BERUNTUNG Toll,4.59,8.5,11.3,2.3,3.44
+Jalan Duta Toll,BUKIT TAGAR Toll,5.66,10.3,13.7,2.79,4.26
+Jalan Duta Toll,BANDAR GAMUDA COVE Toll,5.74,10.5,13.9,2.87,4.26
+Jalan Duta Toll,Putra Jaya Toll,6.15,11.3,15,3.12,4.59
+Jalan Duta Toll,LEMBAH BERINGIN Toll,6.56,11.9,15.9,3.28,4.92
+Jalan Duta Toll,BANDAR SERENIA Toll,6.97,12.7,16.9,3.44,5.17
+Jalan Duta Toll,KLIA Toll,7.46,13.3,17.5,3.85,5.58
+Jalan Duta Toll,Tg. Malim Toll,7.79,14.2,18.9,3.85,5.82
+Jalan Duta Toll,Nilai Toll,8.61,15.8,21,4.35,6.48
+Jalan Duta Toll,Putera Mahkota Toll,8.69,15.9,21.1,4.35,6.48
+Jalan Duta Toll,BEHRANG Toll,9.02,16.5,22,4.51,6.81
+Jalan Duta Toll,SOUTHVILLE CITY Toll,9.1,16.7,22.2,4.59,6.81
+Jalan Duta Toll,BANGI Toll,9.43,17.3,23,4.76,7.05
+Jalan Duta Toll,KAJANG Toll,10.09,18.6,24.7,5.08,7.54
+Jalan Duta Toll,Bandar Ainsdale Toll,10.33,19,25.2,5.25,7.71
+Jalan Duta Toll,UPM Toll,10.33,19,25.2,5.25,7.71
+Jalan Duta Toll,SEREMBAN Toll,10.58,19.5,25.9,5.33,7.95
+Jalan Duta Toll,SLIM RIVER Toll,10.82,19.8,26.4,5.41,8.12
+Jalan Duta Toll,Sg. Besi Toll,10.82,19.9,26.4,5.49,8.12
+Jalan Duta Toll,Port Dickson Toll,11.07,20.3,27,5.58,8.28
+Jalan Duta Toll,Senawang Toll,11.48,21.1,28.1,5.82,8.61
+Jalan Duta Toll,SUNGKAI Toll,12.87,23.6,31.4,6.48,9.68
+Jalan Duta Toll,PEDAS LINGGI Toll,13.28,24.4,32.4,6.72,9.92
+Jalan Duta Toll,BIDOR Toll,14.43,26.4,35.2,7.22,10.82
+Jalan Duta Toll,Simpang Ampat Toll,15.83,29.1,38.7,7.95,11.89
+Jalan Duta Toll,TAPAH Toll,15.91,29.2,38.9,7.95,11.97
+Jalan Duta Toll,Ayer Keroh Toll,18.29,33.4,44.5,9.18,13.69
+Jalan Duta Toll,GOPENG Toll,19.27,35.3,47,9.68,14.43
+Jalan Duta Toll,Jasin Toll,20.01,36.7,48.9,10.09,15.01
+Jalan Duta Toll,SIMPANG PULAI Toll,20.34,37.2,49.6,10.17,15.25
+Jalan Duta Toll,Tangkak Toll,21.24,38.8,51.7,10.66,15.91
+Jalan Duta Toll,Ipoh Selatan Toll,21.73,39.7,52.9,10.82,16.24
+Jalan Duta Toll,Bukit Gambir Toll,22.55,41.3,55,11.32,16.89
+Jalan Duta Toll,Pagoh Toll,24.35,44.5,59.3,12.22,18.2
+Jalan Duta Toll,KUALA KANGSAR Toll,24.6,45,59.9,12.3,18.37
+Jalan Duta Toll,CANGKAT JERING Toll,26.98,49.3,65.7,13.45,20.17
+Jalan Duta Toll,TAIPING UTARA Toll,28.78,52.5,70,14.35,21.48
+Jalan Duta Toll,Yong Peng Utara Toll,29.11,53.2,70.9,14.6,21.81
+Jalan Duta Toll,BUKIT MERAH Toll,30.01,54.8,73,14.92,22.39
+Jalan Duta Toll,Ayer Hitam Toll,31.24,57.2,76.2,15.66,23.45
+Jalan Duta Toll,ALOR PONGSU Toll,31.41,57.4,76.5,15.66,23.53
+Jalan Duta Toll,BANDAR BAHARU Toll,31.9,58.4,77.8,15.91,23.86
+Jalan Duta Toll,Machap Toll,32.06,58.7,78.2,16.07,24.03
+Jalan Duta Toll,JAWI Toll,33.46,61.1,81.4,16.65,25.01
+Jalan Duta Toll,Spg. Renggam Toll,33.62,61.6,82,16.89,25.17
+Jalan Duta Toll,BKT. TAMBUN UTARA Toll,34.77,63.6,84.7,17.38,25.99
+Jalan Duta Toll,JURU Toll,35.51,64.9,86.5,17.71,26.57
+Jalan Duta Toll,Sedenak Toll,35.67,65.3,87.1,17.88,26.73
+Jalan Duta Toll,KULAI Toll,37.23,68.1,90.7,18.61,27.88
+Jalan Duta Toll,BERTAM Toll,36.82,67.2,89.6,18.44,28.17
+Jalan Duta Toll,Senai Utara Toll,38.21,69.9,93.2,19.19,28.62
+Jalan Duta Toll,SG. PETANI SELATAN Toll,38.46,70.2,93.5,19.26,28.86
+Jalan Duta Toll,Skudai Toll,38.54,70.5,94,19.35,28.86
+Jalan Duta Toll,SG. PETANI UTARA Toll,39.2,71.5,95.3,19.59,29.35
+Jalan Duta Toll,GURUN Toll,41,74.9,99.8,20.58,30.75
+Jalan Duta Toll,PENDANG Toll,43.21,78.9,105.1,21.64,32.39
+Jalan Duta Toll,Alor Setar Selatan Toll,44.85,81.9,109.1,22.46,34.07
+Jalan Duta Toll,Alor Setar Utara Toll,45.51,83,110.6,22.79,34.11
+Jalan Duta Toll,Hutan Kampung Toll,46.17,84.3,112.3,23.12,34.87
+Jalan Duta Toll,BANDAR CASSIA Toll,40.7,94.1,154.9,25.94,52.37
+Jasin Toll,Tangkak Toll,1.64,3,3.9,0.82,1.23
+Jasin Toll,Ayer Keroh Toll,1.97,3.6,4.8,0.98,1.48
+Jasin Toll,Bukit Gambir Toll,2.95,5.4,7.2,1.48,2.21
+Jasin Toll,Simpang Ampat Toll,4.35,8,10.6,2.21,3.28
+Jasin Toll,Pagoh Toll,4.59,8.4,11.1,2.3,3.44
+Jasin Toll,PEDAS LINGGI Toll,6.89,12.6,16.9,3.44,5.17
+Jasin Toll,Senawang Toll,8.77,16,21.3,4.35,6.56
+Jasin Toll,Port Dickson Toll,9.18,16.7,22.3,4.59,6.89
+Jasin Toll,Yong Peng Utara Toll,9.35,17.1,22.8,4.67,7.05
+Jasin Toll,SEREMBAN Toll,9.43,17.2,23,4.67,7.05
+Jasin Toll,Bandar Ainsdale Toll,10.17,18.6,24.7,5.08,7.63
+Jasin Toll,Ayer Hitam Toll,11.56,21.1,28.1,5.74,8.69
+Jasin Toll,Nilai Toll,11.97,21.8,29.1,5.99,8.94
+Jasin Toll,Machap Toll,12.38,22.6,30.2,6.15,9.27
+Jasin Toll,Putera Mahkota Toll,12.46,22.7,30.3,6.23,9.35
+Jasin Toll,SOUTHVILLE CITY Toll,12.87,23.6,31.4,6.48,9.68
+Jasin Toll,BANGI Toll,13.2,24.2,32.2,6.64,9.92
+Jasin Toll,BANDAR SERENIA Toll,13.45,24.6,32.9,6.72,10.09
+Jasin Toll,KAJANG Toll,13.94,25.5,34,6.97,10.5
+Jasin Toll,Spg. Renggam Toll,13.94,25.5,34,6.97,10.5
+Jasin Toll,UPM Toll,14.19,25.9,34.5,7.05,10.66
+Jasin Toll,BANDAR GAMUDA COVE Toll,14.27,26.1,34.8,7.13,10.74
+Jasin Toll,Sg. Besi Toll,14.68,26.8,35.8,7.3,10.99
+Jasin Toll,KLIA Toll,14.84,26.9,35.7,7.63,11.23
+Jasin Toll,Bandar Saujana Putra Toll,15.74,28.7,38.3,7.87,11.81
+Jasin Toll,Sedenak Toll,15.99,29.3,39,8.04,11.97
+Jasin Toll,Putra Jaya Toll,16.07,29.4,39.2,8.04,12.05
+Jasin Toll,PUTRA HEIGHTS Toll,16.15,29.6,39.4,8.12,12.14
+Jasin Toll,USJ Toll,16.65,30.5,40.6,8.36,12.46
+Jasin Toll,Seafield Toll,17.14,31.3,41.8,8.53,12.87
+Jasin Toll,Ebor Selatan Toll,17.14,31.4,41.8,8.61,12.87
+Jasin Toll,KULAI Toll,17.55,32,42.7,8.77,13.12
+Jasin Toll,Shah Alam Toll,17.79,32.5,43.3,8.86,13.37
+Jasin Toll,SUBANG Toll,18.29,33.4,44.5,9.18,13.69
+Jasin Toll,Senai Utara Toll,18.45,33.7,45,9.27,13.86
+Jasin Toll,Setia Alam Toll,18.7,34.2,45.6,9.35,14.02
+Jasin Toll,DAMANSARA Toll,18.7,34.3,45.6,9.43,14.02
+Jasin Toll,Bukit Raja Toll,18.78,34.4,45.9,9.35,14.1
+Jasin Toll,Skudai Toll,18.86,34.5,46,9.43,14.1
+Jasin Toll,KOTA DAMANSARA Toll,18.94,34.7,46.1,9.51,14.19
+Jasin Toll,SG. BULOH Toll,19.52,35.8,47.6,9.84,14.6
+Jasin Toll,SG. BULOH HOSPITAL Toll,19.84,36.3,48.3,9.92,14.84
+Jasin Toll,Jalan Duta Toll,20.01,36.7,48.9,10.09,15.01
+Jasin Toll,RAWANG SELATAN Toll,20.34,37.2,49.5,10.17,15.25
+Jasin Toll,RAWANG Toll,20.91,38.3,51,10.5,15.66
+Jasin Toll,SUNGAI BUAYA Toll,21.98,40.2,53.5,10.99,16.4
+Jasin Toll,BUKIT BERUNTUNG Toll,22.63,41.4,55.1,11.32,16.97
+Jasin Toll,BUKIT TAGAR Toll,23.62,43.2,57.6,11.81,17.71
+Jasin Toll,LEMBAH BERINGIN Toll,24.68,45.2,60.2,12.38,18.45
+Jasin Toll,Tg. Malim Toll,25.75,47.1,62.7,12.87,19.27
+Jasin Toll,BEHRANG Toll,26.98,49.4,65.9,13.53,20.25
+Jasin Toll,SLIM RIVER Toll,28.7,52.6,70.1,14.43,21.57
+Jasin Toll,SUNGKAI Toll,30.83,56.5,75.2,15.5,23.12
+Jasin Toll,BIDOR Toll,32.39,59.3,79,16.24,24.27
+Jasin Toll,TAPAH Toll,33.87,62,82.6,16.97,25.42
+Jasin Toll,GOPENG Toll,37.23,68.1,90.7,18.61,27.88
+Jasin Toll,SIMPANG PULAI Toll,38.29,70,93.3,19.19,28.7
+Jasin Toll,Ipoh Selatan Toll,39.61,72.5,96.6,19.84,29.68
+Jasin Toll,KUALA KANGSAR Toll,42.48,77.8,103.6,21.32,31.82
+Jasin Toll,CANGKAT JERING Toll,44.85,82.1,109.4,22.47,33.62
+Jasin Toll,TAIPING UTARA Toll,46.66,85.3,113.7,23.37,34.93
+Jasin Toll,BUKIT MERAH Toll,47.89,87.6,116.7,23.94,35.83
+Jasin Toll,ALOR PONGSU Toll,49.28,90.2,120.2,24.68,36.98
+Jasin Toll,BANDAR BAHARU Toll,49.77,91.2,121.5,24.93,37.31
+Jasin Toll,JAWI Toll,51.33,93.9,125.1,25.67,38.46
+Jasin Toll,BKT. TAMBUN UTARA Toll,52.64,96.4,128.4,26.4,39.44
+Jasin Toll,JURU Toll,53.38,97.7,130.2,26.73,40.02
+Jasin Toll,BERTAM Toll,54.69,100,133.3,27.46,41.62
+Jasin Toll,SG. PETANI SELATAN Toll,56.33,103,137.2,28.28,42.31
+Jasin Toll,SG. PETANI UTARA Toll,57.07,104.3,139,28.61,42.8
+Jasin Toll,GURUN Toll,58.87,107.7,143.5,29.6,44.2
+Jasin Toll,PENDANG Toll,61.08,111.7,148.8,30.66,45.84
+Jasin Toll,Alor Setar Selatan Toll,62.72,114.7,152.8,31.48,47.52
+Jasin Toll,Alor Setar Utara Toll,63.38,115.8,154.3,31.81,47.56
+Jasin Toll,Hutan Kampung Toll,64.04,117.1,156,32.14,48.32
+Jasin Toll,BANDAR CASSIA Toll,58.57,126.9,198.6,34.96,65.81
+JAWI Toll,BANDAR BAHARU Toll,1.56,2.9,3.8,0.82,1.15
+JAWI Toll,BKT. TAMBUN UTARA Toll,1.56,2.9,3.8,0.82,1.15
+JAWI Toll,ALOR PONGSU Toll,2.13,3.9,5.2,1.07,1.56
+JAWI Toll,JURU Toll,2.3,4.2,5.6,1.15,1.72
+JAWI Toll,BUKIT MERAH Toll,3.61,6.6,8.8,1.8,2.71
+JAWI Toll,BERTAM Toll,3.61,6.5,8.7,1.88,3.32
+JAWI Toll,TAIPING UTARA Toll,5,9.1,12.1,2.46,3.69
+JAWI Toll,SG. PETANI SELATAN Toll,5.25,9.5,12.6,2.7,4.01
+JAWI Toll,SG. PETANI UTARA Toll,5.99,10.8,14.4,3.03,4.5
+JAWI Toll,CANGKAT JERING Toll,6.56,12,16,3.28,4.92
+JAWI Toll,GURUN Toll,7.79,14.2,18.9,4.02,5.9
+JAWI Toll,KUALA KANGSAR Toll,8.94,16.4,21.9,4.51,6.72
+JAWI Toll,PENDANG Toll,10,18.2,24.2,5.08,7.54
+JAWI Toll,IPOH UTARA Toll,11.73,21.4,28.5,5.82,8.77
+JAWI Toll,Alor Setar Selatan Toll,11.64,21.2,28.2,5.9,9.22
+JAWI Toll,Alor Setar Utara Toll,12.3,22.3,29.7,6.23,9.26
+JAWI Toll,SIMPANG PULAI Toll,13.2,24.1,32,6.56,9.84
+JAWI Toll,Hutan Kampung Toll,12.96,23.6,31.4,6.56,10.02
+JAWI Toll,GOPENG Toll,14.27,26.1,34.8,7.13,10.66
+JAWI Toll,TAPAH Toll,17.63,32.2,42.9,8.77,13.2
+JAWI Toll,BIDOR Toll,19.11,35,46.6,9.51,14.35
+JAWI Toll,SUNGKAI Toll,20.66,37.7,50.3,10.25,15.5
+JAWI Toll,SLIM RIVER Toll,22.8,41.6,55.4,11.32,17.06
+JAWI Toll,BEHRANG Toll,24.44,44.6,59.5,12.22,18.29
+JAWI Toll,Tg. Malim Toll,26.08,47.6,63.4,12.96,19.52
+JAWI Toll,LEMBAH BERINGIN Toll,27.06,49.4,65.9,13.53,20.25
+JAWI Toll,BUKIT TAGAR Toll,28.04,51.3,68.3,14.02,20.99
+JAWI Toll,BUKIT BERUNTUNG Toll,29.03,53,70.6,14.43,21.73
+JAWI Toll,SUNGAI BUAYA Toll,29.77,54.4,72.5,14.84,22.3
+JAWI Toll,RAWANG Toll,30.75,56.2,74.9,15.33,23.04
+JAWI Toll,RAWANG SELATAN Toll,31.24,57.1,76.1,15.58,23.45
+JAWI Toll,SG. BULOH HOSPITAL Toll,31.9,58.3,77.7,15.91,23.94
+JAWI Toll,SG. BULOH Toll,32.14,58.7,78.3,15.99,24.11
+JAWI Toll,KOTA DAMANSARA Toll,32.8,59.9,79.9,16.4,24.6
+JAWI Toll,DAMANSARA Toll,33.21,60.8,81,16.56,24.93
+JAWI Toll,Jalan Duta Toll,33.46,61.1,81.4,16.65,25.01
+JAWI Toll,SUBANG Toll,33.46,61.1,81.4,16.65,25.01
+JAWI Toll,Shah Alam Toll,33.95,62.1,82.7,16.97,25.5
+JAWI Toll,Seafield Toll,34.69,63.4,84.4,17.3,25.91
+JAWI Toll,Setia Alam Toll,34.93,63.8,85.1,17.38,26.16
+JAWI Toll,USJ Toll,35.1,64.1,85.4,17.47,26.24
+JAWI Toll,Bukit Raja Toll,35.1,64.1,85.5,17.47,26.32
+JAWI Toll,PUTRA HEIGHTS Toll,35.59,65.1,86.7,17.71,26.65
+JAWI Toll,Bandar Saujana Putra Toll,35.92,65.6,87.4,17.88,26.9
+JAWI Toll,BANDAR CASSIA Toll,7.49,33.4,74,9.37,27.52
+JAWI Toll,BANDAR GAMUDA COVE Toll,36.98,67.6,90.2,18.53,27.72
+JAWI Toll,Putra Jaya Toll,37.47,68.5,91.2,18.7,28.04
+JAWI Toll,BANDAR SERENIA Toll,38.21,69.9,93.2,19.11,28.7
+JAWI Toll,KLIA Toll,38.7,70.5,93.7,19.52,29.03
+JAWI Toll,Nilai Toll,39.93,73,97.2,19.93,29.93
+JAWI Toll,Putera Mahkota Toll,39.93,73.1,97.4,20.01,29.93
+JAWI Toll,SOUTHVILLE CITY Toll,40.43,73.9,98.5,20.17,30.26
+JAWI Toll,BANGI Toll,40.75,74.5,99.3,20.34,30.5
+JAWI Toll,KAJANG Toll,41.41,75.7,100.9,20.75,31
+JAWI Toll,Bandar Ainsdale Toll,41.57,76,101.3,20.83,31.16
+JAWI Toll,UPM Toll,41.66,76.1,101.4,20.83,31.16
+JAWI Toll,SEREMBAN Toll,41.9,76.7,102.1,20.99,31.41
+JAWI Toll,Sg. Besi Toll,42.15,77.1,102.7,21.07,31.57
+JAWI Toll,Port Dickson Toll,42.39,77.5,103.2,21.16,31.73
+JAWI Toll,Senawang Toll,42.8,78.3,104.3,21.4,32.06
+JAWI Toll,PEDAS LINGGI Toll,44.61,81.5,108.6,22.3,33.37
+JAWI Toll,Simpang Ampat Toll,47.15,86.2,114.9,23.62,35.34
+JAWI Toll,Ayer Keroh Toll,49.53,90.6,120.7,24.76,37.15
+JAWI Toll,Jasin Toll,51.33,93.9,125.1,25.67,38.46
+JAWI Toll,Tangkak Toll,52.48,96,127.9,26.24,39.36
+JAWI Toll,Bukit Gambir Toll,53.87,98.5,131.2,26.9,40.34
+JAWI Toll,Pagoh Toll,55.6,101.7,135.6,27.8,41.66
+JAWI Toll,Yong Peng Utara Toll,60.35,110.4,147.1,30.18,45.26
+JAWI Toll,Ayer Hitam Toll,62.57,114.4,152.4,31.24,46.9
+JAWI Toll,Machap Toll,63.39,115.9,154.5,31.65,47.48
+JAWI Toll,Spg. Renggam Toll,64.94,118.8,158.3,32.47,48.71
+JAWI Toll,Sedenak Toll,66.99,122.5,163.3,33.54,50.18
+JAWI Toll,KULAI Toll,68.55,125.3,167,34.28,51.33
+JAWI Toll,Senai Utara Toll,69.54,127.1,169.4,34.77,52.07
+JAWI Toll,Skudai Toll,69.86,127.7,170.2,34.93,52.32
+JURU Toll,BKT. TAMBUN SELATAN Toll,0.9,1.6,2.2,0.41,0.66
+JURU Toll,BERTAM Toll,1.31,2.3,3.1,0.73,1.6
+JURU Toll,JAWI Toll,2.3,4.2,5.6,1.15,1.72
+JURU Toll,SG. PETANI SELATAN Toll,2.95,5.3,7,1.55,2.29
+JURU Toll,BANDAR BAHARU Toll,3.61,6.6,8.8,1.8,2.71
+JURU Toll,SG. PETANI UTARA Toll,3.69,6.6,8.8,1.88,2.78
+JURU Toll,ALOR PONGSU Toll,4.18,7.6,10.2,2.13,3.12
+JURU Toll,GURUN Toll,5.49,10,13.3,2.87,4.18
+JURU Toll,BUKIT MERAH Toll,5.66,10.4,13.9,2.87,4.26
+JURU Toll,TAIPING UTARA Toll,6.97,12.7,17,3.53,5.25
+JURU Toll,PENDANG Toll,7.7,14,18.6,3.93,5.82
+JURU Toll,CANGKAT JERING Toll,8.61,15.7,20.9,4.26,6.48
+JURU Toll,Alor Setar Selatan Toll,9.34,17,22.6,4.75,7.5
+JURU Toll,Alor Setar Utara Toll,10,18.1,24.1,5.08,7.54
+JURU Toll,KUALA KANGSAR Toll,11.07,20.2,26.9,5.49,8.28
+JURU Toll,Hutan Kampung Toll,10.66,19.4,25.8,5.41,8.3
+JURU Toll,IPOH UTARA Toll,13.78,25.2,33.6,6.89,10.33
+JURU Toll,SIMPANG PULAI Toll,15.25,27.9,37.1,7.63,11.4
+JURU Toll,GOPENG Toll,16.32,29.9,39.9,8.2,12.22
+JURU Toll,TAPAH Toll,19.68,36,48,9.84,14.76
+JURU Toll,BIDOR Toll,21.16,38.8,51.7,10.58,15.91
+JURU Toll,SUNGKAI Toll,22.71,41.5,55.4,11.32,17.06
+JURU Toll,SLIM RIVER Toll,24.85,45.4,60.5,12.38,18.61
+JURU Toll,BEHRANG Toll,26.49,48.4,64.6,13.28,19.84
+JURU Toll,Tg. Malim Toll,28.13,51.4,68.5,14.02,21.07
+JURU Toll,LEMBAH BERINGIN Toll,29.11,53.2,71,14.6,21.81
+JURU Toll,BUKIT TAGAR Toll,30.09,55.1,73.4,15.09,22.55
+JURU Toll,BUKIT BERUNTUNG Toll,31.08,56.8,75.7,15.5,23.29
+JURU Toll,SUNGAI BUAYA Toll,31.82,58.2,77.6,15.91,23.86
+JURU Toll,RAWANG Toll,32.8,60,80,16.4,24.6
+JURU Toll,RAWANG SELATAN Toll,33.29,60.9,81.2,16.65,25.01
+JURU Toll,SG. BULOH HOSPITAL Toll,33.95,62.1,82.8,16.97,25.5
+JURU Toll,SG. BULOH Toll,34.19,62.5,83.4,17.06,25.67
+JURU Toll,KOTA DAMANSARA Toll,34.85,63.7,85,17.47,26.16
+JURU Toll,DAMANSARA Toll,35.26,64.6,86.1,17.63,26.49
+JURU Toll,Jalan Duta Toll,35.51,64.9,86.5,17.71,26.57
+JURU Toll,SUBANG Toll,35.51,64.9,86.5,17.71,26.57
+JURU Toll,Shah Alam Toll,36,65.9,87.8,18.04,27.06
+JURU Toll,Seafield Toll,36.74,67.2,89.5,18.37,27.47
+JURU Toll,BANDAR CASSIA Toll,7.49,33.4,74,9.37,27.52
+JURU Toll,Setia Alam Toll,36.98,67.6,90.2,18.45,27.72
+JURU Toll,USJ Toll,37.15,67.9,90.5,18.53,27.8
+JURU Toll,Bukit Raja Toll,37.15,67.9,90.6,18.53,27.88
+JURU Toll,PUTRA HEIGHTS Toll,37.64,68.9,91.8,18.78,28.21
+JURU Toll,Bandar Saujana Putra Toll,37.97,69.4,92.5,18.94,28.45
+JURU Toll,BANDAR GAMUDA COVE Toll,39.03,71.4,95.2,19.52,29.27
+JURU Toll,Putra Jaya Toll,39.52,72.3,96.3,19.76,29.6
+JURU Toll,BANDAR SERENIA Toll,40.26,73.6,98.2,20.17,30.18
+JURU Toll,KLIA Toll,40.75,74.3,98.8,20.58,30.59
+JURU Toll,Nilai Toll,41.98,76.8,102.3,20.99,31.49
+JURU Toll,Putera Mahkota Toll,41.98,76.9,102.5,21.07,31.49
+JURU Toll,SOUTHVILLE CITY Toll,42.48,77.6,103.5,21.24,31.82
+JURU Toll,BANGI Toll,42.8,78.3,104.4,21.4,32.06
+JURU Toll,KAJANG Toll,43.46,79.5,106,21.81,32.55
+JURU Toll,Bandar Ainsdale Toll,43.62,79.8,106.4,21.89,32.72
+JURU Toll,UPM Toll,43.71,79.9,106.5,21.89,32.72
+JURU Toll,SEREMBAN Toll,43.95,80.5,107.2,22.06,32.96
+JURU Toll,Sg. Besi Toll,44.2,80.9,107.8,22.14,33.13
+JURU Toll,Port Dickson Toll,44.44,81.3,108.3,22.22,33.29
+JURU Toll,Senawang Toll,44.85,82.1,109.4,22.47,33.62
+JURU Toll,PEDAS LINGGI Toll,46.66,85.3,113.7,23.37,34.93
+JURU Toll,Simpang Ampat Toll,49.2,90,120,24.68,36.9
+JURU Toll,Ayer Keroh Toll,51.58,94.4,125.8,25.83,38.7
+JURU Toll,Jasin Toll,53.38,97.7,130.2,26.73,40.02
+JURU Toll,Tangkak Toll,54.53,99.8,133,27.31,40.92
+JURU Toll,Bukit Gambir Toll,55.92,102.3,136.3,27.96,41.9
+JURU Toll,Pagoh Toll,57.65,105.5,140.7,28.86,43.21
+JURU Toll,Yong Peng Utara Toll,62.4,114.2,152.2,31.24,46.82
+JURU Toll,Ayer Hitam Toll,64.62,118.2,157.5,32.31,48.46
+JURU Toll,Machap Toll,65.44,119.7,159.6,32.72,49.04
+JURU Toll,Spg. Renggam Toll,66.99,122.6,163.4,33.54,50.27
+JURU Toll,Sedenak Toll,69.04,126.3,168.4,34.6,51.74
+JURU Toll,KULAI Toll,70.6,129.1,172.1,35.34,52.89
+JURU Toll,Senai Utara Toll,71.59,130.9,174.5,35.83,53.63
+JURU Toll,Skudai Toll,71.91,131.5,175.3,36,53.87
+Kajang Selatan Toll,SEMENYIH Toll,1.3,1.9,2.5,0.6,0.8
+Kajang Selatan Toll,ECO MAJESTIC Toll,2,3,4,1,1.5
+Kajang Selatan Toll,Pajam Toll,3.4,5.1,6.7,1.7,2.1
+Kajang Selatan Toll,MANTIN Toll,4.8,7.3,9.7,2.4,3
+Kajang Selatan Toll,Setul North Bound Toll,6,9,11.9,3,3.7
+KAJANG Toll,UPM Toll,0.33,0.6,0.8,0.16,0.25
+KAJANG Toll,BANGI Toll,0.82,1.5,2.1,0.41,0.66
+KAJANG Toll,Sg. Besi Toll,0.82,1.5,2.1,0.41,0.66
+KAJANG Toll,SOUTHVILLE CITY Toll,0.98,1.8,2.4,0.49,0.74
+KAJANG Toll,Putera Mahkota Toll,1.72,3.2,4.2,0.9,1.31
+KAJANG Toll,Nilai Toll,2.46,4.5,6,1.23,1.8
+KAJANG Toll,BANDAR SERENIA Toll,3.53,6.5,8.7,1.8,2.62
+KAJANG Toll,Bandar Ainsdale Toll,4.18,7.6,10.2,2.13,3.12
+KAJANG Toll,BANDAR GAMUDA COVE Toll,4.35,8,10.6,2.21,3.28
+KAJANG Toll,SEREMBAN Toll,4.51,8.2,11,2.21,3.36
+KAJANG Toll,Port Dickson Toll,4.92,9,12,2.46,3.69
+KAJANG Toll,KLIA Toll,4.92,8.8,11.5,2.71,3.77
+KAJANG Toll,Senawang Toll,5.33,9.8,13.1,2.71,4.02
+KAJANG Toll,Bandar Saujana Putra Toll,5.82,10.6,14.1,2.95,4.35
+KAJANG Toll,Putra Jaya Toll,6.15,11.3,15,3.12,4.59
+KAJANG Toll,PUTRA HEIGHTS Toll,6.23,11.5,15.2,3.2,4.67
+KAJANG Toll,USJ Toll,6.72,12.4,16.4,3.44,5
+KAJANG Toll,PEDAS LINGGI Toll,7.22,13.1,17.5,3.61,5.41
+KAJANG Toll,Seafield Toll,7.22,13.2,17.6,3.61,5.41
+KAJANG Toll,Ebor Selatan Toll,7.22,13.3,17.6,3.69,5.41
+KAJANG Toll,Shah Alam Toll,7.87,14.4,19.1,3.94,5.9
+KAJANG Toll,SUBANG Toll,8.36,15.3,20.3,4.18,6.23
+KAJANG Toll,Setia Alam Toll,8.77,16,21.4,4.35,6.56
+KAJANG Toll,DAMANSARA Toll,8.77,16.1,21.4,4.43,6.56
+KAJANG Toll,Bukit Raja Toll,8.86,16.2,21.7,4.43,6.64
+KAJANG Toll,KOTA DAMANSARA Toll,9.02,16.5,21.9,4.51,6.72
+KAJANG Toll,SG. BULOH Toll,9.59,17.6,23.4,4.84,7.22
+KAJANG Toll,Simpang Ampat Toll,9.76,17.8,23.7,4.84,7.3
+KAJANG Toll,SG. BULOH HOSPITAL Toll,9.92,18.1,24.1,5,7.38
+KAJANG Toll,Jalan Duta Toll,10.09,18.6,24.7,5.08,7.54
+KAJANG Toll,RAWANG SELATAN Toll,10.41,19.1,25.3,5.25,7.79
+KAJANG Toll,RAWANG Toll,10.99,20.2,26.8,5.58,8.2
+KAJANG Toll,SUNGAI BUAYA Toll,11.97,22,29.3,6.07,9.02
+KAJANG Toll,Ayer Keroh Toll,12.14,22.2,29.6,6.07,9.1
+KAJANG Toll,BUKIT BERUNTUNG Toll,12.71,23.2,30.9,6.4,9.51
+KAJANG Toll,BUKIT TAGAR Toll,13.69,25.1,33.4,6.89,10.25
+KAJANG Toll,Jasin Toll,13.94,25.5,34,6.97,10.5
+KAJANG Toll,LEMBAH BERINGIN Toll,14.76,27,36,7.38,11.07
+KAJANG Toll,Tangkak Toll,15.09,27.6,36.8,7.54,11.32
+KAJANG Toll,Tg. Malim Toll,15.83,28.9,38.5,7.95,11.81
+KAJANG Toll,Bukit Gambir Toll,16.48,30.1,40.1,8.2,12.3
+KAJANG Toll,BEHRANG Toll,17.06,31.3,41.7,8.61,12.79
+KAJANG Toll,Pagoh Toll,18.2,33.3,44.3,9.1,13.61
+KAJANG Toll,SLIM RIVER Toll,18.78,34.5,45.9,9.43,14.1
+KAJANG Toll,SUNGKAI Toll,20.91,38.2,50.9,10.5,15.66
+KAJANG Toll,BIDOR Toll,22.47,41.2,54.8,11.32,16.81
+KAJANG Toll,Yong Peng Utara Toll,22.96,42,56,11.48,17.22
+KAJANG Toll,TAPAH Toll,23.94,43.8,58.4,12.05,17.96
+KAJANG Toll,Ayer Hitam Toll,25.17,46,61.3,12.55,18.86
+KAJANG Toll,Machap Toll,25.99,47.5,63.4,12.96,19.52
+KAJANG Toll,GOPENG Toll,27.31,50,66.5,13.69,20.42
+KAJANG Toll,Spg. Renggam Toll,27.55,50.4,67.2,13.78,20.66
+KAJANG Toll,SIMPANG PULAI Toll,28.37,51.9,69.1,14.19,21.24
+KAJANG Toll,Sedenak Toll,29.6,54.1,72.2,14.84,22.22
+KAJANG Toll,Ipoh Selatan Toll,29.68,54.3,72.4,14.92,22.22
+KAJANG Toll,KULAI Toll,31.08,56.9,75.9,15.58,23.37
+KAJANG Toll,Senai Utara Toll,32.06,58.6,78.2,16.07,24.03
+KAJANG Toll,Skudai Toll,32.47,59.3,79.1,16.24,24.35
+KAJANG Toll,KUALA KANGSAR Toll,32.55,59.6,79.4,16.4,24.35
+KAJANG Toll,CANGKAT JERING Toll,34.93,63.9,85.2,17.55,26.16
+KAJANG Toll,TAIPING UTARA Toll,36.74,67.1,89.5,18.45,27.47
+KAJANG Toll,BUKIT MERAH Toll,37.97,69.4,92.5,19.02,28.37
+KAJANG Toll,ALOR PONGSU Toll,39.36,72,96,19.68,29.52
+KAJANG Toll,BANDAR BAHARU Toll,39.85,73,97.3,20.01,29.85
+KAJANG Toll,JAWI Toll,41.41,75.7,100.9,20.75,31
+KAJANG Toll,BKT. TAMBUN UTARA Toll,42.72,78.2,104.2,21.48,31.98
+KAJANG Toll,JURU Toll,43.46,79.5,106,21.81,32.55
+KAJANG Toll,BERTAM Toll,44.77,81.8,109.1,22.54,34.15
+KAJANG Toll,SG. PETANI SELATAN Toll,46.41,84.8,113,23.36,34.84
+KAJANG Toll,SG. PETANI UTARA Toll,47.15,86.1,114.8,23.69,35.33
+KAJANG Toll,GURUN Toll,48.95,89.5,119.3,24.68,36.73
+KAJANG Toll,PENDANG Toll,51.16,93.5,124.6,25.74,38.37
+KAJANG Toll,Alor Setar Selatan Toll,52.8,96.5,128.6,26.56,40.05
+KAJANG Toll,Alor Setar Utara Toll,53.46,97.6,130.1,26.89,40.09
+KAJANG Toll,Hutan Kampung Toll,54.12,98.9,131.8,27.22,40.85
+KAJANG Toll,BANDAR CASSIA Toll,48.65,108.7,174.4,30.04,58.35
+KARAK Toll,LANCANG Toll,2.8,5.5,8.3,1.4,2.8
+KARAK Toll,TEMERLOH Toll,6,12,18,3,6
+KARAK Toll,CHENOR Toll,7.7,15.4,23.1,3.9,7.7
+KARAK Toll,MARAN Toll,11.7,23.5,35.2,5.9,11.7
+KARAK Toll,SRI JAYA Toll,13.4,26.8,40.3,6.7,13.4
+KARAK Toll,GAMBANG Toll,16.9,33.7,50.6,8.4,16.9
+KARAK Toll,KUANTAN Toll,19.6,39.2,58.9,9.8,19.6
+KARAK Toll,JABOR Toll,21,42.1,63.1,10.5,21
+KARAK Toll,CHENEH Toll,24.1,48.1,72.2,12,24.1
+KARAK Toll,CUKAI Toll,25.5,51,76.5,12.8,25.5
+KARAK Toll,KIJAL Toll,27.8,55.5,83.3,13.9,27.8
+KARAK Toll,KERTEH Toll,29.5,58.9,88.4,14.7,29.5
+KARAK Toll,PAKA Toll,30.9,61.8,92.6,15.4,30.9
+KARAK Toll,DUNGUN Toll,33.1,66.1,99.2,16.5,33.1
+KARAK Toll,BUKIT BESI Toll,35.1,70.2,105.3,17.5,35.1
+KARAK Toll,AJIL Toll,39.7,79.5,119.2,19.9,39.7
+KARAK Toll,TELEMUNG Toll,42.1,84.2,126.3,21,42.1
+KARAK Toll,Kuala Terengganu (Kg Gemuroh) Toll,43.3,86.5,129.8,21.6,43.3
+KG LEKIR Toll,SETIAWAN Toll,2,4,6,1,1.5
+KG LEKIR Toll,SETIAWAN (N) Toll,2.8,5.6,8.4,1.4,2.1
+KG LEKIR Toll,CHANGKAT CERMIN Toll,4.7,9.5,14.2,2.4,3.6
+KG LEKIR Toll,BERUAS Toll,7.9,15.7,23.6,3.9,5.9
+KIJAL Toll,KERTEH Toll,2.2,4.4,6.6,1.1,2.2
+KIJAL Toll,CUKAI Toll,2.7,5.4,8.1,1.4,2.7
+KIJAL Toll,PAKA Toll,3.6,7.2,10.8,1.8,3.6
+KIJAL Toll,CHENEH Toll,4.5,9,13.4,2.2,4.5
+KIJAL Toll,DUNGUN Toll,5.8,11.6,17.4,2.9,5.8
+KIJAL Toll,BUKIT BESI Toll,7.5,15.1,22.6,3.8,7.5
+KIJAL Toll,AJIL Toll,12.2,24.4,36.6,6.1,12.2
+KIJAL Toll,TELEMUNG Toll,14.5,29.1,43.6,7.3,14.5
+KIJAL Toll,Kuala Terengganu (Kg Gemuroh) Toll,15.7,31.4,47.2,7.9,15.7
+KLIA Toll,BANDAR GAMUDA COVE Toll,1.72,2.8,3.6,1.07,1.39
+KLIA Toll,BANDAR SERENIA Toll,1.72,2.9,3.6,1.07,1.39
+KLIA Toll,Bandar Saujana Putra Toll,3.12,5.4,7.1,1.8,2.46
+KLIA Toll,Nilai Toll,3.36,5.9,7.7,1.89,2.62
+KLIA Toll,Putera Mahkota Toll,3.44,6.1,8,1.97,2.71
+KLIA Toll,Putra Jaya Toll,3.53,6.1,8,1.97,2.71
+KLIA Toll,PUTRA HEIGHTS Toll,3.61,6.3,8.2,2.05,2.79
+KLIA Toll,USJ Toll,3.85,6.8,8.9,2.13,3.03
+KLIA Toll,SOUTHVILLE CITY Toll,3.94,7,9.1,2.21,3.03
+KLIA Toll,BANGI Toll,4.26,7.5,9.9,2.3,3.28
+KLIA Toll,Seafield Toll,4.43,7.9,10.3,2.46,3.44
+KLIA Toll,Ebor Selatan Toll,4.51,7.9,10.4,2.46,3.44
+KLIA Toll,KAJANG Toll,4.92,8.8,11.5,2.71,3.77
+KLIA Toll,Shah Alam Toll,5.08,9.1,11.9,2.79,3.94
+KLIA Toll,Bandar Ainsdale Toll,5.17,9.2,12.1,2.79,3.94
+KLIA Toll,UPM Toll,5.17,9.2,12.1,2.79,3.94
+KLIA Toll,SEREMBAN Toll,5.41,9.7,12.7,2.95,4.18
+KLIA Toll,SUBANG Toll,5.66,10,13.2,2.95,4.26
+KLIA Toll,Sg. Besi Toll,5.66,10.1,13.3,3.03,4.35
+KLIA Toll,Port Dickson Toll,5.82,10.4,13.7,3.12,4.51
+KLIA Toll,DAMANSARA Toll,6.07,10.8,14.2,3.2,4.59
+KLIA Toll,Setia Alam Toll,6.07,10.8,14.2,3.2,4.59
+KLIA Toll,Bukit Raja Toll,6.15,10.9,14.4,3.28,4.67
+KLIA Toll,KOTA DAMANSARA Toll,6.31,11.2,14.8,3.28,4.76
+KLIA Toll,Senawang Toll,6.23,11.2,14.8,3.36,4.84
+KLIA Toll,SG. BULOH Toll,6.89,12.4,16.3,3.61,5.25
+KLIA Toll,SG. BULOH HOSPITAL Toll,7.22,12.9,17,3.77,5.41
+KLIA Toll,Jalan Duta Toll,7.46,13.3,17.5,3.85,5.58
+KLIA Toll,RAWANG SELATAN Toll,7.71,13.8,18.2,4.02,5.82
+KLIA Toll,PEDAS LINGGI Toll,8.12,14.6,19.3,4.26,6.15
+KLIA Toll,RAWANG Toll,8.28,14.9,19.7,4.35,6.31
+KLIA Toll,SUNGAI BUAYA Toll,9.35,16.7,22.1,4.84,7.05
+KLIA Toll,BUKIT BERUNTUNG Toll,10,18,23.8,5.17,7.54
+KLIA Toll,Simpang Ampat Toll,10.66,19.3,25.5,5.58,8.12
+KLIA Toll,BUKIT TAGAR Toll,10.99,19.8,26.2,5.66,8.28
+KLIA Toll,LEMBAH BERINGIN Toll,12.05,21.7,28.8,6.23,9.1
+KLIA Toll,Ayer Keroh Toll,13.04,23.5,31.2,6.72,9.84
+KLIA Toll,Tg. Malim Toll,13.12,23.7,31.4,6.72,9.84
+KLIA Toll,BEHRANG Toll,14.43,26,34.5,7.38,10.82
+KLIA Toll,Jasin Toll,14.84,26.9,35.7,7.63,11.23
+KLIA Toll,Tangkak Toll,15.99,29,38.4,8.2,12.05
+KLIA Toll,SLIM RIVER Toll,16.15,29.2,38.7,8.2,12.14
+KLIA Toll,Bukit Gambir Toll,17.38,31.5,41.8,8.86,13.12
+KLIA Toll,SUNGKAI Toll,18.2,33.1,43.9,9.27,13.69
+KLIA Toll,Pagoh Toll,19.11,34.7,46.1,9.76,14.43
+KLIA Toll,BIDOR Toll,19.84,35.9,47.7,10.09,14.92
+KLIA Toll,TAPAH Toll,21.24,38.6,51.2,10.82,15.99
+KLIA Toll,Yong Peng Utara Toll,23.86,43.4,57.7,12.14,18.04
+KLIA Toll,GOPENG Toll,24.6,44.7,59.4,12.46,18.53
+KLIA Toll,SIMPANG PULAI Toll,25.67,46.6,62,12.96,19.27
+KLIA Toll,Ayer Hitam Toll,26.08,47.4,63,13.2,19.68
+KLIA Toll,Machap Toll,26.81,48.8,65,13.61,20.25
+KLIA Toll,Ipoh Selatan Toll,26.98,49.1,65.2,13.69,20.25
+KLIA Toll,Spg. Renggam Toll,28.37,51.7,68.8,14.43,21.4
+KLIA Toll,KUALA KANGSAR Toll,29.85,54.4,72.2,15.17,22.39
+KLIA Toll,Sedenak Toll,30.5,55.6,73.9,15.5,22.96
+KLIA Toll,KULAI Toll,31.98,58.2,77.5,16.15,24.11
+KLIA Toll,CANGKAT JERING Toll,32.23,58.7,78,16.32,24.19
+KLIA Toll,Senai Utara Toll,32.96,60,79.9,16.73,24.85
+KLIA Toll,Skudai Toll,33.37,60.8,80.9,16.89,25.09
+KLIA Toll,TAIPING UTARA Toll,34.03,61.9,82.3,17.22,25.5
+KLIA Toll,BUKIT MERAH Toll,35.26,64.2,85.3,17.79,26.4
+KLIA Toll,ALOR PONGSU Toll,36.65,66.8,88.9,18.53,27.63
+KLIA Toll,BANDAR BAHARU Toll,37.15,67.8,90.1,18.78,27.88
+KLIA Toll,JAWI Toll,38.7,70.5,93.7,19.52,29.03
+KLIA Toll,BKT. TAMBUN UTARA Toll,40.02,73,97,20.25,30.01
+KLIA Toll,JURU Toll,40.75,74.3,98.8,20.58,30.59
+KLIA Toll,BERTAM Toll,42.06,76.6,101.9,21.31,32.19
+KLIA Toll,SG. PETANI SELATAN Toll,43.7,79.6,105.8,22.13,32.88
+KLIA Toll,SG. PETANI UTARA Toll,44.44,80.9,107.6,22.46,33.37
+KLIA Toll,GURUN Toll,46.24,84.3,112.1,23.45,34.77
+KLIA Toll,PENDANG Toll,48.45,88.3,117.4,24.51,36.41
+KLIA Toll,Alor Setar Selatan Toll,50.09,91.3,121.4,25.33,38.09
+KLIA Toll,Alor Setar Utara Toll,50.75,92.4,122.9,25.66,38.13
+KLIA Toll,Hutan Kampung Toll,51.41,93.7,124.6,25.99,38.89
+KLIA Toll,BANDAR CASSIA Toll,45.95,103.5,167.2,28.81,56.38
+KOTA DAMANSARA Toll,DAMANSARA Toll,0.82,1.4,1.9,0.41,0.57
+KOTA DAMANSARA Toll,SG. BULOH Toll,0.98,1.8,2.4,0.49,0.74
+KOTA DAMANSARA Toll,SUBANG Toll,0.98,1.8,2.4,0.49,0.74
+KOTA DAMANSARA Toll,SG. BULOH HOSPITAL Toll,1.31,2.3,3.1,0.66,0.98
+KOTA DAMANSARA Toll,Jalan Duta Toll,1.48,2.8,3.7,0.74,1.15
+KOTA DAMANSARA Toll,Shah Alam Toll,1.56,2.8,3.8,0.82,1.23
+KOTA DAMANSARA Toll,RAWANG SELATAN Toll,1.8,3.3,4.4,0.9,1.31
+KOTA DAMANSARA Toll,Seafield Toll,2.21,4,5.3,1.15,1.64
+KOTA DAMANSARA Toll,RAWANG Toll,2.38,4.4,5.8,1.23,1.8
+KOTA DAMANSARA Toll,Setia Alam Toll,2.46,4.5,6,1.23,1.8
+KOTA DAMANSARA Toll,USJ Toll,2.54,4.6,6.2,1.23,1.89
+KOTA DAMANSARA Toll,Bukit Raja Toll,2.54,4.7,6.3,1.31,1.89
+KOTA DAMANSARA Toll,PUTRA HEIGHTS Toll,3.12,5.7,7.6,1.56,2.38
+KOTA DAMANSARA Toll,SUNGAI BUAYA Toll,3.36,6.2,8.3,1.72,2.54
+KOTA DAMANSARA Toll,Bandar Saujana Putra Toll,3.44,6.2,8.3,1.72,2.62
+KOTA DAMANSARA Toll,BUKIT BERUNTUNG Toll,4.1,7.4,9.9,2.05,3.03
+KOTA DAMANSARA Toll,BANDAR GAMUDA COVE Toll,4.51,8.3,11.1,2.3,3.44
+KOTA DAMANSARA Toll,Putra Jaya Toll,5,9.1,12.1,2.54,3.77
+KOTA DAMANSARA Toll,BUKIT TAGAR Toll,5,9.2,12.2,2.54,3.77
+KOTA DAMANSARA Toll,BANDAR SERENIA Toll,5.74,10.5,14,2.87,4.35
+KOTA DAMANSARA Toll,LEMBAH BERINGIN Toll,6.15,11.2,15,3.03,4.59
+KOTA DAMANSARA Toll,KLIA Toll,6.31,11.2,14.8,3.28,4.76
+KOTA DAMANSARA Toll,Tg. Malim Toll,7.22,13.2,17.5,3.61,5.41
+KOTA DAMANSARA Toll,Nilai Toll,7.46,13.8,18.3,3.77,5.58
+KOTA DAMANSARA Toll,Putera Mahkota Toll,7.54,13.9,18.4,3.85,5.66
+KOTA DAMANSARA Toll,SOUTHVILLE CITY Toll,7.95,14.5,19.4,3.94,5.99
+KOTA DAMANSARA Toll,BANGI Toll,8.36,15.3,20.3,4.18,6.23
+KOTA DAMANSARA Toll,BEHRANG Toll,8.45,15.4,20.5,4.18,6.31
+KOTA DAMANSARA Toll,KAJANG Toll,9.02,16.5,21.9,4.51,6.72
+KOTA DAMANSARA Toll,Bandar Ainsdale Toll,9.18,16.8,22.4,4.59,6.89
+KOTA DAMANSARA Toll,UPM Toll,9.18,16.9,22.5,4.67,6.89
+KOTA DAMANSARA Toll,SEREMBAN Toll,9.51,17.4,23.2,4.76,7.13
+KOTA DAMANSARA Toll,Sg. Besi Toll,9.76,17.8,23.7,4.92,7.3
+KOTA DAMANSARA Toll,Port Dickson Toll,9.92,18.1,24.1,5,7.38
+KOTA DAMANSARA Toll,SLIM RIVER Toll,10.17,18.7,24.9,5.08,7.63
+KOTA DAMANSARA Toll,Senawang Toll,10.33,19,25.2,5.25,7.71
+KOTA DAMANSARA Toll,PEDAS LINGGI Toll,12.22,22.3,29.7,6.15,9.1
+KOTA DAMANSARA Toll,SUNGKAI Toll,12.3,22.4,29.9,6.15,9.18
+KOTA DAMANSARA Toll,BIDOR Toll,13.86,25.4,33.9,6.97,10.41
+KOTA DAMANSARA Toll,Simpang Ampat Toll,14.76,27,36,7.38,11.07
+KOTA DAMANSARA Toll,TAPAH Toll,15.33,28,37.4,7.71,11.48
+KOTA DAMANSARA Toll,Ayer Keroh Toll,17.14,31.4,41.8,8.61,12.87
+KOTA DAMANSARA Toll,GOPENG Toll,18.7,34.2,45.5,9.35,14.02
+KOTA DAMANSARA Toll,Jasin Toll,18.94,34.7,46.1,9.51,14.19
+KOTA DAMANSARA Toll,SIMPANG PULAI Toll,19.76,36.1,48.1,9.84,14.84
+KOTA DAMANSARA Toll,Tangkak Toll,20.09,36.8,49,10.09,15.09
+KOTA DAMANSARA Toll,Ipoh Selatan Toll,21.07,38.5,51.4,10.58,15.83
+KOTA DAMANSARA Toll,Bukit Gambir Toll,21.4,39.2,52.3,10.74,16.07
+KOTA DAMANSARA Toll,Pagoh Toll,23.12,42.4,56.5,11.64,17.38
+KOTA DAMANSARA Toll,KUALA KANGSAR Toll,23.94,43.8,58.4,12.05,17.96
+KOTA DAMANSARA Toll,CANGKAT JERING Toll,26.32,48.1,64.2,13.2,19.76
+KOTA DAMANSARA Toll,Yong Peng Utara Toll,27.96,51.2,68.2,14.02,20.91
+KOTA DAMANSARA Toll,TAIPING UTARA Toll,28.13,51.3,68.5,14.1,21.07
+KOTA DAMANSARA Toll,BUKIT MERAH Toll,29.36,53.6,71.5,14.68,21.98
+KOTA DAMANSARA Toll,Ayer Hitam Toll,30.09,55.2,73.5,15.09,22.55
+KOTA DAMANSARA Toll,ALOR PONGSU Toll,30.75,56.3,75,15.42,23.12
+KOTA DAMANSARA Toll,Machap Toll,31,56.7,75.5,15.5,23.21
+KOTA DAMANSARA Toll,BANDAR BAHARU Toll,31.24,57.2,76.3,15.66,23.45
+KOTA DAMANSARA Toll,Spg. Renggam Toll,32.55,59.5,79.3,16.32,24.35
+KOTA DAMANSARA Toll,JAWI Toll,32.8,59.9,79.9,16.4,24.6
+KOTA DAMANSARA Toll,BKT. TAMBUN UTARA Toll,34.11,62.4,83.2,17.14,25.58
+KOTA DAMANSARA Toll,Sedenak Toll,34.6,63.3,84.4,17.3,25.91
+KOTA DAMANSARA Toll,JURU Toll,34.85,63.7,85,17.47,26.16
+KOTA DAMANSARA Toll,KULAI Toll,36.08,66.1,88,18.12,27.06
+KOTA DAMANSARA Toll,BERTAM Toll,36.16,66,88.1,18.2,27.76
+KOTA DAMANSARA Toll,Senai Utara Toll,37.06,67.9,90.5,18.61,27.8
+KOTA DAMANSARA Toll,Skudai Toll,37.47,68.5,91.3,18.78,28.04
+KOTA DAMANSARA Toll,SG. PETANI SELATAN Toll,37.8,69,92,19.02,28.45
+KOTA DAMANSARA Toll,SG. PETANI UTARA Toll,38.54,70.3,93.8,19.35,28.94
+KOTA DAMANSARA Toll,GURUN Toll,40.34,73.7,98.3,20.34,30.34
+KOTA DAMANSARA Toll,PENDANG Toll,42.55,77.7,103.6,21.4,31.98
+KOTA DAMANSARA Toll,Alor Setar Selatan Toll,44.19,80.7,107.6,22.22,33.66
+KOTA DAMANSARA Toll,Alor Setar Utara Toll,44.85,81.8,109.1,22.55,33.7
+KOTA DAMANSARA Toll,Hutan Kampung Toll,45.51,83.1,110.8,22.88,34.46
+KOTA DAMANSARA Toll,BANDAR CASSIA Toll,40.04,92.9,153.4,25.69,51.96
+KUALA KANGSAR Toll,CANGKAT JERING Toll,2.46,4.5,6,1.23,1.89
+KUALA KANGSAR Toll,IPOH UTARA Toll,2.87,5.3,7,1.48,2.13
+KUALA KANGSAR Toll,TAIPING UTARA Toll,4.26,7.7,10.3,2.13,3.2
+KUALA KANGSAR Toll,SIMPANG PULAI Toll,4.35,8,10.5,2.21,3.2
+KUALA KANGSAR Toll,GOPENG Toll,5.41,10,13.3,2.79,4.02
+KUALA KANGSAR Toll,ALOR PONGSU Toll,6.97,12.7,17,3.53,5.25
+KUALA KANGSAR Toll,BUKIT MERAH Toll,5.58,5.58,5.58,5.58,5.58
+KUALA KANGSAR Toll,BANDAR BAHARU Toll,7.63,14,18.6,3.85,5.74
+KUALA KANGSAR Toll,TAPAH Toll,8.77,16.1,21.4,4.43,6.56
+KUALA KANGSAR Toll,JAWI Toll,8.94,16.4,21.9,4.51,6.72
+KUALA KANGSAR Toll,BIDOR Toll,10.25,18.9,25.1,5.17,7.71
+KUALA KANGSAR Toll,BKT. TAMBUN UTARA Toll,10.33,18.9,25.2,5.17,7.71
+KUALA KANGSAR Toll,JURU Toll,11.07,20.2,26.9,5.49,8.28
+KUALA KANGSAR Toll,SUNGKAI Toll,11.81,21.6,28.8,5.9,8.86
+KUALA KANGSAR Toll,BERTAM Toll,12.38,22.5,30,6.22,9.88
+KUALA KANGSAR Toll,SLIM RIVER Toll,13.94,25.5,33.9,6.97,10.41
+KUALA KANGSAR Toll,SG. PETANI SELATAN Toll,14.02,25.5,33.9,7.04,10.57
+KUALA KANGSAR Toll,SG. PETANI UTARA Toll,14.76,26.8,35.7,7.37,11.06
+KUALA KANGSAR Toll,BEHRANG Toll,15.58,28.5,38,7.87,11.64
+KUALA KANGSAR Toll,GURUN Toll,16.56,30.2,40.2,8.36,12.46
+KUALA KANGSAR Toll,Tg. Malim Toll,17.22,31.5,41.9,8.61,12.87
+KUALA KANGSAR Toll,LEMBAH BERINGIN Toll,18.2,33.3,44.4,9.18,13.61
+KUALA KANGSAR Toll,PENDANG Toll,18.77,34.2,45.5,9.42,14.1
+KUALA KANGSAR Toll,BUKIT TAGAR Toll,19.19,35.2,46.8,9.68,14.35
+KUALA KANGSAR Toll,BUKIT BERUNTUNG Toll,20.17,36.9,49.1,10.09,15.09
+KUALA KANGSAR Toll,SUNGAI BUAYA Toll,20.91,38.3,51,10.5,15.66
+KUALA KANGSAR Toll,Alor Setar Selatan Toll,20.41,37.2,49.5,10.24,15.78
+KUALA KANGSAR Toll,Alor Setar Utara Toll,21.07,38.3,51,10.57,15.82
+KUALA KANGSAR Toll,RAWANG Toll,21.89,40.1,53.4,10.99,16.4
+KUALA KANGSAR Toll,Hutan Kampung Toll,21.73,39.6,52.7,10.9,16.58
+KUALA KANGSAR Toll,RAWANG SELATAN Toll,22.39,41,54.6,11.23,16.81
+KUALA KANGSAR Toll,SG. BULOH HOSPITAL Toll,23.04,42.2,56.2,11.56,17.3
+KUALA KANGSAR Toll,SG. BULOH Toll,23.29,42.6,56.8,11.64,17.47
+KUALA KANGSAR Toll,KOTA DAMANSARA Toll,23.94,43.8,58.4,12.05,17.96
+KUALA KANGSAR Toll,DAMANSARA Toll,24.35,44.7,59.5,12.22,18.29
+KUALA KANGSAR Toll,Jalan Duta Toll,24.6,45,59.9,12.3,18.37
+KUALA KANGSAR Toll,SUBANG Toll,24.6,45,59.9,12.3,18.37
+KUALA KANGSAR Toll,Shah Alam Toll,25.09,46,61.2,12.63,18.86
+KUALA KANGSAR Toll,Seafield Toll,25.83,47.3,62.9,12.96,19.27
+KUALA KANGSAR Toll,Setia Alam Toll,26.08,47.7,63.6,13.04,19.52
+KUALA KANGSAR Toll,USJ Toll,26.24,48,63.9,13.12,19.6
+KUALA KANGSAR Toll,Bukit Raja Toll,26.24,48,64,13.12,19.68
+KUALA KANGSAR Toll,PUTRA HEIGHTS Toll,26.73,49,65.2,13.37,20.01
+KUALA KANGSAR Toll,Bandar Saujana Putra Toll,27.06,49.5,65.9,13.53,20.25
+KUALA KANGSAR Toll,BANDAR GAMUDA COVE Toll,28.13,51.5,68.7,14.1,21.16
+KUALA KANGSAR Toll,Putra Jaya Toll,28.62,52.4,69.7,14.35,21.4
+KUALA KANGSAR Toll,BANDAR SERENIA Toll,29.36,53.7,71.6,14.68,22.06
+KUALA KANGSAR Toll,KLIA Toll,29.85,54.4,72.2,15.17,22.39
+KUALA KANGSAR Toll,Nilai Toll,31.08,56.9,75.7,15.58,23.29
+KUALA KANGSAR Toll,Putera Mahkota Toll,31.08,57,75.9,15.66,23.29
+KUALA KANGSAR Toll,SOUTHVILLE CITY Toll,31.57,57.7,77,15.74,23.7
+KUALA KANGSAR Toll,BANGI Toll,31.9,58.4,77.8,15.99,23.86
+KUALA KANGSAR Toll,KAJANG Toll,32.55,59.6,79.4,16.4,24.35
+KUALA KANGSAR Toll,Bandar Ainsdale Toll,32.72,59.9,79.8,16.48,24.52
+KUALA KANGSAR Toll,UPM Toll,32.8,60,79.9,16.48,24.52
+KUALA KANGSAR Toll,SEREMBAN Toll,33.05,60.6,80.6,16.65,24.76
+KUALA KANGSAR Toll,Sg. Besi Toll,33.29,61,81.2,16.73,24.93
+KUALA KANGSAR Toll,Port Dickson Toll,33.54,61.4,81.7,16.81,25.09
+KUALA KANGSAR Toll,Senawang Toll,33.95,62.2,82.8,17.06,25.42
+KUALA KANGSAR Toll,PEDAS LINGGI Toll,35.75,65.4,87.1,17.96,26.73
+KUALA KANGSAR Toll,Simpang Ampat Toll,38.29,70.1,93.4,19.27,28.7
+KUALA KANGSAR Toll,Ayer Keroh Toll,40.67,74.5,99.2,20.42,30.5
+KUALA KANGSAR Toll,Jasin Toll,42.48,77.8,103.6,21.32,31.82
+KUALA KANGSAR Toll,Tangkak Toll,43.62,79.9,106.4,21.89,32.72
+KUALA KANGSAR Toll,Bukit Gambir Toll,45.02,82.4,109.7,22.55,33.7
+KUALA KANGSAR Toll,BANDAR CASSIA Toll,16.18,49.4,95.4,13.72,34.08
+KUALA KANGSAR Toll,Pagoh Toll,46.74,85.6,114.1,23.45,35.01
+KUALA KANGSAR Toll,Yong Peng Utara Toll,51.5,94.3,125.6,25.83,38.62
+KUALA KANGSAR Toll,Ayer Hitam Toll,53.71,98.3,130.9,26.9,40.26
+KUALA KANGSAR Toll,Machap Toll,54.53,99.8,133,27.31,40.84
+KUALA KANGSAR Toll,Spg. Renggam Toll,56.09,102.7,136.8,28.13,42.07
+KUALA KANGSAR Toll,Sedenak Toll,58.14,106.4,141.8,29.19,43.54
+KUALA KANGSAR Toll,KULAI Toll,59.7,109.2,145.5,29.93,44.69
+KUALA KANGSAR Toll,Senai Utara Toll,60.68,111,147.9,30.42,45.43
+KUALA KANGSAR Toll,Skudai Toll,61.01,111.6,148.7,30.59,45.67
+KUANTAN Toll,JABOR Toll,1.7,3.3,5,0.8,1.7
+KUANTAN Toll,GAMBANG Toll,2.9,5.8,8.8,1.5,2.9
+KUANTAN Toll,CHENEH Toll,4.7,9.3,14,2.4,4.7
+KUANTAN Toll,CUKAI Toll,6.1,12.2,18.3,3.1,6.1
+KUANTAN Toll,SRI JAYA Toll,6.6,13.2,19.8,3.3,6.6
+KUANTAN Toll,MARAN Toll,8.2,16.4,24.5,4.1,8.2
+KUANTAN Toll,KIJAL Toll,8.4,16.7,25.1,4.2,8.4
+KUANTAN Toll,KERTEH Toll,10.1,20.1,30.2,5.1,10.1
+KUANTAN Toll,PAKA Toll,11.5,22.9,34.4,6.9,11.5
+KUANTAN Toll,CHENOR Toll,12.3,24.6,36.8,6.1,12.3
+KUANTAN Toll,DUNGUN Toll,13.7,27.3,41,,13.7
+KUANTAN Toll,TEMERLOH Toll,13.9,27.7,41.6,6.9,13.9
+KUANTAN Toll,BUKIT BESI Toll,15.7,31.4,47.1,7.9,15.7
+KUANTAN Toll,LANCANG Toll,17.1,34.1,51.2,8.5,17.1
+KUANTAN Toll,KARAK Toll,19.6,39.2,58.9,9.8,19.6
+KUANTAN Toll,AJIL Toll,20.3,40.7,61,10.2,20.3
+KUANTAN Toll,TELEMUNG Toll,22.7,45.4,68,11.4,22.7
+KUANTAN Toll,Kuala Terengganu (Kg Gemuroh) Toll,0,47.7,71.6,12,23.9
+KULAI Toll,Senai Utara Toll,1.15,2,2.7,0.57,0.82
+KULAI Toll,Skudai Toll,1.48,2.8,3.7,0.74,1.15
+KULAI Toll,Sedenak Toll,1.72,3.2,4.2,0.9,1.31
+KULAI Toll,Spg. Renggam Toll,3.77,6.8,9.1,1.89,2.79
+KULAI Toll,Machap Toll,5.33,9.7,12.9,2.62,3.94
+KULAI Toll,Ayer Hitam Toll,6.15,11.2,15,3.03,4.59
+KULAI Toll,Yong Peng Selatan Toll,7.79,14.2,18.9,3.85,5.82
+KULAI Toll,Yong Peng Utara Toll,8.28,15.2,20.3,4.18,6.23
+KULAI Toll,Pagoh Toll,13.04,23.9,31.8,6.56,9.76
+KULAI Toll,Bukit Gambir Toll,14.76,27,36,7.38,11.07
+KULAI Toll,Tangkak Toll,16.07,29.4,39.2,8.04,12.05
+KULAI Toll,Jasin Toll,17.55,32,42.7,8.77,13.12
+KULAI Toll,Ayer Keroh Toll,18.94,34.7,46.2,9.51,14.19
+KULAI Toll,Simpang Ampat Toll,21.48,39.4,52.5,10.74,16.15
+KULAI Toll,PEDAS LINGGI Toll,24.03,43.9,58.6,12.05,18.04
+KULAI Toll,Senawang Toll,25.91,47.4,63.2,12.96,19.43
+KULAI Toll,Port Dickson Toll,26.24,47.9,63.9,13.12,19.68
+KULAI Toll,SEREMBAN Toll,26.57,48.6,64.8,13.28,19.93
+KULAI Toll,Bandar Ainsdale Toll,27.31,49.9,66.5,13.61,20.42
+KULAI Toll,Nilai Toll,29.11,53.2,71,14.51,21.81
+KULAI Toll,Putera Mahkota Toll,29.52,54,72.1,14.76,22.14
+KULAI Toll,SOUTHVILLE CITY Toll,30.01,54.8,73.1,15.01,22.47
+KULAI Toll,BANGI Toll,30.42,55.6,74.1,15.17,22.8
+KULAI Toll,BANDAR SERENIA Toll,30.59,55.9,74.6,15.33,22.96
+KULAI Toll,KAJANG Toll,31.08,56.9,75.9,15.58,23.37
+KULAI Toll,UPM Toll,31.32,57.3,76.4,15.66,23.53
+KULAI Toll,BANDAR GAMUDA COVE Toll,31.41,57.4,76.6,15.66,23.53
+KULAI Toll,Sg. Besi Toll,31.82,58.2,77.6,15.91,23.86
+KULAI Toll,KLIA Toll,31.98,58.2,77.5,16.15,24.11
+KULAI Toll,Bandar Saujana Putra Toll,32.88,60,80.1,16.4,24.68
+KULAI Toll,Putra Jaya Toll,33.21,60.7,81,16.56,24.93
+KULAI Toll,PUTRA HEIGHTS Toll,33.29,60.9,81.2,16.65,25.01
+KULAI Toll,USJ Toll,33.78,61.8,82.4,16.89,25.34
+KULAI Toll,Seafield Toll,34.28,62.6,83.6,17.06,25.75
+KULAI Toll,Ebor Selatan Toll,34.28,62.7,83.6,17.14,25.75
+KULAI Toll,Shah Alam Toll,34.93,63.8,85.1,17.38,26.24
+KULAI Toll,SUBANG Toll,35.34,64.7,86.3,17.71,26.49
+KULAI Toll,Setia Alam Toll,35.83,65.4,87.3,17.88,26.81
+KULAI Toll,DAMANSARA Toll,35.92,65.7,87.5,17.96,26.9
+KULAI Toll,Bukit Raja Toll,35.92,65.7,87.6,17.96,26.9
+KULAI Toll,KOTA DAMANSARA Toll,36.08,66.1,88,18.12,27.06
+KULAI Toll,SG. BULOH Toll,36.74,67.2,89.5,18.37,27.55
+KULAI Toll,SG. BULOH HOSPITAL Toll,36.98,67.7,90.2,18.53,27.72
+KULAI Toll,Jalan Duta Toll,37.23,68.1,90.7,18.61,27.88
+KULAI Toll,RAWANG SELATAN Toll,37.47,68.6,91.4,18.78,28.13
+KULAI Toll,RAWANG Toll,38.13,69.7,92.9,19.11,28.54
+KULAI Toll,SUNGAI BUAYA Toll,39.11,71.6,95.4,19.6,29.27
+KULAI Toll,BUKIT BERUNTUNG Toll,39.77,72.8,97,19.93,29.85
+KULAI Toll,BUKIT TAGAR Toll,40.75,74.5,99.3,20.42,30.5
+KULAI Toll,LEMBAH BERINGIN Toll,41.82,76.6,102,20.99,31.32
+KULAI Toll,Tg. Malim Toll,42.89,78.5,104.6,21.48,32.14
+KULAI Toll,BEHRANG Toll,44.12,80.7,107.6,22.14,33.05
+KULAI Toll,SLIM RIVER Toll,45.92,84,111.9,22.96,34.44
+KULAI Toll,SUNGKAI Toll,47.97,87.8,117,24.03,36
+KULAI Toll,BIDOR Toll,49.53,90.6,120.8,24.85,37.15
+KULAI Toll,TAPAH Toll,51,93.4,124.5,25.58,38.29
+KULAI Toll,GOPENG Toll,54.37,99.5,132.6,27.22,40.75
+KULAI Toll,SIMPANG PULAI Toll,55.43,101.4,135.2,27.8,41.57
+KULAI Toll,Ipoh Selatan Toll,56.83,103.9,138.5,28.45,42.56
+KULAI Toll,KUALA KANGSAR Toll,59.7,109.2,145.5,29.93,44.69
+KULAI Toll,CANGKAT JERING Toll,62.07,113.5,151.3,31.08,46.49
+KULAI Toll,TAIPING UTARA Toll,63.88,116.7,155.6,31.98,47.81
+KULAI Toll,BUKIT MERAH Toll,65.11,119,158.6,32.55,48.71
+KULAI Toll,ALOR PONGSU Toll,66.5,121.6,162.1,33.21,49.86
+KULAI Toll,BANDAR BAHARU Toll,66.99,122.6,163.4,33.54,50.18
+KULAI Toll,JAWI Toll,68.55,125.3,167,34.28,51.33
+KULAI Toll,BKT. TAMBUN UTARA Toll,69.86,127.8,170.3,35.01,52.32
+KULAI Toll,JURU Toll,70.6,129.1,172.1,35.34,52.89
+KULAI Toll,BERTAM Toll,71.91,131.4,175.2,36.07,54.49
+KULAI Toll,SG. PETANI SELATAN Toll,73.55,134.4,179.1,36.89,55.18
+KULAI Toll,SG. PETANI UTARA Toll,74.29,135.7,180.9,37.22,55.67
+KULAI Toll,GURUN Toll,76.09,139.1,185.4,38.21,57.07
+KULAI Toll,PENDANG Toll,78.3,143.1,190.7,39.27,58.71
+KULAI Toll,Alor Setar Selatan Toll,79.94,146.1,194.7,40.09,60.39
+KULAI Toll,Alor Setar Utara Toll,80.6,147.2,196.2,40.42,60.43
+KULAI Toll,Hutan Kampung Toll,81.26,148.5,197.9,40.75,61.19
+KULAI Toll,BANDAR CASSIA Toll,75.79,158.3,240.5,43.57,78.69
+LANCANG Toll,KARAK Toll,2.8,5.5,8.3,1.4,2.8
+LANCANG Toll,TEMERLOH Toll,3.4,6.9,10.3,1.7,3.4
+LANCANG Toll,CHENOR Toll,5.2,10.3,15.5,2.6,5.2
+LANCANG Toll,MARAN Toll,9.2,18.4,27.6,4.6,9.2
+LANCANG Toll,SRI JAYA Toll,10.9,21.7,32.6,5.4,10.9
+LANCANG Toll,GAMBANG Toll,14.3,28.6,42.9,7.2,14.3
+LANCANG Toll,KUANTAN Toll,17.1,34.1,51.2,8.5,17.1
+LANCANG Toll,JABOR Toll,18.5,37,55.4,9.2,18.5
+LANCANG Toll,CHENEH Toll,21.5,42.9,64.4,10.7,21.5
+LANCANG Toll,CUKAI Toll,22.9,45.8,68.7,11.5,22.9
+LANCANG Toll,KIJAL Toll,25.2,50.3,75.5,12.6,25.2
+LANCANG Toll,KERTEH Toll,26.9,53.7,80.6,13.4,26.9
+LANCANG Toll,PAKA Toll,28.3,56.5,84.8,14.1,28.3
+LANCANG Toll,DUNGUN Toll,30.5,60.9,91.4,15.2,30.5
+LANCANG Toll,BUKIT BESI Toll,32.5,65,97.5,16.2,32.5
+LANCANG Toll,AJIL Toll,37.1,74.3,111.4,18.6,37.1
+LANCANG Toll,TELEMUNG Toll,39.5,79,118.4,19.7,39.5
+LANCANG Toll,Kuala Terengganu (Kg Gemuroh) Toll,40.7,81.3,122,20.3,40.7
+LEMBAH BERINGIN Toll,BUKIT TAGAR Toll,1.31,2.4,3.3,0.66,0.98
+LEMBAH BERINGIN Toll,Tg. Malim Toll,1.39,2.5,3.4,0.74,1.07
+LEMBAH BERINGIN Toll,BUKIT BERUNTUNG Toll,2.3,4.2,5.6,1.15,1.72
+LEMBAH BERINGIN Toll,BEHRANG Toll,2.71,4.9,6.5,1.31,1.97
+LEMBAH BERINGIN Toll,SUNGAI BUAYA Toll,3.12,5.7,7.6,1.56,2.38
+LEMBAH BERINGIN Toll,RAWANG Toll,4.02,7.3,9.8,1.97,3.03
+LEMBAH BERINGIN Toll,SLIM RIVER Toll,4.43,8.1,10.7,2.21,3.28
+LEMBAH BERINGIN Toll,RAWANG SELATAN Toll,4.59,8.4,11.1,2.3,3.44
+LEMBAH BERINGIN Toll,SG. BULOH HOSPITAL Toll,5.17,9.5,12.6,2.62,3.85
+LEMBAH BERINGIN Toll,SG. BULOH Toll,5.41,9.9,13.2,2.71,4.02
+LEMBAH BERINGIN Toll,KOTA DAMANSARA Toll,6.15,11.2,15,3.03,4.59
+LEMBAH BERINGIN Toll,Jalan Duta Toll,6.56,11.9,15.9,3.28,4.92
+LEMBAH BERINGIN Toll,SUNGKAI Toll,6.56,11.9,15.9,3.28,4.92
+LEMBAH BERINGIN Toll,DAMANSARA Toll,6.72,12.2,16.3,3.36,5
+LEMBAH BERINGIN Toll,SUBANG Toll,6.72,12.3,16.4,3.36,5.08
+LEMBAH BERINGIN Toll,Shah Alam Toll,7.3,13.3,17.8,3.69,5.49
+LEMBAH BERINGIN Toll,Seafield Toll,7.95,14.5,19.3,4.02,5.9
+LEMBAH BERINGIN Toll,BIDOR Toll,8.12,14.8,19.7,4.02,6.07
+LEMBAH BERINGIN Toll,Setia Alam Toll,8.2,15,20,4.1,6.15
+LEMBAH BERINGIN Toll,Bukit Raja Toll,8.28,15.2,20.3,4.18,6.23
+LEMBAH BERINGIN Toll,USJ Toll,8.36,15.2,20.3,4.18,6.23
+LEMBAH BERINGIN Toll,PUTRA HEIGHTS Toll,8.86,16.2,21.6,4.43,6.64
+LEMBAH BERINGIN Toll,Bandar Saujana Putra Toll,9.18,16.7,22.3,4.59,6.89
+LEMBAH BERINGIN Toll,TAPAH Toll,9.59,17.5,23.4,4.76,7.22
+LEMBAH BERINGIN Toll,BANDAR GAMUDA COVE Toll,10.25,18.8,25.1,5.17,7.71
+LEMBAH BERINGIN Toll,Putra Jaya Toll,10.74,19.6,26.1,5.41,8.04
+LEMBAH BERINGIN Toll,BANDAR SERENIA Toll,11.48,21,28,5.74,8.61
+LEMBAH BERINGIN Toll,KLIA Toll,12.05,21.7,28.8,6.23,9.1
+LEMBAH BERINGIN Toll,GOPENG Toll,12.96,23.7,31.5,6.48,9.68
+LEMBAH BERINGIN Toll,Nilai Toll,13.2,24.3,32.3,6.64,9.92
+LEMBAH BERINGIN Toll,Putera Mahkota Toll,13.28,24.4,32.4,6.72,9.92
+LEMBAH BERINGIN Toll,SOUTHVILLE CITY Toll,13.69,25,33.4,6.81,10.25
+LEMBAH BERINGIN Toll,SIMPANG PULAI Toll,14.02,25.6,34.1,6.97,10.5
+LEMBAH BERINGIN Toll,BANGI Toll,14.1,25.8,34.3,7.05,10.5
+LEMBAH BERINGIN Toll,KAJANG Toll,14.76,27,36,7.38,11.07
+LEMBAH BERINGIN Toll,Bandar Ainsdale Toll,14.92,27.3,36.4,7.46,11.15
+LEMBAH BERINGIN Toll,UPM Toll,15.01,27.4,36.5,7.54,11.23
+LEMBAH BERINGIN Toll,SEREMBAN Toll,15.25,27.9,37.2,7.63,11.4
+LEMBAH BERINGIN Toll,Ipoh Selatan Toll,15.33,28,37.4,7.71,11.48
+LEMBAH BERINGIN Toll,Sg. Besi Toll,15.5,28.3,37.7,7.79,11.56
+LEMBAH BERINGIN Toll,Port Dickson Toll,15.66,28.6,38.1,7.87,11.73
+LEMBAH BERINGIN Toll,Senawang Toll,16.07,29.5,39.2,8.12,12.05
+LEMBAH BERINGIN Toll,PEDAS LINGGI Toll,17.96,32.8,43.7,9.02,13.45
+LEMBAH BERINGIN Toll,KUALA KANGSAR Toll,18.2,33.3,44.4,9.18,13.61
+LEMBAH BERINGIN Toll,Simpang Ampat Toll,20.5,37.5,50,10.25,15.33
+LEMBAH BERINGIN Toll,CANGKAT JERING Toll,20.58,37.6,50.2,10.33,15.42
+LEMBAH BERINGIN Toll,TAIPING UTARA Toll,22.39,40.8,54.5,11.23,16.73
+LEMBAH BERINGIN Toll,Ayer Keroh Toll,22.88,41.9,55.8,11.48,17.14
+LEMBAH BERINGIN Toll,BUKIT MERAH Toll,23.62,43.1,57.5,11.81,17.63
+LEMBAH BERINGIN Toll,Jasin Toll,24.68,45.2,60.2,12.38,18.45
+LEMBAH BERINGIN Toll,ALOR PONGSU Toll,25.01,45.8,61,12.55,18.78
+LEMBAH BERINGIN Toll,BANDAR BAHARU Toll,25.5,46.7,62.3,12.79,19.11
+LEMBAH BERINGIN Toll,Tangkak Toll,25.75,47.2,62.9,12.96,19.35
+LEMBAH BERINGIN Toll,JAWI Toll,27.06,49.4,65.9,13.53,20.25
+LEMBAH BERINGIN Toll,Bukit Gambir Toll,27.14,49.7,66.3,13.61,20.34
+LEMBAH BERINGIN Toll,BKT. TAMBUN UTARA Toll,28.37,51.9,69.2,14.27,21.24
+LEMBAH BERINGIN Toll,Pagoh Toll,28.95,52.9,70.5,14.51,21.65
+LEMBAH BERINGIN Toll,JURU Toll,29.11,53.2,71,14.6,21.81
+LEMBAH BERINGIN Toll,BERTAM Toll,30.42,55.5,74.1,15.33,23.41
+LEMBAH BERINGIN Toll,SG. PETANI SELATAN Toll,32.06,58.5,78,16.15,24.1
+LEMBAH BERINGIN Toll,SG. PETANI UTARA Toll,32.8,59.8,79.8,16.48,24.59
+LEMBAH BERINGIN Toll,Yong Peng Utara Toll,33.7,61.7,82.2,16.89,25.26
+LEMBAH BERINGIN Toll,GURUN Toll,34.6,63.2,84.3,17.47,25.99
+LEMBAH BERINGIN Toll,Ayer Hitam Toll,35.92,65.7,87.5,17.96,26.9
+LEMBAH BERINGIN Toll,Machap Toll,36.65,67.1,89.4,18.37,27.47
+LEMBAH BERINGIN Toll,PENDANG Toll,36.81,67.2,89.6,18.53,27.63
+LEMBAH BERINGIN Toll,Spg. Renggam Toll,38.21,69.9,93.2,19.19,28.62
+LEMBAH BERINGIN Toll,Alor Setar Selatan Toll,38.45,70.2,93.6,19.35,29.31
+LEMBAH BERINGIN Toll,Alor Setar Utara Toll,39.11,71.3,95.1,19.68,29.35
+LEMBAH BERINGIN Toll,Hutan Kampung Toll,39.77,72.6,96.8,20.01,30.11
+LEMBAH BERINGIN Toll,Sedenak Toll,40.34,73.8,98.4,20.17,30.26
+LEMBAH BERINGIN Toll,KULAI Toll,41.82,76.6,102,20.99,31.32
+LEMBAH BERINGIN Toll,Senai Utara Toll,42.8,78.3,104.3,21.4,32.06
+LEMBAH BERINGIN Toll,Skudai Toll,43.21,79,105.3,21.65,32.39
+LEMBAH BERINGIN Toll,BANDAR CASSIA Toll,34.3,82.4,139.4,22.82,47.61
+Machap Toll,Ayer Hitam Toll,0.98,1.8,2.4,0.49,0.74
+Machap Toll,Spg. Renggam Toll,1.72,3.2,4.2,0.9,1.31
+Machap Toll,Yong Peng Selatan Toll,2.62,4.8,6.4,1.31,1.97
+Machap Toll,Yong Peng Utara Toll,3.2,5.8,7.7,1.56,2.38
+Machap Toll,Sedenak Toll,3.85,7,9.4,1.89,2.87
+Machap Toll,KULAI Toll,5.33,9.7,12.9,2.62,3.94
+Machap Toll,Senai Utara Toll,6.31,11.5,15.4,3.12,4.76
+Machap Toll,Skudai Toll,6.72,12.2,16.3,3.36,5
+Machap Toll,Pagoh Toll,7.95,14.5,19.3,3.94,5.9
+Machap Toll,Bukit Gambir Toll,9.68,17.6,23.5,4.84,7.22
+Machap Toll,Tangkak Toll,10.91,20,26.6,5.49,8.2
+Machap Toll,Jasin Toll,12.38,22.6,30.2,6.15,9.27
+Machap Toll,Ayer Keroh Toll,13.86,25.3,33.7,6.89,10.33
+Machap Toll,Simpang Ampat Toll,16.4,30,40,8.2,12.3
+Machap Toll,PEDAS LINGGI Toll,18.94,34.6,46.1,9.43,14.19
+Machap Toll,Senawang Toll,20.83,38,50.7,10.41,15.58
+Machap Toll,Port Dickson Toll,21.07,38.5,51.4,10.58,15.83
+Machap Toll,SEREMBAN Toll,21.48,39.3,52.3,10.74,16.07
+Machap Toll,Bandar Ainsdale Toll,22.14,40.5,54,11.07,16.56
+Machap Toll,Nilai Toll,23.94,43.8,58.5,11.97,17.96
+Machap Toll,Putera Mahkota Toll,24.44,44.7,59.5,12.22,18.29
+Machap Toll,SOUTHVILLE CITY Toll,24.85,45.5,60.6,12.46,18.61
+Machap Toll,BANGI Toll,25.26,46.2,61.6,12.63,18.94
+Machap Toll,BANDAR SERENIA Toll,25.5,46.6,62.1,12.71,19.11
+Machap Toll,KAJANG Toll,25.99,47.5,63.4,12.96,19.52
+Machap Toll,UPM Toll,26.24,47.9,63.9,13.12,19.68
+Machap Toll,BANDAR GAMUDA COVE Toll,26.24,48,64.1,13.12,19.68
+Machap Toll,Sg. Besi Toll,26.73,48.8,65.1,13.37,20.01
+Machap Toll,KLIA Toll,26.81,48.8,65,13.61,20.25
+Machap Toll,Bandar Saujana Putra Toll,27.72,50.6,67.6,13.86,20.83
+Machap Toll,Putra Jaya Toll,28.04,51.3,68.5,14.02,21.07
+Machap Toll,PUTRA HEIGHTS Toll,28.13,51.5,68.7,14.1,21.16
+Machap Toll,USJ Toll,28.62,52.4,69.9,14.35,21.48
+Machap Toll,Seafield Toll,29.11,53.2,71.1,14.51,21.89
+Machap Toll,Ebor Selatan Toll,29.11,53.3,71.1,14.6,21.89
+Machap Toll,Shah Alam Toll,29.77,54.4,72.6,14.84,22.39
+Machap Toll,SUBANG Toll,30.26,55.4,73.7,15.17,22.63
+Machap Toll,Setia Alam Toll,30.67,56.1,74.8,15.33,22.96
+Machap Toll,Bukit Raja Toll,30.83,56.3,75.1,15.33,23.04
+Machap Toll,DAMANSARA Toll,30.75,56.3,75,15.42,23.04
+Machap Toll,KOTA DAMANSARA Toll,31,56.7,75.5,15.5,23.21
+Machap Toll,SG. BULOH Toll,31.57,57.8,77,15.83,23.7
+Machap Toll,SG. BULOH HOSPITAL Toll,31.9,58.3,77.7,15.99,23.86
+Machap Toll,Jalan Duta Toll,32.06,58.7,78.2,16.07,24.03
+Machap Toll,RAWANG SELATAN Toll,32.39,59.2,78.9,16.24,24.27
+Machap Toll,RAWANG Toll,32.96,60.3,80.4,16.56,24.68
+Machap Toll,SUNGAI BUAYA Toll,33.95,62.2,82.9,17.06,25.5
+Machap Toll,BUKIT BERUNTUNG Toll,34.69,63.4,84.5,17.38,25.99
+Machap Toll,BUKIT TAGAR Toll,35.59,65.1,86.8,17.88,26.65
+Machap Toll,LEMBAH BERINGIN Toll,36.65,67.1,89.4,18.37,27.47
+Machap Toll,Tg. Malim Toll,37.8,69.1,92.1,18.94,28.29
+Machap Toll,BEHRANG Toll,39.03,71.4,95.1,19.52,29.19
+Machap Toll,SLIM RIVER Toll,40.75,74.5,99.3,20.42,30.5
+Machap Toll,SUNGKAI Toll,42.89,78.4,104.5,21.48,32.14
+Machap Toll,BIDOR Toll,44.44,81.2,108.3,22.22,33.29
+Machap Toll,TAPAH Toll,45.92,84,111.9,22.96,34.44
+Machap Toll,GOPENG Toll,49.28,90.1,120.1,24.68,36.9
+Machap Toll,SIMPANG PULAI Toll,50.35,92.1,122.7,25.17,37.72
+Machap Toll,Ipoh Selatan Toll,51.66,94.5,126,25.83,38.7
+Machap Toll,KUALA KANGSAR Toll,54.53,99.8,133,27.31,40.84
+Machap Toll,CANGKAT JERING Toll,56.91,104.1,138.8,28.45,42.64
+Machap Toll,TAIPING UTARA Toll,58.71,107.3,143.1,29.36,43.95
+Machap Toll,BUKIT MERAH Toll,59.94,109.6,146.1,29.93,44.85
+Machap Toll,ALOR PONGSU Toll,61.34,112.2,149.6,30.67,46
+Machap Toll,BANDAR BAHARU Toll,61.83,113.2,150.9,30.91,46.33
+Machap Toll,JAWI Toll,63.39,115.9,154.5,31.65,47.48
+Machap Toll,BKT. TAMBUN UTARA Toll,64.7,118.4,157.8,32.39,48.46
+Machap Toll,JURU Toll,65.44,119.7,159.6,32.72,49.04
+Machap Toll,BERTAM Toll,66.75,122,162.7,33.45,50.64
+Machap Toll,SG. PETANI SELATAN Toll,68.39,125,166.6,34.27,51.33
+Machap Toll,SG. PETANI UTARA Toll,69.13,126.3,168.4,34.6,51.82
+Machap Toll,GURUN Toll,70.93,129.7,172.9,35.59,53.22
+Machap Toll,PENDANG Toll,73.14,133.7,178.2,36.65,54.86
+Machap Toll,Alor Setar Selatan Toll,74.78,136.7,182.2,37.47,56.54
+Machap Toll,Alor Setar Utara Toll,75.44,137.8,183.7,37.8,56.58
+Machap Toll,Hutan Kampung Toll,76.1,139.1,185.4,38.13,57.34
+Machap Toll,BANDAR CASSIA Toll,70.63,148.9,228,40.94,74.83
+MANTIN Toll,Setul North Bound Toll,1.8,2.7,3.6,0.9,1.1
+MANTIN Toll,Pajam Toll,2,3,4,1,1.2
+MANTIN Toll,ECO MAJESTIC Toll,2.9,4.3,5.7,1.4,2.1
+MANTIN Toll,SEMENYIH Toll,4.3,6.4,8.5,2.1,2.6
+MANTIN Toll,Kajang Selatan Toll,4.8,7.3,9.7,2.4,3
+MARAN Toll,SRI JAYA Toll,2,4,5.9,1,2
+MARAN Toll,CHENOR Toll,4.4,8.8,13.2,2.2,4.4
+MARAN Toll,GAMBANG Toll,5.4,10.8,16.3,2.7,5.4
+MARAN Toll,TEMERLOH Toll,6,12,17.9,3,6
+MARAN Toll,KUANTAN Toll,8.2,16.4,24.5,4.1,8.2
+MARAN Toll,LANCANG Toll,9.2,18.4,27.6,4.6,9.2
+MARAN Toll,JABOR Toll,9.6,19.2,28.8,4.8,9.6
+MARAN Toll,KARAK Toll,11.7,23.5,35.2,5.9,11.7
+MARAN Toll,CHENEH Toll,12.6,25.1,37.7,6.3,12.6
+MARAN Toll,CUKAI Toll,14,28,42,7,14
+MARAN Toll,KIJAL Toll,16.3,32.5,48.8,8.1,16.3
+MARAN Toll,KERTEH Toll,18,35.9,53.9,9,18
+MARAN Toll,PAKA Toll,19.4,38.7,58.1,9.7,19.4
+MARAN Toll,DUNGUN Toll,21.6,43.1,64.7,10.8,21.6
+MARAN Toll,BUKIT BESI Toll,23.6,47.2,70.8,11.8,23.6
+MARAN Toll,AJIL Toll,28.2,56.5,84.7,14.1,28.2
+MARAN Toll,TELEMUNG Toll,30.6,61.2,91.7,15.3,30.6
+MARAN Toll,Kuala Terengganu (Kg Gemuroh) Toll,31.8,63.5,95.3,15.9,31.8
+Nilai Toll,Putera Mahkota Toll,0.98,1.7,2.3,0.49,0.74
+Nilai Toll,SOUTHVILLE CITY Toll,1.48,2.7,3.5,0.74,1.07
+Nilai Toll,Bandar Ainsdale Toll,1.72,3.2,4.2,0.9,1.31
+Nilai Toll,BANGI Toll,1.8,3.3,4.4,0.9,1.31
+Nilai Toll,BANDAR SERENIA Toll,1.97,3.6,4.9,0.98,1.48
+Nilai Toll,KAJANG Toll,2.46,4.5,6,1.23,1.8
+Nilai Toll,SEREMBAN Toll,2.54,4.6,6.1,1.23,1.89
+Nilai Toll,UPM Toll,2.71,4.9,6.5,1.31,1.97
+Nilai Toll,BANDAR GAMUDA COVE Toll,2.79,5.1,6.8,1.39,2.13
+Nilai Toll,Port Dickson Toll,2.87,5.3,7.1,1.48,2.21
+Nilai Toll,Sg. Besi Toll,3.2,5.8,7.7,1.56,2.38
+Nilai Toll,Senawang Toll,3.36,6.1,8.2,1.64,2.54
+Nilai Toll,KLIA Toll,3.36,5.9,7.7,1.89,2.62
+Nilai Toll,Bandar Saujana Putra Toll,4.26,7.7,10.3,2.13,3.2
+Nilai Toll,Putra Jaya Toll,4.59,8.4,11.2,2.3,3.44
+Nilai Toll,PUTRA HEIGHTS Toll,4.67,8.6,11.4,2.38,3.53
+Nilai Toll,PEDAS LINGGI Toll,5.17,9.5,12.6,2.62,3.85
+Nilai Toll,USJ Toll,5.17,9.5,12.6,2.62,3.85
+Nilai Toll,Seafield Toll,5.66,10.3,13.8,2.79,4.26
+Nilai Toll,Ebor Selatan Toll,5.66,10.4,13.8,2.87,4.26
+Nilai Toll,Shah Alam Toll,6.31,11.5,15.3,3.12,4.76
+Nilai Toll,SUBANG Toll,6.81,12.4,16.5,3.44,5.08
+Nilai Toll,Setia Alam Toll,7.22,13.1,17.6,3.61,5.41
+Nilai Toll,DAMANSARA Toll,7.22,13.2,17.6,3.69,5.41
+Nilai Toll,Bukit Raja Toll,7.3,13.4,17.9,3.61,5.49
+Nilai Toll,KOTA DAMANSARA Toll,7.46,13.8,18.3,3.77,5.58
+Nilai Toll,Simpang Ampat Toll,7.79,14.2,18.9,3.85,5.82
+Nilai Toll,SG. BULOH Toll,8.04,14.8,19.6,4.1,5.99
+Nilai Toll,SG. BULOH HOSPITAL Toll,8.36,15.4,20.5,4.26,6.23
+Nilai Toll,Jalan Duta Toll,8.61,15.8,21,4.35,6.48
+Nilai Toll,RAWANG SELATAN Toll,8.86,16.3,21.7,4.51,6.64
+Nilai Toll,RAWANG Toll,9.51,17.4,23.2,4.76,7.13
+Nilai Toll,Ayer Keroh Toll,10.17,18.6,24.7,5.08,7.63
+Nilai Toll,SUNGAI BUAYA Toll,10.5,19.3,25.6,5.33,7.87
+Nilai Toll,BUKIT BERUNTUNG Toll,11.15,20.5,27.3,5.66,8.36
+Nilai Toll,Jasin Toll,11.97,21.8,29.1,5.99,8.94
+Nilai Toll,BUKIT TAGAR Toll,12.14,22.2,29.6,6.07,9.1
+Nilai Toll,Tangkak Toll,13.04,23.9,31.8,6.56,9.76
+Nilai Toll,LEMBAH BERINGIN Toll,13.2,24.3,32.3,6.64,9.92
+Nilai Toll,Bukit Gambir Toll,14.02,25.6,34.1,6.97,10.5
+Nilai Toll,Tg. Malim Toll,14.27,26.2,34.9,7.22,10.74
+Nilai Toll,BEHRANG Toll,15.5,28.4,37.9,7.79,11.64
+Nilai Toll,Pagoh Toll,16.15,29.6,39.4,8.12,12.14
+Nilai Toll,SLIM RIVER Toll,17.22,31.6,42.1,8.69,12.96
+Nilai Toll,SUNGKAI Toll,19.35,35.5,47.2,9.76,14.51
+Nilai Toll,BIDOR Toll,20.91,38.3,51,10.5,15.66
+Nilai Toll,Yong Peng Utara Toll,20.99,38.3,51.1,10.5,15.74
+Nilai Toll,TAPAH Toll,22.47,41.1,54.7,11.23,16.81
+Nilai Toll,Ayer Hitam Toll,23.12,42.3,56.4,11.56,17.38
+Nilai Toll,Machap Toll,23.94,43.8,58.5,11.97,17.96
+Nilai Toll,Spg. Renggam Toll,25.5,46.7,62.3,12.79,19.19
+Nilai Toll,GOPENG Toll,25.75,47.2,62.9,12.96,19.35
+Nilai Toll,SIMPANG PULAI Toll,26.81,49.1,65.5,13.45,20.09
+Nilai Toll,Sedenak Toll,27.63,50.5,67.3,13.78,20.66
+Nilai Toll,Ipoh Selatan Toll,28.21,51.6,68.7,14.1,21.16
+Nilai Toll,KULAI Toll,29.11,53.2,71,14.51,21.81
+Nilai Toll,Senai Utara Toll,30.09,55,73.3,15.01,22.55
+Nilai Toll,Skudai Toll,30.42,55.7,74.2,15.25,22.8
+Nilai Toll,KUALA KANGSAR Toll,31.08,56.9,75.7,15.58,23.29
+Nilai Toll,CANGKAT JERING Toll,33.46,61.2,81.5,16.73,25.09
+Nilai Toll,TAIPING UTARA Toll,35.26,64.4,85.8,17.63,26.4
+Nilai Toll,BUKIT MERAH Toll,36.49,66.7,88.8,18.2,27.31
+Nilai Toll,ALOR PONGSU Toll,37.88,69.3,92.4,18.94,28.45
+Nilai Toll,BANDAR BAHARU Toll,38.38,70.3,93.6,19.19,28.78
+Nilai Toll,JAWI Toll,39.93,73,97.2,19.93,29.93
+Nilai Toll,BKT. TAMBUN UTARA Toll,41.25,75.5,100.5,20.66,30.91
+Nilai Toll,JURU Toll,41.98,76.8,102.3,20.99,31.49
+Nilai Toll,BERTAM Toll,43.29,79.1,105.4,21.72,33.09
+Nilai Toll,SG. PETANI SELATAN Toll,44.93,82.1,109.3,22.54,33.78
+Nilai Toll,SG. PETANI UTARA Toll,45.67,83.4,111.1,22.87,34.27
+Nilai Toll,GURUN Toll,47.47,86.8,115.6,23.86,35.67
+Nilai Toll,PENDANG Toll,49.68,90.8,120.9,24.92,37.31
+Nilai Toll,Alor Setar Selatan Toll,51.32,93.8,124.9,25.74,38.99
+Nilai Toll,Alor Setar Utara Toll,51.98,94.9,126.4,26.07,39.03
+Nilai Toll,Hutan Kampung Toll,52.64,96.2,128.1,26.4,39.79
+Nilai Toll,BANDAR CASSIA Toll,47.18,106,170.7,29.22,57.29
+Pagoh Toll,Bukit Gambir Toll,1.8,3.4,4.5,0.9,1.39
+Pagoh Toll,Tangkak Toll,3.12,5.7,7.6,1.56,2.38
+Pagoh Toll,Jasin Toll,4.59,8.4,11.1,2.3,3.44
+Pagoh Toll,Yong Peng Utara Toll,5,9.1,12.1,2.46,3.69
+Pagoh Toll,Ayer Keroh Toll,6.07,11.1,14.8,3.03,4.59
+Pagoh Toll,Ayer Hitam Toll,7.13,13,17.4,3.61,5.33
+Pagoh Toll,Machap Toll,7.95,14.5,19.3,3.94,5.9
+Pagoh Toll,Simpang Ampat Toll,8.61,15.8,21,4.35,6.48
+Pagoh Toll,Spg. Renggam Toll,9.51,17.3,23.1,4.76,7.13
+Pagoh Toll,PEDAS LINGGI Toll,11.15,20.4,27.2,5.58,8.36
+Pagoh Toll,Sedenak Toll,11.56,21.2,28.3,5.82,8.69
+Pagoh Toll,Senawang Toll,13.04,23.8,31.7,6.48,9.76
+Pagoh Toll,KULAI Toll,13.04,23.9,31.8,6.56,9.76
+Pagoh Toll,Port Dickson Toll,13.28,24.3,32.4,6.64,10
+Pagoh Toll,SEREMBAN Toll,13.69,25,33.4,6.81,10.25
+Pagoh Toll,Senai Utara Toll,14.02,25.7,34.3,7.05,10.58
+Pagoh Toll,Bandar Ainsdale Toll,14.35,26.3,35.1,7.22,10.82
+Pagoh Toll,Skudai Toll,14.43,26.4,35.2,7.22,10.82
+Pagoh Toll,Nilai Toll,16.15,29.6,39.4,8.12,12.14
+Pagoh Toll,Putera Mahkota Toll,16.65,30.5,40.6,8.36,12.46
+Pagoh Toll,SOUTHVILLE CITY Toll,17.14,31.3,41.7,8.53,12.87
+Pagoh Toll,BANGI Toll,17.47,32,42.6,8.77,13.12
+Pagoh Toll,BANDAR SERENIA Toll,17.71,32.4,43.2,8.86,13.28
+Pagoh Toll,KAJANG Toll,18.2,33.3,44.3,9.1,13.61
+Pagoh Toll,UPM Toll,18.45,33.7,44.9,9.18,13.86
+Pagoh Toll,BANDAR GAMUDA COVE Toll,18.53,33.9,45.2,9.27,13.86
+Pagoh Toll,Sg. Besi Toll,18.94,34.6,46.1,9.43,14.19
+Pagoh Toll,KLIA Toll,19.11,34.7,46.1,9.76,14.43
+Pagoh Toll,Bandar Saujana Putra Toll,20.01,36.5,48.7,10,15.01
+Pagoh Toll,Putra Jaya Toll,20.34,37.2,49.6,10.17,15.25
+Pagoh Toll,PUTRA HEIGHTS Toll,20.42,37.4,49.8,10.25,15.33
+Pagoh Toll,USJ Toll,20.91,38.3,51,10.5,15.66
+Pagoh Toll,Seafield Toll,21.4,39.1,52.2,10.66,16.07
+Pagoh Toll,Ebor Selatan Toll,21.4,39.2,52.2,10.74,16.07
+Pagoh Toll,Shah Alam Toll,22.06,40.3,53.7,10.99,16.56
+Pagoh Toll,SUBANG Toll,22.47,41.2,54.8,11.32,16.81
+Pagoh Toll,Setia Alam Toll,22.96,41.9,55.9,11.4,17.22
+Pagoh Toll,DAMANSARA Toll,22.96,42,55.9,11.48,17.22
+Pagoh Toll,Bukit Raja Toll,23.04,42.1,56.2,11.48,17.3
+Pagoh Toll,KOTA DAMANSARA Toll,23.12,42.4,56.5,11.64,17.38
+Pagoh Toll,SG. BULOH Toll,23.78,43.5,58,11.89,17.79
+Pagoh Toll,SG. BULOH HOSPITAL Toll,24.11,44.1,58.8,12.14,18.04
+Pagoh Toll,Jalan Duta Toll,24.35,44.5,59.3,12.22,18.2
+Pagoh Toll,RAWANG SELATAN Toll,24.6,45.1,60,12.38,18.45
+Pagoh Toll,RAWANG Toll,25.26,46.2,61.5,12.63,18.86
+Pagoh Toll,SUNGAI BUAYA Toll,26.16,47.9,63.8,13.12,19.6
+Pagoh Toll,BUKIT BERUNTUNG Toll,26.81,49.1,65.5,13.45,20.09
+Pagoh Toll,BUKIT TAGAR Toll,27.88,51,67.9,13.94,20.83
+Pagoh Toll,LEMBAH BERINGIN Toll,28.95,52.9,70.5,14.51,21.65
+Pagoh Toll,Tg. Malim Toll,30.01,54.9,73.2,15.09,22.47
+Pagoh Toll,BEHRANG Toll,31.24,57.2,76.2,15.66,23.45
+Pagoh Toll,SLIM RIVER Toll,32.96,60.3,80.4,16.56,24.68
+Pagoh Toll,SUNGKAI Toll,35.1,64.2,85.6,17.63,26.32
+Pagoh Toll,BIDOR Toll,36.65,67.1,89.4,18.37,27.47
+Pagoh Toll,TAPAH Toll,38.13,69.7,92.9,19.11,28.54
+Pagoh Toll,GOPENG Toll,41.49,75.8,101.1,20.75,31.08
+Pagoh Toll,SIMPANG PULAI Toll,42.56,77.9,103.8,21.32,31.9
+Pagoh Toll,Ipoh Selatan Toll,43.87,80.3,107.1,21.98,32.88
+Pagoh Toll,KUALA KANGSAR Toll,46.74,85.6,114.1,23.45,35.01
+Pagoh Toll,CANGKAT JERING Toll,49.12,89.9,119.9,24.6,36.82
+Pagoh Toll,TAIPING UTARA Toll,50.92,93.1,124.2,25.5,38.13
+Pagoh Toll,BUKIT MERAH Toll,52.15,95.4,127.2,26.08,39.03
+Pagoh Toll,ALOR PONGSU Toll,53.63,98,130.7,26.81,40.18
+Pagoh Toll,BANDAR BAHARU Toll,54.04,99,132,27.06,40.51
+Pagoh Toll,JAWI Toll,55.6,101.7,135.6,27.8,41.66
+Pagoh Toll,BKT. TAMBUN UTARA Toll,56.91,104.2,138.9,28.54,42.64
+Pagoh Toll,JURU Toll,57.65,105.5,140.7,28.86,43.21
+Pagoh Toll,BERTAM Toll,58.96,107.8,143.8,29.59,44.81
+Pagoh Toll,SG. PETANI SELATAN Toll,60.6,110.8,147.7,30.41,45.5
+Pagoh Toll,SG. PETANI UTARA Toll,61.34,112.1,149.5,30.74,45.99
+Pagoh Toll,GURUN Toll,63.14,115.5,154,31.73,47.39
+Pagoh Toll,PENDANG Toll,65.35,119.5,159.3,32.79,49.03
+Pagoh Toll,Alor Setar Selatan Toll,66.99,122.5,163.3,33.61,50.71
+Pagoh Toll,Alor Setar Utara Toll,67.65,123.6,164.8,33.94,50.75
+Pagoh Toll,Hutan Kampung Toll,68.31,124.9,166.5,34.27,51.51
+Pagoh Toll,BANDAR CASSIA Toll,62.84,134.7,209.1,37.09,69.01
+Pajam Toll,ECO MAJESTIC Toll,1.4,2.1,2.7,0.7,1
+Pajam Toll,MANTIN Toll,2,3,4,1,1.2
+Pajam Toll,SEMENYIH Toll,2.8,4.2,5.6,1.4,1.7
+Pajam Toll,Setul North Bound Toll,3.1,4.6,6.2,1.5,1.9
+Pajam Toll,Kajang Selatan Toll,3.4,5.1,6.7,1.7,2.1
+PAKA Toll,KERTEH Toll,2.1,4.2,6.3,1,2.1
+PAKA Toll,DUNGUN Toll,2.7,5.4,8.1,1.3,2.7
+PAKA Toll,KIJAL Toll,3.6,7.2,10.8,1.8,3.6
+PAKA Toll,BUKIT BESI Toll,4.5,8.9,13.4,2.2,4.5
+PAKA Toll,CUKAI Toll,5.8,11.6,17.4,2.9,5.8
+PAKA Toll,CHENEH Toll,7.6,15.2,22.8,3.8,7.6
+PAKA Toll,AJIL Toll,9.1,18.2,27.3,4.5,9.1
+PAKA Toll,TELEMUNG Toll,11.4,22.9,34.3,5.7,11.4
+PAKA Toll,Kuala Terengganu (Kg Gemuroh) Toll,12.6,25.2,37.9,6.3,12.6
+PEDAS LINGGI Toll,Senawang Toll,1.97,3.7,4.9,0.98,1.48
+PEDAS LINGGI Toll,Port Dickson Toll,2.3,4.2,5.6,1.15,1.72
+PEDAS LINGGI Toll,SEREMBAN Toll,2.71,4.9,6.5,1.31,1.97
+PEDAS LINGGI Toll,Simpang Ampat Toll,2.71,4.9,6.6,1.31,2.05
+PEDAS LINGGI Toll,Bandar Ainsdale Toll,3.36,6.1,8.2,1.64,2.54
+PEDAS LINGGI Toll,Ayer Keroh Toll,5.08,9.3,12.4,2.54,3.85
+PEDAS LINGGI Toll,Nilai Toll,5.17,9.5,12.6,2.62,3.85
+PEDAS LINGGI Toll,Putera Mahkota Toll,5.66,10.4,13.9,2.87,4.26
+PEDAS LINGGI Toll,SOUTHVILLE CITY Toll,6.07,11.1,14.8,3.03,4.59
+PEDAS LINGGI Toll,BANGI Toll,6.48,11.8,15.8,3.2,4.84
+PEDAS LINGGI Toll,BANDAR SERENIA Toll,6.72,12.3,16.4,3.36,5.08
+PEDAS LINGGI Toll,Jasin Toll,6.89,12.6,16.9,3.44,5.17
+PEDAS LINGGI Toll,KAJANG Toll,7.22,13.1,17.5,3.61,5.41
+PEDAS LINGGI Toll,UPM Toll,7.38,13.6,18.1,3.69,5.58
+PEDAS LINGGI Toll,BANDAR GAMUDA COVE Toll,7.54,13.8,18.4,3.77,5.66
+PEDAS LINGGI Toll,Sg. Besi Toll,7.95,14.5,19.3,3.94,5.9
+PEDAS LINGGI Toll,Tangkak Toll,8.04,14.7,19.6,4.02,6.07
+PEDAS LINGGI Toll,KLIA Toll,8.12,14.6,19.3,4.26,6.15
+PEDAS LINGGI Toll,Bandar Saujana Putra Toll,9.02,16.4,21.9,4.51,6.72
+PEDAS LINGGI Toll,Putra Jaya Toll,9.35,17.1,22.8,4.67,6.97
+PEDAS LINGGI Toll,Bukit Gambir Toll,9.43,17.2,23,4.67,7.05
+PEDAS LINGGI Toll,PUTRA HEIGHTS Toll,9.43,17.3,23,4.76,7.05
+PEDAS LINGGI Toll,USJ Toll,9.92,18.2,24.2,5,7.38
+PEDAS LINGGI Toll,Seafield Toll,10.41,19,25.4,5.17,7.79
+PEDAS LINGGI Toll,Ebor Selatan Toll,10.41,19.1,25.4,5.25,7.79
+PEDAS LINGGI Toll,Shah Alam Toll,11.07,20.2,26.9,5.49,8.28
+PEDAS LINGGI Toll,Pagoh Toll,11.15,20.4,27.2,5.58,8.36
+PEDAS LINGGI Toll,SUBANG Toll,11.48,21.1,28.1,5.82,8.61
+PEDAS LINGGI Toll,Setia Alam Toll,11.97,21.8,29.2,5.9,8.94
+PEDAS LINGGI Toll,DAMANSARA Toll,11.97,21.9,29.2,5.99,8.94
+PEDAS LINGGI Toll,Bukit Raja Toll,12.05,22,29.4,5.99,9.02
+PEDAS LINGGI Toll,KOTA DAMANSARA Toll,12.22,22.3,29.7,6.15,9.1
+PEDAS LINGGI Toll,SG. BULOH Toll,12.79,23.4,31.2,6.48,9.59
+PEDAS LINGGI Toll,SG. BULOH HOSPITAL Toll,13.04,24,31.9,6.56,9.76
+PEDAS LINGGI Toll,Jalan Duta Toll,13.28,24.4,32.4,6.72,9.92
+PEDAS LINGGI Toll,RAWANG SELATAN Toll,13.61,24.9,33.1,6.81,10.17
+PEDAS LINGGI Toll,RAWANG Toll,14.19,26,34.6,7.13,10.66
+PEDAS LINGGI Toll,SUNGAI BUAYA Toll,15.17,27.8,37,7.63,11.4
+PEDAS LINGGI Toll,BUKIT BERUNTUNG Toll,15.83,29.1,38.7,7.95,11.89
+PEDAS LINGGI Toll,Yong Peng Utara Toll,15.91,29.2,38.9,7.95,11.97
+PEDAS LINGGI Toll,BUKIT TAGAR Toll,16.89,30.9,41.1,8.45,12.63
+PEDAS LINGGI Toll,LEMBAH BERINGIN Toll,17.96,32.8,43.7,9.02,13.45
+PEDAS LINGGI Toll,Ayer Hitam Toll,18.12,33.1,44.2,9.1,13.61
+PEDAS LINGGI Toll,Machap Toll,18.94,34.6,46.1,9.43,14.19
+PEDAS LINGGI Toll,Tg. Malim Toll,18.94,34.8,46.3,9.51,14.19
+PEDAS LINGGI Toll,BEHRANG Toll,20.25,37.1,49.4,10.17,15.17
+PEDAS LINGGI Toll,Spg. Renggam Toll,20.5,37.4,49.9,10.25,15.33
+PEDAS LINGGI Toll,SLIM RIVER Toll,21.98,40.3,53.6,11.07,16.48
+PEDAS LINGGI Toll,Sedenak Toll,22.55,41.3,55.1,11.32,16.97
+PEDAS LINGGI Toll,KULAI Toll,24.03,43.9,58.6,12.05,18.04
+PEDAS LINGGI Toll,SUNGKAI Toll,24.03,44,58.7,12.05,18.04
+PEDAS LINGGI Toll,Senai Utara Toll,25.01,45.8,61,12.55,18.78
+PEDAS LINGGI Toll,Skudai Toll,25.42,46.5,62,12.71,19.11
+PEDAS LINGGI Toll,BIDOR Toll,25.67,47,62.6,12.87,19.27
+PEDAS LINGGI Toll,TAPAH Toll,27.14,49.6,66.1,13.61,20.34
+PEDAS LINGGI Toll,GOPENG Toll,30.5,55.8,74.3,15.25,22.8
+PEDAS LINGGI Toll,SIMPANG PULAI Toll,31.49,57.7,76.9,15.83,23.62
+PEDAS LINGGI Toll,Ipoh Selatan Toll,32.88,60.1,80.1,16.48,24.6
+PEDAS LINGGI Toll,KUALA KANGSAR Toll,35.75,65.4,87.1,17.96,26.73
+PEDAS LINGGI Toll,CANGKAT JERING Toll,38.13,69.7,92.9,19.11,28.54
+PEDAS LINGGI Toll,TAIPING UTARA Toll,39.93,72.9,97.2,20.01,29.85
+PEDAS LINGGI Toll,BUKIT MERAH Toll,41.16,75.2,100.2,20.58,30.75
+PEDAS LINGGI Toll,ALOR PONGSU Toll,42.56,77.8,103.8,21.32,31.9
+PEDAS LINGGI Toll,BANDAR BAHARU Toll,43.05,78.8,105,21.57,32.23
+PEDAS LINGGI Toll,JAWI Toll,44.61,81.5,108.6,22.3,33.37
+PEDAS LINGGI Toll,BKT. TAMBUN UTARA Toll,45.92,84,111.9,23.04,34.36
+PEDAS LINGGI Toll,JURU Toll,46.66,85.3,113.7,23.37,34.93
+PEDAS LINGGI Toll,BERTAM Toll,47.97,87.6,116.8,24.1,36.53
+PEDAS LINGGI Toll,SG. PETANI SELATAN Toll,49.61,90.6,120.7,24.92,37.22
+PEDAS LINGGI Toll,SG. PETANI UTARA Toll,50.35,91.9,122.5,25.25,37.71
+PEDAS LINGGI Toll,GURUN Toll,52.15,95.3,127,26.24,39.11
+PEDAS LINGGI Toll,PENDANG Toll,54.36,99.3,132.3,27.3,40.75
+PEDAS LINGGI Toll,Alor Setar Selatan Toll,56,102.3,136.3,28.12,42.43
+PEDAS LINGGI Toll,Alor Setar Utara Toll,56.66,103.4,137.8,28.45,42.47
+PEDAS LINGGI Toll,Hutan Kampung Toll,57.32,104.7,139.5,28.78,43.23
+PEDAS LINGGI Toll,BANDAR CASSIA Toll,51.85,114.5,182.1,31.6,60.73
+PENAWAR Toll,CAHAYA BARU Toll,7.2,10.8,14.4,3.6,4.5
+PENAWAR Toll,Tiram Toll,9.9,14.9,19.9,5,6.2
+PENAWAR Toll,Senai Toll,13.5,20.2,27,6.8,8.4
+PENDANG Toll,Alor Setar Selatan Toll,1.96,3.6,4.8,0.98,1.47
+PENDANG Toll,GURUN Toll,2.46,4.5,6,1.23,1.8
+PENDANG Toll,Alor Setar Utara Toll,2.54,4.7,6.3,1.31,1.88
+PENDANG Toll,Hutan Kampung Toll,3.19,5.9,7.9,1.64,2.46
+PENDANG Toll,SG. PETANI UTARA Toll,4.26,7.7,10.3,2.13,3.19
+PENDANG Toll,SG. PETANI SELATAN Toll,5.33,9.7,12.9,2.62,3.93
+PENDANG Toll,BERTAM Toll,6.56,12,16,3.28,4.92
+PENDANG Toll,Ipoh Selatan Toll,7.7,14,18.6,3.93,5.82
+PENDANG Toll,SG. DUA Toll,7.7,14,18.6,3.93,5.82
+PENDANG Toll,BKT. TAMBUN SELATAN Toll,8.6,15.6,20.8,4.34,6.48
+PENDANG Toll,JAWI Toll,10,18.2,24.2,5.08,7.54
+PENDANG Toll,BANDAR BAHARU Toll,11.31,20.6,27.4,5.73,8.53
+PENDANG Toll,ALOR PONGSU Toll,11.88,21.6,28.8,6.06,8.94
+PENDANG Toll,BUKIT MERAH Toll,13.36,24.4,32.5,6.8,10.08
+PENDANG Toll,TAIPING UTARA Toll,14.67,26.7,35.6,7.46,11.07
+PENDANG Toll,CANGKAT JERING Toll,16.31,29.7,39.5,8.19,12.3
+PENDANG Toll,KUALA KANGSAR Toll,18.77,34.2,45.5,9.42,14.1
+PENDANG Toll,IPOH UTARA Toll,21.48,39.2,52.2,10.82,16.15
+PENDANG Toll,SIMPANG PULAI Toll,22.95,41.9,55.7,11.56,17.22
+PENDANG Toll,GOPENG Toll,24.02,43.9,58.5,12.13,18.04
+PENDANG Toll,TAPAH Toll,27.38,50,66.6,13.77,20.58
+PENDANG Toll,BIDOR Toll,28.86,52.8,70.3,14.51,21.73
+PENDANG Toll,SUNGKAI Toll,30.41,55.5,74,15.25,22.88
+PENDANG Toll,SLIM RIVER Toll,32.55,59.4,79.1,16.31,24.43
+PENDANG Toll,BEHRANG Toll,34.19,62.4,83.2,17.21,25.66
+PENDANG Toll,Tg. Malim Toll,35.83,65.4,87.1,17.95,26.89
+PENDANG Toll,LEMBAH BERINGIN Toll,36.81,67.2,89.6,18.53,27.63
+PENDANG Toll,BUKIT TAGAR Toll,37.79,69.1,92,19.02,28.37
+PENDANG Toll,BUKIT BERUNTUNG Toll,38.78,70.8,94.3,19.43,29.11
+PENDANG Toll,SUNGAI BUAYA Toll,39.52,72.2,96.2,19.84,29.68
+PENDANG Toll,RAWANG Toll,40.5,74,98.6,20.33,30.42
+PENDANG Toll,RAWANG SELATAN Toll,40.99,74.9,99.8,20.58,30.83
+PENDANG Toll,SG. BULOH HOSPITAL Toll,41.65,76.1,101.4,20.9,31.32
+PENDANG Toll,SG. BULOH Toll,41.89,76.5,102,20.99,31.49
+PENDANG Toll,KOTA DAMANSARA Toll,42.55,77.7,103.6,21.4,31.98
+PENDANG Toll,DAMANSARA Toll,42.96,78.6,104.7,21.56,32.31
+PENDANG Toll,Jalan Duta Toll,43.21,78.9,105.1,21.64,32.39
+PENDANG Toll,SUBANG Toll,43.21,78.9,105.1,21.64,32.39
+PENDANG Toll,Shah Alam Toll,43.7,79.9,106.4,21.97,32.88
+PENDANG Toll,Seafield Toll,44.44,81.2,108.1,22.3,33.29
+PENDANG Toll,BANDAR CASSIA Toll,15.19,47.4,92.6,13.3,33.34
+PENDANG Toll,Setia Alam Toll,44.68,81.6,108.8,22.38,33.54
+PENDANG Toll,USJ Toll,44.85,81.9,109.1,22.46,33.62
+PENDANG Toll,Bukit Raja Toll,44.85,81.9,109.2,22.46,33.7
+PENDANG Toll,PUTRA HEIGHTS Toll,45.34,82.9,110.4,22.71,34.03
+PENDANG Toll,Bandar Saujana Putra Toll,45.67,83.4,111.1,22.87,34.27
+PENDANG Toll,BANDAR GAMUDA COVE Toll,46.73,85.4,113.8,23.45,35.09
+PENDANG Toll,Putra Jaya Toll,47.22,86.3,114.9,23.69,35.42
+PENDANG Toll,BANDAR SERENIA Toll,47.96,87.6,116.8,24.1,36
+PENDANG Toll,KLIA Toll,48.45,88.3,117.4,24.51,36.41
+PENDANG Toll,Nilai Toll,49.68,90.8,120.9,24.92,37.31
+PENDANG Toll,Putera Mahkota Toll,49.68,90.9,121.1,25,37.31
+PENDANG Toll,SOUTHVILLE CITY Toll,50.18,91.6,122.1,25.17,37.64
+PENDANG Toll,BANGI Toll,50.5,92.3,123,25.33,37.88
+PENDANG Toll,KAJANG Toll,51.16,93.5,124.6,25.74,38.37
+PENDANG Toll,Bandar Ainsdale Toll,51.32,93.8,125,25.82,38.54
+PENDANG Toll,UPM Toll,51.41,93.9,125.1,25.82,38.54
+PENDANG Toll,SEREMBAN Toll,51.65,94.5,125.8,25.99,38.78
+PENDANG Toll,Sg. Besi Toll,51.9,94.9,126.4,26.07,38.95
+PENDANG Toll,Port Dickson Toll,52.14,95.3,126.9,26.15,39.11
+PENDANG Toll,Senawang Toll,52.55,96.1,128,26.4,39.44
+PENDANG Toll,PEDAS LINGGI Toll,54.36,99.3,132.3,27.3,40.75
+PENDANG Toll,Simpang Ampat Toll,56.9,104,138.6,28.61,42.72
+PENDANG Toll,Ayer Keroh Toll,59.28,108.4,144.4,29.76,44.52
+PENDANG Toll,Jasin Toll,61.08,111.7,148.8,30.66,45.84
+PENDANG Toll,Tangkak Toll,62.23,113.8,151.6,31.24,46.74
+PENDANG Toll,Bukit Gambir Toll,63.62,116.3,154.9,31.89,47.72
+PENDANG Toll,Pagoh Toll,65.35,119.5,159.3,32.79,49.03
+PENDANG Toll,Yong Peng Utara Toll,70.1,128.2,170.8,35.17,52.64
+PENDANG Toll,Ayer Hitam Toll,72.32,132.2,176.1,36.24,54.28
+PENDANG Toll,Machap Toll,73.14,133.7,178.2,36.65,54.86
+PENDANG Toll,Spg. Renggam Toll,74.69,136.6,182,37.47,56.09
+PENDANG Toll,Sedenak Toll,76.74,140.3,187,38.53,57.56
+PENDANG Toll,KULAI Toll,78.3,143.1,190.7,39.27,58.71
+PENDANG Toll,Senai Utara Toll,79.29,144.9,193.1,39.76,59.45
+PENDANG Toll,Skudai Toll,79.61,145.5,193.9,39.93,59.69
+Port Dickson Toll,SEREMBAN Toll,0.41,0.8,1,0.25,0.33
+Port Dickson Toll,Senawang Toll,0.49,0.9,1.1,0.25,0.33
+Port Dickson Toll,Bandar Ainsdale Toll,1.15,2,2.7,0.57,0.82
+Port Dickson Toll,PEDAS LINGGI Toll,2.3,4.2,5.6,1.15,1.72
+Port Dickson Toll,Nilai Toll,2.87,5.3,7.1,1.48,2.21
+Port Dickson Toll,Putera Mahkota Toll,3.36,6.2,8.3,1.72,2.54
+Port Dickson Toll,SOUTHVILLE CITY Toll,3.85,7,9.4,1.89,2.87
+Port Dickson Toll,BANGI Toll,4.18,7.7,10.3,2.13,3.12
+Port Dickson Toll,BANDAR SERENIA Toll,4.43,8.1,10.8,2.21,3.36
+Port Dickson Toll,Simpang Ampat Toll,4.84,8.8,11.8,2.46,3.61
+Port Dickson Toll,KAJANG Toll,4.92,9,12,2.46,3.69
+Port Dickson Toll,UPM Toll,5.17,9.4,12.6,2.54,3.85
+Port Dickson Toll,BANDAR GAMUDA COVE Toll,5.25,9.6,12.8,2.62,3.94
+Port Dickson Toll,Sg. Besi Toll,5.66,10.3,13.8,2.79,4.26
+Port Dickson Toll,KLIA Toll,5.82,10.4,13.7,3.12,4.51
+Port Dickson Toll,Bandar Saujana Putra Toll,6.72,12.2,16.3,3.36,5.08
+Port Dickson Toll,Putra Jaya Toll,7.05,12.9,17.2,3.53,5.33
+Port Dickson Toll,PUTRA HEIGHTS Toll,7.13,13.1,17.4,3.61,5.41
+Port Dickson Toll,Ayer Keroh Toll,7.22,13.2,17.6,3.61,5.41
+Port Dickson Toll,USJ Toll,7.63,14,18.6,3.85,5.74
+Port Dickson Toll,Seafield Toll,8.12,14.8,19.8,4.02,6.15
+Port Dickson Toll,Ebor Selatan Toll,8.12,14.9,19.8,4.1,6.15
+Port Dickson Toll,Shah Alam Toll,8.77,16,21.3,4.35,6.64
+Port Dickson Toll,Jasin Toll,9.18,16.7,22.3,4.59,6.89
+Port Dickson Toll,SUBANG Toll,9.18,16.9,22.5,4.67,6.89
+Port Dickson Toll,Setia Alam Toll,9.68,17.6,23.6,4.76,7.22
+Port Dickson Toll,DAMANSARA Toll,9.68,17.7,23.6,4.84,7.22
+Port Dickson Toll,Bukit Raja Toll,9.76,17.8,23.9,4.84,7.3
+Port Dickson Toll,KOTA DAMANSARA Toll,9.92,18.1,24.1,5,7.38
+Port Dickson Toll,Tangkak Toll,10.33,18.8,25.1,5.17,7.71
+Port Dickson Toll,SG. BULOH Toll,10.5,19.3,25.6,5.33,7.87
+Port Dickson Toll,SG. BULOH HOSPITAL Toll,10.82,19.9,26.4,5.49,8.12
+Port Dickson Toll,Jalan Duta Toll,11.07,20.3,27,5.58,8.28
+Port Dickson Toll,RAWANG SELATAN Toll,11.32,20.8,27.7,5.74,8.45
+Port Dickson Toll,Bukit Gambir Toll,11.64,21.3,28.4,5.82,8.77
+Port Dickson Toll,RAWANG Toll,11.97,21.9,29.2,5.99,8.94
+Port Dickson Toll,SUNGAI BUAYA Toll,12.87,23.6,31.5,6.48,9.68
+Port Dickson Toll,Pagoh Toll,13.28,24.3,32.4,6.64,10
+Port Dickson Toll,BUKIT BERUNTUNG Toll,13.61,24.9,33.1,6.81,10.17
+Port Dickson Toll,BUKIT TAGAR Toll,14.6,26.7,35.5,7.3,10.91
+Port Dickson Toll,LEMBAH BERINGIN Toll,15.66,28.6,38.1,7.87,11.73
+Port Dickson Toll,Tg. Malim Toll,16.73,30.7,40.8,8.45,12.55
+Port Dickson Toll,BEHRANG Toll,17.96,32.9,43.8,9.02,13.45
+Port Dickson Toll,Yong Peng Utara Toll,18.04,33,44,9.02,13.53
+Port Dickson Toll,SLIM RIVER Toll,19.68,36.1,48.1,9.92,14.76
+Port Dickson Toll,Ayer Hitam Toll,20.25,37,49.3,10.09,15.17
+Port Dickson Toll,Machap Toll,21.07,38.5,51.4,10.58,15.83
+Port Dickson Toll,SUNGKAI Toll,21.81,40,53.2,10.99,16.32
+Port Dickson Toll,Spg. Renggam Toll,22.63,41.4,55.2,11.32,16.97
+Port Dickson Toll,BIDOR Toll,23.37,42.8,57,11.73,17.55
+Port Dickson Toll,Sedenak Toll,24.68,45.2,60.2,12.38,18.53
+Port Dickson Toll,TAPAH Toll,24.85,45.5,60.6,12.46,18.61
+Port Dickson Toll,KULAI Toll,26.24,47.9,63.9,13.12,19.68
+Port Dickson Toll,Senai Utara Toll,27.22,49.8,66.3,13.61,20.42
+Port Dickson Toll,Skudai Toll,27.55,50.4,67.2,13.78,20.66
+Port Dickson Toll,GOPENG Toll,28.21,51.6,68.7,14.1,21.16
+Port Dickson Toll,SIMPANG PULAI Toll,29.27,53.6,71.4,14.68,21.98
+Port Dickson Toll,Ipoh Selatan Toll,30.67,56.1,74.7,15.33,22.96
+Port Dickson Toll,KUALA KANGSAR Toll,33.54,61.4,81.7,16.81,25.09
+Port Dickson Toll,CANGKAT JERING Toll,35.92,65.7,87.5,17.96,26.9
+Port Dickson Toll,TAIPING UTARA Toll,37.72,68.9,91.8,18.86,28.21
+Port Dickson Toll,BUKIT MERAH Toll,38.95,71.2,94.8,19.43,29.11
+Port Dickson Toll,ALOR PONGSU Toll,40.34,73.8,98.4,20.17,30.26
+Port Dickson Toll,BANDAR BAHARU Toll,40.84,74.8,99.6,20.42,30.59
+Port Dickson Toll,JAWI Toll,42.39,77.5,103.2,21.16,31.73
+Port Dickson Toll,BKT. TAMBUN UTARA Toll,43.71,80,106.5,21.89,32.72
+Port Dickson Toll,JURU Toll,44.44,81.3,108.3,22.22,33.29
+Port Dickson Toll,BERTAM Toll,45.75,83.6,111.4,22.95,34.89
+Port Dickson Toll,SG. PETANI SELATAN Toll,47.39,86.6,115.3,23.77,35.58
+Port Dickson Toll,SG. PETANI UTARA Toll,48.13,87.9,117.1,24.1,36.07
+Port Dickson Toll,GURUN Toll,49.93,91.3,121.6,25.09,37.47
+Port Dickson Toll,PENDANG Toll,52.14,95.3,126.9,26.15,39.11
+Port Dickson Toll,Alor Setar Selatan Toll,53.78,98.3,130.9,26.97,40.79
+Port Dickson Toll,Alor Setar Utara Toll,54.44,99.4,132.4,27.3,40.83
+Port Dickson Toll,Hutan Kampung Toll,55.1,100.7,134.1,27.63,41.59
+Port Dickson Toll,BANDAR CASSIA Toll,49.64,110.5,176.7,30.45,59.09
+PULAU INDAH Toll,TELUK PANGLIMA GARANG Toll,4.2,6.2,8.3,2.1,2.6
+PULAU INDAH Toll,Saujana Putra SKVE Toll,6.3,9.5,12.7,3.2,3.9
+PULAU INDAH Toll,Ayer Hitam SKVE Toll,8.1,12.2,16.3,4.1,5
+Putera Mahkota Toll,SOUTHVILLE CITY Toll,0.74,1.3,1.8,0.33,0.57
+Putera Mahkota Toll,Nilai Toll,0.98,1.7,2.3,0.49,0.74
+Putera Mahkota Toll,BANGI Toll,1.15,2,2.7,0.57,0.82
+Putera Mahkota Toll,KAJANG Toll,1.72,3.2,4.2,0.9,1.31
+Putera Mahkota Toll,UPM Toll,1.97,3.6,4.8,0.98,1.48
+Putera Mahkota Toll,BANDAR SERENIA Toll,2.13,3.8,5.1,1.07,1.56
+Putera Mahkota Toll,Sg. Besi Toll,2.46,4.5,6,1.23,1.8
+Putera Mahkota Toll,Bandar Ainsdale Toll,2.71,4.9,6.5,1.31,1.97
+Putera Mahkota Toll,BANDAR GAMUDA COVE Toll,2.95,5.3,7.1,1.48,2.21
+Putera Mahkota Toll,SEREMBAN Toll,3.03,5.5,7.3,1.48,2.3
+Putera Mahkota Toll,Port Dickson Toll,3.36,6.2,8.3,1.72,2.54
+Putera Mahkota Toll,KLIA Toll,3.44,6.1,8,1.97,2.71
+Putera Mahkota Toll,Senawang Toll,3.85,7,9.4,1.89,2.87
+Putera Mahkota Toll,Bandar Saujana Putra Toll,4.35,7.9,10.6,2.21,3.28
+Putera Mahkota Toll,Putra Jaya Toll,4.67,8.6,11.5,2.38,3.53
+Putera Mahkota Toll,PUTRA HEIGHTS Toll,4.76,8.8,11.7,2.46,3.61
+Putera Mahkota Toll,USJ Toll,5.25,9.7,12.9,2.71,3.94
+Putera Mahkota Toll,PEDAS LINGGI Toll,5.66,10.4,13.9,2.87,4.26
+Putera Mahkota Toll,Seafield Toll,5.74,10.5,14.1,2.87,4.35
+Putera Mahkota Toll,Ebor Selatan Toll,5.74,10.6,14.1,2.95,4.35
+Putera Mahkota Toll,Shah Alam Toll,6.4,11.7,15.6,3.2,4.84
+Putera Mahkota Toll,SUBANG Toll,6.81,12.5,16.6,3.44,5.08
+Putera Mahkota Toll,Setia Alam Toll,7.3,13.3,17.7,3.61,5.41
+Putera Mahkota Toll,DAMANSARA Toll,7.3,13.5,17.9,3.69,5.49
+Putera Mahkota Toll,Bukit Raja Toll,7.38,13.5,18,3.69,5.49
+Putera Mahkota Toll,KOTA DAMANSARA Toll,7.54,13.9,18.4,3.85,5.66
+Putera Mahkota Toll,SG. BULOH Toll,8.12,14.9,19.8,4.1,6.07
+Putera Mahkota Toll,Simpang Ampat Toll,8.2,15,20,4.1,6.15
+Putera Mahkota Toll,SG. BULOH HOSPITAL Toll,8.45,15.5,20.6,4.26,6.31
+Putera Mahkota Toll,Jalan Duta Toll,8.69,15.9,21.1,4.35,6.48
+Putera Mahkota Toll,RAWANG SELATAN Toll,8.94,16.4,21.8,4.51,6.72
+Putera Mahkota Toll,RAWANG Toll,9.59,17.5,23.3,4.84,7.13
+Putera Mahkota Toll,SUNGAI BUAYA Toll,10.5,19.3,25.6,5.33,7.87
+Putera Mahkota Toll,Ayer Keroh Toll,10.58,19.4,25.8,5.33,7.95
+Putera Mahkota Toll,BUKIT BERUNTUNG Toll,11.23,20.6,27.4,5.66,8.36
+Putera Mahkota Toll,BUKIT TAGAR Toll,12.22,22.3,29.7,6.15,9.1
+Putera Mahkota Toll,Jasin Toll,12.46,22.7,30.3,6.23,9.35
+Putera Mahkota Toll,LEMBAH BERINGIN Toll,13.28,24.4,32.4,6.72,9.92
+Putera Mahkota Toll,Tangkak Toll,13.53,24.8,33,6.81,10.17
+Putera Mahkota Toll,Tg. Malim Toll,14.35,26.3,35,7.22,10.74
+Putera Mahkota Toll,Bukit Gambir Toll,14.92,27.3,36.4,7.46,11.23
+Putera Mahkota Toll,BEHRANG Toll,15.58,28.5,38,7.87,11.64
+Putera Mahkota Toll,Pagoh Toll,16.65,30.5,40.6,8.36,12.46
+Putera Mahkota Toll,SLIM RIVER Toll,17.3,31.7,42.2,8.69,12.96
+Putera Mahkota Toll,SUNGKAI Toll,19.43,35.6,47.4,9.76,14.51
+Putera Mahkota Toll,BIDOR Toll,20.99,38.4,51.2,10.5,15.74
+Putera Mahkota Toll,Yong Peng Utara Toll,21.48,39.3,52.3,10.74,16.07
+Putera Mahkota Toll,TAPAH Toll,22.47,41.2,54.8,11.32,16.81
+Putera Mahkota Toll,Ayer Hitam Toll,23.62,43.1,57.5,11.81,17.71
+Putera Mahkota Toll,Machap Toll,24.44,44.7,59.5,12.22,18.29
+Putera Mahkota Toll,GOPENG Toll,25.83,47.3,63,12.96,19.35
+Putera Mahkota Toll,Spg. Renggam Toll,25.99,47.5,63.4,12.96,19.52
+Putera Mahkota Toll,SIMPANG PULAI Toll,26.9,49.2,65.6,13.53,20.17
+Putera Mahkota Toll,Sedenak Toll,28.13,51.4,68.5,14.02,21.07
+Putera Mahkota Toll,Ipoh Selatan Toll,28.21,51.7,68.9,14.19,21.16
+Putera Mahkota Toll,KULAI Toll,29.52,54,72.1,14.76,22.14
+Putera Mahkota Toll,Senai Utara Toll,30.59,55.9,74.5,15.25,22.88
+Putera Mahkota Toll,Skudai Toll,30.91,56.6,75.5,15.5,23.21
+Putera Mahkota Toll,KUALA KANGSAR Toll,31.08,57,75.9,15.66,23.29
+Putera Mahkota Toll,CANGKAT JERING Toll,33.46,61.3,81.7,16.81,25.09
+Putera Mahkota Toll,TAIPING UTARA Toll,35.26,64.5,86,17.71,26.4
+Putera Mahkota Toll,BUKIT MERAH Toll,36.49,66.8,89,18.29,27.31
+Putera Mahkota Toll,ALOR PONGSU Toll,37.97,69.4,92.5,18.94,28.45
+Putera Mahkota Toll,BANDAR BAHARU Toll,38.38,70.4,93.8,19.27,28.78
+Putera Mahkota Toll,JAWI Toll,39.93,73.1,97.4,20.01,29.93
+Putera Mahkota Toll,BKT. TAMBUN UTARA Toll,41.25,75.6,100.7,20.75,30.91
+Putera Mahkota Toll,JURU Toll,41.98,76.9,102.5,21.07,31.49
+Putera Mahkota Toll,BERTAM Toll,43.29,79.2,105.6,21.8,33.09
+Putera Mahkota Toll,SG. PETANI SELATAN Toll,44.93,82.2,109.5,22.62,33.78
+Putera Mahkota Toll,SG. PETANI UTARA Toll,45.67,83.5,111.3,22.95,34.27
+Putera Mahkota Toll,GURUN Toll,47.47,86.9,115.8,23.94,35.67
+Putera Mahkota Toll,PENDANG Toll,49.68,90.9,121.1,25,37.31
+Putera Mahkota Toll,Alor Setar Selatan Toll,51.32,93.9,125.1,25.82,38.99
+Putera Mahkota Toll,Alor Setar Utara Toll,51.98,95,126.6,26.15,39.03
+Putera Mahkota Toll,Hutan Kampung Toll,52.64,96.3,128.3,26.48,39.79
+Putera Mahkota Toll,BANDAR CASSIA Toll,47.18,106.1,170.9,29.3,57.29
+PUTRA HEIGHTS Toll,Bandar Saujana Putra Toll,0.74,1.3,1.7,0.33,0.49
+PUTRA HEIGHTS Toll,USJ Toll,0.9,1.6,2.2,0.41,0.66
+PUTRA HEIGHTS Toll,Seafield Toll,1.31,2.4,3.3,0.66,0.98
+PUTRA HEIGHTS Toll,Ebor Selatan Toll,1.39,2.5,3.3,0.66,0.98
+PUTRA HEIGHTS Toll,BANDAR GAMUDA COVE Toll,1.8,3.3,4.4,0.9,1.31
+PUTRA HEIGHTS Toll,Shah Alam Toll,1.97,3.6,4.8,0.98,1.48
+PUTRA HEIGHTS Toll,Putra Jaya Toll,2.21,4.1,5.4,1.15,1.64
+PUTRA HEIGHTS Toll,SUBANG Toll,2.38,4.5,6,1.23,1.89
+PUTRA HEIGHTS Toll,DAMANSARA Toll,2.87,5.3,7.1,1.39,2.21
+PUTRA HEIGHTS Toll,Setia Alam Toll,2.87,5.3,7.1,1.39,2.21
+PUTRA HEIGHTS Toll,Bukit Raja Toll,2.95,5.5,7.4,1.48,2.3
+PUTRA HEIGHTS Toll,BANDAR SERENIA Toll,3.03,5.5,7.4,1.48,2.3
+PUTRA HEIGHTS Toll,KOTA DAMANSARA Toll,3.12,5.7,7.6,1.56,2.38
+PUTRA HEIGHTS Toll,SG. BULOH Toll,3.69,6.9,9.1,1.89,2.79
+PUTRA HEIGHTS Toll,KLIA Toll,3.61,6.3,8.2,2.05,2.79
+PUTRA HEIGHTS Toll,SG. BULOH HOSPITAL Toll,4.02,7.4,9.8,1.97,3.03
+PUTRA HEIGHTS Toll,Jalan Duta Toll,4.26,7.9,10.5,2.13,3.2
+PUTRA HEIGHTS Toll,RAWANG SELATAN Toll,4.51,8.3,11,2.21,3.36
+PUTRA HEIGHTS Toll,Nilai Toll,4.67,8.6,11.4,2.38,3.53
+PUTRA HEIGHTS Toll,Putera Mahkota Toll,4.76,8.8,11.7,2.46,3.61
+PUTRA HEIGHTS Toll,RAWANG Toll,5.17,9.5,12.7,2.54,3.94
+PUTRA HEIGHTS Toll,SOUTHVILLE CITY Toll,5.25,9.6,12.8,2.62,3.94
+PUTRA HEIGHTS Toll,BANGI Toll,5.58,10.2,13.6,2.79,4.18
+PUTRA HEIGHTS Toll,SUNGAI BUAYA Toll,6.07,11.3,15,3.03,4.59
+PUTRA HEIGHTS Toll,KAJANG Toll,6.23,11.5,15.2,3.2,4.67
+PUTRA HEIGHTS Toll,Bandar Ainsdale Toll,6.4,11.8,15.6,3.28,4.84
+PUTRA HEIGHTS Toll,UPM Toll,6.48,11.9,15.8,3.28,4.84
+PUTRA HEIGHTS Toll,BUKIT BERUNTUNG Toll,6.81,12.5,16.6,3.36,5.08
+PUTRA HEIGHTS Toll,SEREMBAN Toll,6.72,12.4,16.4,3.44,5.08
+PUTRA HEIGHTS Toll,Sg. Besi Toll,6.97,12.8,17,3.53,5.25
+PUTRA HEIGHTS Toll,Port Dickson Toll,7.13,13.1,17.4,3.61,5.41
+PUTRA HEIGHTS Toll,Senawang Toll,7.54,13.9,18.5,3.85,5.74
+PUTRA HEIGHTS Toll,BUKIT TAGAR Toll,7.71,14.2,18.9,3.85,5.82
+PUTRA HEIGHTS Toll,LEMBAH BERINGIN Toll,8.86,16.2,21.6,4.43,6.64
+PUTRA HEIGHTS Toll,PEDAS LINGGI Toll,9.43,17.3,23,4.76,7.05
+PUTRA HEIGHTS Toll,Tg. Malim Toll,9.92,18.3,24.3,5,7.46
+PUTRA HEIGHTS Toll,BEHRANG Toll,11.15,20.5,27.3,5.58,8.45
+PUTRA HEIGHTS Toll,Simpang Ampat Toll,11.97,22,29.2,6.07,9.02
+PUTRA HEIGHTS Toll,SLIM RIVER Toll,12.87,23.7,31.6,6.48,9.68
+PUTRA HEIGHTS Toll,Ayer Keroh Toll,14.35,26.2,34.9,7.22,10.74
+PUTRA HEIGHTS Toll,SUNGKAI Toll,15.01,27.6,36.7,7.54,11.32
+PUTRA HEIGHTS Toll,Jasin Toll,16.15,29.6,39.4,8.12,12.14
+PUTRA HEIGHTS Toll,BIDOR Toll,16.56,30.4,40.5,8.28,12.46
+PUTRA HEIGHTS Toll,Tangkak Toll,17.3,31.7,42.1,8.69,12.96
+PUTRA HEIGHTS Toll,TAPAH Toll,18.04,33.1,44.1,9.02,13.53
+PUTRA HEIGHTS Toll,Bukit Gambir Toll,18.7,34.2,45.5,9.35,14.02
+PUTRA HEIGHTS Toll,Pagoh Toll,20.42,37.4,49.8,10.25,15.33
+PUTRA HEIGHTS Toll,GOPENG Toll,21.4,39.2,52.2,10.66,16.07
+PUTRA HEIGHTS Toll,SIMPANG PULAI Toll,22.47,41.2,54.9,11.23,16.89
+PUTRA HEIGHTS Toll,Ipoh Selatan Toll,23.86,43.7,58.2,11.89,17.88
+PUTRA HEIGHTS Toll,Yong Peng Utara Toll,25.17,46.1,61.4,12.63,18.94
+PUTRA HEIGHTS Toll,KUALA KANGSAR Toll,26.73,49,65.2,13.37,20.01
+PUTRA HEIGHTS Toll,Ayer Hitam Toll,27.39,50.1,66.7,13.69,20.58
+PUTRA HEIGHTS Toll,Machap Toll,28.13,51.5,68.7,14.1,21.16
+PUTRA HEIGHTS Toll,CANGKAT JERING Toll,29.11,53.3,71,14.51,21.81
+PUTRA HEIGHTS Toll,Spg. Renggam Toll,29.68,54.4,72.5,14.92,22.3
+PUTRA HEIGHTS Toll,TAIPING UTARA Toll,30.91,56.5,75.3,15.42,23.12
+PUTRA HEIGHTS Toll,Sedenak Toll,31.82,58.3,77.6,15.99,23.86
+PUTRA HEIGHTS Toll,BUKIT MERAH Toll,32.14,58.8,78.3,15.99,24.03
+PUTRA HEIGHTS Toll,KULAI Toll,33.29,60.9,81.2,16.65,25.01
+PUTRA HEIGHTS Toll,ALOR PONGSU Toll,33.54,61.4,81.8,16.81,25.17
+PUTRA HEIGHTS Toll,BANDAR BAHARU Toll,34.03,62.4,83.1,16.97,25.5
+PUTRA HEIGHTS Toll,Senai Utara Toll,34.28,62.7,83.6,17.22,25.75
+PUTRA HEIGHTS Toll,Skudai Toll,34.69,63.5,84.6,17.38,25.99
+PUTRA HEIGHTS Toll,JAWI Toll,35.59,65.1,86.7,17.71,26.65
+PUTRA HEIGHTS Toll,BKT. TAMBUN UTARA Toll,36.9,67.6,90,18.45,27.63
+PUTRA HEIGHTS Toll,JURU Toll,37.64,68.9,91.8,18.78,28.21
+PUTRA HEIGHTS Toll,BERTAM Toll,38.95,71.2,94.9,19.51,29.81
+PUTRA HEIGHTS Toll,SG. PETANI SELATAN Toll,40.59,74.2,98.8,20.33,30.5
+PUTRA HEIGHTS Toll,SG. PETANI UTARA Toll,41.33,75.5,100.6,20.66,30.99
+PUTRA HEIGHTS Toll,GURUN Toll,43.13,78.9,105.1,21.65,32.39
+PUTRA HEIGHTS Toll,PENDANG Toll,45.34,82.9,110.4,22.71,34.03
+PUTRA HEIGHTS Toll,Alor Setar Selatan Toll,46.98,85.9,114.4,23.53,35.71
+PUTRA HEIGHTS Toll,Alor Setar Utara Toll,47.64,87,115.9,23.86,35.75
+PUTRA HEIGHTS Toll,Hutan Kampung Toll,48.3,88.3,117.6,24.19,36.51
+PUTRA HEIGHTS Toll,BANDAR CASSIA Toll,42.83,98.1,160.2,27,54.01
+Putra Jaya Toll,BANDAR GAMUDA COVE Toll,1.72,3.1,4.1,0.82,1.23
+Putra Jaya Toll,Bandar Saujana Putra Toll,1.8,3.2,4.3,0.9,1.31
+Putra Jaya Toll,PUTRA HEIGHTS Toll,2.21,4.1,5.4,1.15,1.64
+Putra Jaya Toll,USJ Toll,2.71,5,6.7,1.39,2.05
+Putra Jaya Toll,BANDAR SERENIA Toll,2.87,5.3,7.1,1.48,2.21
+Putra Jaya Toll,Seafield Toll,3.2,5.8,7.7,1.56,2.38
+Putra Jaya Toll,Ebor Selatan Toll,3.2,5.9,7.8,1.64,2.38
+Putra Jaya Toll,KLIA Toll,3.53,6.1,8,1.97,2.71
+Putra Jaya Toll,Shah Alam Toll,3.85,7,9.3,1.89,2.87
+Putra Jaya Toll,SUBANG Toll,4.26,7.9,10.5,2.21,3.28
+Putra Jaya Toll,Nilai Toll,4.59,8.4,11.2,2.3,3.44
+Putra Jaya Toll,Putera Mahkota Toll,4.67,8.6,11.5,2.38,3.53
+Putra Jaya Toll,DAMANSARA Toll,4.76,8.7,11.6,2.38,3.61
+Putra Jaya Toll,Setia Alam Toll,4.76,8.7,11.6,2.38,3.61
+Putra Jaya Toll,Bukit Raja Toll,4.84,8.8,11.8,2.38,3.69
+Putra Jaya Toll,KOTA DAMANSARA Toll,5,9.1,12.1,2.54,3.77
+Putra Jaya Toll,SOUTHVILLE CITY Toll,5.17,9.4,12.6,2.54,3.85
+Putra Jaya Toll,BANGI Toll,5.49,10,13.4,2.71,4.1
+Putra Jaya Toll,SG. BULOH Toll,5.58,10.3,13.6,2.87,4.18
+Putra Jaya Toll,SG. BULOH HOSPITAL Toll,5.9,10.8,14.3,2.95,4.43
+Putra Jaya Toll,Jalan Duta Toll,6.15,11.3,15,3.12,4.59
+Putra Jaya Toll,KAJANG Toll,6.15,11.3,15,3.12,4.59
+Putra Jaya Toll,RAWANG SELATAN Toll,6.4,11.7,15.5,3.2,4.76
+Putra Jaya Toll,Bandar Ainsdale Toll,6.4,11.7,15.6,3.2,4.76
+Putra Jaya Toll,UPM Toll,6.4,11.7,15.6,3.2,4.76
+Putra Jaya Toll,SEREMBAN Toll,6.64,12.2,16.2,3.36,5
+Putra Jaya Toll,Sg. Besi Toll,6.89,12.6,16.8,3.44,5.17
+Putra Jaya Toll,Port Dickson Toll,7.05,12.9,17.2,3.53,5.33
+Putra Jaya Toll,RAWANG Toll,7.05,12.9,17.2,3.53,5.33
+Putra Jaya Toll,Senawang Toll,7.46,13.7,18.3,3.77,5.66
+Putra Jaya Toll,SUNGAI BUAYA Toll,7.95,14.7,19.5,4.02,5.99
+Putra Jaya Toll,BUKIT BERUNTUNG Toll,8.69,15.9,21.1,4.35,6.48
+Putra Jaya Toll,PEDAS LINGGI Toll,9.35,17.1,22.8,4.67,6.97
+Putra Jaya Toll,BUKIT TAGAR Toll,9.59,17.6,23.4,4.84,7.22
+Putra Jaya Toll,LEMBAH BERINGIN Toll,10.74,19.6,26.1,5.41,8.04
+Putra Jaya Toll,Tg. Malim Toll,11.81,21.7,28.8,5.99,8.86
+Putra Jaya Toll,Simpang Ampat Toll,11.89,21.8,29,5.99,8.94
+Putra Jaya Toll,BEHRANG Toll,13.04,23.9,31.8,6.56,9.84
+Putra Jaya Toll,Ayer Keroh Toll,14.27,26,34.7,7.13,10.66
+Putra Jaya Toll,SLIM RIVER Toll,14.76,27.1,36.1,7.46,11.07
+Putra Jaya Toll,Jasin Toll,16.07,29.4,39.2,8.04,12.05
+Putra Jaya Toll,SUNGKAI Toll,16.89,31,41.2,8.53,12.71
+Putra Jaya Toll,Tangkak Toll,17.22,31.5,41.9,8.61,12.87
+Putra Jaya Toll,BIDOR Toll,18.45,33.8,45,9.27,13.86
+Putra Jaya Toll,Bukit Gambir Toll,18.61,34.1,45.5,9.35,14.02
+Putra Jaya Toll,TAPAH Toll,19.93,36.5,48.6,10,14.92
+Putra Jaya Toll,Pagoh Toll,20.34,37.2,49.6,10.17,15.25
+Putra Jaya Toll,GOPENG Toll,23.29,42.6,56.7,11.64,17.47
+Putra Jaya Toll,SIMPANG PULAI Toll,24.35,44.6,59.4,12.22,18.29
+Putra Jaya Toll,Yong Peng Utara Toll,25.09,45.9,61.2,12.55,18.86
+Putra Jaya Toll,Ipoh Selatan Toll,25.75,47.1,62.7,12.87,19.27
+Putra Jaya Toll,Ayer Hitam Toll,27.31,49.9,66.5,13.61,20.5
+Putra Jaya Toll,Machap Toll,28.04,51.3,68.5,14.02,21.07
+Putra Jaya Toll,KUALA KANGSAR Toll,28.62,52.4,69.7,14.35,21.4
+Putra Jaya Toll,Spg. Renggam Toll,29.6,54.2,72.3,14.84,22.22
+Putra Jaya Toll,CANGKAT JERING Toll,31,56.7,75.5,15.5,23.21
+Putra Jaya Toll,Sedenak Toll,31.73,58.1,77.4,15.91,23.78
+Putra Jaya Toll,TAIPING UTARA Toll,32.8,59.9,79.8,16.4,24.52
+Putra Jaya Toll,KULAI Toll,33.21,60.7,81,16.56,24.93
+Putra Jaya Toll,BUKIT MERAH Toll,34.03,62.2,82.8,16.97,25.42
+Putra Jaya Toll,Senai Utara Toll,34.19,62.5,83.4,17.14,25.67
+Putra Jaya Toll,Skudai Toll,34.6,63.3,84.4,17.3,25.91
+Putra Jaya Toll,ALOR PONGSU Toll,35.42,64.8,86.4,17.71,26.57
+Putra Jaya Toll,BANDAR BAHARU Toll,35.92,65.8,87.6,17.96,26.9
+Putra Jaya Toll,JAWI Toll,37.47,68.5,91.2,18.7,28.04
+Putra Jaya Toll,BKT. TAMBUN UTARA Toll,38.79,71,94.5,19.43,29.03
+Putra Jaya Toll,JURU Toll,39.52,72.3,96.3,19.76,29.6
+Putra Jaya Toll,BERTAM Toll,40.83,74.6,99.4,20.49,31.2
+Putra Jaya Toll,SG. PETANI SELATAN Toll,42.47,77.6,103.3,21.31,31.89
+Putra Jaya Toll,SG. PETANI UTARA Toll,43.21,78.9,105.1,21.64,32.38
+Putra Jaya Toll,GURUN Toll,45.01,82.3,109.6,22.63,33.78
+Putra Jaya Toll,PENDANG Toll,47.22,86.3,114.9,23.69,35.42
+Putra Jaya Toll,Alor Setar Selatan Toll,48.86,89.3,118.9,24.51,37.1
+Putra Jaya Toll,Alor Setar Utara Toll,49.52,90.4,120.4,24.84,37.14
+Putra Jaya Toll,Hutan Kampung Toll,50.18,91.7,122.1,25.17,37.9
+Putra Jaya Toll,BANDAR CASSIA Toll,44.72,101.5,164.7,27.99,55.4
+RAWANG SELATAN Toll,RAWANG Toll,0.66,1.2,1.6,0.33,0.49
+RAWANG SELATAN Toll,SG. BULOH HOSPITAL Toll,0.9,1.6,2.2,0.41,0.66
+RAWANG SELATAN Toll,SG. BULOH Toll,1.07,1.9,2.6,0.49,0.82
+RAWANG SELATAN Toll,SUNGAI BUAYA Toll,1.72,3.2,4.2,0.9,1.31
+RAWANG SELATAN Toll,KOTA DAMANSARA Toll,1.8,3.3,4.4,0.9,1.31
+RAWANG SELATAN Toll,DAMANSARA Toll,2.21,4,5.3,1.07,1.64
+RAWANG SELATAN Toll,Jalan Duta Toll,2.38,4.3,5.7,1.15,1.72
+RAWANG SELATAN Toll,SUBANG Toll,2.38,4.4,5.8,1.23,1.8
+RAWANG SELATAN Toll,BUKIT BERUNTUNG Toll,2.54,4.6,6.1,1.23,1.89
+RAWANG SELATAN Toll,Shah Alam Toll,2.95,5.4,7.2,1.48,2.3
+RAWANG SELATAN Toll,BUKIT TAGAR Toll,3.44,6.3,8.4,1.72,2.62
+RAWANG SELATAN Toll,Seafield Toll,3.61,6.6,8.7,1.8,2.62
+RAWANG SELATAN Toll,Setia Alam Toll,3.94,7.1,9.5,1.97,2.95
+RAWANG SELATAN Toll,USJ Toll,4.02,7.3,9.7,1.97,2.95
+RAWANG SELATAN Toll,Bukit Raja Toll,4.02,7.3,9.8,1.97,3.03
+RAWANG SELATAN Toll,PUTRA HEIGHTS Toll,4.51,8.3,11,2.21,3.36
+RAWANG SELATAN Toll,LEMBAH BERINGIN Toll,4.59,8.4,11.1,2.3,3.44
+RAWANG SELATAN Toll,Bandar Saujana Putra Toll,4.84,8.8,11.7,2.38,3.61
+RAWANG SELATAN Toll,Tg. Malim Toll,5.66,10.3,13.7,2.79,4.26
+RAWANG SELATAN Toll,BANDAR GAMUDA COVE Toll,5.9,10.8,14.3,2.95,4.43
+RAWANG SELATAN Toll,Putra Jaya Toll,6.4,11.7,15.5,3.2,4.76
+RAWANG SELATAN Toll,BEHRANG Toll,6.89,12.6,16.9,3.44,5.17
+RAWANG SELATAN Toll,BANDAR SERENIA Toll,7.13,13,17.3,3.53,5.33
+RAWANG SELATAN Toll,KLIA Toll,7.71,13.8,18.2,4.02,5.82
+RAWANG SELATAN Toll,SLIM RIVER Toll,8.61,15.8,21.1,4.35,6.48
+RAWANG SELATAN Toll,Nilai Toll,8.86,16.3,21.7,4.51,6.64
+RAWANG SELATAN Toll,Putera Mahkota Toll,8.94,16.4,21.8,4.51,6.72
+RAWANG SELATAN Toll,SOUTHVILLE CITY Toll,9.43,17.2,22.9,4.67,7.05
+RAWANG SELATAN Toll,BANGI Toll,9.76,17.8,23.7,4.92,7.3
+RAWANG SELATAN Toll,KAJANG Toll,10.41,19.1,25.3,5.25,7.79
+RAWANG SELATAN Toll,Bandar Ainsdale Toll,10.58,19.5,25.9,5.33,7.95
+RAWANG SELATAN Toll,UPM Toll,10.66,19.6,26,5.41,7.95
+RAWANG SELATAN Toll,SUNGKAI Toll,10.74,19.7,26.2,5.41,8.04
+RAWANG SELATAN Toll,SEREMBAN Toll,10.99,20.1,26.7,5.49,8.2
+RAWANG SELATAN Toll,Sg. Besi Toll,11.15,20.5,27.3,5.66,8.36
+RAWANG SELATAN Toll,Port Dickson Toll,11.32,20.8,27.7,5.74,8.45
+RAWANG SELATAN Toll,Senawang Toll,11.81,21.6,28.7,5.9,8.86
+RAWANG SELATAN Toll,BIDOR Toll,12.3,22.5,30,6.15,9.27
+RAWANG SELATAN Toll,PEDAS LINGGI Toll,13.61,24.9,33.1,6.81,10.17
+RAWANG SELATAN Toll,TAPAH Toll,13.78,25.2,33.6,6.89,10.33
+RAWANG SELATAN Toll,Simpang Ampat Toll,16.15,29.6,39.4,8.12,12.05
+RAWANG SELATAN Toll,GOPENG Toll,17.14,31.3,41.7,8.53,12.87
+RAWANG SELATAN Toll,SIMPANG PULAI Toll,18.2,33.2,44.3,9.1,13.61
+RAWANG SELATAN Toll,Ayer Keroh Toll,18.53,33.9,45.2,9.35,13.86
+RAWANG SELATAN Toll,Ipoh Selatan Toll,19.52,35.7,47.6,9.76,14.68
+RAWANG SELATAN Toll,Jasin Toll,20.34,37.2,49.5,10.17,15.25
+RAWANG SELATAN Toll,Tangkak Toll,21.48,39.3,52.4,10.82,16.07
+RAWANG SELATAN Toll,KUALA KANGSAR Toll,22.39,41,54.6,11.23,16.81
+RAWANG SELATAN Toll,Bukit Gambir Toll,22.88,41.9,55.8,11.48,17.14
+RAWANG SELATAN Toll,Pagoh Toll,24.6,45.1,60,12.38,18.45
+RAWANG SELATAN Toll,CANGKAT JERING Toll,24.76,45.3,60.4,12.38,18.61
+RAWANG SELATAN Toll,TAIPING UTARA Toll,26.57,48.5,64.7,13.28,19.93
+RAWANG SELATAN Toll,BUKIT MERAH Toll,27.8,50.8,67.7,13.86,20.83
+RAWANG SELATAN Toll,ALOR PONGSU Toll,29.19,53.4,71.2,14.6,21.89
+RAWANG SELATAN Toll,Yong Peng Utara Toll,29.44,53.8,71.7,14.76,22.06
+RAWANG SELATAN Toll,BANDAR BAHARU Toll,29.68,54.4,72.5,14.84,22.3
+RAWANG SELATAN Toll,JAWI Toll,31.24,57.1,76.1,15.58,23.45
+RAWANG SELATAN Toll,Ayer Hitam Toll,31.49,57.7,76.9,15.83,23.62
+RAWANG SELATAN Toll,Machap Toll,32.39,59.2,78.9,16.24,24.27
+RAWANG SELATAN Toll,BKT. TAMBUN UTARA Toll,32.55,59.6,79.4,16.32,24.44
+RAWANG SELATAN Toll,JURU Toll,33.29,60.9,81.2,16.65,25.01
+RAWANG SELATAN Toll,Spg. Renggam Toll,33.95,62.1,82.7,16.97,25.42
+RAWANG SELATAN Toll,BERTAM Toll,34.6,63.2,84.3,17.38,26.61
+RAWANG SELATAN Toll,Sedenak Toll,36.08,66,87.9,18.04,26.98
+RAWANG SELATAN Toll,SG. PETANI SELATAN Toll,36.24,66.2,88.2,18.2,27.3
+RAWANG SELATAN Toll,SG. PETANI UTARA Toll,36.98,67.5,90,18.53,27.79
+RAWANG SELATAN Toll,KULAI Toll,37.47,68.6,91.4,18.78,28.13
+RAWANG SELATAN Toll,Senai Utara Toll,38.46,70.4,93.9,19.27,28.86
+RAWANG SELATAN Toll,Skudai Toll,38.87,71.1,94.7,19.43,29.11
+RAWANG SELATAN Toll,GURUN Toll,38.78,70.9,94.5,19.52,29.19
+RAWANG SELATAN Toll,PENDANG Toll,40.99,74.9,99.8,20.58,30.83
+RAWANG SELATAN Toll,Alor Setar Selatan Toll,42.63,77.9,103.8,21.4,32.51
+RAWANG SELATAN Toll,Alor Setar Utara Toll,43.29,79,105.3,21.73,32.55
+RAWANG SELATAN Toll,Hutan Kampung Toll,43.95,80.3,107,22.06,33.31
+RAWANG SELATAN Toll,BANDAR CASSIA Toll,38.48,90.1,149.6,24.87,50.81
+RAWANG Toll,RAWANG SELATAN Toll,0.66,1.2,1.6,0.33,0.49
+RAWANG Toll,SUNGAI BUAYA Toll,1.31,2.3,3.1,0.66,0.98
+RAWANG Toll,SG. BULOH HOSPITAL Toll,1.31,2.4,3.3,0.66,0.98
+RAWANG Toll,SG. BULOH Toll,1.64,3.1,4.1,0.82,1.23
+RAWANG Toll,BUKIT BERUNTUNG Toll,1.97,3.6,4.8,0.98,1.48
+RAWANG Toll,KOTA DAMANSARA Toll,2.38,4.4,5.8,1.23,1.8
+RAWANG Toll,DAMANSARA Toll,2.79,5.1,6.8,1.39,2.13
+RAWANG Toll,BUKIT TAGAR Toll,2.95,5.4,7.2,1.48,2.21
+RAWANG Toll,Jalan Duta Toll,2.95,5.4,7.2,1.48,2.21
+RAWANG Toll,SUBANG Toll,3.03,5.5,7.4,1.48,2.3
+RAWANG Toll,Shah Alam Toll,3.53,6.5,8.7,1.8,2.71
+RAWANG Toll,LEMBAH BERINGIN Toll,4.02,7.3,9.8,1.97,3.03
+RAWANG Toll,Seafield Toll,4.26,7.8,10.4,2.13,3.2
+RAWANG Toll,Setia Alam Toll,4.51,8.3,11,2.3,3.36
+RAWANG Toll,USJ Toll,4.67,8.5,11.4,2.3,3.53
+RAWANG Toll,Bukit Raja Toll,4.67,8.6,11.5,2.38,3.53
+RAWANG Toll,Tg. Malim Toll,5.08,9.3,12.4,2.54,3.77
+RAWANG Toll,PUTRA HEIGHTS Toll,5.17,9.5,12.7,2.54,3.94
+RAWANG Toll,Bandar Saujana Putra Toll,5.49,10,13.4,2.71,4.18
+RAWANG Toll,BEHRANG Toll,6.4,11.6,15.5,3.2,4.76
+RAWANG Toll,BANDAR GAMUDA COVE Toll,6.64,12.1,16.1,3.28,4.92
+RAWANG Toll,Putra Jaya Toll,7.05,12.9,17.2,3.53,5.33
+RAWANG Toll,BANDAR SERENIA Toll,7.79,14.3,19.1,3.94,5.9
+RAWANG Toll,SLIM RIVER Toll,8.12,14.8,19.7,4.02,6.07
+RAWANG Toll,KLIA Toll,8.28,14.9,19.7,4.35,6.31
+RAWANG Toll,Nilai Toll,9.51,17.4,23.2,4.76,7.13
+RAWANG Toll,Putera Mahkota Toll,9.59,17.5,23.3,4.84,7.13
+RAWANG Toll,SOUTHVILLE CITY Toll,10,18.3,24.4,5,7.54
+RAWANG Toll,SUNGKAI Toll,10.17,18.7,24.9,5.08,7.63
+RAWANG Toll,BANGI Toll,10.33,19,25.2,5.25,7.71
+RAWANG Toll,KAJANG Toll,10.99,20.2,26.8,5.58,8.2
+RAWANG Toll,Bandar Ainsdale Toll,11.23,20.6,27.4,5.66,8.36
+RAWANG Toll,UPM Toll,11.23,20.6,27.4,5.66,8.36
+RAWANG Toll,SEREMBAN Toll,11.48,21.1,28.1,5.82,8.61
+RAWANG Toll,Sg. Besi Toll,11.73,21.5,28.6,5.9,8.77
+RAWANG Toll,BIDOR Toll,11.73,21.5,28.7,5.9,8.86
+RAWANG Toll,Port Dickson Toll,11.97,21.9,29.2,5.99,8.94
+RAWANG Toll,Senawang Toll,12.38,22.7,30.2,6.23,9.27
+RAWANG Toll,TAPAH Toll,13.28,24.3,32.4,6.64,9.92
+RAWANG Toll,PEDAS LINGGI Toll,14.19,26,34.6,7.13,10.66
+RAWANG Toll,GOPENG Toll,16.65,30.4,40.5,8.28,12.46
+RAWANG Toll,Simpang Ampat Toll,16.73,30.7,40.8,8.45,12.55
+RAWANG Toll,SIMPANG PULAI Toll,17.71,32.3,43.1,8.86,13.28
+RAWANG Toll,Ipoh Selatan Toll,19.02,34.8,46.4,9.51,14.27
+RAWANG Toll,Ayer Keroh Toll,19.19,35.1,46.7,9.59,14.35
+RAWANG Toll,Jasin Toll,20.91,38.3,51,10.5,15.66
+RAWANG Toll,KUALA KANGSAR Toll,21.89,40.1,53.4,10.99,16.4
+RAWANG Toll,Tangkak Toll,22.14,40.5,53.9,11.07,16.56
+RAWANG Toll,Bukit Gambir Toll,23.45,42.9,57.2,11.73,17.55
+RAWANG Toll,CANGKAT JERING Toll,24.27,44.4,59.2,12.14,18.2
+RAWANG Toll,Pagoh Toll,25.26,46.2,61.5,12.63,18.86
+RAWANG Toll,TAIPING UTARA Toll,26.08,47.6,63.5,13.04,19.52
+RAWANG Toll,BUKIT MERAH Toll,27.31,49.9,66.5,13.61,20.42
+RAWANG Toll,ALOR PONGSU Toll,28.7,52.5,70,14.35,21.57
+RAWANG Toll,BANDAR BAHARU Toll,29.19,53.5,71.3,14.6,21.89
+RAWANG Toll,Yong Peng Utara Toll,29.93,54.8,73.1,15.01,22.47
+RAWANG Toll,JAWI Toll,30.75,56.2,74.9,15.33,23.04
+RAWANG Toll,BKT. TAMBUN UTARA Toll,32.06,58.7,78.2,16.07,24.03
+RAWANG Toll,Ayer Hitam Toll,32.14,58.8,78.4,16.07,24.11
+RAWANG Toll,JURU Toll,32.8,60,80,16.4,24.6
+RAWANG Toll,Machap Toll,32.96,60.3,80.4,16.56,24.68
+RAWANG Toll,Spg. Renggam Toll,34.52,63.2,84.2,17.3,25.91
+RAWANG Toll,BERTAM Toll,34.11,62.3,83.1,17.13,26.2
+RAWANG Toll,SG. PETANI SELATAN Toll,35.75,65.3,87,17.95,26.89
+RAWANG Toll,SG. PETANI UTARA Toll,36.49,66.6,88.8,18.28,27.38
+RAWANG Toll,Sedenak Toll,36.57,67,89.2,18.37,27.47
+RAWANG Toll,KULAI Toll,38.13,69.7,92.9,19.11,28.54
+RAWANG Toll,GURUN Toll,38.29,70,93.3,19.27,28.78
+RAWANG Toll,Senai Utara Toll,39.11,71.6,95.4,19.6,29.27
+RAWANG Toll,Skudai Toll,39.44,72.2,96.2,19.76,29.6
+RAWANG Toll,PENDANG Toll,40.5,74,98.6,20.33,30.42
+RAWANG Toll,Alor Setar Selatan Toll,42.14,77,102.6,21.15,32.1
+RAWANG Toll,Alor Setar Utara Toll,42.8,78.1,104.1,21.48,32.14
+RAWANG Toll,Hutan Kampung Toll,43.46,79.4,105.8,21.81,32.9
+RAWANG Toll,BANDAR CASSIA Toll,37.99,89.2,148.4,24.63,50.4
+Saujana Putra SKVE Toll,Ayer Hitam SKVE Toll,2.4,3.5,4.7,1.2,1.5
+Saujana Putra SKVE Toll,TELUK PANGLIMA GARANG Toll,2.7,4.1,5.4,1.4,1.7
+Saujana Putra SKVE Toll,PULAU INDAH Toll,6.3,9.5,12.7,3.2,3.9
+Seafield Toll,Ebor Selatan Toll,0.41,0.8,1,0.25,0.33
+Seafield Toll,USJ Toll,0.82,1.5,1.9,0.41,0.57
+Seafield Toll,Shah Alam Toll,0.98,1.8,2.5,0.49,0.74
+Seafield Toll,PUTRA HEIGHTS Toll,1.31,2.4,3.3,0.66,0.98
+Seafield Toll,SUBANG Toll,1.48,2.8,3.7,0.82,1.15
+Seafield Toll,Bandar Saujana Putra Toll,1.64,3,4,0.82,1.23
+Seafield Toll,Setia Alam Toll,1.97,3.5,4.8,0.9,1.48
+Seafield Toll,DAMANSARA Toll,1.97,3.6,4.8,0.98,1.48
+Seafield Toll,Bukit Raja Toll,2.05,3.7,5.1,0.98,1.56
+Seafield Toll,KOTA DAMANSARA Toll,2.21,4,5.3,1.15,1.64
+Seafield Toll,BANDAR GAMUDA COVE Toll,2.79,5,6.7,1.39,2.05
+Seafield Toll,SG. BULOH Toll,2.79,5.2,6.8,1.48,2.05
+Seafield Toll,SG. BULOH HOSPITAL Toll,3.12,5.7,7.5,1.56,2.3
+Seafield Toll,Putra Jaya Toll,3.2,5.8,7.7,1.56,2.38
+Seafield Toll,Jalan Duta Toll,3.36,6.2,8.2,1.72,2.46
+Seafield Toll,RAWANG SELATAN Toll,3.61,6.6,8.7,1.8,2.62
+Seafield Toll,BANDAR SERENIA Toll,3.94,7.2,9.7,1.97,2.95
+Seafield Toll,RAWANG Toll,4.26,7.8,10.4,2.13,3.2
+Seafield Toll,KLIA Toll,4.43,7.9,10.3,2.46,3.44
+Seafield Toll,SUNGAI BUAYA Toll,5.17,9.6,12.7,2.62,3.85
+Seafield Toll,Nilai Toll,5.66,10.3,13.8,2.79,4.26
+Seafield Toll,Putera Mahkota Toll,5.74,10.5,14.1,2.87,4.35
+Seafield Toll,BUKIT BERUNTUNG Toll,5.9,10.8,14.3,2.95,4.35
+Seafield Toll,SOUTHVILLE CITY Toll,6.15,11.2,15,3.03,4.59
+Seafield Toll,BANGI Toll,6.56,11.9,16,3.2,4.92
+Seafield Toll,BUKIT TAGAR Toll,6.81,12.5,16.6,3.44,5.08
+Seafield Toll,KAJANG Toll,7.22,13.2,17.6,3.61,5.41
+Seafield Toll,Bandar Ainsdale Toll,7.38,13.5,18,3.69,5.58
+Seafield Toll,UPM Toll,7.46,13.6,18.2,3.69,5.58
+Seafield Toll,SEREMBAN Toll,7.71,14.1,18.8,3.85,5.82
+Seafield Toll,LEMBAH BERINGIN Toll,7.95,14.5,19.3,4.02,5.9
+Seafield Toll,Sg. Besi Toll,7.95,14.5,19.4,3.94,5.99
+Seafield Toll,Port Dickson Toll,8.12,14.8,19.8,4.02,6.15
+Seafield Toll,Senawang Toll,8.53,15.6,20.9,4.26,6.48
+Seafield Toll,Tg. Malim Toll,9.02,16.6,22,4.59,6.72
+Seafield Toll,BEHRANG Toll,10.25,18.8,25,5.17,7.71
+Seafield Toll,PEDAS LINGGI Toll,10.41,19,25.4,5.17,7.79
+Seafield Toll,SLIM RIVER Toll,11.97,22,29.3,6.07,8.94
+Seafield Toll,Simpang Ampat Toll,12.96,23.7,31.6,6.48,9.76
+Seafield Toll,SUNGKAI Toll,14.1,25.9,34.4,7.13,10.58
+Seafield Toll,Ayer Keroh Toll,15.33,27.9,37.3,7.63,11.48
+Seafield Toll,BIDOR Toll,15.66,28.7,38.2,7.87,11.73
+Seafield Toll,TAPAH Toll,17.14,31.4,41.8,8.61,12.79
+Seafield Toll,Jasin Toll,17.14,31.3,41.8,8.53,12.87
+Seafield Toll,Tangkak Toll,18.29,33.4,44.5,9.1,13.69
+Seafield Toll,Bukit Gambir Toll,19.6,35.8,47.8,9.76,14.76
+Seafield Toll,GOPENG Toll,20.5,37.5,49.9,10.25,15.33
+Seafield Toll,Pagoh Toll,21.4,39.1,52.2,10.66,16.07
+Seafield Toll,SIMPANG PULAI Toll,21.57,39.5,52.6,10.82,16.15
+Seafield Toll,Ipoh Selatan Toll,22.96,42,55.9,11.48,17.14
+Seafield Toll,KUALA KANGSAR Toll,25.83,47.3,62.9,12.96,19.27
+Seafield Toll,Yong Peng Utara Toll,26.16,47.8,63.8,13.04,19.68
+Seafield Toll,CANGKAT JERING Toll,28.21,51.6,68.7,14.1,21.07
+Seafield Toll,Ayer Hitam Toll,28.37,51.8,69.1,14.1,21.32
+Seafield Toll,Machap Toll,29.11,53.2,71.1,14.51,21.89
+Seafield Toll,TAIPING UTARA Toll,30.01,54.8,73,15.01,22.39
+Seafield Toll,Spg. Renggam Toll,30.67,56.1,74.9,15.33,23.04
+Seafield Toll,BUKIT MERAH Toll,31.24,57.1,76,15.58,23.29
+Seafield Toll,ALOR PONGSU Toll,32.64,59.7,79.6,16.32,24.44
+Seafield Toll,Sedenak Toll,32.8,60,80,16.4,24.6
+Seafield Toll,BANDAR BAHARU Toll,33.13,60.7,80.8,16.56,24.76
+Seafield Toll,KULAI Toll,34.28,62.6,83.6,17.06,25.75
+Seafield Toll,JAWI Toll,34.69,63.4,84.4,17.3,25.91
+Seafield Toll,Senai Utara Toll,35.26,64.4,86,17.63,26.49
+Seafield Toll,Skudai Toll,35.67,65.2,87,17.79,26.73
+Seafield Toll,BKT. TAMBUN UTARA Toll,36,65.9,87.7,18.04,26.9
+Seafield Toll,JURU Toll,36.74,67.2,89.5,18.37,27.47
+Seafield Toll,BERTAM Toll,38.05,69.5,92.6,19.1,29.07
+Seafield Toll,SG. PETANI SELATAN Toll,39.69,72.5,96.5,19.92,29.76
+Seafield Toll,SG. PETANI UTARA Toll,40.43,73.8,98.3,20.25,30.25
+Seafield Toll,GURUN Toll,42.23,77.2,102.8,21.24,31.65
+Seafield Toll,PENDANG Toll,44.44,81.2,108.1,22.3,33.29
+Seafield Toll,Alor Setar Selatan Toll,46.08,84.2,112.1,23.12,34.97
+Seafield Toll,Alor Setar Utara Toll,46.74,85.3,113.6,23.45,35.01
+Seafield Toll,Hutan Kampung Toll,47.4,86.6,115.3,23.78,35.77
+Seafield Toll,BANDAR CASSIA Toll,41.93,96.4,157.9,26.59,53.27
+Sedenak Toll,KULAI Toll,1.72,3.2,4.2,0.9,1.31
+Sedenak Toll,Spg. Renggam Toll,2.3,4.2,5.6,1.15,1.72
+Sedenak Toll,Senai Utara Toll,2.71,5,6.7,1.39,2.05
+Sedenak Toll,Skudai Toll,3.03,5.6,7.5,1.56,2.3
+Sedenak Toll,Machap Toll,3.85,7,9.4,1.89,2.87
+Sedenak Toll,Ayer Hitam Toll,4.67,8.6,11.4,2.38,3.53
+Sedenak Toll,Yong Peng Selatan Toll,6.23,11.4,15.2,3.12,4.67
+Sedenak Toll,Yong Peng Utara Toll,6.81,12.4,16.6,3.36,5.08
+Sedenak Toll,Pagoh Toll,11.56,21.2,28.3,5.82,8.69
+Sedenak Toll,Bukit Gambir Toll,13.28,24.3,32.4,6.64,9.92
+Sedenak Toll,Tangkak Toll,14.51,26.6,35.5,7.3,10.91
+Sedenak Toll,Jasin Toll,15.99,29.3,39,8.04,11.97
+Sedenak Toll,Ayer Keroh Toll,17.55,32,42.7,8.77,13.12
+Sedenak Toll,Simpang Ampat Toll,20.01,36.6,48.8,10,15.01
+Sedenak Toll,PEDAS LINGGI Toll,22.55,41.3,55.1,11.32,16.97
+Sedenak Toll,Senawang Toll,24.44,44.7,59.5,12.22,18.29
+Sedenak Toll,Port Dickson Toll,24.68,45.2,60.2,12.38,18.53
+Sedenak Toll,SEREMBAN Toll,25.09,45.9,61.2,12.55,18.86
+Sedenak Toll,Bandar Ainsdale Toll,25.83,47.2,62.9,12.87,19.35
+Sedenak Toll,Nilai Toll,27.63,50.5,67.3,13.78,20.66
+Sedenak Toll,Putera Mahkota Toll,28.13,51.4,68.5,14.02,21.07
+Sedenak Toll,SOUTHVILLE CITY Toll,28.54,52.2,69.6,14.27,21.4
+Sedenak Toll,BANGI Toll,28.86,52.8,70.4,14.43,21.65
+Sedenak Toll,BANDAR SERENIA Toll,29.11,53.3,71.1,14.6,21.89
+Sedenak Toll,KAJANG Toll,29.6,54.1,72.2,14.84,22.22
+Sedenak Toll,UPM Toll,29.85,54.5,72.7,14.92,22.39
+Sedenak Toll,BANDAR GAMUDA COVE Toll,29.93,54.8,73,15.01,22.47
+Sedenak Toll,Sg. Besi Toll,30.34,55.5,74,15.17,22.71
+Sedenak Toll,KLIA Toll,30.5,55.6,73.9,15.5,22.96
+Sedenak Toll,Bandar Saujana Putra Toll,31.41,57.4,76.5,15.74,23.53
+Sedenak Toll,Putra Jaya Toll,31.73,58.1,77.4,15.91,23.78
+Sedenak Toll,PUTRA HEIGHTS Toll,31.82,58.3,77.6,15.99,23.86
+Sedenak Toll,USJ Toll,32.31,59.2,78.8,16.24,24.19
+Sedenak Toll,Seafield Toll,32.8,60,80,16.4,24.6
+Sedenak Toll,Ebor Selatan Toll,32.8,60.1,80,16.48,24.6
+Sedenak Toll,Shah Alam Toll,33.46,61.2,81.5,16.73,25.09
+Sedenak Toll,SUBANG Toll,33.95,62.1,82.7,16.97,25.42
+Sedenak Toll,Setia Alam Toll,34.36,62.8,83.8,17.14,25.75
+Sedenak Toll,DAMANSARA Toll,34.36,62.9,83.8,17.22,25.75
+Sedenak Toll,Bukit Raja Toll,34.52,63,84.1,17.22,25.83
+Sedenak Toll,KOTA DAMANSARA Toll,34.6,63.3,84.4,17.3,25.91
+Sedenak Toll,SG. BULOH Toll,35.18,64.4,85.8,17.63,26.4
+Sedenak Toll,SG. BULOH HOSPITAL Toll,35.51,64.9,86.5,17.79,26.57
+Sedenak Toll,Jalan Duta Toll,35.67,65.3,87.1,17.88,26.73
+Sedenak Toll,RAWANG SELATAN Toll,36.08,66,87.9,18.04,26.98
+Sedenak Toll,RAWANG Toll,36.57,67,89.2,18.37,27.47
+Sedenak Toll,SUNGAI BUAYA Toll,37.64,68.8,91.7,18.86,28.21
+Sedenak Toll,BUKIT BERUNTUNG Toll,38.29,70,93.3,19.19,28.7
+Sedenak Toll,BUKIT TAGAR Toll,39.28,71.9,95.8,19.68,29.44
+Sedenak Toll,LEMBAH BERINGIN Toll,40.34,73.8,98.4,20.17,30.26
+Sedenak Toll,Tg. Malim Toll,41.41,75.7,100.9,20.75,31
+Sedenak Toll,BEHRANG Toll,42.64,78.1,104.1,21.4,31.98
+Sedenak Toll,SLIM RIVER Toll,44.44,81.2,108.3,22.22,33.29
+Sedenak Toll,SUNGKAI Toll,46.49,85.1,113.4,23.29,34.85
+Sedenak Toll,BIDOR Toll,48.05,88,117.3,24.11,36.08
+Sedenak Toll,TAPAH Toll,49.53,90.6,120.8,24.85,37.15
+Sedenak Toll,GOPENG Toll,52.89,96.7,128.9,26.49,39.61
+Sedenak Toll,SIMPANG PULAI Toll,53.96,98.7,131.5,26.98,40.43
+Sedenak Toll,Ipoh Selatan Toll,55.27,101.1,134.8,27.72,41.41
+Sedenak Toll,KUALA KANGSAR Toll,58.14,106.4,141.8,29.19,43.54
+Sedenak Toll,CANGKAT JERING Toll,60.52,110.7,147.6,30.34,45.35
+Sedenak Toll,TAIPING UTARA Toll,62.32,113.9,151.9,31.24,46.66
+Sedenak Toll,BUKIT MERAH Toll,63.55,116.2,154.9,31.82,47.56
+Sedenak Toll,ALOR PONGSU Toll,65.03,118.8,158.5,32.47,48.71
+Sedenak Toll,BANDAR BAHARU Toll,65.44,119.8,159.7,32.8,49.04
+Sedenak Toll,JAWI Toll,66.99,122.5,163.3,33.54,50.18
+Sedenak Toll,BKT. TAMBUN UTARA Toll,68.31,125,166.6,34.28,51.17
+Sedenak Toll,JURU Toll,69.04,126.3,168.4,34.6,51.74
+Sedenak Toll,BERTAM Toll,70.35,128.6,171.5,35.33,53.34
+Sedenak Toll,SG. PETANI SELATAN Toll,71.99,131.6,175.4,36.15,54.03
+Sedenak Toll,SG. PETANI UTARA Toll,72.73,132.9,177.2,36.48,54.52
+Sedenak Toll,GURUN Toll,74.53,136.3,181.7,37.47,55.92
+Sedenak Toll,PENDANG Toll,76.74,140.3,187,38.53,57.56
+Sedenak Toll,Alor Setar Selatan Toll,78.38,143.3,191,39.35,59.24
+Sedenak Toll,Alor Setar Utara Toll,79.04,144.4,192.5,39.68,59.28
+Sedenak Toll,Hutan Kampung Toll,79.7,145.7,194.2,40.01,60.04
+Sedenak Toll,BANDAR CASSIA Toll,74.24,155.5,236.8,42.83,77.54
+SEMENYIH Toll,Kajang Selatan Toll,1.3,1.9,2.5,0.6,0.8
+SEMENYIH Toll,ECO MAJESTIC Toll,1.4,2.1,2.8,0.7,1
+SEMENYIH Toll,Pajam Toll,2.8,4.2,5.6,1.4,1.7
+SEMENYIH Toll,MANTIN Toll,4.3,6.4,8.5,2.1,2.6
+SEMENYIH Toll,Setul North Bound Toll,5.4,8.1,10.9,2.7,3.4
+Senai Toll,Tiram Toll,4.5,6.8,9,2.3,2.8
+Senai Toll,CAHAYA BARU Toll,9.2,13.8,18.4,4.6,5.7
+Senai Toll,PENAWAR Toll,13.5,20.2,27,6.8,8.4
+Senai Utara Toll,Skudai Toll,0.66,1.2,1.6,0.33,0.49
+Senai Utara Toll,KULAI Toll,1.15,2,2.7,0.57,0.82
+Senai Utara Toll,Sedenak Toll,2.71,5,6.7,1.39,2.05
+Senai Utara Toll,Spg. Renggam Toll,4.76,8.7,11.6,2.38,3.53
+Senai Utara Toll,Machap Toll,6.31,11.5,15.4,3.12,4.76
+Senai Utara Toll,Ayer Hitam Toll,7.13,13,17.4,3.61,5.33
+Senai Utara Toll,Yong Peng Selatan Toll,8.77,16,21.3,4.35,6.56
+Senai Utara Toll,Yong Peng Utara Toll,9.27,16.9,22.6,4.59,6.97
+Senai Utara Toll,Pagoh Toll,14.02,25.7,34.3,7.05,10.58
+Senai Utara Toll,Bukit Gambir Toll,15.74,28.9,38.5,7.87,11.81
+Senai Utara Toll,Tangkak Toll,16.97,31.1,41.5,8.53,12.79
+Senai Utara Toll,Jasin Toll,18.45,33.7,45,9.27,13.86
+Senai Utara Toll,Ayer Keroh Toll,19.93,36.5,48.7,10,15.01
+Senai Utara Toll,Simpang Ampat Toll,22.55,41.2,54.9,11.23,16.89
+Senai Utara Toll,PEDAS LINGGI Toll,25.01,45.8,61,12.55,18.78
+Senai Utara Toll,Senawang Toll,26.9,49.2,65.7,13.45,20.17
+Senai Utara Toll,Port Dickson Toll,27.22,49.8,66.3,13.61,20.42
+Senai Utara Toll,SEREMBAN Toll,27.63,50.5,67.3,13.78,20.66
+Senai Utara Toll,Bandar Ainsdale Toll,28.29,51.7,68.9,14.1,21.24
+Senai Utara Toll,Nilai Toll,30.09,55,73.3,15.01,22.55
+Senai Utara Toll,Putera Mahkota Toll,30.59,55.9,74.5,15.25,22.88
+Senai Utara Toll,SOUTHVILLE CITY Toll,31,56.7,75.6,15.5,23.29
+Senai Utara Toll,BANGI Toll,31.41,57.4,76.5,15.66,23.53
+Senai Utara Toll,BANDAR SERENIA Toll,31.57,57.8,77,15.83,23.7
+Senai Utara Toll,KAJANG Toll,32.06,58.6,78.2,16.07,24.03
+Senai Utara Toll,UPM Toll,32.31,59.1,78.9,16.15,24.27
+Senai Utara Toll,BANDAR GAMUDA COVE Toll,32.39,59.3,79,16.24,24.27
+Senai Utara Toll,Sg. Besi Toll,32.88,60,80.1,16.4,24.6
+Senai Utara Toll,KLIA Toll,32.96,60,79.9,16.73,24.85
+Senai Utara Toll,Bandar Saujana Putra Toll,33.87,61.8,82.5,16.97,25.42
+Senai Utara Toll,Putra Jaya Toll,34.19,62.5,83.4,17.14,25.67
+Senai Utara Toll,PUTRA HEIGHTS Toll,34.28,62.7,83.6,17.22,25.75
+Senai Utara Toll,USJ Toll,34.77,63.6,84.8,17.47,26.08
+Senai Utara Toll,Seafield Toll,35.26,64.4,86,17.63,26.49
+Senai Utara Toll,Ebor Selatan Toll,35.26,64.5,86,17.71,26.49
+Senai Utara Toll,Shah Alam Toll,35.92,65.6,87.5,17.96,26.98
+Senai Utara Toll,SUBANG Toll,36.41,66.6,88.7,18.2,27.22
+Senai Utara Toll,Setia Alam Toll,36.82,67.3,89.8,18.37,27.63
+Senai Utara Toll,DAMANSARA Toll,36.9,67.5,89.9,18.45,27.63
+Senai Utara Toll,Bukit Raja Toll,36.9,67.5,90.1,18.45,27.72
+Senai Utara Toll,KOTA DAMANSARA Toll,37.06,67.9,90.5,18.61,27.8
+Senai Utara Toll,SG. BULOH Toll,37.64,68.9,91.8,18.86,28.21
+Senai Utara Toll,SG. BULOH HOSPITAL Toll,37.97,69.5,92.6,19.02,28.45
+Senai Utara Toll,Jalan Duta Toll,38.21,69.9,93.2,19.19,28.62
+Senai Utara Toll,RAWANG SELATAN Toll,38.46,70.4,93.9,19.27,28.86
+Senai Utara Toll,RAWANG Toll,39.11,71.6,95.4,19.6,29.27
+Senai Utara Toll,SUNGAI BUAYA Toll,40.1,73.4,97.8,20.09,30.09
+Senai Utara Toll,BUKIT BERUNTUNG Toll,40.75,74.6,99.4,20.42,30.59
+Senai Utara Toll,BUKIT TAGAR Toll,41.74,76.4,101.8,20.91,31.24
+Senai Utara Toll,LEMBAH BERINGIN Toll,42.8,78.3,104.3,21.4,32.06
+Senai Utara Toll,Tg. Malim Toll,43.87,80.3,107.1,21.98,32.88
+Senai Utara Toll,BEHRANG Toll,45.1,82.6,110,22.63,33.87
+Senai Utara Toll,SLIM RIVER Toll,46.82,85.7,114.3,23.45,35.1
+Senai Utara Toll,SUNGKAI Toll,48.95,89.6,119.4,24.52,36.74
+Senai Utara Toll,BIDOR Toll,50.51,92.5,123.2,25.34,37.88
+Senai Utara Toll,TAPAH Toll,52.07,95.2,126.9,26.08,39.03
+Senai Utara Toll,GOPENG Toll,55.43,101.3,135.1,27.72,41.49
+Senai Utara Toll,SIMPANG PULAI Toll,56.42,103.3,137.6,28.29,42.31
+Senai Utara Toll,Ipoh Selatan Toll,57.81,105.7,140.9,28.95,43.3
+Senai Utara Toll,KUALA KANGSAR Toll,60.68,111,147.9,30.42,45.43
+Senai Utara Toll,CANGKAT JERING Toll,63.06,115.3,153.7,31.57,47.23
+Senai Utara Toll,TAIPING UTARA Toll,64.86,118.5,158,32.47,48.54
+Senai Utara Toll,BUKIT MERAH Toll,66.09,120.8,161,33.05,49.45
+Senai Utara Toll,ALOR PONGSU Toll,67.49,123.4,164.6,33.78,50.59
+Senai Utara Toll,BANDAR BAHARU Toll,67.98,124.4,165.8,34.03,50.92
+Senai Utara Toll,JAWI Toll,69.54,127.1,169.4,34.77,52.07
+Senai Utara Toll,BKT. TAMBUN UTARA Toll,70.85,129.6,172.7,35.51,53.05
+Senai Utara Toll,JURU Toll,71.59,130.9,174.5,35.83,53.63
+Senai Utara Toll,BERTAM Toll,72.9,133.2,177.6,36.56,55.23
+Senai Utara Toll,SG. PETANI SELATAN Toll,74.54,136.2,181.5,37.38,55.92
+Senai Utara Toll,SG. PETANI UTARA Toll,75.28,137.5,183.3,37.71,56.41
+Senai Utara Toll,GURUN Toll,77.08,140.9,187.8,38.7,57.81
+Senai Utara Toll,PENDANG Toll,79.29,144.9,193.1,39.76,59.45
+Senai Utara Toll,Alor Setar Selatan Toll,80.93,147.9,197.1,40.58,61.13
+Senai Utara Toll,Alor Setar Utara Toll,81.59,149,198.6,40.91,61.17
+Senai Utara Toll,Hutan Kampung Toll,82.25,150.3,200.3,41.24,61.93
+Senai Utara Toll,BANDAR CASSIA Toll,76.78,160.1,242.9,44.06,79.43
+Senawang Toll,Port Dickson Toll,0.49,0.9,1.1,0.25,0.33
+Senawang Toll,SEREMBAN Toll,0.82,1.6,2.1,0.41,0.66
+Senawang Toll,Bandar Ainsdale Toll,1.56,2.9,3.8,0.82,1.15
+Senawang Toll,PEDAS LINGGI Toll,1.97,3.7,4.9,0.98,1.48
+Senawang Toll,Nilai Toll,3.36,6.1,8.2,1.64,2.54
+Senawang Toll,Putera Mahkota Toll,3.85,7,9.4,1.89,2.87
+Senawang Toll,SOUTHVILLE CITY Toll,4.26,7.9,10.5,2.13,3.2
+Senawang Toll,Simpang Ampat Toll,4.59,8.3,11.1,2.3,3.44
+Senawang Toll,BANGI Toll,4.67,8.5,11.3,2.3,3.53
+Senawang Toll,BANDAR SERENIA Toll,4.92,8.9,11.9,2.46,3.69
+Senawang Toll,KAJANG Toll,5.33,9.8,13.1,2.71,4.02
+Senawang Toll,UPM Toll,5.58,10.2,13.6,2.79,4.18
+Senawang Toll,BANDAR GAMUDA COVE Toll,5.74,10.4,13.9,2.87,4.26
+Senawang Toll,Sg. Besi Toll,6.07,11.2,14.9,3.03,4.59
+Senawang Toll,KLIA Toll,6.23,11.2,14.8,3.36,4.84
+Senawang Toll,Ayer Keroh Toll,6.97,12.7,17,3.44,5.25
+Senawang Toll,Bandar Saujana Putra Toll,7.13,13,17.4,3.61,5.41
+Senawang Toll,Putra Jaya Toll,7.46,13.7,18.3,3.77,5.66
+Senawang Toll,PUTRA HEIGHTS Toll,7.54,13.9,18.5,3.85,5.74
+Senawang Toll,USJ Toll,8.04,14.8,19.7,4.1,6.07
+Senawang Toll,Seafield Toll,8.53,15.6,20.9,4.26,6.48
+Senawang Toll,Ebor Selatan Toll,8.53,15.7,20.9,4.35,6.48
+Senawang Toll,Jasin Toll,8.77,16,21.3,4.35,6.56
+Senawang Toll,Shah Alam Toll,9.18,16.8,22.4,4.59,6.97
+Senawang Toll,SUBANG Toll,9.68,17.7,23.6,4.84,7.22
+Senawang Toll,Tangkak Toll,9.92,18.1,24.1,4.92,7.46
+Senawang Toll,Setia Alam Toll,10.09,18.5,24.7,5,7.54
+Senawang Toll,DAMANSARA Toll,10.09,18.6,24.7,5.08,7.54
+Senawang Toll,Bukit Raja Toll,10.25,18.7,24.9,5.08,7.63
+Senawang Toll,KOTA DAMANSARA Toll,10.33,19,25.2,5.25,7.71
+Senawang Toll,SG. BULOH Toll,10.99,20.1,26.7,5.49,8.2
+Senawang Toll,Bukit Gambir Toll,11.23,20.6,27.5,5.66,8.45
+Senawang Toll,SG. BULOH HOSPITAL Toll,11.32,20.7,27.5,5.66,8.45
+Senawang Toll,Jalan Duta Toll,11.48,21.1,28.1,5.82,8.61
+Senawang Toll,RAWANG SELATAN Toll,11.81,21.6,28.7,5.9,8.86
+Senawang Toll,RAWANG Toll,12.38,22.7,30.2,6.23,9.27
+Senawang Toll,Pagoh Toll,13.04,23.8,31.7,6.48,9.76
+Senawang Toll,SUNGAI BUAYA Toll,13.37,24.5,32.6,6.72,10
+Senawang Toll,BUKIT BERUNTUNG Toll,14.02,25.7,34.2,7.05,10.5
+Senawang Toll,BUKIT TAGAR Toll,15.01,27.5,36.6,7.54,11.23
+Senawang Toll,LEMBAH BERINGIN Toll,16.07,29.5,39.2,8.12,12.05
+Senawang Toll,Tg. Malim Toll,17.22,31.5,41.9,8.61,12.87
+Senawang Toll,Yong Peng Utara Toll,17.79,32.5,43.4,8.86,13.37
+Senawang Toll,BEHRANG Toll,18.45,33.7,44.9,9.27,13.78
+Senawang Toll,Ayer Hitam Toll,19.93,36.5,48.7,10,15.01
+Senawang Toll,SLIM RIVER Toll,20.17,36.9,49.1,10.09,15.09
+Senawang Toll,Machap Toll,20.83,38,50.7,10.41,15.58
+Senawang Toll,SUNGKAI Toll,22.3,40.8,54.3,11.15,16.65
+Senawang Toll,Spg. Renggam Toll,22.39,40.9,54.5,11.15,16.81
+Senawang Toll,BIDOR Toll,23.86,43.6,58.1,11.97,17.88
+Senawang Toll,Sedenak Toll,24.44,44.7,59.5,12.22,18.29
+Senawang Toll,TAPAH Toll,25.26,46.3,61.7,12.71,18.94
+Senawang Toll,KULAI Toll,25.91,47.4,63.2,12.96,19.43
+Senawang Toll,Senai Utara Toll,26.9,49.2,65.7,13.45,20.17
+Senawang Toll,Skudai Toll,27.31,49.9,66.5,13.61,20.42
+Senawang Toll,GOPENG Toll,28.62,52.4,69.8,14.35,21.48
+Senawang Toll,SIMPANG PULAI Toll,29.77,54.4,72.5,14.92,22.3
+Senawang Toll,Ipoh Selatan Toll,31.08,56.9,75.8,15.58,23.29
+Senawang Toll,KUALA KANGSAR Toll,33.95,62.2,82.8,17.06,25.42
+Senawang Toll,CANGKAT JERING Toll,36.33,66.5,88.6,18.2,27.22
+Senawang Toll,TAIPING UTARA Toll,38.13,69.7,92.9,19.11,28.54
+Senawang Toll,BUKIT MERAH Toll,39.36,72,95.9,19.68,29.44
+Senawang Toll,ALOR PONGSU Toll,40.75,74.6,99.4,20.42,30.59
+Senawang Toll,BANDAR BAHARU Toll,41.25,75.6,100.7,20.66,30.91
+Senawang Toll,JAWI Toll,42.8,78.3,104.3,21.4,32.06
+Senawang Toll,BKT. TAMBUN UTARA Toll,44.12,80.8,107.6,22.14,33.05
+Senawang Toll,JURU Toll,44.85,82.1,109.4,22.47,33.62
+Senawang Toll,BERTAM Toll,46.16,84.4,112.5,23.2,35.22
+Senawang Toll,SG. PETANI SELATAN Toll,47.8,87.4,116.4,24.02,35.91
+Senawang Toll,SG. PETANI UTARA Toll,48.54,88.7,118.2,24.35,36.4
+Senawang Toll,GURUN Toll,50.34,92.1,122.7,25.34,37.8
+Senawang Toll,PENDANG Toll,52.55,96.1,128,26.4,39.44
+Senawang Toll,Alor Setar Selatan Toll,54.19,99.1,132,27.22,41.12
+Senawang Toll,Alor Setar Utara Toll,54.85,100.2,133.5,27.55,41.16
+Senawang Toll,Hutan Kampung Toll,55.51,101.5,135.2,27.88,41.92
+Senawang Toll,BANDAR CASSIA Toll,50.05,111.3,177.8,30.69,59.42
+SEREMBAN Toll,Port Dickson Toll,0.41,0.8,1,0.25,0.33
+SEREMBAN Toll,Bandar Ainsdale Toll,0.74,1.3,1.8,0.33,0.57
+SEREMBAN Toll,Senawang Toll,0.82,1.6,2.1,0.41,0.66
+SEREMBAN Toll,Nilai Toll,2.54,4.6,6.1,1.23,1.89
+SEREMBAN Toll,PEDAS LINGGI Toll,2.71,4.9,6.5,1.31,1.97
+SEREMBAN Toll,Putera Mahkota Toll,3.03,5.5,7.3,1.48,2.3
+SEREMBAN Toll,SOUTHVILLE CITY Toll,3.44,6.3,8.4,1.72,2.62
+SEREMBAN Toll,BANGI Toll,3.77,7,9.3,1.89,2.87
+SEREMBAN Toll,BANDAR SERENIA Toll,4.02,7.4,9.9,2.05,3.03
+SEREMBAN Toll,KAJANG Toll,4.51,8.2,11,2.21,3.36
+SEREMBAN Toll,UPM Toll,4.76,8.7,11.6,2.38,3.53
+SEREMBAN Toll,BANDAR GAMUDA COVE Toll,4.84,8.9,11.9,2.46,3.61
+SEREMBAN Toll,Sg. Besi Toll,5.25,9.6,12.8,2.62,3.94
+SEREMBAN Toll,Simpang Ampat Toll,5.25,9.6,12.8,2.62,3.94
+SEREMBAN Toll,KLIA Toll,5.41,9.7,12.7,2.95,4.18
+SEREMBAN Toll,Bandar Saujana Putra Toll,6.31,11.5,15.3,3.2,4.76
+SEREMBAN Toll,Putra Jaya Toll,6.64,12.2,16.2,3.36,5
+SEREMBAN Toll,PUTRA HEIGHTS Toll,6.72,12.4,16.4,3.44,5.08
+SEREMBAN Toll,USJ Toll,7.22,13.3,17.6,3.69,5.41
+SEREMBAN Toll,Ayer Keroh Toll,7.63,13.9,18.6,3.85,5.74
+SEREMBAN Toll,Seafield Toll,7.71,14.1,18.8,3.85,5.82
+SEREMBAN Toll,Ebor Selatan Toll,7.71,14.2,18.8,3.94,5.82
+SEREMBAN Toll,Shah Alam Toll,8.36,15.3,20.3,4.18,6.31
+SEREMBAN Toll,SUBANG Toll,8.86,16.2,21.5,4.43,6.64
+SEREMBAN Toll,Setia Alam Toll,9.27,16.9,22.6,4.59,6.97
+SEREMBAN Toll,DAMANSARA Toll,9.27,17,22.6,4.67,6.97
+SEREMBAN Toll,Bukit Raja Toll,9.43,17.1,22.9,4.67,7.05
+SEREMBAN Toll,Jasin Toll,9.43,17.2,23,4.67,7.05
+SEREMBAN Toll,KOTA DAMANSARA Toll,9.51,17.4,23.2,4.76,7.13
+SEREMBAN Toll,SG. BULOH Toll,10.09,18.6,24.7,5.08,7.54
+SEREMBAN Toll,SG. BULOH HOSPITAL Toll,10.41,19.1,25.3,5.25,7.79
+SEREMBAN Toll,Tangkak Toll,10.58,19.3,25.8,5.25,7.95
+SEREMBAN Toll,Jalan Duta Toll,10.58,19.5,25.9,5.33,7.95
+SEREMBAN Toll,RAWANG SELATAN Toll,10.99,20.1,26.7,5.49,8.2
+SEREMBAN Toll,RAWANG Toll,11.48,21.1,28.1,5.82,8.61
+SEREMBAN Toll,Bukit Gambir Toll,11.97,21.8,29.1,5.99,8.94
+SEREMBAN Toll,SUNGAI BUAYA Toll,12.55,22.9,30.5,6.31,9.35
+SEREMBAN Toll,BUKIT BERUNTUNG Toll,13.2,24.2,32.1,6.64,9.84
+SEREMBAN Toll,Pagoh Toll,13.69,25,33.4,6.81,10.25
+SEREMBAN Toll,BUKIT TAGAR Toll,14.19,26,34.6,7.13,10.66
+SEREMBAN Toll,LEMBAH BERINGIN Toll,15.25,27.9,37.2,7.63,11.4
+SEREMBAN Toll,Tg. Malim Toll,16.32,29.9,39.8,8.2,12.22
+SEREMBAN Toll,BEHRANG Toll,17.55,32.2,42.9,8.86,13.2
+SEREMBAN Toll,Yong Peng Utara Toll,18.45,33.7,45,9.27,13.86
+SEREMBAN Toll,SLIM RIVER Toll,19.35,35.4,47.1,9.68,14.43
+SEREMBAN Toll,Ayer Hitam Toll,20.66,37.7,50.3,10.33,15.5
+SEREMBAN Toll,SUNGKAI Toll,21.4,39.2,52.3,10.74,16.07
+SEREMBAN Toll,Machap Toll,21.48,39.3,52.3,10.74,16.07
+SEREMBAN Toll,BIDOR Toll,22.96,42.1,56.1,11.56,17.22
+SEREMBAN Toll,Spg. Renggam Toll,23.04,42.1,56.1,11.48,17.3
+SEREMBAN Toll,TAPAH Toll,24.44,44.8,59.6,12.3,18.29
+SEREMBAN Toll,Sedenak Toll,25.09,45.9,61.2,12.55,18.86
+SEREMBAN Toll,KULAI Toll,26.57,48.6,64.8,13.28,19.93
+SEREMBAN Toll,Senai Utara Toll,27.63,50.5,67.3,13.78,20.66
+SEREMBAN Toll,GOPENG Toll,27.8,50.9,67.8,13.94,20.83
+SEREMBAN Toll,Skudai Toll,27.96,51.1,68.1,13.94,20.99
+SEREMBAN Toll,SIMPANG PULAI Toll,28.86,52.8,70.3,14.43,21.65
+SEREMBAN Toll,Ipoh Selatan Toll,30.18,55.3,73.6,15.17,22.63
+SEREMBAN Toll,KUALA KANGSAR Toll,33.05,60.6,80.6,16.65,24.76
+SEREMBAN Toll,CANGKAT JERING Toll,35.42,64.9,86.4,17.79,26.57
+SEREMBAN Toll,TAIPING UTARA Toll,37.23,68.1,90.7,18.7,27.88
+SEREMBAN Toll,BUKIT MERAH Toll,38.46,70.4,93.7,19.27,28.78
+SEREMBAN Toll,ALOR PONGSU Toll,39.93,72.9,97.3,19.93,29.93
+SEREMBAN Toll,BANDAR BAHARU Toll,40.34,74,98.5,20.25,30.26
+SEREMBAN Toll,JAWI Toll,41.9,76.7,102.1,20.99,31.41
+SEREMBAN Toll,BKT. TAMBUN UTARA Toll,43.21,79.2,105.4,21.73,32.39
+SEREMBAN Toll,JURU Toll,43.95,80.5,107.2,22.06,32.96
+SEREMBAN Toll,BERTAM Toll,45.26,82.8,110.3,22.79,34.56
+SEREMBAN Toll,SG. PETANI SELATAN Toll,46.9,85.8,114.2,23.61,35.25
+SEREMBAN Toll,SG. PETANI UTARA Toll,47.64,87.1,116,23.94,35.74
+SEREMBAN Toll,GURUN Toll,49.44,90.5,120.5,24.93,37.14
+SEREMBAN Toll,PENDANG Toll,51.65,94.5,125.8,25.99,38.78
+SEREMBAN Toll,Alor Setar Selatan Toll,53.29,97.5,129.8,26.81,40.46
+SEREMBAN Toll,Alor Setar Utara Toll,53.95,98.6,131.3,27.14,40.5
+SEREMBAN Toll,Hutan Kampung Toll,54.61,99.9,133,27.47,41.26
+SEREMBAN Toll,BANDAR CASSIA Toll,49.14,109.7,175.6,30.28,58.76
+Setia Alam Toll,Bukit Raja Toll,0.57,1.1,1.5,0.33,0.49
+Setia Alam Toll,Shah Alam Toll,1.15,2.1,2.8,0.57,0.9
+Setia Alam Toll,SUBANG Toll,1.8,3.3,4.4,0.9,1.31
+Setia Alam Toll,Seafield Toll,1.97,3.5,4.8,0.9,1.48
+Setia Alam Toll,DAMANSARA Toll,2.21,4.1,5.4,1.15,1.64
+Setia Alam Toll,USJ Toll,2.3,4.1,5.5,1.15,1.72
+Setia Alam Toll,KOTA DAMANSARA Toll,2.46,4.5,6,1.23,1.8
+Setia Alam Toll,PUTRA HEIGHTS Toll,2.87,5.3,7.1,1.39,2.21
+Setia Alam Toll,SG. BULOH Toll,3.03,5.6,7.5,1.56,2.3
+Setia Alam Toll,Bandar Saujana Putra Toll,3.2,5.8,7.8,1.56,2.46
+Setia Alam Toll,SG. BULOH HOSPITAL Toll,3.36,6.1,8.2,1.64,2.54
+Setia Alam Toll,Jalan Duta Toll,3.61,6.6,8.8,1.8,2.71
+Setia Alam Toll,RAWANG SELATAN Toll,3.94,7.1,9.5,1.97,2.95
+Setia Alam Toll,BANDAR GAMUDA COVE Toll,4.26,7.8,10.4,2.13,3.2
+Setia Alam Toll,RAWANG Toll,4.51,8.3,11,2.3,3.36
+Setia Alam Toll,Putra Jaya Toll,4.76,8.7,11.6,2.38,3.61
+Setia Alam Toll,BANDAR SERENIA Toll,5.49,10,13.3,2.71,4.1
+Setia Alam Toll,SUNGAI BUAYA Toll,5.49,10,13.3,2.71,4.1
+Setia Alam Toll,BUKIT BERUNTUNG Toll,6.15,11.2,15,3.03,4.59
+Setia Alam Toll,KLIA Toll,6.07,10.8,14.2,3.2,4.59
+Setia Alam Toll,BUKIT TAGAR Toll,7.13,13,17.4,3.61,5.33
+Setia Alam Toll,Nilai Toll,7.22,13.1,17.6,3.61,5.41
+Setia Alam Toll,Putera Mahkota Toll,7.3,13.3,17.7,3.61,5.41
+Setia Alam Toll,SOUTHVILLE CITY Toll,7.71,14.1,18.8,3.85,5.82
+Setia Alam Toll,BANGI Toll,8.12,14.8,19.8,4.02,6.07
+Setia Alam Toll,LEMBAH BERINGIN Toll,8.2,15,20,4.1,6.15
+Setia Alam Toll,KAJANG Toll,8.77,16,21.4,4.35,6.56
+Setia Alam Toll,Bandar Ainsdale Toll,8.94,16.3,21.8,4.43,6.72
+Setia Alam Toll,UPM Toll,9.02,16.4,21.9,4.43,6.72
+Setia Alam Toll,SEREMBAN Toll,9.27,16.9,22.6,4.59,6.97
+Setia Alam Toll,Tg. Malim Toll,9.35,17,22.7,4.67,6.97
+Setia Alam Toll,Sg. Besi Toll,9.51,17.3,23.2,4.67,7.13
+Setia Alam Toll,Port Dickson Toll,9.68,17.6,23.6,4.76,7.22
+Setia Alam Toll,Senawang Toll,10.09,18.5,24.7,5,7.54
+Setia Alam Toll,BEHRANG Toll,10.58,19.3,25.7,5.25,7.87
+Setia Alam Toll,PEDAS LINGGI Toll,11.97,21.8,29.2,5.9,8.94
+Setia Alam Toll,SLIM RIVER Toll,12.3,22.4,29.9,6.15,9.18
+Setia Alam Toll,SUNGKAI Toll,14.35,26.3,35.1,7.22,10.82
+Setia Alam Toll,Simpang Ampat Toll,14.51,26.5,35.4,7.22,10.91
+Setia Alam Toll,BIDOR Toll,15.91,29.2,38.9,7.95,11.97
+Setia Alam Toll,Ayer Keroh Toll,16.89,30.8,41.1,8.36,12.63
+Setia Alam Toll,TAPAH Toll,17.38,31.8,42.4,8.69,13.04
+Setia Alam Toll,Jasin Toll,18.7,34.2,45.6,9.35,14.02
+Setia Alam Toll,Tangkak Toll,19.84,36.2,48.3,9.84,14.84
+Setia Alam Toll,GOPENG Toll,20.83,38,50.7,10.41,15.58
+Setia Alam Toll,Bukit Gambir Toll,21.24,38.7,51.7,10.58,15.91
+Setia Alam Toll,SIMPANG PULAI Toll,21.89,40,53.3,10.91,16.4
+Setia Alam Toll,Pagoh Toll,22.96,41.9,55.9,11.4,17.22
+Setia Alam Toll,Ipoh Selatan Toll,23.21,42.4,56.6,11.56,17.38
+Setia Alam Toll,KUALA KANGSAR Toll,26.08,47.7,63.6,13.04,19.52
+Setia Alam Toll,Yong Peng Utara Toll,27.72,50.7,67.6,13.86,20.75
+Setia Alam Toll,CANGKAT JERING Toll,28.45,52,69.4,14.19,21.32
+Setia Alam Toll,Ayer Hitam Toll,29.85,54.5,72.8,14.92,22.39
+Setia Alam Toll,TAIPING UTARA Toll,30.26,55.2,73.7,15.09,22.63
+Setia Alam Toll,Machap Toll,30.67,56.1,74.8,15.33,22.96
+Setia Alam Toll,BUKIT MERAH Toll,31.49,57.5,76.7,15.66,23.53
+Setia Alam Toll,Spg. Renggam Toll,32.23,58.9,78.6,16.07,24.19
+Setia Alam Toll,ALOR PONGSU Toll,32.88,60.2,80.2,16.48,24.68
+Setia Alam Toll,BANDAR BAHARU Toll,33.37,61.1,81.5,16.65,25.01
+Setia Alam Toll,Sedenak Toll,34.36,62.8,83.8,17.14,25.75
+Setia Alam Toll,JAWI Toll,34.93,63.8,85.1,17.38,26.16
+Setia Alam Toll,KULAI Toll,35.83,65.4,87.3,17.88,26.81
+Setia Alam Toll,BKT. TAMBUN UTARA Toll,36.24,66.3,88.4,18.12,27.14
+Setia Alam Toll,Senai Utara Toll,36.82,67.3,89.8,18.37,27.63
+Setia Alam Toll,JURU Toll,36.98,67.6,90.2,18.45,27.72
+Setia Alam Toll,Skudai Toll,37.15,67.9,90.6,18.53,27.88
+Setia Alam Toll,BERTAM Toll,38.29,69.9,93.3,19.18,29.32
+Setia Alam Toll,SG. PETANI SELATAN Toll,39.93,72.9,97.2,20,30.01
+Setia Alam Toll,SG. PETANI UTARA Toll,40.67,74.2,99,20.33,30.5
+Setia Alam Toll,GURUN Toll,42.47,77.6,103.5,21.32,31.9
+Setia Alam Toll,PENDANG Toll,44.68,81.6,108.8,22.38,33.54
+Setia Alam Toll,Alor Setar Selatan Toll,46.32,84.6,112.8,23.2,35.22
+Setia Alam Toll,Alor Setar Utara Toll,46.98,85.7,114.3,23.53,35.26
+Setia Alam Toll,Hutan Kampung Toll,47.64,87,116,23.86,36.02
+Setia Alam Toll,BANDAR CASSIA Toll,42.17,96.8,158.6,26.68,53.51
+SETIAWAN (N) Toll,SETIAWAN Toll,2.2,4.5,6.7,1.1,1.7
+SETIAWAN (N) Toll,CHANGKAT CERMIN Toll,2.7,5.3,8,1.3,2
+SETIAWAN (N) Toll,KG LEKIR Toll,2.8,5.6,8.4,1.4,2.1
+SETIAWAN (N) Toll,BERUAS Toll,5.8,11.6,17.4,2.9,4.4
+SETIAWAN Toll,KG LEKIR Toll,2,4,6,1,1.5
+SETIAWAN Toll,SETIAWAN (N) Toll,2.2,4.5,6.7,1.1,1.7
+SETIAWAN Toll,CHANGKAT CERMIN Toll,4.2,8.3,12.5,2.1,3.1
+SETIAWAN Toll,BERUAS Toll,7.3,14.6,21.9,3.7,5.5
+Setul North Bound Toll,MANTIN Toll,1.8,2.7,3.6,0.9,1.1
+Setul North Bound Toll,Pajam Toll,3.1,4.6,6.2,1.7,1.9
+Setul North Bound Toll,ECO MAJESTIC Toll,3.9,5.9,7.8,2,2.9
+Setul North Bound Toll,SEMENYIH Toll,5.4,8.1,10.9,2.7,3.4
+Setul North Bound Toll,Kajang Selatan Toll,6,9,11.9,3,3.7
+Sg. Besi Toll,UPM Toll,0.66,1.2,1.7,0.33,0.49
+Sg. Besi Toll,KAJANG Toll,0.82,1.5,2.1,0.41,0.66
+Sg. Besi Toll,BANGI Toll,1.56,2.9,3.9,0.82,1.15
+Sg. Besi Toll,SOUTHVILLE CITY Toll,1.72,3.2,4.2,0.9,1.31
+Sg. Besi Toll,Putera Mahkota Toll,2.46,4.5,6,1.23,1.8
+Sg. Besi Toll,Nilai Toll,3.2,5.8,7.7,1.56,2.38
+Sg. Besi Toll,BANDAR SERENIA Toll,4.26,7.8,10.4,2.13,3.2
+Sg. Besi Toll,Bandar Ainsdale Toll,4.92,9,12,2.46,3.69
+Sg. Besi Toll,BANDAR GAMUDA COVE Toll,5.08,9.3,12.4,2.54,3.85
+Sg. Besi Toll,SEREMBAN Toll,5.25,9.6,12.8,2.62,3.94
+Sg. Besi Toll,Port Dickson Toll,5.66,10.3,13.8,2.79,4.26
+Sg. Besi Toll,KLIA Toll,5.66,10.1,13.3,3.03,4.35
+Sg. Besi Toll,Senawang Toll,6.07,11.2,14.9,3.03,4.59
+Sg. Besi Toll,Bandar Saujana Putra Toll,6.56,11.9,15.9,3.28,4.92
+Sg. Besi Toll,Putra Jaya Toll,6.89,12.6,16.8,3.44,5.17
+Sg. Besi Toll,PUTRA HEIGHTS Toll,6.97,12.8,17,3.53,5.25
+Sg. Besi Toll,USJ Toll,7.46,13.7,18.2,3.77,5.58
+Sg. Besi Toll,PEDAS LINGGI Toll,7.95,14.5,19.3,3.94,5.9
+Sg. Besi Toll,Seafield Toll,7.95,14.5,19.4,3.94,5.99
+Sg. Besi Toll,Ebor Selatan Toll,7.95,14.6,19.4,4.02,5.99
+Sg. Besi Toll,Shah Alam Toll,8.61,15.7,20.9,4.26,6.48
+Sg. Besi Toll,SUBANG Toll,9.02,16.6,22.1,4.59,6.81
+Sg. Besi Toll,Setia Alam Toll,9.51,17.3,23.2,4.67,7.13
+Sg. Besi Toll,DAMANSARA Toll,9.51,17.4,23.2,4.76,7.13
+Sg. Besi Toll,Bukit Raja Toll,9.59,17.5,23.4,4.76,7.22
+Sg. Besi Toll,KOTA DAMANSARA Toll,9.76,17.8,23.7,4.92,7.3
+Sg. Besi Toll,SG. BULOH Toll,10.33,19,25.2,5.25,7.71
+Sg. Besi Toll,Simpang Ampat Toll,10.5,19.1,25.5,5.25,7.87
+Sg. Besi Toll,SG. BULOH HOSPITAL Toll,10.58,19.5,25.9,5.33,7.95
+Sg. Besi Toll,Jalan Duta Toll,10.82,19.9,26.4,5.49,8.12
+Sg. Besi Toll,RAWANG SELATAN Toll,11.15,20.5,27.3,5.66,8.36
+Sg. Besi Toll,RAWANG Toll,11.73,21.5,28.6,5.9,8.77
+Sg. Besi Toll,SUNGAI BUAYA Toll,12.71,23.3,31.1,6.4,9.51
+Sg. Besi Toll,Ayer Keroh Toll,12.87,23.5,31.4,6.4,9.68
+Sg. Besi Toll,BUKIT BERUNTUNG Toll,13.37,24.6,32.7,6.72,10
+Sg. Besi Toll,BUKIT TAGAR Toll,14.51,26.5,35.3,7.3,10.82
+Sg. Besi Toll,Jasin Toll,14.68,26.8,35.8,7.3,10.99
+Sg. Besi Toll,LEMBAH BERINGIN Toll,15.5,28.3,37.7,7.79,11.56
+Sg. Besi Toll,Tangkak Toll,15.83,28.9,38.6,7.87,11.89
+Sg. Besi Toll,Tg. Malim Toll,16.56,30.3,40.3,8.28,12.38
+Sg. Besi Toll,Bukit Gambir Toll,17.14,31.4,41.9,8.61,12.87
+Sg. Besi Toll,BEHRANG Toll,17.79,32.6,43.4,8.94,13.37
+Sg. Besi Toll,Pagoh Toll,18.94,34.6,46.1,9.43,14.19
+Sg. Besi Toll,SLIM RIVER Toll,19.52,35.8,47.6,9.84,14.6
+Sg. Besi Toll,SUNGKAI Toll,21.65,39.7,52.8,10.91,16.24
+Sg. Besi Toll,BIDOR Toll,23.21,42.5,56.6,11.64,17.38
+Sg. Besi Toll,Yong Peng Utara Toll,23.7,43.3,57.8,11.89,17.79
+Sg. Besi Toll,TAPAH Toll,24.68,45.2,60.2,12.38,18.45
+Sg. Besi Toll,Ayer Hitam Toll,25.91,47.3,63.1,12.96,19.43
+Sg. Besi Toll,Machap Toll,26.73,48.8,65.1,13.37,20.01
+Sg. Besi Toll,GOPENG Toll,28.04,51.3,68.3,14.02,20.99
+Sg. Besi Toll,Spg. Renggam Toll,28.29,51.7,68.9,14.1,21.24
+Sg. Besi Toll,SIMPANG PULAI Toll,29.11,53.2,70.9,14.6,21.81
+Sg. Besi Toll,Sedenak Toll,30.34,55.5,74,15.17,22.71
+Sg. Besi Toll,Ipoh Selatan Toll,30.42,55.7,74.2,15.25,22.8
+Sg. Besi Toll,KULAI Toll,31.82,58.2,77.6,15.91,23.86
+Sg. Besi Toll,Senai Utara Toll,32.88,60,80.1,16.4,24.6
+Sg. Besi Toll,Skudai Toll,33.21,60.7,80.9,16.56,24.85
+Sg. Besi Toll,KUALA KANGSAR Toll,33.29,61,81.2,16.73,24.93
+Sg. Besi Toll,CANGKAT JERING Toll,35.67,65.3,87,17.88,26.73
+Sg. Besi Toll,TAIPING UTARA Toll,37.47,68.5,91.3,18.78,28.04
+Sg. Besi Toll,BUKIT MERAH Toll,38.7,70.8,94.3,19.35,28.95
+Sg. Besi Toll,ALOR PONGSU Toll,40.1,73.4,97.8,20.09,30.09
+Sg. Besi Toll,BANDAR BAHARU Toll,40.59,74.4,99.1,20.34,30.42
+Sg. Besi Toll,JAWI Toll,42.15,77.1,102.7,21.07,31.57
+Sg. Besi Toll,BKT. TAMBUN UTARA Toll,43.46,79.6,106,21.81,32.55
+Sg. Besi Toll,JURU Toll,44.2,80.9,107.8,22.14,33.13
+Sg. Besi Toll,BERTAM Toll,45.51,83.2,110.9,22.87,34.73
+Sg. Besi Toll,SG. PETANI SELATAN Toll,47.15,86.2,114.8,23.69,35.42
+Sg. Besi Toll,SG. PETANI UTARA Toll,47.89,87.5,116.6,24.02,35.91
+Sg. Besi Toll,GURUN Toll,49.69,90.9,121.1,25.01,37.31
+Sg. Besi Toll,PENDANG Toll,51.9,94.9,126.4,26.07,38.95
+Sg. Besi Toll,Alor Setar Selatan Toll,53.54,97.9,130.4,26.89,40.63
+Sg. Besi Toll,Alor Setar Utara Toll,54.2,99,131.9,27.22,40.67
+Sg. Besi Toll,Hutan Kampung Toll,54.86,100.3,133.6,27.55,41.43
+Sg. Besi Toll,BANDAR CASSIA Toll,49.39,110.1,176.2,30.37,58.93
+SG. BULOH HOSPITAL Toll,SG. BULOH Toll,0.57,1,1.4,0.25,0.41
+SG. BULOH HOSPITAL Toll,RAWANG SELATAN Toll,0.9,1.6,2.2,0.41,0.66
+SG. BULOH HOSPITAL Toll,KOTA DAMANSARA Toll,1.31,2.3,3.1,0.66,0.98
+SG. BULOH HOSPITAL Toll,RAWANG Toll,1.31,2.4,3.3,0.66,0.98
+SG. BULOH HOSPITAL Toll,DAMANSARA Toll,1.64,3.1,4.1,0.82,1.23
+SG. BULOH HOSPITAL Toll,Jalan Duta Toll,1.8,3.4,4.5,0.9,1.39
+SG. BULOH HOSPITAL Toll,SUBANG Toll,1.89,3.5,4.6,0.98,1.39
+SG. BULOH HOSPITAL Toll,SUNGAI BUAYA Toll,2.46,4.5,6,1.23,1.8
+SG. BULOH HOSPITAL Toll,Shah Alam Toll,2.46,4.5,6,1.23,1.89
+SG. BULOH HOSPITAL Toll,Seafield Toll,3.12,5.7,7.5,1.56,2.3
+SG. BULOH HOSPITAL Toll,BUKIT BERUNTUNG Toll,3.12,5.7,7.6,1.56,2.38
+SG. BULOH HOSPITAL Toll,Setia Alam Toll,3.36,6.1,8.2,1.64,2.54
+SG. BULOH HOSPITAL Toll,USJ Toll,3.53,6.4,8.5,1.72,2.62
+SG. BULOH HOSPITAL Toll,Bukit Raja Toll,3.53,6.4,8.6,1.72,2.62
+SG. BULOH HOSPITAL Toll,PUTRA HEIGHTS Toll,4.02,7.4,9.8,1.97,3.03
+SG. BULOH HOSPITAL Toll,BUKIT TAGAR Toll,4.1,7.5,10.1,2.05,3.12
+SG. BULOH HOSPITAL Toll,Bandar Saujana Putra Toll,4.35,7.9,10.5,2.13,3.28
+SG. BULOH HOSPITAL Toll,LEMBAH BERINGIN Toll,5.17,9.5,12.6,2.62,3.85
+SG. BULOH HOSPITAL Toll,BANDAR GAMUDA COVE Toll,5.41,9.8,13.1,2.71,4.02
+SG. BULOH HOSPITAL Toll,Putra Jaya Toll,5.9,10.8,14.3,2.95,4.43
+SG. BULOH HOSPITAL Toll,Tg. Malim Toll,6.31,11.5,15.4,3.12,4.76
+SG. BULOH HOSPITAL Toll,BANDAR SERENIA Toll,6.56,12.1,16.1,3.28,4.92
+SG. BULOH HOSPITAL Toll,KLIA Toll,7.22,12.9,17,3.77,5.41
+SG. BULOH HOSPITAL Toll,BEHRANG Toll,7.54,13.8,18.4,3.77,5.66
+SG. BULOH HOSPITAL Toll,Nilai Toll,8.36,15.4,20.5,4.26,6.23
+SG. BULOH HOSPITAL Toll,Putera Mahkota Toll,8.45,15.5,20.6,4.26,6.31
+SG. BULOH HOSPITAL Toll,SOUTHVILLE CITY Toll,8.86,16.2,21.5,4.43,6.64
+SG. BULOH HOSPITAL Toll,BANGI Toll,9.18,16.9,22.5,4.67,6.89
+SG. BULOH HOSPITAL Toll,SLIM RIVER Toll,9.27,16.9,22.6,4.59,6.97
+SG. BULOH HOSPITAL Toll,KAJANG Toll,9.92,18.1,24.1,5,7.38
+SG. BULOH HOSPITAL Toll,Bandar Ainsdale Toll,10.09,18.6,24.7,5.08,7.54
+SG. BULOH HOSPITAL Toll,UPM Toll,10.09,18.6,24.7,5.08,7.54
+SG. BULOH HOSPITAL Toll,SEREMBAN Toll,10.41,19.1,25.3,5.25,7.79
+SG. BULOH HOSPITAL Toll,Sg. Besi Toll,10.58,19.5,25.9,5.33,7.95
+SG. BULOH HOSPITAL Toll,Port Dickson Toll,10.82,19.9,26.4,5.49,8.12
+SG. BULOH HOSPITAL Toll,Senawang Toll,11.32,20.7,27.5,5.66,8.45
+SG. BULOH HOSPITAL Toll,SUNGKAI Toll,11.4,20.8,27.7,5.66,8.53
+SG. BULOH HOSPITAL Toll,BIDOR Toll,12.96,23.7,31.5,6.48,9.68
+SG. BULOH HOSPITAL Toll,PEDAS LINGGI Toll,13.04,24,31.9,6.56,9.76
+SG. BULOH HOSPITAL Toll,TAPAH Toll,14.43,26.4,35.2,7.22,10.82
+SG. BULOH HOSPITAL Toll,Simpang Ampat Toll,15.66,28.6,38.1,7.87,11.73
+SG. BULOH HOSPITAL Toll,GOPENG Toll,17.79,32.5,43.4,8.86,13.37
+SG. BULOH HOSPITAL Toll,Ayer Keroh Toll,18.04,33,44,9.02,13.53
+SG. BULOH HOSPITAL Toll,SIMPANG PULAI Toll,18.86,34.5,46,9.43,14.1
+SG. BULOH HOSPITAL Toll,Jasin Toll,19.84,36.3,48.3,9.92,14.84
+SG. BULOH HOSPITAL Toll,Ipoh Selatan Toll,20.17,36.9,49.2,10.09,15.17
+SG. BULOH HOSPITAL Toll,Tangkak Toll,20.99,38.4,51.2,10.5,15.74
+SG. BULOH HOSPITAL Toll,Bukit Gambir Toll,22.3,40.9,54.4,11.23,16.73
+SG. BULOH HOSPITAL Toll,KUALA KANGSAR Toll,23.04,42.2,56.2,11.56,17.3
+SG. BULOH HOSPITAL Toll,Pagoh Toll,24.11,44.1,58.8,12.14,18.04
+SG. BULOH HOSPITAL Toll,CANGKAT JERING Toll,25.42,46.5,62,12.71,19.11
+SG. BULOH HOSPITAL Toll,TAIPING UTARA Toll,27.22,49.7,66.3,13.61,20.42
+SG. BULOH HOSPITAL Toll,BUKIT MERAH Toll,28.45,52,69.3,14.19,21.32
+SG. BULOH HOSPITAL Toll,Yong Peng Utara Toll,28.86,52.8,70.3,14.43,21.65
+SG. BULOH HOSPITAL Toll,ALOR PONGSU Toll,29.85,54.6,72.9,14.92,22.39
+SG. BULOH HOSPITAL Toll,BANDAR BAHARU Toll,30.34,55.6,74.1,15.17,22.8
+SG. BULOH HOSPITAL Toll,Ayer Hitam Toll,31,56.8,75.6,15.58,23.29
+SG. BULOH HOSPITAL Toll,Machap Toll,31.9,58.3,77.7,15.99,23.86
+SG. BULOH HOSPITAL Toll,JAWI Toll,31.9,58.3,77.7,15.91,23.94
+SG. BULOH HOSPITAL Toll,BKT. TAMBUN UTARA Toll,33.21,60.8,81,16.65,24.93
+SG. BULOH HOSPITAL Toll,Spg. Renggam Toll,33.46,61.2,81.5,16.73,25.01
+SG. BULOH HOSPITAL Toll,JURU Toll,33.95,62.1,82.8,16.97,25.5
+SG. BULOH HOSPITAL Toll,Sedenak Toll,35.51,64.9,86.5,17.79,26.57
+SG. BULOH HOSPITAL Toll,BERTAM Toll,35.26,64.4,85.9,17.7,27.1
+SG. BULOH HOSPITAL Toll,KULAI Toll,36.98,67.7,90.2,18.53,27.72
+SG. BULOH HOSPITAL Toll,SG. PETANI SELATAN Toll,36.9,67.4,89.8,18.52,27.79
+SG. BULOH HOSPITAL Toll,SG. PETANI UTARA Toll,37.64,68.7,91.6,18.85,28.28
+SG. BULOH HOSPITAL Toll,Senai Utara Toll,37.97,69.5,92.6,19.02,28.45
+SG. BULOH HOSPITAL Toll,Skudai Toll,38.29,70.1,93.5,19.19,28.7
+SG. BULOH HOSPITAL Toll,GURUN Toll,39.44,72.1,96.1,19.84,29.68
+SG. BULOH HOSPITAL Toll,PENDANG Toll,41.65,76.1,101.4,20.9,31.32
+SG. BULOH HOSPITAL Toll,Alor Setar Selatan Toll,43.29,79.1,105.4,21.72,33
+SG. BULOH HOSPITAL Toll,Alor Setar Utara Toll,43.95,80.2,106.9,22.05,33.04
+SG. BULOH HOSPITAL Toll,Hutan Kampung Toll,44.61,81.5,108.6,22.38,33.8
+SG. BULOH HOSPITAL Toll,BANDAR CASSIA Toll,39.14,91.3,151.2,25.2,51.3
+SG. BULOH Toll,SG. BULOH HOSPITAL Toll,0.57,1,1.4,0.25,0.41
+SG. BULOH Toll,KOTA DAMANSARA Toll,0.98,1.8,2.4,0.49,0.74
+SG. BULOH Toll,RAWANG SELATAN Toll,1.07,1.9,2.6,0.49,0.82
+SG. BULOH Toll,DAMANSARA Toll,1.39,2.5,3.4,0.66,1.07
+SG. BULOH Toll,Jalan Duta Toll,1.56,2.9,3.8,0.82,1.15
+SG. BULOH Toll,SUBANG Toll,1.64,3,3.9,0.82,1.23
+SG. BULOH Toll,RAWANG Toll,1.64,3.1,4.1,0.82,1.23
+SG. BULOH Toll,Shah Alam Toll,2.13,4,5.3,1.07,1.64
+SG. BULOH Toll,SUNGAI BUAYA Toll,2.71,4.9,6.5,1.31,1.97
+SG. BULOH Toll,Seafield Toll,2.79,5.2,6.8,1.48,2.05
+SG. BULOH Toll,Setia Alam Toll,3.03,5.6,7.5,1.56,2.3
+SG. BULOH Toll,USJ Toll,3.2,5.9,7.8,1.64,2.38
+SG. BULOH Toll,Bukit Raja Toll,3.28,6,8,1.64,2.46
+SG. BULOH Toll,BUKIT BERUNTUNG Toll,3.36,6.1,8.2,1.64,2.54
+SG. BULOH Toll,PUTRA HEIGHTS Toll,3.69,6.9,9.1,1.89,2.79
+SG. BULOH Toll,Bandar Saujana Putra Toll,4.02,7.4,9.8,2.05,3.03
+SG. BULOH Toll,BUKIT TAGAR Toll,4.26,7.9,10.5,2.13,3.2
+SG. BULOH Toll,BANDAR GAMUDA COVE Toll,5.17,9.4,12.6,2.54,3.85
+SG. BULOH Toll,LEMBAH BERINGIN Toll,5.41,9.9,13.2,2.71,4.02
+SG. BULOH Toll,Putra Jaya Toll,5.58,10.3,13.6,2.87,4.18
+SG. BULOH Toll,BANDAR SERENIA Toll,6.4,11.7,15.5,3.2,4.76
+SG. BULOH Toll,Tg. Malim Toll,6.48,11.8,15.8,3.2,4.84
+SG. BULOH Toll,KLIA Toll,6.89,12.4,16.3,3.61,5.25
+SG. BULOH Toll,BEHRANG Toll,7.79,14.2,18.9,3.85,5.82
+SG. BULOH Toll,Nilai Toll,8.04,14.8,19.6,4.1,5.99
+SG. BULOH Toll,Putera Mahkota Toll,8.12,14.9,19.8,4.1,6.07
+SG. BULOH Toll,SOUTHVILLE CITY Toll,8.53,15.6,20.9,4.26,6.4
+SG. BULOH Toll,BANGI Toll,8.94,16.4,21.8,4.51,6.72
+SG. BULOH Toll,SLIM RIVER Toll,9.51,17.3,23.1,4.76,7.13
+SG. BULOH Toll,KAJANG Toll,9.59,17.6,23.4,4.84,7.22
+SG. BULOH Toll,Bandar Ainsdale Toll,9.76,17.9,23.9,4.92,7.3
+SG. BULOH Toll,UPM Toll,9.84,18,24,4.92,7.38
+SG. BULOH Toll,SEREMBAN Toll,10.09,18.6,24.7,5.08,7.54
+SG. BULOH Toll,Sg. Besi Toll,10.33,19,25.2,5.25,7.71
+SG. BULOH Toll,Port Dickson Toll,10.5,19.3,25.6,5.33,7.87
+SG. BULOH Toll,Senawang Toll,10.99,20.1,26.7,5.49,8.2
+SG. BULOH Toll,SUNGKAI Toll,11.56,21.2,28.3,5.82,8.69
+SG. BULOH Toll,PEDAS LINGGI Toll,12.79,23.4,31.2,6.48,9.59
+SG. BULOH Toll,BIDOR Toll,13.12,24.1,32.1,6.56,9.84
+SG. BULOH Toll,TAPAH Toll,14.68,26.8,35.8,7.3,10.99
+SG. BULOH Toll,Simpang Ampat Toll,15.33,28.1,37.4,7.71,11.48
+SG. BULOH Toll,Ayer Keroh Toll,17.79,32.5,43.3,8.94,13.28
+SG. BULOH Toll,GOPENG Toll,18.04,32.9,43.9,9.02,13.53
+SG. BULOH Toll,SIMPANG PULAI Toll,19.11,34.9,46.5,9.51,14.27
+SG. BULOH Toll,Jasin Toll,19.52,35.8,47.6,9.84,14.6
+SG. BULOH Toll,Ipoh Selatan Toll,20.42,37.3,49.8,10.17,15.33
+SG. BULOH Toll,Tangkak Toll,20.66,37.8,50.4,10.33,15.5
+SG. BULOH Toll,Bukit Gambir Toll,22.06,40.4,53.8,11.07,16.48
+SG. BULOH Toll,KUALA KANGSAR Toll,23.29,42.6,56.8,11.64,17.47
+SG. BULOH Toll,Pagoh Toll,23.78,43.5,58,11.89,17.79
+SG. BULOH Toll,CANGKAT JERING Toll,25.67,46.9,62.6,12.79,19.27
+SG. BULOH Toll,TAIPING UTARA Toll,27.47,50.1,66.9,13.69,20.58
+SG. BULOH Toll,Yong Peng Utara Toll,28.54,52.3,69.7,14.35,21.4
+SG. BULOH Toll,BUKIT MERAH Toll,28.7,52.4,69.9,14.27,21.48
+SG. BULOH Toll,ALOR PONGSU Toll,30.09,55.1,73.4,15.09,22.55
+SG. BULOH Toll,BANDAR BAHARU Toll,30.59,56,74.7,15.25,22.96
+SG. BULOH Toll,Ayer Hitam Toll,30.75,56.3,75,15.42,23.04
+SG. BULOH Toll,Machap Toll,31.57,57.8,77,15.83,23.7
+SG. BULOH Toll,JAWI Toll,32.14,58.7,78.3,15.99,24.11
+SG. BULOH Toll,Spg. Renggam Toll,33.13,60.7,80.8,16.65,24.85
+SG. BULOH Toll,BKT. TAMBUN UTARA Toll,33.46,61.2,81.6,16.73,25.09
+SG. BULOH Toll,JURU Toll,34.19,62.5,83.4,17.06,25.67
+SG. BULOH Toll,Sedenak Toll,35.18,64.4,85.8,17.63,26.4
+SG. BULOH Toll,BERTAM Toll,35.5,64.8,86.5,17.79,27.27
+SG. BULOH Toll,KULAI Toll,36.74,67.2,89.5,18.37,27.55
+SG. BULOH Toll,SG. PETANI SELATAN Toll,37.14,67.8,90.4,18.61,27.96
+SG. BULOH Toll,Senai Utara Toll,37.64,68.9,91.8,18.86,28.21
+SG. BULOH Toll,SG. PETANI UTARA Toll,37.88,69.1,92.2,18.94,28.45
+SG. BULOH Toll,Skudai Toll,38.05,69.6,92.8,19.11,28.54
+SG. BULOH Toll,GURUN Toll,39.68,72.5,96.7,19.93,29.85
+SG. BULOH Toll,PENDANG Toll,41.89,76.5,102,20.99,31.49
+SG. BULOH Toll,Alor Setar Selatan Toll,43.53,79.5,106,21.81,33.17
+SG. BULOH Toll,Alor Setar Utara Toll,44.19,80.6,107.5,22.14,33.21
+SG. BULOH Toll,Hutan Kampung Toll,44.85,81.9,109.2,22.47,33.97
+SG. BULOH Toll,BANDAR CASSIA Toll,39.39,91.7,151.8,25.28,51.46
+SG. DUA Toll,BKT. TAMBUN SELATAN Toll,0.9,1.6,2.2,0.41,0.66
+SG. DUA Toll,BERTAM Toll,1.31,2.3,3.1,0.73,1.6
+SG. DUA Toll,JAWI Toll,2.3,4.2,5.6,1.15,1.72
+SG. DUA Toll,SG. PETANI SELATAN Toll,2.95,5.3,7,1.55,2.29
+SG. DUA Toll,BANDAR BAHARU Toll,3.61,6.6,8.8,1.8,2.71
+SG. DUA Toll,SG. PETANI UTARA Toll,3.69,6.6,8.8,1.88,2.78
+SG. DUA Toll,ALOR PONGSU Toll,4.18,7.6,10.2,2.13,3.12
+SG. DUA Toll,GURUN Toll,5.49,10,13.3,2.87,4.18
+SG. DUA Toll,BUKIT MERAH Toll,5.66,10.4,13.9,2.87,4.26
+SG. DUA Toll,TAIPING UTARA Toll,6.97,12.7,17,3.53,5.25
+SG. DUA Toll,PENDANG Toll,7.7,14,18.6,3.93,5.82
+SG. DUA Toll,CANGKAT JERING Toll,8.61,15.7,20.9,4.26,6.48
+SG. DUA Toll,Alor Setar Selatan Toll,9.34,17,22.6,4.75,7.5
+SG. DUA Toll,Alor Setar Utara Toll,10,18.1,24.1,5.08,7.54
+SG. DUA Toll,KUALA KANGSAR Toll,11.07,20.2,26.9,5.49,8.28
+SG. DUA Toll,Hutan Kampung Toll,10.66,19.4,25.8,5.41,8.3
+SG. DUA Toll,IPOH UTARA Toll,13.78,25.2,33.6,6.89,10.33
+SG. DUA Toll,SIMPANG PULAI Toll,15.25,27.9,37.1,7.63,11.4
+SG. DUA Toll,GOPENG Toll,16.32,29.9,39.9,8.2,12.22
+SG. DUA Toll,TAPAH Toll,19.68,36,48,9.84,14.76
+SG. DUA Toll,BIDOR Toll,21.16,38.8,51.7,10.58,15.91
+SG. DUA Toll,SUNGKAI Toll,22.71,41.5,55.4,11.32,17.06
+SG. DUA Toll,SLIM RIVER Toll,24.85,45.4,60.5,12.38,18.61
+SG. DUA Toll,BEHRANG Toll,26.49,48.4,64.6,13.28,19.84
+SG. DUA Toll,Tg. Malim Toll,28.13,51.4,68.5,14.02,21.07
+SG. DUA Toll,LEMBAH BERINGIN Toll,29.11,53.2,71,14.6,21.81
+SG. DUA Toll,BUKIT TAGAR Toll,30.09,55.1,73.4,15.09,22.55
+SG. DUA Toll,BUKIT BERUNTUNG Toll,31.08,56.8,75.7,15.5,23.29
+SG. DUA Toll,SUNGAI BUAYA Toll,31.82,58.2,77.6,15.91,23.86
+SG. DUA Toll,RAWANG Toll,32.8,60,80,16.4,24.6
+SG. DUA Toll,RAWANG SELATAN Toll,33.29,60.9,81.2,16.65,25.01
+SG. DUA Toll,SG. BULOH HOSPITAL Toll,33.95,62.1,82.8,16.97,25.5
+SG. DUA Toll,SG. BULOH Toll,34.19,62.5,83.4,17.06,25.67
+SG. DUA Toll,KOTA DAMANSARA Toll,34.85,63.7,85,17.47,26.16
+SG. DUA Toll,DAMANSARA Toll,35.26,64.6,86.1,17.63,26.49
+SG. DUA Toll,Jalan Duta Toll,35.51,64.9,86.5,17.71,26.57
+SG. DUA Toll,SUBANG Toll,35.51,64.9,86.5,17.71,26.57
+SG. DUA Toll,Shah Alam Toll,36,65.9,87.8,18.04,27.06
+SG. DUA Toll,Seafield Toll,36.74,67.2,89.5,18.37,27.47
+SG. DUA Toll,BANDAR CASSIA Toll,7.49,33.4,74,9.37,27.52
+SG. DUA Toll,Setia Alam Toll,36.98,67.6,90.2,18.45,27.72
+SG. DUA Toll,USJ Toll,37.15,67.9,90.5,18.53,27.8
+SG. DUA Toll,Bukit Raja Toll,37.15,67.9,90.6,18.53,27.88
+SG. DUA Toll,PUTRA HEIGHTS Toll,37.64,68.9,91.8,18.78,28.21
+SG. DUA Toll,Bandar Saujana Putra Toll,37.97,69.4,92.5,18.94,28.45
+SG. DUA Toll,BANDAR GAMUDA COVE Toll,39.03,71.4,95.2,19.52,29.27
+SG. DUA Toll,Putra Jaya Toll,39.52,72.3,96.3,19.76,29.6
+SG. DUA Toll,BANDAR SERENIA Toll,40.26,73.6,98.2,20.17,30.18
+SG. DUA Toll,KLIA Toll,40.75,74.3,98.8,20.58,30.59
+SG. DUA Toll,Nilai Toll,41.98,76.8,102.3,20.99,31.49
+SG. DUA Toll,Putera Mahkota Toll,41.98,76.9,102.5,21.07,31.49
+SG. DUA Toll,SOUTHVILLE CITY Toll,42.48,77.6,103.5,21.24,31.82
+SG. DUA Toll,BANGI Toll,42.8,78.3,104.4,21.4,32.06
+SG. DUA Toll,KAJANG Toll,43.46,79.5,106,21.81,32.55
+SG. DUA Toll,Bandar Ainsdale Toll,43.62,79.8,106.4,21.89,32.72
+SG. DUA Toll,UPM Toll,43.71,79.9,106.5,21.89,32.72
+SG. DUA Toll,SEREMBAN Toll,43.95,80.5,107.2,22.06,32.96
+SG. DUA Toll,Sg. Besi Toll,44.2,80.9,107.8,22.14,33.13
+SG. DUA Toll,Port Dickson Toll,44.44,81.3,108.3,22.22,33.29
+SG. DUA Toll,Senawang Toll,44.85,82.1,109.4,22.47,33.62
+SG. DUA Toll,PEDAS LINGGI Toll,46.66,85.3,113.7,23.37,34.93
+SG. DUA Toll,Simpang Ampat Toll,49.2,90,120,24.68,36.9
+SG. DUA Toll,Ayer Keroh Toll,51.58,94.4,125.8,25.83,38.7
+SG. DUA Toll,Jasin Toll,53.38,97.7,130.2,26.73,40.02
+SG. DUA Toll,Tangkak Toll,54.53,99.8,133,27.31,40.92
+SG. DUA Toll,Bukit Gambir Toll,55.92,102.3,136.3,27.96,41.9
+SG. DUA Toll,Pagoh Toll,57.65,105.5,140.7,28.86,43.21
+SG. DUA Toll,Yong Peng Utara Toll,62.4,114.2,152.2,31.24,46.82
+SG. DUA Toll,Ayer Hitam Toll,64.62,118.2,157.5,32.31,48.46
+SG. DUA Toll,Machap Toll,65.44,119.7,159.6,32.72,49.04
+SG. DUA Toll,Spg. Renggam Toll,66.99,122.6,163.4,33.54,50.27
+SG. DUA Toll,Sedenak Toll,69.04,126.3,168.4,34.6,51.74
+SG. DUA Toll,KULAI Toll,70.6,129.1,172.1,35.34,52.89
+SG. DUA Toll,Senai Utara Toll,71.59,130.9,174.5,35.83,53.63
+SG. DUA Toll,Skudai Toll,71.91,131.5,175.3,36,53.87
+SG. PETANI SELATAN Toll,SG. PETANI UTARA Toll,1.31,2.3,3.1,0.65,0.98
+SG. PETANI SELATAN Toll,BERTAM Toll,1.8,3.4,4.5,0.9,1.39
+SG. PETANI SELATAN Toll,Ipoh Selatan Toll,2.95,5.3,7,1.55,2.29
+SG. PETANI SELATAN Toll,SG. DUA Toll,2.95,5.3,7,1.55,2.29
+SG. PETANI SELATAN Toll,GURUN Toll,3.11,5.7,7.6,1.55,2.37
+SG. PETANI SELATAN Toll,BKT. TAMBUN SELATAN Toll,3.85,6.9,9.2,1.96,2.95
+SG. PETANI SELATAN Toll,PENDANG Toll,5.33,9.7,12.9,2.62,3.93
+SG. PETANI SELATAN Toll,JAWI Toll,5.25,9.5,12.6,2.7,4.01
+SG. PETANI SELATAN Toll,BANDAR BAHARU Toll,6.56,11.9,15.8,3.35,5
+SG. PETANI SELATAN Toll,Alor Setar Selatan Toll,6.97,12.8,17,3.52,5.24
+SG. PETANI SELATAN Toll,ALOR PONGSU Toll,7.13,12.9,17.2,3.68,5.41
+SG. PETANI SELATAN Toll,Alor Setar Utara Toll,7.62,13.9,18.5,3.77,5.65
+SG. PETANI SELATAN Toll,Hutan Kampung Toll,8.28,15.1,20.1,4.1,6.15
+SG. PETANI SELATAN Toll,BUKIT MERAH Toll,8.61,15.7,20.9,4.42,6.55
+SG. PETANI SELATAN Toll,TAIPING UTARA Toll,9.92,18,24,5.08,7.54
+SG. PETANI SELATAN Toll,CANGKAT JERING Toll,11.56,21,27.9,5.81,8.77
+SG. PETANI SELATAN Toll,KUALA KANGSAR Toll,14.02,25.5,33.9,7.04,10.57
+SG. PETANI SELATAN Toll,IPOH UTARA Toll,16.73,30.5,40.6,8.44,12.62
+SG. PETANI SELATAN Toll,SIMPANG PULAI Toll,18.2,33.2,44.1,9.18,13.69
+SG. PETANI SELATAN Toll,GOPENG Toll,19.27,35.2,46.9,9.75,14.51
+SG. PETANI SELATAN Toll,TAPAH Toll,22.63,41.3,55,11.39,17.05
+SG. PETANI SELATAN Toll,BIDOR Toll,24.11,44.1,58.7,12.13,18.2
+SG. PETANI SELATAN Toll,SUNGKAI Toll,25.66,46.8,62.4,12.87,19.35
+SG. PETANI SELATAN Toll,SLIM RIVER Toll,27.8,50.7,67.5,13.93,20.9
+SG. PETANI SELATAN Toll,BEHRANG Toll,29.44,53.7,71.6,14.83,22.13
+SG. PETANI SELATAN Toll,Tg. Malim Toll,31.08,56.7,75.5,15.57,23.36
+SG. PETANI SELATAN Toll,LEMBAH BERINGIN Toll,32.06,58.5,78,16.15,24.1
+SG. PETANI SELATAN Toll,BUKIT TAGAR Toll,33.04,60.4,80.4,16.64,24.84
+SG. PETANI SELATAN Toll,BUKIT BERUNTUNG Toll,34.03,62.1,82.7,17.05,25.58
+SG. PETANI SELATAN Toll,SUNGAI BUAYA Toll,34.77,63.5,84.6,17.46,26.15
+SG. PETANI SELATAN Toll,RAWANG Toll,35.75,65.3,87,17.95,26.89
+SG. PETANI SELATAN Toll,RAWANG SELATAN Toll,36.24,66.2,88.2,18.2,27.3
+SG. PETANI SELATAN Toll,SG. BULOH HOSPITAL Toll,36.9,67.4,89.8,18.52,27.79
+SG. PETANI SELATAN Toll,SG. BULOH Toll,37.14,67.8,90.4,18.61,27.96
+SG. PETANI SELATAN Toll,KOTA DAMANSARA Toll,37.8,69,92,19.02,28.45
+SG. PETANI SELATAN Toll,DAMANSARA Toll,38.21,69.9,93.1,19.18,28.78
+SG. PETANI SELATAN Toll,Jalan Duta Toll,38.46,70.2,93.5,19.26,28.86
+SG. PETANI SELATAN Toll,SUBANG Toll,38.46,70.2,93.5,19.26,28.86
+SG. PETANI SELATAN Toll,Shah Alam Toll,38.95,71.2,94.8,19.59,29.35
+SG. PETANI SELATAN Toll,Seafield Toll,39.69,72.5,96.5,19.92,29.76
+SG. PETANI SELATAN Toll,BANDAR CASSIA Toll,10.44,38.7,81,10.92,29.81
+SG. PETANI SELATAN Toll,Setia Alam Toll,39.93,72.9,97.2,20,30.01
+SG. PETANI SELATAN Toll,USJ Toll,40.1,73.2,97.5,20.08,30.09
+SG. PETANI SELATAN Toll,Bukit Raja Toll,40.1,73.2,97.6,20.08,30.17
+SG. PETANI SELATAN Toll,PUTRA HEIGHTS Toll,40.59,74.2,98.8,20.33,30.5
+SG. PETANI SELATAN Toll,Bandar Saujana Putra Toll,40.92,74.7,99.5,20.49,30.74
+SG. PETANI SELATAN Toll,BANDAR GAMUDA COVE Toll,41.98,76.7,102.2,21.07,31.56
+SG. PETANI SELATAN Toll,Putra Jaya Toll,42.47,77.6,103.3,21.31,31.89
+SG. PETANI SELATAN Toll,BANDAR SERENIA Toll,43.21,78.9,105.2,21.72,32.47
+SG. PETANI SELATAN Toll,KLIA Toll,43.7,79.6,105.8,22.13,32.88
+SG. PETANI SELATAN Toll,Nilai Toll,44.93,82.1,109.3,22.54,33.78
+SG. PETANI SELATAN Toll,Putera Mahkota Toll,44.93,82.2,109.5,22.62,33.78
+SG. PETANI SELATAN Toll,SOUTHVILLE CITY Toll,45.43,82.9,110.5,22.79,34.11
+SG. PETANI SELATAN Toll,BANGI Toll,45.75,83.6,111.4,22.95,34.35
+SG. PETANI SELATAN Toll,KAJANG Toll,46.41,84.8,113,23.36,34.84
+SG. PETANI SELATAN Toll,Bandar Ainsdale Toll,46.57,85.1,113.4,23.44,35.01
+SG. PETANI SELATAN Toll,UPM Toll,46.66,85.2,113.5,23.44,35.01
+SG. PETANI SELATAN Toll,SEREMBAN Toll,46.9,85.8,114.2,23.61,35.25
+SG. PETANI SELATAN Toll,Sg. Besi Toll,47.15,86.2,114.8,23.69,35.42
+SG. PETANI SELATAN Toll,Port Dickson Toll,47.39,86.6,115.3,23.77,35.58
+SG. PETANI SELATAN Toll,Senawang Toll,47.8,87.4,116.4,24.02,35.91
+SG. PETANI SELATAN Toll,PEDAS LINGGI Toll,49.61,90.6,120.7,24.92,37.22
+SG. PETANI SELATAN Toll,Simpang Ampat Toll,52.15,95.3,127,26.23,39.19
+SG. PETANI SELATAN Toll,Ayer Keroh Toll,54.53,99.7,132.8,27.38,40.99
+SG. PETANI SELATAN Toll,Jasin Toll,56.33,103,137.2,28.28,42.31
+SG. PETANI SELATAN Toll,Tangkak Toll,57.48,105.1,140,28.86,43.21
+SG. PETANI SELATAN Toll,Bukit Gambir Toll,58.87,107.6,143.3,29.51,44.19
+SG. PETANI SELATAN Toll,Pagoh Toll,60.6,110.8,147.7,30.41,45.5
+SG. PETANI SELATAN Toll,Yong Peng Utara Toll,65.35,119.5,159.2,32.79,49.11
+SG. PETANI SELATAN Toll,Ayer Hitam Toll,67.57,123.5,164.5,33.86,50.75
+SG. PETANI SELATAN Toll,Machap Toll,68.39,125,166.6,34.27,51.33
+SG. PETANI SELATAN Toll,Spg. Renggam Toll,69.94,127.9,170.4,35.09,52.56
+SG. PETANI SELATAN Toll,Sedenak Toll,71.99,131.6,175.4,36.15,54.03
+SG. PETANI SELATAN Toll,KULAI Toll,73.55,134.4,179.1,36.89,55.18
+SG. PETANI SELATAN Toll,Senai Utara Toll,74.54,136.2,181.5,37.38,55.92
+SG. PETANI SELATAN Toll,Skudai Toll,74.86,136.8,182.3,37.55,56.16
+SG. PETANI UTARA Toll,SG. PETANI SELATAN Toll,1.31,2.3,3.1,0.65,0.98
+SG. PETANI UTARA Toll,GURUN Toll,2.13,3.9,5.2,1.06,1.55
+SG. PETANI UTARA Toll,BERTAM Toll,2.54,4.7,6.3,1.31,1.88
+SG. PETANI UTARA Toll,Ipoh Selatan Toll,3.69,6.6,8.8,1.88,2.78
+SG. PETANI UTARA Toll,SG. DUA Toll,3.69,6.6,8.8,1.88,2.78
+SG. PETANI UTARA Toll,PENDANG Toll,4.26,7.7,10.3,2.13,3.19
+SG. PETANI UTARA Toll,BKT. TAMBUN SELATAN Toll,4.59,8.2,11,2.29,3.44
+SG. PETANI UTARA Toll,Alor Setar Selatan Toll,5.9,10.8,14.5,2.95,4.42
+SG. PETANI UTARA Toll,JAWI Toll,5.99,10.8,14.4,3.03,4.5
+SG. PETANI UTARA Toll,Alor Setar Utara Toll,6.56,12,16,3.28,4.92
+SG. PETANI UTARA Toll,Hutan Kampung Toll,7.21,13.2,17.6,3.6,5.41
+SG. PETANI UTARA Toll,BANDAR BAHARU Toll,7.3,13.2,17.6,3.68,5.49
+SG. PETANI UTARA Toll,ALOR PONGSU Toll,7.87,14.2,19,4.01,5.9
+SG. PETANI UTARA Toll,BUKIT MERAH Toll,9.35,17,22.7,4.75,7.04
+SG. PETANI UTARA Toll,TAIPING UTARA Toll,10.66,19.3,25.8,5.41,8.03
+SG. PETANI UTARA Toll,CANGKAT JERING Toll,12.3,22.3,29.7,6.14,9.26
+SG. PETANI UTARA Toll,KUALA KANGSAR Toll,14.76,26.8,35.7,7.37,11.06
+SG. PETANI UTARA Toll,IPOH UTARA Toll,17.47,31.8,42.4,8.77,13.11
+SG. PETANI UTARA Toll,SIMPANG PULAI Toll,18.94,34.5,45.9,9.51,14.18
+SG. PETANI UTARA Toll,GOPENG Toll,20.01,36.5,48.7,10.08,15
+SG. PETANI UTARA Toll,TAPAH Toll,23.37,42.6,56.8,11.72,17.54
+SG. PETANI UTARA Toll,BIDOR Toll,24.85,45.4,60.5,12.46,18.69
+SG. PETANI UTARA Toll,SUNGKAI Toll,26.4,48.1,64.2,13.2,19.84
+SG. PETANI UTARA Toll,SLIM RIVER Toll,28.54,52,69.3,14.26,21.39
+SG. PETANI UTARA Toll,BEHRANG Toll,30.18,55,73.4,15.16,22.62
+SG. PETANI UTARA Toll,Tg. Malim Toll,31.82,58,77.3,15.9,23.85
+SG. PETANI UTARA Toll,LEMBAH BERINGIN Toll,32.8,59.8,79.8,16.48,24.59
+SG. PETANI UTARA Toll,BUKIT TAGAR Toll,33.78,61.7,82.2,16.97,25.33
+SG. PETANI UTARA Toll,BUKIT BERUNTUNG Toll,34.77,63.4,84.5,17.38,26.07
+SG. PETANI UTARA Toll,SUNGAI BUAYA Toll,35.51,64.8,86.4,17.79,26.64
+SG. PETANI UTARA Toll,RAWANG Toll,36.49,66.6,88.8,18.28,27.38
+SG. PETANI UTARA Toll,RAWANG SELATAN Toll,36.98,67.5,90,18.53,27.79
+SG. PETANI UTARA Toll,SG. BULOH HOSPITAL Toll,37.64,68.7,91.6,18.85,28.28
+SG. PETANI UTARA Toll,SG. BULOH Toll,37.88,69.1,92.2,18.94,28.45
+SG. PETANI UTARA Toll,KOTA DAMANSARA Toll,38.54,70.3,93.8,19.35,28.94
+SG. PETANI UTARA Toll,DAMANSARA Toll,38.95,71.2,94.9,19.51,29.27
+SG. PETANI UTARA Toll,Jalan Duta Toll,39.2,71.5,95.3,19.59,29.35
+SG. PETANI UTARA Toll,SUBANG Toll,39.2,71.5,95.3,19.59,29.35
+SG. PETANI UTARA Toll,Shah Alam Toll,39.69,72.5,96.6,19.92,29.84
+SG. PETANI UTARA Toll,Seafield Toll,40.43,73.8,98.3,20.25,30.25
+SG. PETANI UTARA Toll,BANDAR CASSIA Toll,11.18,40,82.8,11.25,30.3
+SG. PETANI UTARA Toll,Setia Alam Toll,40.67,74.2,99,20.33,30.5
+SG. PETANI UTARA Toll,USJ Toll,40.84,74.5,99.3,20.41,30.58
+SG. PETANI UTARA Toll,Bukit Raja Toll,40.84,74.5,99.4,20.41,30.66
+SG. PETANI UTARA Toll,PUTRA HEIGHTS Toll,41.33,75.5,100.6,20.66,30.99
+SG. PETANI UTARA Toll,Bandar Saujana Putra Toll,41.66,76,101.3,20.82,31.23
+SG. PETANI UTARA Toll,BANDAR GAMUDA COVE Toll,42.72,78,104,21.4,32.05
+SG. PETANI UTARA Toll,Putra Jaya Toll,43.21,78.9,105.1,21.64,32.38
+SG. PETANI UTARA Toll,BANDAR SERENIA Toll,43.95,80.2,107,22.05,32.96
+SG. PETANI UTARA Toll,KLIA Toll,44.44,80.9,107.6,22.46,33.37
+SG. PETANI UTARA Toll,Nilai Toll,45.67,83.4,111.1,22.87,34.27
+SG. PETANI UTARA Toll,Putera Mahkota Toll,45.67,83.5,111.3,22.95,34.27
+SG. PETANI UTARA Toll,SOUTHVILLE CITY Toll,46.17,84.2,112.3,23.12,34.6
+SG. PETANI UTARA Toll,BANGI Toll,46.49,84.9,113.2,23.28,34.84
+SG. PETANI UTARA Toll,KAJANG Toll,47.15,86.1,114.8,23.69,35.33
+SG. PETANI UTARA Toll,Bandar Ainsdale Toll,47.31,86.4,115.2,23.77,35.5
+SG. PETANI UTARA Toll,UPM Toll,47.4,86.5,115.3,23.77,35.5
+SG. PETANI UTARA Toll,SEREMBAN Toll,47.64,87.1,116,23.94,35.74
+SG. PETANI UTARA Toll,Sg. Besi Toll,47.89,87.5,116.6,24.02,35.91
+SG. PETANI UTARA Toll,Port Dickson Toll,48.13,87.9,117.1,24.1,36.07
+SG. PETANI UTARA Toll,Senawang Toll,48.54,88.7,118.2,24.35,36.4
+SG. PETANI UTARA Toll,PEDAS LINGGI Toll,50.35,91.9,122.5,25.25,37.71
+SG. PETANI UTARA Toll,Simpang Ampat Toll,52.89,96.6,128.8,26.56,39.68
+SG. PETANI UTARA Toll,Ayer Keroh Toll,55.27,101,134.6,27.71,41.48
+SG. PETANI UTARA Toll,Jasin Toll,57.07,104.3,139,28.61,42.8
+SG. PETANI UTARA Toll,Tangkak Toll,58.22,106.4,141.8,29.19,43.7
+SG. PETANI UTARA Toll,Bukit Gambir Toll,59.61,108.9,145.1,29.84,44.68
+SG. PETANI UTARA Toll,Pagoh Toll,61.34,112.1,149.5,30.74,45.99
+SG. PETANI UTARA Toll,Yong Peng Utara Toll,66.09,120.8,161,33.12,49.6
+SG. PETANI UTARA Toll,Ayer Hitam Toll,68.31,124.8,166.3,34.19,51.24
+SG. PETANI UTARA Toll,Machap Toll,69.13,126.3,168.4,34.6,51.82
+SG. PETANI UTARA Toll,Spg. Renggam Toll,70.68,129.2,172.2,35.42,53.05
+SG. PETANI UTARA Toll,Sedenak Toll,72.73,132.9,177.2,36.48,54.52
+SG. PETANI UTARA Toll,KULAI Toll,74.29,135.7,180.9,37.22,55.67
+SG. PETANI UTARA Toll,Senai Utara Toll,75.28,137.5,183.3,37.71,56.41
+SG. PETANI UTARA Toll,Skudai Toll,75.6,138.1,184.1,37.88,56.65
+Shah Alam Toll,SUBANG Toll,0.82,1.5,2,0.41,0.66
+Shah Alam Toll,Seafield Toll,0.98,1.8,2.5,0.49,0.74
+Shah Alam Toll,Setia Alam Toll,1.15,2.1,2.8,0.57,0.9
+Shah Alam Toll,Bukit Raja Toll,1.31,2.3,3.1,0.66,0.98
+Shah Alam Toll,DAMANSARA Toll,1.31,2.4,3.3,0.66,1.07
+Shah Alam Toll,USJ Toll,1.48,2.6,3.5,0.74,1.07
+Shah Alam Toll,KOTA DAMANSARA Toll,1.56,2.8,3.8,0.82,1.23
+Shah Alam Toll,PUTRA HEIGHTS Toll,1.97,3.6,4.8,0.98,1.48
+Shah Alam Toll,SG. BULOH Toll,2.13,4,5.3,1.07,1.64
+Shah Alam Toll,Bandar Saujana Putra Toll,2.3,4.2,5.6,1.15,1.72
+Shah Alam Toll,SG. BULOH HOSPITAL Toll,2.46,4.5,6,1.23,1.89
+Shah Alam Toll,Jalan Duta Toll,2.71,4.9,6.5,1.31,2.05
+Shah Alam Toll,RAWANG SELATAN Toll,2.95,5.4,7.2,1.48,2.3
+Shah Alam Toll,BANDAR GAMUDA COVE Toll,3.36,6.2,8.3,1.72,2.54
+Shah Alam Toll,RAWANG Toll,3.53,6.5,8.7,1.8,2.71
+Shah Alam Toll,Putra Jaya Toll,3.85,7,9.3,1.89,2.87
+Shah Alam Toll,SUNGAI BUAYA Toll,4.59,8.4,11.1,2.3,3.44
+Shah Alam Toll,BANDAR SERENIA Toll,4.59,8.4,11.2,2.3,3.44
+Shah Alam Toll,BUKIT BERUNTUNG Toll,5.25,9.6,12.8,2.62,3.94
+Shah Alam Toll,KLIA Toll,5.08,9.1,11.9,2.79,3.94
+Shah Alam Toll,BUKIT TAGAR Toll,6.15,11.3,15.1,3.12,4.67
+Shah Alam Toll,Nilai Toll,6.31,11.5,15.3,3.12,4.76
+Shah Alam Toll,Putera Mahkota Toll,6.4,11.7,15.6,3.2,4.84
+Shah Alam Toll,SOUTHVILLE CITY Toll,6.81,12.4,16.6,3.36,5.08
+Shah Alam Toll,BANGI Toll,7.22,13.1,17.5,3.53,5.41
+Shah Alam Toll,LEMBAH BERINGIN Toll,7.3,13.3,17.8,3.69,5.49
+Shah Alam Toll,KAJANG Toll,7.87,14.4,19.1,3.94,5.9
+Shah Alam Toll,Bandar Ainsdale Toll,8.04,14.7,19.5,4.02,6.07
+Shah Alam Toll,UPM Toll,8.12,14.8,19.7,4.02,6.07
+Shah Alam Toll,SEREMBAN Toll,8.36,15.3,20.3,4.18,6.31
+Shah Alam Toll,Tg. Malim Toll,8.36,15.3,20.4,4.18,6.31
+Shah Alam Toll,Sg. Besi Toll,8.61,15.7,20.9,4.26,6.48
+Shah Alam Toll,Port Dickson Toll,8.77,16,21.3,4.35,6.64
+Shah Alam Toll,Senawang Toll,9.18,16.8,22.4,4.59,6.97
+Shah Alam Toll,BEHRANG Toll,9.59,17.5,23.4,4.76,7.22
+Shah Alam Toll,PEDAS LINGGI Toll,11.07,20.2,26.9,5.49,8.28
+Shah Alam Toll,SLIM RIVER Toll,11.4,20.8,27.7,5.66,8.61
+Shah Alam Toll,SUNGKAI Toll,13.45,24.6,32.8,6.72,10.09
+Shah Alam Toll,Simpang Ampat Toll,13.61,24.9,33.1,6.81,10.25
+Shah Alam Toll,BIDOR Toll,15.09,27.5,36.7,7.54,11.32
+Shah Alam Toll,Ayer Keroh Toll,15.99,29.1,38.8,7.95,11.97
+Shah Alam Toll,TAPAH Toll,16.48,30.2,40.2,8.28,12.38
+Shah Alam Toll,Jasin Toll,17.79,32.5,43.3,8.86,13.37
+Shah Alam Toll,Tangkak Toll,18.94,34.6,46,9.43,14.19
+Shah Alam Toll,GOPENG Toll,19.84,36.3,48.4,9.92,14.92
+Shah Alam Toll,Bukit Gambir Toll,20.34,37.1,49.4,10.09,15.25
+Shah Alam Toll,SIMPANG PULAI Toll,20.91,38.2,51,10.41,15.74
+Shah Alam Toll,Pagoh Toll,22.06,40.3,53.7,10.99,16.56
+Shah Alam Toll,Ipoh Selatan Toll,22.22,40.7,54.2,11.15,16.73
+Shah Alam Toll,KUALA KANGSAR Toll,25.09,46,61.2,12.63,18.86
+Shah Alam Toll,Yong Peng Utara Toll,26.81,49,65.3,13.37,20.17
+Shah Alam Toll,CANGKAT JERING Toll,27.47,50.3,67,13.78,20.66
+Shah Alam Toll,Ayer Hitam Toll,29.03,53,70.6,14.43,21.81
+Shah Alam Toll,TAIPING UTARA Toll,29.27,53.5,71.3,14.68,21.98
+Shah Alam Toll,Machap Toll,29.77,54.4,72.6,14.84,22.39
+Shah Alam Toll,BUKIT MERAH Toll,30.5,55.8,74.3,15.25,22.88
+Shah Alam Toll,Spg. Renggam Toll,31.32,57.3,76.4,15.66,23.53
+Shah Alam Toll,ALOR PONGSU Toll,31.98,58.4,77.9,15.99,23.94
+Shah Alam Toll,BANDAR BAHARU Toll,32.39,59.4,79.1,16.24,24.35
+Shah Alam Toll,Sedenak Toll,33.46,61.2,81.5,16.73,25.09
+Shah Alam Toll,JAWI Toll,33.95,62.1,82.7,16.97,25.5
+Shah Alam Toll,KULAI Toll,34.93,63.8,85.1,17.38,26.24
+Shah Alam Toll,BKT. TAMBUN UTARA Toll,35.26,64.6,86,17.71,26.49
+Shah Alam Toll,Senai Utara Toll,35.92,65.6,87.5,17.96,26.98
+Shah Alam Toll,JURU Toll,36,65.9,87.8,18.04,27.06
+Shah Alam Toll,Skudai Toll,36.33,66.4,88.5,18.12,27.22
+Shah Alam Toll,BERTAM Toll,37.31,68.2,90.9,18.77,28.66
+Shah Alam Toll,SG. PETANI SELATAN Toll,38.95,71.2,94.8,19.59,29.35
+Shah Alam Toll,SG. PETANI UTARA Toll,39.69,72.5,96.6,19.92,29.84
+Shah Alam Toll,GURUN Toll,41.49,75.9,101.1,20.91,31.24
+Shah Alam Toll,PENDANG Toll,43.7,79.9,106.4,21.97,32.88
+Shah Alam Toll,Alor Setar Selatan Toll,45.34,82.9,110.4,22.79,34.56
+Shah Alam Toll,Alor Setar Utara Toll,46,84,111.9,23.12,34.6
+Shah Alam Toll,Hutan Kampung Toll,46.66,85.3,113.6,23.45,35.36
+Shah Alam Toll,BANDAR CASSIA Toll,41.19,95.1,156.2,26.27,52.86
+Simpang Ampat Toll,Ayer Keroh Toll,2.54,4.7,6.3,1.31,1.89
+Simpang Ampat Toll,PEDAS LINGGI Toll,2.71,4.9,6.6,1.31,2.05
+Simpang Ampat Toll,Jasin Toll,4.35,8,10.6,2.21,3.28
+Simpang Ampat Toll,Senawang Toll,4.59,8.3,11.1,2.3,3.44
+Simpang Ampat Toll,Port Dickson Toll,4.84,8.8,11.8,2.46,3.61
+Simpang Ampat Toll,SEREMBAN Toll,5.25,9.6,12.8,2.62,3.94
+Simpang Ampat Toll,Tangkak Toll,5.49,10.1,13.4,2.79,4.1
+Simpang Ampat Toll,Bandar Ainsdale Toll,5.9,10.8,14.4,2.95,4.43
+Simpang Ampat Toll,Bukit Gambir Toll,6.89,12.5,16.7,3.44,5.17
+Simpang Ampat Toll,Nilai Toll,7.79,14.2,18.9,3.85,5.82
+Simpang Ampat Toll,Putera Mahkota Toll,8.2,15,20,4.1,6.15
+Simpang Ampat Toll,Pagoh Toll,8.61,15.8,21,4.35,6.48
+Simpang Ampat Toll,SOUTHVILLE CITY Toll,8.61,15.8,21.1,4.35,6.48
+Simpang Ampat Toll,BANGI Toll,9.02,16.5,22,4.51,6.81
+Simpang Ampat Toll,BANDAR SERENIA Toll,9.27,17,22.7,4.67,6.97
+Simpang Ampat Toll,KAJANG Toll,9.76,17.8,23.7,4.84,7.3
+Simpang Ampat Toll,UPM Toll,10,18.2,24.3,5,7.46
+Simpang Ampat Toll,BANDAR GAMUDA COVE Toll,10.09,18.5,24.6,5.08,7.54
+Simpang Ampat Toll,Sg. Besi Toll,10.5,19.1,25.5,5.25,7.87
+Simpang Ampat Toll,KLIA Toll,10.66,19.3,25.5,5.58,8.12
+Simpang Ampat Toll,Bandar Saujana Putra Toll,11.56,21.1,28.1,5.82,8.69
+Simpang Ampat Toll,Putra Jaya Toll,11.89,21.8,29,5.99,8.94
+Simpang Ampat Toll,PUTRA HEIGHTS Toll,11.97,22,29.2,6.07,9.02
+Simpang Ampat Toll,USJ Toll,12.46,22.9,30.4,6.31,9.35
+Simpang Ampat Toll,Seafield Toll,12.96,23.7,31.6,6.48,9.76
+Simpang Ampat Toll,Ebor Selatan Toll,12.96,23.8,31.6,6.56,9.76
+Simpang Ampat Toll,Yong Peng Utara Toll,13.37,24.5,32.6,6.72,10
+Simpang Ampat Toll,Shah Alam Toll,13.61,24.9,33.1,6.81,10.25
+Simpang Ampat Toll,SUBANG Toll,14.1,25.8,34.3,7.05,10.5
+Simpang Ampat Toll,Setia Alam Toll,14.51,26.5,35.4,7.22,10.91
+Simpang Ampat Toll,DAMANSARA Toll,14.51,26.6,35.4,7.3,10.91
+Simpang Ampat Toll,Bukit Raja Toll,14.6,26.7,35.7,7.3,10.99
+Simpang Ampat Toll,KOTA DAMANSARA Toll,14.76,27,36,7.38,11.07
+Simpang Ampat Toll,SG. BULOH Toll,15.33,28.1,37.4,7.71,11.48
+Simpang Ampat Toll,Ayer Hitam Toll,15.58,28.4,37.9,7.79,11.64
+Simpang Ampat Toll,SG. BULOH HOSPITAL Toll,15.66,28.6,38.1,7.87,11.73
+Simpang Ampat Toll,Jalan Duta Toll,15.83,29.1,38.7,7.95,11.89
+Simpang Ampat Toll,RAWANG SELATAN Toll,16.15,29.6,39.4,8.12,12.05
+Simpang Ampat Toll,Machap Toll,16.4,30,40,8.2,12.3
+Simpang Ampat Toll,RAWANG Toll,16.73,30.7,40.8,8.45,12.55
+Simpang Ampat Toll,SUNGAI BUAYA Toll,17.79,32.5,43.3,8.94,13.28
+Simpang Ampat Toll,Spg. Renggam Toll,17.96,32.8,43.8,8.94,13.45
+Simpang Ampat Toll,BUKIT BERUNTUNG Toll,18.45,33.7,44.9,9.27,13.78
+Simpang Ampat Toll,BUKIT TAGAR Toll,19.43,35.6,47.4,9.76,14.51
+Simpang Ampat Toll,Sedenak Toll,20.01,36.6,48.8,10,15.01
+Simpang Ampat Toll,LEMBAH BERINGIN Toll,20.5,37.5,50,10.25,15.33
+Simpang Ampat Toll,KULAI Toll,21.48,39.4,52.5,10.74,16.15
+Simpang Ampat Toll,Tg. Malim Toll,21.57,39.4,52.5,10.82,16.15
+Simpang Ampat Toll,Senai Utara Toll,22.55,41.2,54.9,11.23,16.89
+Simpang Ampat Toll,Skudai Toll,22.88,41.8,55.7,11.4,17.14
+Simpang Ampat Toll,BEHRANG Toll,22.8,41.8,55.7,11.48,17.14
+Simpang Ampat Toll,SLIM RIVER Toll,24.52,45,59.9,12.3,18.37
+Simpang Ampat Toll,SUNGKAI Toll,26.65,48.7,64.9,13.37,19.93
+Simpang Ampat Toll,BIDOR Toll,28.21,51.7,68.9,14.19,21.16
+Simpang Ampat Toll,TAPAH Toll,29.68,54.3,72.4,14.92,22.22
+Simpang Ampat Toll,GOPENG Toll,33.05,60.5,80.5,16.56,24.76
+Simpang Ampat Toll,SIMPANG PULAI Toll,34.11,62.4,83.1,17.06,25.58
+Simpang Ampat Toll,Ipoh Selatan Toll,35.42,64.8,86.4,17.79,26.57
+Simpang Ampat Toll,KUALA KANGSAR Toll,38.29,70.1,93.4,19.27,28.7
+Simpang Ampat Toll,CANGKAT JERING Toll,40.67,74.4,99.2,20.42,30.5
+Simpang Ampat Toll,TAIPING UTARA Toll,42.48,77.6,103.5,21.32,31.82
+Simpang Ampat Toll,BUKIT MERAH Toll,43.71,79.9,106.5,21.89,32.72
+Simpang Ampat Toll,ALOR PONGSU Toll,45.1,82.5,110.1,22.55,33.87
+Simpang Ampat Toll,BANDAR BAHARU Toll,45.59,83.5,111.3,22.88,34.19
+Simpang Ampat Toll,JAWI Toll,47.15,86.2,114.9,23.62,35.34
+Simpang Ampat Toll,BKT. TAMBUN UTARA Toll,48.46,88.7,118.2,24.35,36.33
+Simpang Ampat Toll,JURU Toll,49.2,90,120,24.68,36.9
+Simpang Ampat Toll,BERTAM Toll,50.51,92.3,123.1,25.41,38.5
+Simpang Ampat Toll,SG. PETANI SELATAN Toll,52.15,95.3,127,26.23,39.19
+Simpang Ampat Toll,SG. PETANI UTARA Toll,52.89,96.6,128.8,26.56,39.68
+Simpang Ampat Toll,GURUN Toll,54.69,100,133.3,27.55,41.08
+Simpang Ampat Toll,PENDANG Toll,56.9,104,138.6,28.61,42.72
+Simpang Ampat Toll,Alor Setar Selatan Toll,58.54,107,142.6,29.43,44.4
+Simpang Ampat Toll,Alor Setar Utara Toll,59.2,108.1,144.1,29.76,44.44
+Simpang Ampat Toll,Hutan Kampung Toll,59.86,109.4,145.8,30.09,45.2
+Simpang Ampat Toll,BANDAR CASSIA Toll,54.39,119.2,188.4,32.91,62.7
+SIMPANG PULAI Toll,GOPENG Toll,1.23,2.2,3,0.57,0.9
+SIMPANG PULAI Toll,Ipoh Selatan Toll,1.48,2.7,3.5,0.74,1.07
+SIMPANG PULAI Toll,KUALA KANGSAR Toll,4.35,8,10.5,2.21,3.2
+SIMPANG PULAI Toll,TAPAH Toll,4.59,8.4,11.1,2.3,3.44
+SIMPANG PULAI Toll,BIDOR Toll,6.07,11.1,14.8,3.03,4.59
+SIMPANG PULAI Toll,CANGKAT JERING Toll,6.72,12.3,16.3,3.36,5
+SIMPANG PULAI Toll,SUNGKAI Toll,7.54,13.9,18.5,3.77,5.66
+SIMPANG PULAI Toll,TAIPING UTARA Toll,8.53,15.5,20.6,4.26,6.31
+SIMPANG PULAI Toll,BUKIT MERAH Toll,9.76,17.8,23.6,4.84,7.22
+SIMPANG PULAI Toll,SLIM RIVER Toll,9.68,17.7,23.7,4.84,7.3
+SIMPANG PULAI Toll,ALOR PONGSU Toll,11.15,20.4,27.2,5.58,8.36
+SIMPANG PULAI Toll,BEHRANG Toll,11.32,20.7,27.6,5.66,8.53
+SIMPANG PULAI Toll,BANDAR BAHARU Toll,11.64,21.4,28.4,5.82,8.69
+SIMPANG PULAI Toll,Tg. Malim Toll,12.96,23.8,31.7,6.48,9.76
+SIMPANG PULAI Toll,JAWI Toll,13.2,24.1,32,6.56,9.84
+SIMPANG PULAI Toll,LEMBAH BERINGIN Toll,14.02,25.6,34.1,6.97,10.5
+SIMPANG PULAI Toll,BKT. TAMBUN UTARA Toll,14.51,26.6,35.3,7.3,10.82
+SIMPANG PULAI Toll,BUKIT TAGAR Toll,14.92,27.3,36.4,7.46,11.23
+SIMPANG PULAI Toll,JURU Toll,15.25,27.9,37.1,7.63,11.4
+SIMPANG PULAI Toll,BUKIT BERUNTUNG Toll,15.91,29.1,38.7,7.95,11.89
+SIMPANG PULAI Toll,SUNGAI BUAYA Toll,16.73,30.6,40.8,8.36,12.55
+SIMPANG PULAI Toll,BERTAM Toll,16.56,30.2,40.2,8.36,13
+SIMPANG PULAI Toll,RAWANG Toll,17.71,32.3,43.1,8.86,13.28
+SIMPANG PULAI Toll,RAWANG SELATAN Toll,18.2,33.2,44.3,9.1,13.61
+SIMPANG PULAI Toll,SG. PETANI SELATAN Toll,18.2,33.2,44.1,9.18,13.69
+SIMPANG PULAI Toll,SG. BULOH HOSPITAL Toll,18.86,34.5,46,9.43,14.1
+SIMPANG PULAI Toll,SG. PETANI UTARA Toll,18.94,34.5,45.9,9.51,14.18
+SIMPANG PULAI Toll,SG. BULOH Toll,19.11,34.9,46.5,9.51,14.27
+SIMPANG PULAI Toll,KOTA DAMANSARA Toll,19.76,36.1,48.1,9.84,14.84
+SIMPANG PULAI Toll,DAMANSARA Toll,20.17,36.9,49.2,10.09,15.17
+SIMPANG PULAI Toll,Jalan Duta Toll,20.34,37.2,49.6,10.17,15.25
+SIMPANG PULAI Toll,SUBANG Toll,20.34,37.2,49.6,10.17,15.25
+SIMPANG PULAI Toll,GURUN Toll,20.74,37.9,50.4,10.5,15.58
+SIMPANG PULAI Toll,Shah Alam Toll,20.91,38.2,51,10.41,15.74
+SIMPANG PULAI Toll,Seafield Toll,21.57,39.5,52.6,10.82,16.15
+SIMPANG PULAI Toll,Setia Alam Toll,21.89,40,53.3,10.91,16.4
+SIMPANG PULAI Toll,USJ Toll,21.98,40.2,53.6,10.99,16.48
+SIMPANG PULAI Toll,Bukit Raja Toll,22.06,40.3,53.7,10.99,16.48
+SIMPANG PULAI Toll,PUTRA HEIGHTS Toll,22.47,41.2,54.9,11.23,16.89
+SIMPANG PULAI Toll,Bandar Saujana Putra Toll,22.8,41.7,55.6,11.4,17.14
+SIMPANG PULAI Toll,PENDANG Toll,22.95,41.9,55.7,11.56,17.22
+SIMPANG PULAI Toll,BANDAR GAMUDA COVE Toll,23.94,43.8,58.4,11.97,17.96
+SIMPANG PULAI Toll,Putra Jaya Toll,24.35,44.6,59.4,12.22,18.29
+SIMPANG PULAI Toll,BANDAR SERENIA Toll,25.17,46,61.4,12.55,18.86
+SIMPANG PULAI Toll,Alor Setar Selatan Toll,24.59,44.9,59.7,12.38,18.9
+SIMPANG PULAI Toll,Alor Setar Utara Toll,25.25,46,61.2,12.71,18.94
+SIMPANG PULAI Toll,KLIA Toll,25.67,46.6,62,12.96,19.27
+SIMPANG PULAI Toll,Hutan Kampung Toll,25.91,47.3,62.9,13.04,19.7
+SIMPANG PULAI Toll,Nilai Toll,26.81,49.1,65.5,13.45,20.09
+SIMPANG PULAI Toll,Putera Mahkota Toll,26.9,49.2,65.6,13.53,20.17
+SIMPANG PULAI Toll,SOUTHVILLE CITY Toll,27.39,50,66.7,13.69,20.5
+SIMPANG PULAI Toll,BANGI Toll,27.72,50.7,67.5,13.86,20.75
+SIMPANG PULAI Toll,KAJANG Toll,28.37,51.9,69.1,14.19,21.24
+SIMPANG PULAI Toll,Bandar Ainsdale Toll,28.54,52.3,69.7,14.35,21.4
+SIMPANG PULAI Toll,UPM Toll,28.54,52.3,69.7,14.35,21.4
+SIMPANG PULAI Toll,SEREMBAN Toll,28.86,52.8,70.3,14.43,21.65
+SIMPANG PULAI Toll,Sg. Besi Toll,29.11,53.2,70.9,14.6,21.81
+SIMPANG PULAI Toll,Port Dickson Toll,29.27,53.6,71.4,14.68,21.98
+SIMPANG PULAI Toll,Senawang Toll,29.77,54.4,72.5,14.92,22.3
+SIMPANG PULAI Toll,PEDAS LINGGI Toll,31.49,57.7,76.9,15.83,23.62
+SIMPANG PULAI Toll,Simpang Ampat Toll,34.11,62.4,83.1,17.06,25.58
+SIMPANG PULAI Toll,Ayer Keroh Toll,36.49,66.8,89,18.29,27.39
+SIMPANG PULAI Toll,Jasin Toll,38.29,70,93.3,19.19,28.7
+SIMPANG PULAI Toll,Tangkak Toll,39.44,72.2,96.2,19.76,29.6
+SIMPANG PULAI Toll,Bukit Gambir Toll,40.75,74.6,99.4,20.42,30.59
+SIMPANG PULAI Toll,Pagoh Toll,42.56,77.9,103.8,21.32,31.9
+SIMPANG PULAI Toll,Yong Peng Utara Toll,47.31,86.6,115.3,23.7,35.42
+SIMPANG PULAI Toll,Ayer Hitam Toll,49.45,90.5,120.6,24.76,37.06
+SIMPANG PULAI Toll,BANDAR CASSIA Toll,20.44,57.1,105.5,15.85,37.2
+SIMPANG PULAI Toll,Machap Toll,50.35,92.1,122.7,25.17,37.72
+SIMPANG PULAI Toll,Spg. Renggam Toll,51.91,94.9,126.5,25.99,38.87
+SIMPANG PULAI Toll,Sedenak Toll,53.96,98.7,131.5,26.98,40.43
+SIMPANG PULAI Toll,KULAI Toll,55.43,101.4,135.2,27.8,41.57
+SIMPANG PULAI Toll,Senai Utara Toll,56.42,103.3,137.6,28.29,42.31
+SIMPANG PULAI Toll,Skudai Toll,56.83,103.9,138.5,28.45,42.56
+Skudai Toll,Senai Utara Toll,0.66,1.2,1.6,0.33,0.49
+Skudai Toll,KULAI Toll,1.48,2.8,3.7,0.74,1.15
+Skudai Toll,Sedenak Toll,3.03,5.6,7.5,1.56,2.3
+Skudai Toll,Spg. Renggam Toll,5.08,9.3,12.4,2.54,3.77
+Skudai Toll,Machap Toll,6.72,12.2,16.3,3.36,5
+Skudai Toll,Ayer Hitam Toll,7.46,13.7,18.2,3.77,5.58
+Skudai Toll,Yong Peng Selatan Toll,9.1,16.6,22.2,4.51,6.81
+Skudai Toll,Yong Peng Utara Toll,9.68,17.6,23.5,4.84,7.22
+Skudai Toll,Pagoh Toll,14.43,26.4,35.2,7.22,10.82
+Skudai Toll,Bukit Gambir Toll,16.15,29.5,39.3,8.04,12.05
+Skudai Toll,Tangkak Toll,17.38,31.8,42.4,8.69,13.04
+Skudai Toll,Jasin Toll,18.86,34.5,46,9.43,14.1
+Skudai Toll,Ayer Keroh Toll,20.34,37.2,49.6,10.17,15.25
+Skudai Toll,Simpang Ampat Toll,22.88,41.8,55.7,11.4,17.14
+Skudai Toll,PEDAS LINGGI Toll,25.42,46.5,62,12.71,19.11
+Skudai Toll,Senawang Toll,27.31,49.9,66.5,13.61,20.42
+Skudai Toll,Port Dickson Toll,27.55,50.4,67.2,13.78,20.66
+Skudai Toll,SEREMBAN Toll,27.96,51.1,68.1,13.94,20.99
+Skudai Toll,Bandar Ainsdale Toll,28.62,52.3,69.7,14.27,21.48
+Skudai Toll,Nilai Toll,30.42,55.7,74.2,15.25,22.8
+Skudai Toll,Putera Mahkota Toll,30.91,56.6,75.5,15.5,23.21
+Skudai Toll,SOUTHVILLE CITY Toll,31.32,57.3,76.4,15.66,23.53
+Skudai Toll,BANGI Toll,31.73,58,77.4,15.83,23.78
+Skudai Toll,BANDAR SERENIA Toll,31.98,58.5,78,15.99,24.03
+Skudai Toll,KAJANG Toll,32.47,59.3,79.1,16.24,24.35
+Skudai Toll,UPM Toll,32.64,59.7,79.7,16.32,24.52
+Skudai Toll,BANDAR GAMUDA COVE Toll,32.8,60,80,16.4,24.6
+Skudai Toll,Sg. Besi Toll,33.21,60.7,80.9,16.56,24.85
+Skudai Toll,KLIA Toll,33.37,60.8,80.9,16.89,25.09
+Skudai Toll,Bandar Saujana Putra Toll,34.28,62.6,83.5,17.14,25.67
+Skudai Toll,Putra Jaya Toll,34.6,63.3,84.4,17.3,25.91
+Skudai Toll,PUTRA HEIGHTS Toll,34.69,63.5,84.6,17.38,25.99
+Skudai Toll,USJ Toll,35.18,64.4,85.8,17.63,26.32
+Skudai Toll,Seafield Toll,35.67,65.2,87,17.79,26.73
+Skudai Toll,Ebor Selatan Toll,35.67,65.3,87,17.88,26.73
+Skudai Toll,Shah Alam Toll,36.33,66.4,88.5,18.12,27.22
+Skudai Toll,SUBANG Toll,36.74,67.2,89.5,18.37,27.55
+Skudai Toll,Setia Alam Toll,37.15,67.9,90.6,18.53,27.88
+Skudai Toll,DAMANSARA Toll,37.23,68.1,90.7,18.61,27.88
+Skudai Toll,Bukit Raja Toll,37.31,68.2,91,18.61,27.96
+Skudai Toll,KOTA DAMANSARA Toll,37.47,68.5,91.3,18.78,28.04
+Skudai Toll,SG. BULOH Toll,38.05,69.6,92.8,19.11,28.54
+Skudai Toll,SG. BULOH HOSPITAL Toll,38.29,70.1,93.5,19.19,28.7
+Skudai Toll,Jalan Duta Toll,38.54,70.5,94,19.35,28.86
+Skudai Toll,RAWANG SELATAN Toll,38.87,71.1,94.7,19.43,29.11
+Skudai Toll,RAWANG Toll,39.44,72.2,96.2,19.76,29.6
+Skudai Toll,SUNGAI BUAYA Toll,40.43,74,98.6,20.25,30.34
+Skudai Toll,BUKIT BERUNTUNG Toll,41.08,75.2,100.3,20.58,30.83
+Skudai Toll,BUKIT TAGAR Toll,42.07,77,102.6,21.07,31.57
+Skudai Toll,LEMBAH BERINGIN Toll,43.21,79,105.3,21.65,32.39
+Skudai Toll,Tg. Malim Toll,44.28,80.9,107.9,22.14,33.13
+Skudai Toll,BEHRANG Toll,45.43,83.2,110.9,22.8,34.11
+Skudai Toll,SLIM RIVER Toll,47.23,86.4,115.2,23.7,35.42
+Skudai Toll,SUNGKAI Toll,49.28,90.2,120.2,24.68,36.98
+Skudai Toll,BIDOR Toll,50.92,93.2,124.2,25.5,38.21
+Skudai Toll,TAPAH Toll,52.4,95.8,127.7,26.24,39.28
+Skudai Toll,GOPENG Toll,55.76,101.9,135.9,27.88,41.74
+Skudai Toll,SIMPANG PULAI Toll,56.83,103.9,138.5,28.45,42.56
+Skudai Toll,Ipoh Selatan Toll,58.14,106.3,141.7,29.11,43.54
+Skudai Toll,KUALA KANGSAR Toll,61.01,111.6,148.7,30.59,45.67
+Skudai Toll,CANGKAT JERING Toll,63.39,115.9,154.5,31.73,47.48
+Skudai Toll,TAIPING UTARA Toll,65.19,119.1,158.8,32.64,48.79
+Skudai Toll,BUKIT MERAH Toll,66.42,121.4,161.8,33.21,49.69
+Skudai Toll,ALOR PONGSU Toll,67.81,124,165.4,33.95,50.84
+Skudai Toll,BANDAR BAHARU Toll,68.31,125,166.6,34.19,51.17
+Skudai Toll,JAWI Toll,69.86,127.7,170.2,34.93,52.32
+Skudai Toll,BKT. TAMBUN UTARA Toll,71.18,130.2,173.5,35.67,53.3
+Skudai Toll,JURU Toll,71.91,131.5,175.3,36,53.87
+Skudai Toll,BERTAM Toll,73.22,133.8,178.4,36.73,55.47
+Skudai Toll,SG. PETANI SELATAN Toll,74.86,136.8,182.3,37.55,56.16
+Skudai Toll,SG. PETANI UTARA Toll,75.6,138.1,184.1,37.88,56.65
+Skudai Toll,GURUN Toll,77.4,141.5,188.6,38.87,58.05
+Skudai Toll,PENDANG Toll,79.61,145.5,193.9,39.93,59.69
+Skudai Toll,Alor Setar Selatan Toll,81.25,148.5,197.9,40.75,61.37
+Skudai Toll,Alor Setar Utara Toll,81.91,149.6,199.4,41.08,61.41
+Skudai Toll,Hutan Kampung Toll,82.57,150.9,201.1,41.41,62.17
+Skudai Toll,BANDAR CASSIA Toll,77.11,160.7,243.7,44.22,79.67
+SLIM RIVER Toll,BEHRANG Toll,1.8,3.4,4.5,0.9,1.39
+SLIM RIVER Toll,SUNGKAI Toll,2.3,4.2,5.6,1.15,1.72
+SLIM RIVER Toll,Tg. Malim Toll,3.36,6.2,8.3,1.72,2.54
+SLIM RIVER Toll,BIDOR Toll,3.85,7,9.4,1.89,2.87
+SLIM RIVER Toll,LEMBAH BERINGIN Toll,4.43,8.1,10.7,2.21,3.28
+SLIM RIVER Toll,TAPAH Toll,5.33,9.7,12.9,2.62,3.94
+SLIM RIVER Toll,BUKIT TAGAR Toll,5.41,9.9,13.2,2.71,4.02
+SLIM RIVER Toll,BUKIT BERUNTUNG Toll,6.4,11.6,15.5,3.2,4.76
+SLIM RIVER Toll,SUNGAI BUAYA Toll,7.22,13.2,17.5,3.61,5.41
+SLIM RIVER Toll,RAWANG Toll,8.12,14.8,19.7,4.02,6.07
+SLIM RIVER Toll,GOPENG Toll,8.61,15.8,21.1,4.35,6.48
+SLIM RIVER Toll,RAWANG SELATAN Toll,8.61,15.8,21.1,4.35,6.48
+SLIM RIVER Toll,SG. BULOH HOSPITAL Toll,9.27,16.9,22.6,4.59,6.97
+SLIM RIVER Toll,SG. BULOH Toll,9.51,17.3,23.1,4.76,7.13
+SLIM RIVER Toll,SIMPANG PULAI Toll,9.68,17.7,23.7,4.84,7.3
+SLIM RIVER Toll,KOTA DAMANSARA Toll,10.17,18.7,24.9,5.08,7.63
+SLIM RIVER Toll,DAMANSARA Toll,10.58,19.4,25.8,5.33,7.95
+SLIM RIVER Toll,Jalan Duta Toll,10.82,19.8,26.4,5.41,8.12
+SLIM RIVER Toll,SUBANG Toll,10.82,19.8,26.4,5.41,8.12
+SLIM RIVER Toll,Ipoh Selatan Toll,11.07,20.2,26.9,5.49,8.28
+SLIM RIVER Toll,Shah Alam Toll,11.4,20.8,27.7,5.66,8.61
+SLIM RIVER Toll,Seafield Toll,11.97,22,29.3,6.07,8.94
+SLIM RIVER Toll,Setia Alam Toll,12.3,22.4,29.9,6.15,9.18
+SLIM RIVER Toll,USJ Toll,12.38,22.7,30.3,6.23,9.27
+SLIM RIVER Toll,Bukit Raja Toll,12.46,22.8,30.5,6.23,9.35
+SLIM RIVER Toll,PUTRA HEIGHTS Toll,12.87,23.7,31.6,6.48,9.68
+SLIM RIVER Toll,Bandar Saujana Putra Toll,13.2,24.2,32.3,6.64,9.92
+SLIM RIVER Toll,KUALA KANGSAR Toll,13.94,25.5,33.9,6.97,10.41
+SLIM RIVER Toll,BANDAR GAMUDA COVE Toll,14.35,26.3,35,7.22,10.74
+SLIM RIVER Toll,Putra Jaya Toll,14.76,27.1,36.1,7.46,11.07
+SLIM RIVER Toll,BANDAR SERENIA Toll,15.58,28.5,38,7.79,11.64
+SLIM RIVER Toll,KLIA Toll,16.15,29.2,38.7,8.2,12.14
+SLIM RIVER Toll,CANGKAT JERING Toll,16.32,29.8,39.7,8.12,12.22
+SLIM RIVER Toll,Nilai Toll,17.22,31.6,42.1,8.69,12.96
+SLIM RIVER Toll,Putera Mahkota Toll,17.3,31.7,42.2,8.69,12.96
+SLIM RIVER Toll,SOUTHVILLE CITY Toll,17.79,32.5,43.3,8.86,13.28
+SLIM RIVER Toll,TAIPING UTARA Toll,18.12,33,44,9.02,13.53
+SLIM RIVER Toll,BANGI Toll,18.12,33.2,44.2,9.1,13.61
+SLIM RIVER Toll,KAJANG Toll,18.78,34.5,45.9,9.43,14.1
+SLIM RIVER Toll,Bandar Ainsdale Toll,18.94,34.8,46.3,9.51,14.19
+SLIM RIVER Toll,UPM Toll,19.02,34.9,46.4,9.59,14.27
+SLIM RIVER Toll,BUKIT MERAH Toll,19.35,35.3,47,9.59,14.43
+SLIM RIVER Toll,SEREMBAN Toll,19.35,35.4,47.1,9.68,14.43
+SLIM RIVER Toll,Sg. Besi Toll,19.52,35.8,47.6,9.84,14.6
+SLIM RIVER Toll,Port Dickson Toll,19.68,36.1,48.1,9.92,14.76
+SLIM RIVER Toll,Senawang Toll,20.17,36.9,49.1,10.09,15.09
+SLIM RIVER Toll,ALOR PONGSU Toll,20.75,37.9,50.6,10.33,15.58
+SLIM RIVER Toll,BANDAR BAHARU Toll,21.24,38.9,51.8,10.58,15.91
+SLIM RIVER Toll,PEDAS LINGGI Toll,21.98,40.3,53.6,11.07,16.48
+SLIM RIVER Toll,JAWI Toll,22.8,41.6,55.4,11.32,17.06
+SLIM RIVER Toll,BKT. TAMBUN UTARA Toll,24.11,44.1,58.7,12.05,18.04
+SLIM RIVER Toll,Simpang Ampat Toll,24.52,45,59.9,12.3,18.37
+SLIM RIVER Toll,JURU Toll,24.85,45.4,60.5,12.38,18.61
+SLIM RIVER Toll,Ayer Keroh Toll,26.98,49.3,65.7,13.53,20.17
+SLIM RIVER Toll,BERTAM Toll,26.16,47.7,63.6,13.11,20.21
+SLIM RIVER Toll,SG. PETANI SELATAN Toll,27.8,50.7,67.5,13.93,20.9
+SLIM RIVER Toll,SG. PETANI UTARA Toll,28.54,52,69.3,14.26,21.39
+SLIM RIVER Toll,Jasin Toll,28.7,52.6,70.1,14.43,21.57
+SLIM RIVER Toll,Tangkak Toll,29.85,54.6,72.8,15.01,22.39
+SLIM RIVER Toll,GURUN Toll,30.34,55.4,73.8,15.25,22.79
+SLIM RIVER Toll,Bukit Gambir Toll,31.24,57.2,76.2,15.66,23.45
+SLIM RIVER Toll,PENDANG Toll,32.55,59.4,79.1,16.31,24.43
+SLIM RIVER Toll,Pagoh Toll,32.96,60.3,80.4,16.56,24.68
+SLIM RIVER Toll,Alor Setar Selatan Toll,34.19,62.4,83.1,17.13,26.11
+SLIM RIVER Toll,Alor Setar Utara Toll,34.85,63.5,84.6,17.46,26.15
+SLIM RIVER Toll,Hutan Kampung Toll,35.51,64.8,86.3,17.79,26.91
+SLIM RIVER Toll,Yong Peng Utara Toll,37.8,69.1,92.1,18.94,28.29
+SLIM RIVER Toll,Ayer Hitam Toll,39.93,73.1,97.4,20.01,29.93
+SLIM RIVER Toll,Machap Toll,40.75,74.5,99.3,20.42,30.5
+SLIM RIVER Toll,Spg. Renggam Toll,42.31,77.4,103.1,21.16,31.73
+SLIM RIVER Toll,Sedenak Toll,44.44,81.2,108.3,22.22,33.29
+SLIM RIVER Toll,KULAI Toll,45.92,84,111.9,22.96,34.44
+SLIM RIVER Toll,Senai Utara Toll,46.82,85.7,114.3,23.45,35.1
+SLIM RIVER Toll,Skudai Toll,47.23,86.4,115.2,23.7,35.42
+SLIM RIVER Toll,BANDAR CASSIA Toll,30.04,74.6,128.9,20.61,44.41
+SOUTHVILLE CITY Toll,BANGI Toll,0.33,0.6,0.8,0.16,0.25
+SOUTHVILLE CITY Toll,Putera Mahkota Toll,0.74,1.3,1.8,0.33,0.57
+SOUTHVILLE CITY Toll,KAJANG Toll,0.98,1.8,2.4,0.49,0.74
+SOUTHVILLE CITY Toll,UPM Toll,1.23,2.2,3,0.57,0.9
+SOUTHVILLE CITY Toll,Nilai Toll,1.48,2.7,3.5,0.74,1.07
+SOUTHVILLE CITY Toll,Sg. Besi Toll,1.72,3.2,4.2,0.9,1.31
+SOUTHVILLE CITY Toll,BANDAR SERENIA Toll,2.54,4.7,6.2,1.31,1.89
+SOUTHVILLE CITY Toll,Bandar Ainsdale Toll,3.12,5.7,7.6,1.56,2.38
+SOUTHVILLE CITY Toll,BANDAR GAMUDA COVE Toll,3.36,6.1,8.2,1.64,2.54
+SOUTHVILLE CITY Toll,SEREMBAN Toll,3.44,6.3,8.4,1.72,2.62
+SOUTHVILLE CITY Toll,Port Dickson Toll,3.85,7,9.4,1.89,2.87
+SOUTHVILLE CITY Toll,KLIA Toll,3.94,7,9.1,2.21,3.03
+SOUTHVILLE CITY Toll,Senawang Toll,4.26,7.9,10.5,2.13,3.2
+SOUTHVILLE CITY Toll,Bandar Saujana Putra Toll,4.76,8.8,11.7,2.38,3.61
+SOUTHVILLE CITY Toll,Putra Jaya Toll,5.17,9.4,12.6,2.54,3.85
+SOUTHVILLE CITY Toll,PUTRA HEIGHTS Toll,5.25,9.6,12.8,2.62,3.94
+SOUTHVILLE CITY Toll,USJ Toll,5.66,10.4,13.9,2.87,4.26
+SOUTHVILLE CITY Toll,PEDAS LINGGI Toll,6.07,11.1,14.8,3.03,4.59
+SOUTHVILLE CITY Toll,Seafield Toll,6.15,11.2,15,3.03,4.59
+SOUTHVILLE CITY Toll,Ebor Selatan Toll,6.15,11.3,15.1,3.12,4.59
+SOUTHVILLE CITY Toll,Shah Alam Toll,6.81,12.4,16.6,3.36,5.08
+SOUTHVILLE CITY Toll,SUBANG Toll,7.3,13.3,17.7,3.61,5.49
+SOUTHVILLE CITY Toll,DAMANSARA Toll,7.71,14.1,18.8,3.85,5.82
+SOUTHVILLE CITY Toll,Setia Alam Toll,7.71,14.1,18.8,3.85,5.82
+SOUTHVILLE CITY Toll,Bukit Raja Toll,7.79,14.3,19.1,3.94,5.9
+SOUTHVILLE CITY Toll,KOTA DAMANSARA Toll,7.95,14.5,19.4,3.94,5.99
+SOUTHVILLE CITY Toll,SG. BULOH Toll,8.53,15.6,20.9,4.26,6.4
+SOUTHVILLE CITY Toll,Simpang Ampat Toll,8.61,15.8,21.1,4.35,6.48
+SOUTHVILLE CITY Toll,SG. BULOH HOSPITAL Toll,8.86,16.2,21.5,4.43,6.64
+SOUTHVILLE CITY Toll,Jalan Duta Toll,9.1,16.7,22.2,4.59,6.81
+SOUTHVILLE CITY Toll,RAWANG SELATAN Toll,9.43,17.2,22.9,4.67,7.05
+SOUTHVILLE CITY Toll,RAWANG Toll,10,18.3,24.4,5,7.54
+SOUTHVILLE CITY Toll,SUNGAI BUAYA Toll,10.99,20,26.7,5.49,8.2
+SOUTHVILLE CITY Toll,Ayer Keroh Toll,11.07,20.2,26.9,5.49,8.28
+SOUTHVILLE CITY Toll,BUKIT BERUNTUNG Toll,11.64,21.3,28.3,5.82,8.69
+SOUTHVILLE CITY Toll,Jasin Toll,12.87,23.6,31.4,6.48,9.68
+SOUTHVILLE CITY Toll,BUKIT TAGAR Toll,12.96,23.7,31.6,6.48,9.76
+SOUTHVILLE CITY Toll,LEMBAH BERINGIN Toll,13.69,25,33.4,6.81,10.25
+SOUTHVILLE CITY Toll,Tangkak Toll,14.02,25.6,34.1,6.97,10.5
+SOUTHVILLE CITY Toll,Tg. Malim Toll,14.76,27,36,7.38,11.07
+SOUTHVILLE CITY Toll,Bukit Gambir Toll,15.42,28.1,37.5,7.71,11.56
+SOUTHVILLE CITY Toll,BEHRANG Toll,16.07,29.3,39.1,8.04,12.05
+SOUTHVILLE CITY Toll,Pagoh Toll,17.14,31.3,41.7,8.53,12.87
+SOUTHVILLE CITY Toll,SLIM RIVER Toll,17.79,32.5,43.3,8.86,13.28
+SOUTHVILLE CITY Toll,SUNGKAI Toll,19.84,36.3,48.5,9.92,14.92
+SOUTHVILLE CITY Toll,BIDOR Toll,21.4,39.2,52.3,10.74,16.07
+SOUTHVILLE CITY Toll,Yong Peng Utara Toll,21.89,40.1,53.4,10.99,16.4
+SOUTHVILLE CITY Toll,TAPAH Toll,22.88,41.9,55.8,11.48,17.14
+SOUTHVILLE CITY Toll,Ayer Hitam Toll,24.03,43.9,58.6,12.05,18.04
+SOUTHVILLE CITY Toll,Machap Toll,24.85,45.5,60.6,12.46,18.61
+SOUTHVILLE CITY Toll,GOPENG Toll,26.24,48,64,13.12,19.68
+SOUTHVILLE CITY Toll,Spg. Renggam Toll,26.4,48.3,64.4,13.2,19.84
+SOUTHVILLE CITY Toll,SIMPANG PULAI Toll,27.39,50,66.7,13.69,20.5
+SOUTHVILLE CITY Toll,Sedenak Toll,28.54,52.2,69.6,14.27,21.4
+SOUTHVILLE CITY Toll,Ipoh Selatan Toll,28.7,52.5,69.9,14.35,21.48
+SOUTHVILLE CITY Toll,KULAI Toll,30.01,54.8,73.1,15.01,22.47
+SOUTHVILLE CITY Toll,Senai Utara Toll,31,56.7,75.6,15.5,23.29
+SOUTHVILLE CITY Toll,Skudai Toll,31.32,57.3,76.4,15.66,23.53
+SOUTHVILLE CITY Toll,KUALA KANGSAR Toll,31.57,57.7,77,15.74,23.7
+SOUTHVILLE CITY Toll,CANGKAT JERING Toll,33.95,62.1,82.8,16.97,25.5
+SOUTHVILLE CITY Toll,TAIPING UTARA Toll,35.75,65.3,87.1,17.88,26.81
+SOUTHVILLE CITY Toll,BUKIT MERAH Toll,36.98,67.5,90.1,18.45,27.72
+SOUTHVILLE CITY Toll,ALOR PONGSU Toll,38.38,70.2,93.6,19.19,28.78
+SOUTHVILLE CITY Toll,BANDAR BAHARU Toll,38.87,71.1,94.8,19.43,29.19
+SOUTHVILLE CITY Toll,JAWI Toll,40.43,73.9,98.5,20.17,30.26
+SOUTHVILLE CITY Toll,BKT. TAMBUN UTARA Toll,41.74,76.3,101.8,20.83,31.32
+SOUTHVILLE CITY Toll,JURU Toll,42.48,77.6,103.5,21.24,31.82
+SOUTHVILLE CITY Toll,BERTAM Toll,43.79,79.9,106.6,21.97,33.42
+SOUTHVILLE CITY Toll,SG. PETANI SELATAN Toll,45.43,82.9,110.5,22.79,34.11
+SOUTHVILLE CITY Toll,SG. PETANI UTARA Toll,46.17,84.2,112.3,23.12,34.6
+SOUTHVILLE CITY Toll,GURUN Toll,47.97,87.6,116.8,24.11,36
+SOUTHVILLE CITY Toll,PENDANG Toll,50.18,91.6,122.1,25.17,37.64
+SOUTHVILLE CITY Toll,Alor Setar Selatan Toll,51.82,94.6,126.1,25.99,39.32
+SOUTHVILLE CITY Toll,Alor Setar Utara Toll,52.48,95.7,127.6,26.32,39.36
+SOUTHVILLE CITY Toll,Hutan Kampung Toll,53.14,97,129.3,26.65,40.12
+SOUTHVILLE CITY Toll,BANDAR CASSIA Toll,47.67,106.9,172,29.46,57.7
+Spg. Renggam Toll,Machap Toll,1.72,3.2,4.2,0.9,1.31
+Spg. Renggam Toll,Sedenak Toll,2.3,4.2,5.6,1.15,1.72
+Spg. Renggam Toll,Ayer Hitam Toll,2.54,4.7,6.3,1.31,1.89
+Spg. Renggam Toll,KULAI Toll,3.77,6.8,9.1,1.89,2.79
+Spg. Renggam Toll,Yong Peng Selatan Toll,4.18,7.6,10.2,2.13,3.12
+Spg. Renggam Toll,Yong Peng Utara Toll,4.67,8.6,11.4,2.38,3.53
+Spg. Renggam Toll,Senai Utara Toll,4.76,8.7,11.6,2.38,3.53
+Spg. Renggam Toll,Skudai Toll,5.08,9.3,12.4,2.54,3.77
+Spg. Renggam Toll,Pagoh Toll,9.51,17.3,23.1,4.76,7.13
+Spg. Renggam Toll,Bukit Gambir Toll,11.23,20.5,27.3,5.58,8.45
+Spg. Renggam Toll,Tangkak Toll,12.46,22.8,30.5,6.23,9.35
+Spg. Renggam Toll,Jasin Toll,13.94,25.5,34,6.97,10.5
+Spg. Renggam Toll,Ayer Keroh Toll,15.42,28.1,37.5,7.71,11.56
+Spg. Renggam Toll,Simpang Ampat Toll,17.96,32.8,43.8,8.94,13.45
+Spg. Renggam Toll,PEDAS LINGGI Toll,20.5,37.4,49.9,10.25,15.33
+Spg. Renggam Toll,Senawang Toll,22.39,40.9,54.5,11.15,16.81
+Spg. Renggam Toll,Port Dickson Toll,22.63,41.4,55.2,11.32,16.97
+Spg. Renggam Toll,SEREMBAN Toll,23.04,42.1,56.1,11.48,17.3
+Spg. Renggam Toll,Bandar Ainsdale Toll,23.7,43.3,57.8,11.89,17.79
+Spg. Renggam Toll,Nilai Toll,25.5,46.7,62.3,12.79,19.19
+Spg. Renggam Toll,Putera Mahkota Toll,25.99,47.5,63.4,12.96,19.52
+Spg. Renggam Toll,SOUTHVILLE CITY Toll,26.4,48.3,64.4,13.2,19.84
+Spg. Renggam Toll,BANGI Toll,26.81,49,65.4,13.45,20.09
+Spg. Renggam Toll,BANDAR SERENIA Toll,27.06,49.4,65.9,13.53,20.25
+Spg. Renggam Toll,KAJANG Toll,27.55,50.4,67.2,13.78,20.66
+Spg. Renggam Toll,UPM Toll,27.8,50.8,67.7,13.86,20.83
+Spg. Renggam Toll,BANDAR GAMUDA COVE Toll,27.8,50.9,67.9,13.94,20.91
+Spg. Renggam Toll,Sg. Besi Toll,28.29,51.7,68.9,14.1,21.24
+Spg. Renggam Toll,KLIA Toll,28.37,51.7,68.8,14.43,21.4
+Spg. Renggam Toll,Bandar Saujana Putra Toll,29.27,53.5,71.4,14.68,21.98
+Spg. Renggam Toll,Putra Jaya Toll,29.6,54.2,72.3,14.84,22.22
+Spg. Renggam Toll,PUTRA HEIGHTS Toll,29.68,54.4,72.5,14.92,22.3
+Spg. Renggam Toll,USJ Toll,30.18,55.3,73.7,15.17,22.63
+Spg. Renggam Toll,Seafield Toll,30.67,56.1,74.9,15.33,23.04
+Spg. Renggam Toll,Ebor Selatan Toll,30.67,56.2,74.9,15.42,23.04
+Spg. Renggam Toll,Shah Alam Toll,31.32,57.3,76.4,15.66,23.53
+Spg. Renggam Toll,SUBANG Toll,31.82,58.2,77.6,15.91,23.86
+Spg. Renggam Toll,Setia Alam Toll,32.23,58.9,78.6,16.07,24.19
+Spg. Renggam Toll,DAMANSARA Toll,32.31,59.1,78.8,16.24,24.19
+Spg. Renggam Toll,Bukit Raja Toll,32.39,59.1,78.9,16.15,24.27
+Spg. Renggam Toll,KOTA DAMANSARA Toll,32.55,59.5,79.3,16.32,24.35
+Spg. Renggam Toll,SG. BULOH Toll,33.13,60.7,80.8,16.65,24.85
+Spg. Renggam Toll,SG. BULOH HOSPITAL Toll,33.46,61.2,81.5,16.73,25.01
+Spg. Renggam Toll,Jalan Duta Toll,33.62,61.6,82,16.89,25.17
+Spg. Renggam Toll,RAWANG SELATAN Toll,33.95,62.1,82.7,16.97,25.42
+Spg. Renggam Toll,RAWANG Toll,34.52,63.2,84.2,17.3,25.91
+Spg. Renggam Toll,SUNGAI BUAYA Toll,35.51,65,86.7,17.79,26.65
+Spg. Renggam Toll,BUKIT BERUNTUNG Toll,36.24,66.3,88.3,18.12,27.14
+Spg. Renggam Toll,BUKIT TAGAR Toll,37.15,68,90.6,18.61,27.88
+Spg. Renggam Toll,LEMBAH BERINGIN Toll,38.21,69.9,93.2,19.19,28.62
+Spg. Renggam Toll,Tg. Malim Toll,39.36,72,95.9,19.68,29.52
+Spg. Renggam Toll,BEHRANG Toll,40.59,74.2,98.9,20.34,30.42
+Spg. Renggam Toll,SLIM RIVER Toll,42.31,77.4,103.1,21.16,31.73
+Spg. Renggam Toll,SUNGKAI Toll,44.44,81.2,108.3,22.22,33.29
+Spg. Renggam Toll,BIDOR Toll,46,84.1,112.1,23.04,34.44
+Spg. Renggam Toll,TAPAH Toll,47.48,86.9,115.8,23.78,35.59
+Spg. Renggam Toll,GOPENG Toll,50.84,93,123.9,25.42,38.13
+Spg. Renggam Toll,SIMPANG PULAI Toll,51.91,94.9,126.5,25.99,38.87
+Spg. Renggam Toll,Ipoh Selatan Toll,53.22,97.4,129.8,26.65,39.93
+Spg. Renggam Toll,KUALA KANGSAR Toll,56.09,102.7,136.8,28.13,42.07
+Spg. Renggam Toll,CANGKAT JERING Toll,58.47,107,142.6,29.27,43.87
+Spg. Renggam Toll,TAIPING UTARA Toll,60.27,110.2,146.9,30.18,45.18
+Spg. Renggam Toll,BUKIT MERAH Toll,61.5,112.5,149.9,30.75,46.08
+Spg. Renggam Toll,ALOR PONGSU Toll,62.89,115.1,153.4,31.49,47.23
+Spg. Renggam Toll,BANDAR BAHARU Toll,63.39,116.1,154.7,31.73,47.56
+Spg. Renggam Toll,JAWI Toll,64.94,118.8,158.3,32.47,48.71
+Spg. Renggam Toll,BKT. TAMBUN UTARA Toll,66.26,121.3,161.6,33.21,49.69
+Spg. Renggam Toll,JURU Toll,66.99,122.6,163.4,33.54,50.27
+Spg. Renggam Toll,BERTAM Toll,68.3,124.9,166.5,34.27,51.87
+Spg. Renggam Toll,SG. PETANI SELATAN Toll,69.94,127.9,170.4,35.09,52.56
+Spg. Renggam Toll,SG. PETANI UTARA Toll,70.68,129.2,172.2,35.42,53.05
+Spg. Renggam Toll,GURUN Toll,72.48,132.6,176.7,36.41,54.45
+Spg. Renggam Toll,PENDANG Toll,74.69,136.6,182,37.47,56.09
+Spg. Renggam Toll,Alor Setar Selatan Toll,76.33,139.6,186,38.29,57.77
+Spg. Renggam Toll,Alor Setar Utara Toll,76.99,140.7,187.5,38.62,57.81
+Spg. Renggam Toll,Hutan Kampung Toll,77.65,142,189.2,38.95,58.57
+Spg. Renggam Toll,BANDAR CASSIA Toll,72.19,151.8,231.8,41.76,76.06
+SRI JAYA Toll,MARAN Toll,2,4,5.9,1,2
+SRI JAYA Toll,GAMBANG Toll,3.8,7.7,11.5,1.9,3.8
+SRI JAYA Toll,CHENOR Toll,6.1,12.2,18.2,3,6.1
+SRI JAYA Toll,KUANTAN Toll,6.6,13.2,19.8,3.3,6.6
+SRI JAYA Toll,TEMERLOH Toll,7.7,15.3,23,3.8,7.7
+SRI JAYA Toll,JABOR Toll,8,16,24,4,8
+SRI JAYA Toll,LANCANG Toll,10.9,21.7,32.6,5.4,10.9
+SRI JAYA Toll,CHENEH Toll,11,22,33,5.5,11
+SRI JAYA Toll,CUKAI Toll,12.4,24.9,37.3,6.2,12.4
+SRI JAYA Toll,KARAK Toll,13.4,26.8,40.3,6.7,13.4
+SRI JAYA Toll,KIJAL Toll,14.7,29.4,44.1,7.3,14.7
+SRI JAYA Toll,KERTEH Toll,16.4,35.6,49.2,8.2,16.4
+SRI JAYA Toll,PAKA Toll,17.8,35.6,53.4,8.9,17.8
+SRI JAYA Toll,DUNGUN Toll,20,40,60,10,20
+SRI JAYA Toll,BUKIT BESI Toll,22,44.1,66.1,11,22
+SRI JAYA Toll,AJIL Toll,26.6,53.4,87,13.3,29
+SRI JAYA Toll,TELEMUNG Toll,29,58.1,87,14.5,29
+SRI JAYA Toll,Kuala Terengganu (Kg Gemuroh) Toll,30.2,60.4,90.6,15.1,30.2
+SUBANG Toll,DAMANSARA Toll,0.82,1.4,1.9,0.41,0.57
+SUBANG Toll,Shah Alam Toll,0.82,1.5,2,0.41,0.66
+SUBANG Toll,KOTA DAMANSARA Toll,0.98,1.8,2.4,0.49,0.74
+SUBANG Toll,Seafield Toll,1.48,2.8,3.7,0.82,1.15
+SUBANG Toll,SG. BULOH Toll,1.64,3,3.9,0.82,1.23
+SUBANG Toll,Setia Alam Toll,1.8,3.3,4.4,0.9,1.31
+SUBANG Toll,SG. BULOH HOSPITAL Toll,1.89,3.5,4.6,0.98,1.39
+SUBANG Toll,USJ Toll,1.89,3.5,4.7,0.98,1.48
+SUBANG Toll,Bukit Raja Toll,1.97,3.6,4.8,0.98,1.48
+SUBANG Toll,Jalan Duta Toll,2.13,3.9,5.2,1.07,1.56
+SUBANG Toll,RAWANG SELATAN Toll,2.38,4.4,5.8,1.23,1.8
+SUBANG Toll,PUTRA HEIGHTS Toll,2.38,4.5,6,1.23,1.89
+SUBANG Toll,Bandar Saujana Putra Toll,2.71,5,6.7,1.39,2.13
+SUBANG Toll,RAWANG Toll,3.03,5.5,7.4,1.48,2.3
+SUBANG Toll,BANDAR GAMUDA COVE Toll,3.85,7.1,9.5,1.97,2.87
+SUBANG Toll,SUNGAI BUAYA Toll,4.02,7.3,9.8,1.97,3.03
+SUBANG Toll,Putra Jaya Toll,4.26,7.9,10.5,2.21,3.28
+SUBANG Toll,BUKIT BERUNTUNG Toll,4.67,8.6,11.4,2.38,3.53
+SUBANG Toll,BANDAR SERENIA Toll,5.08,9.3,12.4,2.54,3.85
+SUBANG Toll,BUKIT TAGAR Toll,5.66,10.4,13.9,2.87,4.26
+SUBANG Toll,KLIA Toll,5.66,10,13.2,2.95,4.26
+SUBANG Toll,LEMBAH BERINGIN Toll,6.72,12.3,16.4,3.36,5.08
+SUBANG Toll,Nilai Toll,6.81,12.4,16.5,3.44,5.08
+SUBANG Toll,Putera Mahkota Toll,6.81,12.5,16.6,3.44,5.08
+SUBANG Toll,SOUTHVILLE CITY Toll,7.3,13.3,17.7,3.61,5.49
+SUBANG Toll,BANGI Toll,7.63,14.1,18.7,3.85,5.74
+SUBANG Toll,Tg. Malim Toll,7.79,14.3,19,3.94,5.82
+SUBANG Toll,KAJANG Toll,8.36,15.3,20.3,4.18,6.23
+SUBANG Toll,Bandar Ainsdale Toll,8.53,15.6,20.7,4.26,6.31
+SUBANG Toll,UPM Toll,8.53,15.7,20.9,4.35,6.4
+SUBANG Toll,SEREMBAN Toll,8.86,16.2,21.5,4.43,6.64
+SUBANG Toll,BEHRANG Toll,9.1,16.6,22.2,4.51,6.81
+SUBANG Toll,Sg. Besi Toll,9.02,16.6,22.1,4.59,6.81
+SUBANG Toll,Port Dickson Toll,9.18,16.9,22.5,4.67,6.89
+SUBANG Toll,Senawang Toll,9.68,17.7,23.6,4.84,7.22
+SUBANG Toll,SLIM RIVER Toll,10.82,19.8,26.4,5.41,8.12
+SUBANG Toll,PEDAS LINGGI Toll,11.48,21.1,28.1,5.82,8.61
+SUBANG Toll,SUNGKAI Toll,12.96,23.7,31.5,6.48,9.68
+SUBANG Toll,Simpang Ampat Toll,14.1,25.8,34.3,7.05,10.5
+SUBANG Toll,BIDOR Toll,14.51,26.5,35.3,7.22,10.91
+SUBANG Toll,TAPAH Toll,15.91,29.2,38.9,7.95,11.97
+SUBANG Toll,Ayer Keroh Toll,16.4,30.1,40,8.28,12.3
+SUBANG Toll,Jasin Toll,18.29,33.4,44.5,9.18,13.69
+SUBANG Toll,GOPENG Toll,19.27,35.3,47,9.68,14.43
+SUBANG Toll,Tangkak Toll,19.35,35.5,47.2,9.76,14.51
+SUBANG Toll,SIMPANG PULAI Toll,20.34,37.2,49.6,10.17,15.25
+SUBANG Toll,Bukit Gambir Toll,20.75,38,50.6,10.41,15.58
+SUBANG Toll,Ipoh Selatan Toll,21.73,39.7,52.9,10.82,16.24
+SUBANG Toll,Pagoh Toll,22.47,41.2,54.8,11.32,16.81
+SUBANG Toll,KUALA KANGSAR Toll,24.6,45,59.9,12.3,18.37
+SUBANG Toll,CANGKAT JERING Toll,26.98,49.3,65.7,13.45,20.17
+SUBANG Toll,Yong Peng Utara Toll,27.31,50,66.5,13.69,20.42
+SUBANG Toll,TAIPING UTARA Toll,28.78,52.5,70,14.35,21.48
+SUBANG Toll,Ayer Hitam Toll,29.44,53.8,71.7,14.76,22.06
+SUBANG Toll,BUKIT MERAH Toll,30.01,54.8,73,14.92,22.39
+SUBANG Toll,Machap Toll,30.26,55.4,73.7,15.17,22.63
+SUBANG Toll,ALOR PONGSU Toll,31.41,57.4,76.5,15.66,23.53
+SUBANG Toll,Spg. Renggam Toll,31.82,58.2,77.6,15.91,23.86
+SUBANG Toll,BANDAR BAHARU Toll,31.9,58.4,77.8,15.91,23.86
+SUBANG Toll,JAWI Toll,33.46,61.1,81.4,16.65,25.01
+SUBANG Toll,Sedenak Toll,33.95,62.1,82.7,16.97,25.42
+SUBANG Toll,BKT. TAMBUN UTARA Toll,34.77,63.6,84.7,17.38,25.99
+SUBANG Toll,KULAI Toll,35.34,64.7,86.3,17.71,26.49
+SUBANG Toll,JURU Toll,35.51,64.9,86.5,17.71,26.57
+SUBANG Toll,Senai Utara Toll,36.41,66.6,88.7,18.2,27.22
+SUBANG Toll,Skudai Toll,36.74,67.2,89.5,18.37,27.55
+SUBANG Toll,BERTAM Toll,36.82,67.2,89.6,18.44,28.17
+SUBANG Toll,SG. PETANI SELATAN Toll,38.46,70.2,93.5,19.26,28.86
+SUBANG Toll,SG. PETANI UTARA Toll,39.2,71.5,95.3,19.59,29.35
+SUBANG Toll,GURUN Toll,41,74.9,99.8,20.58,30.75
+SUBANG Toll,PENDANG Toll,43.21,78.9,105.1,21.64,32.39
+SUBANG Toll,Alor Setar Selatan Toll,44.85,81.9,109.1,22.46,34.07
+SUBANG Toll,Alor Setar Utara Toll,45.51,83,110.6,22.79,34.11
+SUBANG Toll,Hutan Kampung Toll,46.17,84.3,112.3,23.12,34.87
+SUBANG Toll,BANDAR CASSIA Toll,40.7,94.1,154.9,25.94,52.37
+SUNGAI BUAYA Toll,BUKIT BERUNTUNG Toll,1.07,1.9,2.6,0.49,0.82
+SUNGAI BUAYA Toll,RAWANG Toll,1.31,2.3,3.1,0.66,0.98
+SUNGAI BUAYA Toll,RAWANG SELATAN Toll,1.72,3.2,4.2,0.9,1.31
+SUNGAI BUAYA Toll,BUKIT TAGAR Toll,1.97,3.7,4.9,0.98,1.48
+SUNGAI BUAYA Toll,SG. BULOH HOSPITAL Toll,2.46,4.5,6,1.23,1.8
+SUNGAI BUAYA Toll,SG. BULOH Toll,2.71,4.9,6.5,1.31,1.97
+SUNGAI BUAYA Toll,LEMBAH BERINGIN Toll,3.12,5.7,7.6,1.56,2.38
+SUNGAI BUAYA Toll,KOTA DAMANSARA Toll,3.36,6.2,8.3,1.72,2.54
+SUNGAI BUAYA Toll,DAMANSARA Toll,3.77,6.9,9.2,1.89,2.87
+SUNGAI BUAYA Toll,Jalan Duta Toll,3.94,7.2,9.7,1.97,2.95
+SUNGAI BUAYA Toll,SUBANG Toll,4.02,7.3,9.8,1.97,3.03
+SUNGAI BUAYA Toll,Tg. Malim Toll,4.18,7.6,10.2,2.13,3.12
+SUNGAI BUAYA Toll,Shah Alam Toll,4.59,8.4,11.1,2.3,3.44
+SUNGAI BUAYA Toll,Seafield Toll,5.17,9.6,12.7,2.62,3.85
+SUNGAI BUAYA Toll,BEHRANG Toll,5.49,10,13.3,2.71,4.1
+SUNGAI BUAYA Toll,Setia Alam Toll,5.49,10,13.3,2.71,4.1
+SUNGAI BUAYA Toll,USJ Toll,5.58,10.3,13.7,2.79,4.18
+SUNGAI BUAYA Toll,Bukit Raja Toll,5.66,10.3,13.7,2.79,4.26
+SUNGAI BUAYA Toll,PUTRA HEIGHTS Toll,6.07,11.3,15,3.03,4.59
+SUNGAI BUAYA Toll,Bandar Saujana Putra Toll,6.4,11.8,15.7,3.2,4.84
+SUNGAI BUAYA Toll,SLIM RIVER Toll,7.22,13.2,17.5,3.61,5.41
+SUNGAI BUAYA Toll,BANDAR GAMUDA COVE Toll,7.46,13.7,18.3,3.77,5.66
+SUNGAI BUAYA Toll,Putra Jaya Toll,7.95,14.7,19.5,4.02,5.99
+SUNGAI BUAYA Toll,BANDAR SERENIA Toll,8.69,15.9,21.2,4.35,6.56
+SUNGAI BUAYA Toll,SUNGKAI Toll,9.35,17,22.7,4.67,6.97
+SUNGAI BUAYA Toll,KLIA Toll,9.35,16.7,22.1,4.84,7.05
+SUNGAI BUAYA Toll,Nilai Toll,10.5,19.3,25.6,5.33,7.87
+SUNGAI BUAYA Toll,Putera Mahkota Toll,10.5,19.3,25.6,5.33,7.87
+SUNGAI BUAYA Toll,BIDOR Toll,10.91,19.9,26.5,5.41,8.12
+SUNGAI BUAYA Toll,SOUTHVILLE CITY Toll,10.99,20,26.7,5.49,8.2
+SUNGAI BUAYA Toll,BANGI Toll,11.32,20.8,27.7,5.74,8.45
+SUNGAI BUAYA Toll,KAJANG Toll,11.97,22,29.3,6.07,9.02
+SUNGAI BUAYA Toll,Bandar Ainsdale Toll,12.22,22.3,29.7,6.15,9.1
+SUNGAI BUAYA Toll,UPM Toll,12.22,22.4,29.8,6.15,9.18
+SUNGAI BUAYA Toll,TAPAH Toll,12.3,22.5,30,6.15,9.27
+SUNGAI BUAYA Toll,SEREMBAN Toll,12.55,22.9,30.5,6.31,9.35
+SUNGAI BUAYA Toll,Sg. Besi Toll,12.71,23.3,31.1,6.4,9.51
+SUNGAI BUAYA Toll,Port Dickson Toll,12.87,23.6,31.5,6.48,9.68
+SUNGAI BUAYA Toll,Senawang Toll,13.37,24.5,32.6,6.72,10
+SUNGAI BUAYA Toll,PEDAS LINGGI Toll,15.17,27.8,37,7.63,11.4
+SUNGAI BUAYA Toll,GOPENG Toll,15.66,28.6,38.2,7.87,11.73
+SUNGAI BUAYA Toll,SIMPANG PULAI Toll,16.73,30.6,40.8,8.36,12.55
+SUNGAI BUAYA Toll,Simpang Ampat Toll,17.79,32.5,43.3,8.94,13.28
+SUNGAI BUAYA Toll,Ipoh Selatan Toll,18.04,33,44,9.02,13.53
+SUNGAI BUAYA Toll,Ayer Keroh Toll,20.17,36.9,49.1,10.09,15.09
+SUNGAI BUAYA Toll,KUALA KANGSAR Toll,20.91,38.3,51,10.5,15.66
+SUNGAI BUAYA Toll,Jasin Toll,21.98,40.2,53.5,10.99,16.4
+SUNGAI BUAYA Toll,Tangkak Toll,23.04,42.2,56.2,11.56,17.3
+SUNGAI BUAYA Toll,CANGKAT JERING Toll,23.29,42.6,56.8,11.64,17.47
+SUNGAI BUAYA Toll,Bukit Gambir Toll,24.44,44.8,59.6,12.3,18.29
+SUNGAI BUAYA Toll,TAIPING UTARA Toll,25.09,45.8,61.1,12.55,18.78
+SUNGAI BUAYA Toll,Pagoh Toll,26.16,47.9,63.8,13.12,19.6
+SUNGAI BUAYA Toll,BUKIT MERAH Toll,26.32,48.1,64.1,13.12,19.68
+SUNGAI BUAYA Toll,ALOR PONGSU Toll,27.8,50.8,67.7,13.86,20.83
+SUNGAI BUAYA Toll,BANDAR BAHARU Toll,28.21,51.7,68.9,14.1,21.16
+SUNGAI BUAYA Toll,JAWI Toll,29.77,54.4,72.5,14.84,22.3
+SUNGAI BUAYA Toll,Yong Peng Utara Toll,31,56.7,75.5,15.5,23.21
+SUNGAI BUAYA Toll,BKT. TAMBUN UTARA Toll,31.08,56.9,75.8,15.58,23.29
+SUNGAI BUAYA Toll,JURU Toll,31.82,58.2,77.6,15.91,23.86
+SUNGAI BUAYA Toll,Ayer Hitam Toll,33.13,60.7,80.8,16.65,24.85
+SUNGAI BUAYA Toll,BERTAM Toll,33.13,60.5,80.7,16.64,25.46
+SUNGAI BUAYA Toll,Machap Toll,33.95,62.2,82.9,17.06,25.5
+SUNGAI BUAYA Toll,SG. PETANI SELATAN Toll,34.77,63.5,84.6,17.46,26.15
+SUNGAI BUAYA Toll,SG. PETANI UTARA Toll,35.51,64.8,86.4,17.79,26.64
+SUNGAI BUAYA Toll,Spg. Renggam Toll,35.51,65,86.7,17.79,26.65
+SUNGAI BUAYA Toll,GURUN Toll,37.31,68.2,90.9,18.78,28.04
+SUNGAI BUAYA Toll,Sedenak Toll,37.64,68.8,91.7,18.86,28.21
+SUNGAI BUAYA Toll,KULAI Toll,39.11,71.6,95.4,19.6,29.27
+SUNGAI BUAYA Toll,PENDANG Toll,39.52,72.2,96.2,19.84,29.68
+SUNGAI BUAYA Toll,Senai Utara Toll,40.1,73.4,97.8,20.09,30.09
+SUNGAI BUAYA Toll,Skudai Toll,40.43,74,98.6,20.25,30.34
+SUNGAI BUAYA Toll,Alor Setar Selatan Toll,41.16,75.2,100.2,20.66,31.36
+SUNGAI BUAYA Toll,Alor Setar Utara Toll,41.82,76.3,101.7,20.99,31.4
+SUNGAI BUAYA Toll,Hutan Kampung Toll,42.48,77.6,103.4,21.32,32.16
+SUNGAI BUAYA Toll,BANDAR CASSIA Toll,37.01,87.4,146,24.13,49.66
+SUNGKAI Toll,BIDOR Toll,1.72,3.2,4.2,0.9,1.31
+SUNGKAI Toll,SLIM RIVER Toll,2.3,4.2,5.6,1.15,1.72
+SUNGKAI Toll,TAPAH Toll,3.2,5.8,7.7,1.56,2.38
+SUNGKAI Toll,BEHRANG Toll,3.44,6.3,8.4,1.72,2.62
+SUNGKAI Toll,Tg. Malim Toll,5.49,10.1,13.5,2.79,4.1
+SUNGKAI Toll,GOPENG Toll,6.56,11.9,15.9,3.28,4.92
+SUNGKAI Toll,LEMBAH BERINGIN Toll,6.56,11.9,15.9,3.28,4.92
+SUNGKAI Toll,BUKIT TAGAR Toll,7.54,13.8,18.4,3.77,5.66
+SUNGKAI Toll,SIMPANG PULAI Toll,7.54,13.9,18.5,3.77,5.66
+SUNGKAI Toll,BUKIT BERUNTUNG Toll,8.45,15.5,20.7,4.26,6.4
+SUNGKAI Toll,Ipoh Selatan Toll,8.94,16.3,21.8,4.43,6.72
+SUNGKAI Toll,SUNGAI BUAYA Toll,9.35,17,22.7,4.67,6.97
+SUNGKAI Toll,RAWANG Toll,10.17,18.7,24.9,5.08,7.63
+SUNGKAI Toll,RAWANG SELATAN Toll,10.74,19.7,26.2,5.41,8.04
+SUNGKAI Toll,SG. BULOH HOSPITAL Toll,11.4,20.8,27.7,5.66,8.53
+SUNGKAI Toll,SG. BULOH Toll,11.56,21.2,28.3,5.82,8.69
+SUNGKAI Toll,KUALA KANGSAR Toll,11.81,21.6,28.8,5.9,8.86
+SUNGKAI Toll,KOTA DAMANSARA Toll,12.3,22.4,29.9,6.15,9.18
+SUNGKAI Toll,DAMANSARA Toll,12.71,23.2,31,6.4,9.51
+SUNGKAI Toll,Jalan Duta Toll,12.87,23.6,31.4,6.48,9.68
+SUNGKAI Toll,SUBANG Toll,12.96,23.7,31.5,6.48,9.68
+SUNGKAI Toll,Shah Alam Toll,13.45,24.6,32.8,6.72,10.09
+SUNGKAI Toll,Seafield Toll,14.1,25.9,34.4,7.13,10.58
+SUNGKAI Toll,CANGKAT JERING Toll,14.19,25.9,34.6,7.05,10.66
+SUNGKAI Toll,Setia Alam Toll,14.35,26.3,35.1,7.22,10.82
+SUNGKAI Toll,USJ Toll,14.51,26.6,35.4,7.3,10.91
+SUNGKAI Toll,Bukit Raja Toll,14.6,26.7,35.6,7.3,10.99
+SUNGKAI Toll,PUTRA HEIGHTS Toll,15.01,27.6,36.7,7.54,11.32
+SUNGKAI Toll,Bandar Saujana Putra Toll,15.33,28.1,37.4,7.71,11.56
+SUNGKAI Toll,TAIPING UTARA Toll,15.99,29.1,38.9,7.95,11.97
+SUNGKAI Toll,BANDAR GAMUDA COVE Toll,16.48,30.1,40.2,8.2,12.38
+SUNGKAI Toll,Putra Jaya Toll,16.89,31,41.2,8.53,12.71
+SUNGKAI Toll,BUKIT MERAH Toll,17.22,31.4,41.9,8.53,12.87
+SUNGKAI Toll,BANDAR SERENIA Toll,17.71,32.3,43.1,8.86,13.28
+SUNGKAI Toll,KLIA Toll,18.2,33.1,43.9,9.27,13.69
+SUNGKAI Toll,ALOR PONGSU Toll,18.61,34.1,45.4,9.35,13.94
+SUNGKAI Toll,BANDAR BAHARU Toll,19.11,35,46.7,9.51,14.35
+SUNGKAI Toll,Nilai Toll,19.35,35.5,47.2,9.76,14.51
+SUNGKAI Toll,Putera Mahkota Toll,19.43,35.6,47.4,9.76,14.51
+SUNGKAI Toll,SOUTHVILLE CITY Toll,19.84,36.3,48.5,9.92,14.92
+SUNGKAI Toll,BANGI Toll,20.17,37,49.3,10.17,15.17
+SUNGKAI Toll,JAWI Toll,20.66,37.7,50.3,10.25,15.5
+SUNGKAI Toll,KAJANG Toll,20.91,38.2,50.9,10.5,15.66
+SUNGKAI Toll,Bandar Ainsdale Toll,21.07,38.6,51.5,10.58,15.83
+SUNGKAI Toll,UPM Toll,21.16,38.7,51.6,10.66,15.83
+SUNGKAI Toll,SEREMBAN Toll,21.4,39.2,52.3,10.74,16.07
+SUNGKAI Toll,Sg. Besi Toll,21.65,39.7,52.8,10.91,16.24
+SUNGKAI Toll,Port Dickson Toll,21.81,40,53.2,10.99,16.32
+SUNGKAI Toll,BKT. TAMBUN UTARA Toll,21.98,40.2,53.6,10.99,16.48
+SUNGKAI Toll,Senawang Toll,22.3,40.8,54.3,11.15,16.65
+SUNGKAI Toll,JURU Toll,22.71,41.5,55.4,11.32,17.06
+SUNGKAI Toll,PEDAS LINGGI Toll,24.03,44,58.7,12.05,18.04
+SUNGKAI Toll,BERTAM Toll,24.02,43.8,58.5,12.05,18.66
+SUNGKAI Toll,SG. PETANI SELATAN Toll,25.66,46.8,62.4,12.87,19.35
+SUNGKAI Toll,SG. PETANI UTARA Toll,26.4,48.1,64.2,13.2,19.84
+SUNGKAI Toll,Simpang Ampat Toll,26.65,48.7,64.9,13.37,19.93
+SUNGKAI Toll,GURUN Toll,28.2,51.5,68.7,14.19,21.24
+SUNGKAI Toll,Ayer Keroh Toll,29.03,53.1,70.8,14.51,21.73
+SUNGKAI Toll,PENDANG Toll,30.41,55.5,74,15.25,22.88
+SUNGKAI Toll,Jasin Toll,30.83,56.5,75.2,15.5,23.12
+SUNGKAI Toll,Tangkak Toll,31.98,58.5,78,15.99,23.94
+SUNGKAI Toll,Alor Setar Selatan Toll,32.05,58.5,78,16.07,24.56
+SUNGKAI Toll,Alor Setar Utara Toll,32.71,59.6,79.5,16.4,24.6
+SUNGKAI Toll,Bukit Gambir Toll,33.37,61.1,81.4,16.73,25.01
+SUNGKAI Toll,Hutan Kampung Toll,33.37,60.9,81.2,16.73,25.36
+SUNGKAI Toll,Pagoh Toll,35.1,64.2,85.6,17.63,26.32
+SUNGKAI Toll,Yong Peng Utara Toll,39.85,73,97.3,20.01,29.93
+SUNGKAI Toll,Ayer Hitam Toll,41.98,76.9,102.4,21.07,31.49
+SUNGKAI Toll,Machap Toll,42.89,78.4,104.5,21.48,32.14
+SUNGKAI Toll,Spg. Renggam Toll,44.44,81.2,108.3,22.22,33.29
+SUNGKAI Toll,Sedenak Toll,46.49,85.1,113.4,23.29,34.85
+SUNGKAI Toll,KULAI Toll,47.97,87.8,117,24.03,36
+SUNGKAI Toll,Senai Utara Toll,48.95,89.6,119.4,24.52,36.74
+SUNGKAI Toll,Skudai Toll,49.28,90.2,120.2,24.68,36.98
+SUNGKAI Toll,BANDAR CASSIA Toll,27.91,70.7,123.8,19.54,42.85
+TAIPING UTARA Toll,CANGKAT JERING Toll,1.8,3.4,4.5,0.9,1.39
+TAIPING UTARA Toll,BUKIT MERAH Toll,1.48,1.48,1.48,1.48,1.48
+TAIPING UTARA Toll,ALOR PONGSU Toll,2.87,5.3,7.1,1.48,2.21
+TAIPING UTARA Toll,BANDAR BAHARU Toll,3.61,6.5,8.7,1.8,2.71
+TAIPING UTARA Toll,KUALA KANGSAR Toll,4.26,7.7,10.3,2.13,3.2
+TAIPING UTARA Toll,JAWI Toll,5,9.1,12.1,2.46,3.69
+TAIPING UTARA Toll,BKT. TAMBUN UTARA Toll,6.23,11.4,15.2,3.12,4.67
+TAIPING UTARA Toll,JURU Toll,6.97,12.7,17,3.53,5.25
+TAIPING UTARA Toll,IPOH UTARA Toll,7.05,12.8,17.1,3.53,5.25
+TAIPING UTARA Toll,SIMPANG PULAI Toll,8.53,15.5,20.6,4.26,6.31
+TAIPING UTARA Toll,BERTAM Toll,8.28,15,20.1,4.26,6.85
+TAIPING UTARA Toll,GOPENG Toll,9.59,17.5,23.4,4.84,7.13
+TAIPING UTARA Toll,SG. PETANI SELATAN Toll,9.92,18,24,5.08,7.54
+TAIPING UTARA Toll,SG. PETANI UTARA Toll,10.66,19.3,25.8,5.41,8.03
+TAIPING UTARA Toll,GURUN Toll,12.46,22.7,30.3,6.4,9.43
+TAIPING UTARA Toll,TAPAH Toll,12.96,23.6,31.5,6.48,9.68
+TAIPING UTARA Toll,BIDOR Toll,14.43,26.4,35.2,7.22,10.82
+TAIPING UTARA Toll,PENDANG Toll,14.67,26.7,35.6,7.46,11.07
+TAIPING UTARA Toll,SUNGKAI Toll,15.99,29.1,38.9,7.95,11.97
+TAIPING UTARA Toll,Alor Setar Selatan Toll,16.31,29.7,39.6,8.28,12.75
+TAIPING UTARA Toll,Alor Setar Utara Toll,16.97,30.8,41.1,8.61,12.79
+TAIPING UTARA Toll,SLIM RIVER Toll,18.12,33,44,9.02,13.53
+TAIPING UTARA Toll,Hutan Kampung Toll,17.63,32.1,42.8,8.94,13.55
+TAIPING UTARA Toll,BEHRANG Toll,19.76,36,48.1,9.92,14.76
+TAIPING UTARA Toll,Tg. Malim Toll,21.4,39,52,10.66,15.99
+TAIPING UTARA Toll,LEMBAH BERINGIN Toll,22.39,40.8,54.5,11.23,16.73
+TAIPING UTARA Toll,BUKIT TAGAR Toll,23.37,42.7,56.9,11.73,17.47
+TAIPING UTARA Toll,BUKIT BERUNTUNG Toll,24.35,44.4,59.2,12.14,18.2
+TAIPING UTARA Toll,SUNGAI BUAYA Toll,25.09,45.8,61.1,12.55,18.78
+TAIPING UTARA Toll,RAWANG Toll,26.08,47.6,63.5,13.04,19.52
+TAIPING UTARA Toll,RAWANG SELATAN Toll,26.57,48.5,64.7,13.28,19.93
+TAIPING UTARA Toll,SG. BULOH HOSPITAL Toll,27.22,49.7,66.3,13.61,20.42
+TAIPING UTARA Toll,SG. BULOH Toll,27.47,50.1,66.9,13.69,20.58
+TAIPING UTARA Toll,KOTA DAMANSARA Toll,28.13,51.3,68.5,14.1,21.07
+TAIPING UTARA Toll,DAMANSARA Toll,28.54,52.2,69.6,14.27,21.4
+TAIPING UTARA Toll,Jalan Duta Toll,28.78,52.5,70,14.35,21.48
+TAIPING UTARA Toll,SUBANG Toll,28.78,52.5,70,14.35,21.48
+TAIPING UTARA Toll,Shah Alam Toll,29.27,53.5,71.3,14.68,21.98
+TAIPING UTARA Toll,Seafield Toll,30.01,54.8,73,15.01,22.39
+TAIPING UTARA Toll,Setia Alam Toll,30.26,55.2,73.7,15.09,22.63
+TAIPING UTARA Toll,USJ Toll,30.42,55.5,74,15.17,22.71
+TAIPING UTARA Toll,Bukit Raja Toll,30.42,55.5,74.1,15.17,22.8
+TAIPING UTARA Toll,PUTRA HEIGHTS Toll,30.91,56.5,75.3,15.42,23.12
+TAIPING UTARA Toll,Bandar Saujana Putra Toll,31.24,57,76,15.58,23.37
+TAIPING UTARA Toll,BANDAR GAMUDA COVE Toll,32.31,59.1,78.8,16.15,24.27
+TAIPING UTARA Toll,Putra Jaya Toll,32.8,59.9,79.8,16.4,24.52
+TAIPING UTARA Toll,BANDAR SERENIA Toll,33.54,61.3,81.7,16.73,25.17
+TAIPING UTARA Toll,KLIA Toll,34.03,61.9,82.3,17.22,25.5
+TAIPING UTARA Toll,Nilai Toll,35.26,64.4,85.8,17.63,26.4
+TAIPING UTARA Toll,Putera Mahkota Toll,35.26,64.5,86,17.71,26.4
+TAIPING UTARA Toll,SOUTHVILLE CITY Toll,35.75,65.3,87.1,17.88,26.81
+TAIPING UTARA Toll,BANGI Toll,36.08,65.9,87.9,18.04,26.98
+TAIPING UTARA Toll,KAJANG Toll,36.74,67.1,89.5,18.45,27.47
+TAIPING UTARA Toll,Bandar Ainsdale Toll,36.9,67.4,89.9,18.53,27.63
+TAIPING UTARA Toll,UPM Toll,36.98,67.5,90,18.53,27.63
+TAIPING UTARA Toll,SEREMBAN Toll,37.23,68.1,90.7,18.7,27.88
+TAIPING UTARA Toll,Sg. Besi Toll,37.47,68.5,91.3,18.78,28.04
+TAIPING UTARA Toll,Port Dickson Toll,37.72,68.9,91.8,18.86,28.21
+TAIPING UTARA Toll,Senawang Toll,38.13,69.7,92.9,19.11,28.54
+TAIPING UTARA Toll,PEDAS LINGGI Toll,39.93,72.9,97.2,20.01,29.85
+TAIPING UTARA Toll,BANDAR CASSIA Toll,12.16,42,85.4,11.67,31.05
+TAIPING UTARA Toll,Simpang Ampat Toll,42.48,77.6,103.5,21.32,31.82
+TAIPING UTARA Toll,Ayer Keroh Toll,44.85,82,109.3,22.47,33.62
+TAIPING UTARA Toll,Jasin Toll,46.66,85.3,113.7,23.37,34.93
+TAIPING UTARA Toll,Tangkak Toll,47.81,87.4,116.5,23.94,35.83
+TAIPING UTARA Toll,Bukit Gambir Toll,49.2,89.9,119.8,24.6,36.82
+TAIPING UTARA Toll,Pagoh Toll,50.92,93.1,124.2,25.5,38.13
+TAIPING UTARA Toll,Yong Peng Utara Toll,55.68,101.8,135.7,27.88,41.74
+TAIPING UTARA Toll,Ayer Hitam Toll,57.89,105.8,141,28.95,43.38
+TAIPING UTARA Toll,Machap Toll,58.71,107.3,143.1,29.36,43.95
+TAIPING UTARA Toll,Spg. Renggam Toll,60.27,110.2,146.9,30.18,45.18
+TAIPING UTARA Toll,Sedenak Toll,62.32,113.9,151.9,31.24,46.66
+TAIPING UTARA Toll,KULAI Toll,63.88,116.7,155.6,31.98,47.81
+TAIPING UTARA Toll,Senai Utara Toll,64.86,118.5,158,32.47,48.54
+TAIPING UTARA Toll,Skudai Toll,65.19,119.1,158.8,32.64,48.79
+Tangkak Toll,Bukit Gambir Toll,1.48,2.8,3.7,0.74,1.15
+Tangkak Toll,Jasin Toll,1.64,3,3.9,0.82,1.23
+Tangkak Toll,Ayer Keroh Toll,3.12,5.6,7.5,1.56,2.3
+Tangkak Toll,Pagoh Toll,3.12,5.7,7.6,1.56,2.38
+Tangkak Toll,Simpang Ampat Toll,5.49,10.1,13.4,2.79,4.1
+Tangkak Toll,Yong Peng Utara Toll,7.95,14.5,19.3,3.94,5.9
+Tangkak Toll,PEDAS LINGGI Toll,8.04,14.7,19.6,4.02,6.07
+Tangkak Toll,Senawang Toll,9.92,18.1,24.1,4.92,7.46
+Tangkak Toll,Ayer Hitam Toll,10.09,18.5,24.6,5.08,7.54
+Tangkak Toll,Port Dickson Toll,10.33,18.8,25.1,5.17,7.71
+Tangkak Toll,SEREMBAN Toll,10.58,19.3,25.8,5.25,7.95
+Tangkak Toll,Machap Toll,10.91,20,26.6,5.49,8.2
+Tangkak Toll,Bandar Ainsdale Toll,11.23,20.6,27.5,5.66,8.45
+Tangkak Toll,Spg. Renggam Toll,12.46,22.8,30.5,6.23,9.35
+Tangkak Toll,Nilai Toll,13.04,23.9,31.8,6.56,9.76
+Tangkak Toll,Putera Mahkota Toll,13.53,24.8,33,6.81,10.17
+Tangkak Toll,SOUTHVILLE CITY Toll,14.02,25.6,34.1,6.97,10.5
+Tangkak Toll,BANGI Toll,14.35,26.3,35,7.22,10.74
+Tangkak Toll,Sedenak Toll,14.51,26.6,35.5,7.3,10.91
+Tangkak Toll,BANDAR SERENIA Toll,14.6,26.7,35.6,7.3,10.91
+Tangkak Toll,KAJANG Toll,15.09,27.6,36.8,7.54,11.32
+Tangkak Toll,UPM Toll,15.33,28,37.3,7.63,11.48
+Tangkak Toll,BANDAR GAMUDA COVE Toll,15.42,28.2,37.6,7.71,11.56
+Tangkak Toll,Sg. Besi Toll,15.83,28.9,38.6,7.87,11.89
+Tangkak Toll,KULAI Toll,16.07,29.4,39.2,8.04,12.05
+Tangkak Toll,KLIA Toll,15.99,29,38.4,8.2,12.05
+Tangkak Toll,Bandar Saujana Putra Toll,16.89,30.8,41,8.45,12.63
+Tangkak Toll,Senai Utara Toll,16.97,31.1,41.5,8.53,12.79
+Tangkak Toll,Putra Jaya Toll,17.22,31.5,41.9,8.61,12.87
+Tangkak Toll,PUTRA HEIGHTS Toll,17.3,31.7,42.1,8.69,12.96
+Tangkak Toll,Skudai Toll,17.38,31.8,42.4,8.69,13.04
+Tangkak Toll,USJ Toll,17.79,32.6,43.3,8.94,13.28
+Tangkak Toll,Seafield Toll,18.29,33.4,44.5,9.1,13.69
+Tangkak Toll,Ebor Selatan Toll,18.29,33.5,44.5,9.18,13.69
+Tangkak Toll,Shah Alam Toll,18.94,34.6,46,9.43,14.19
+Tangkak Toll,SUBANG Toll,19.35,35.5,47.2,9.76,14.51
+Tangkak Toll,Setia Alam Toll,19.84,36.2,48.3,9.84,14.84
+Tangkak Toll,Bukit Raja Toll,19.93,36.4,48.6,9.92,14.92
+Tangkak Toll,DAMANSARA Toll,19.84,36.4,48.5,10,14.92
+Tangkak Toll,KOTA DAMANSARA Toll,20.09,36.8,49,10.09,15.09
+Tangkak Toll,SG. BULOH Toll,20.66,37.8,50.4,10.33,15.5
+Tangkak Toll,SG. BULOH HOSPITAL Toll,20.99,38.4,51.2,10.5,15.74
+Tangkak Toll,Jalan Duta Toll,21.24,38.8,51.7,10.66,15.91
+Tangkak Toll,RAWANG SELATAN Toll,21.48,39.3,52.4,10.82,16.07
+Tangkak Toll,RAWANG Toll,22.14,40.5,53.9,11.07,16.56
+Tangkak Toll,SUNGAI BUAYA Toll,23.04,42.2,56.2,11.56,17.3
+Tangkak Toll,BUKIT BERUNTUNG Toll,23.78,43.5,58,11.89,17.79
+Tangkak Toll,BUKIT TAGAR Toll,24.76,45.3,60.3,12.38,18.53
+Tangkak Toll,LEMBAH BERINGIN Toll,25.75,47.2,62.9,12.96,19.35
+Tangkak Toll,Tg. Malim Toll,26.9,49.2,65.6,13.53,20.17
+Tangkak Toll,BEHRANG Toll,28.13,51.5,68.6,14.1,21.07
+Tangkak Toll,SLIM RIVER Toll,29.85,54.6,72.8,15.01,22.39
+Tangkak Toll,SUNGKAI Toll,31.98,58.5,78,15.99,23.94
+Tangkak Toll,BIDOR Toll,33.54,61.4,81.8,16.81,25.09
+Tangkak Toll,TAPAH Toll,35.01,64.1,85.4,17.55,26.24
+Tangkak Toll,GOPENG Toll,38.38,70.2,93.6,19.27,28.78
+Tangkak Toll,SIMPANG PULAI Toll,39.44,72.2,96.2,19.76,29.6
+Tangkak Toll,Ipoh Selatan Toll,40.75,74.6,99.4,20.42,30.59
+Tangkak Toll,KUALA KANGSAR Toll,43.62,79.9,106.4,21.89,32.72
+Tangkak Toll,CANGKAT JERING Toll,46,84.2,112.2,23.04,34.52
+Tangkak Toll,TAIPING UTARA Toll,47.81,87.4,116.5,23.94,35.83
+Tangkak Toll,BUKIT MERAH Toll,49.04,89.7,119.5,24.52,36.74
+Tangkak Toll,ALOR PONGSU Toll,50.51,92.3,123.1,25.26,37.88
+Tangkak Toll,BANDAR BAHARU Toll,50.92,93.3,124.3,25.5,38.21
+Tangkak Toll,JAWI Toll,52.48,96,127.9,26.24,39.36
+Tangkak Toll,BKT. TAMBUN UTARA Toll,53.79,98.5,131.2,26.98,40.34
+Tangkak Toll,JURU Toll,54.53,99.8,133,27.31,40.92
+Tangkak Toll,BERTAM Toll,55.84,102.1,136.1,28.04,42.52
+Tangkak Toll,SG. PETANI SELATAN Toll,57.48,105.1,140,28.86,43.21
+Tangkak Toll,SG. PETANI UTARA Toll,58.22,106.4,141.8,29.19,43.7
+Tangkak Toll,GURUN Toll,60.02,109.8,146.3,30.18,45.1
+Tangkak Toll,PENDANG Toll,62.23,113.8,151.6,31.24,46.74
+Tangkak Toll,Alor Setar Selatan Toll,63.87,116.8,155.6,32.06,48.42
+Tangkak Toll,Alor Setar Utara Toll,64.53,117.9,157.1,32.39,48.46
+Tangkak Toll,Hutan Kampung Toll,65.19,119.2,158.8,32.72,49.22
+Tangkak Toll,BANDAR CASSIA Toll,59.72,129,201.4,35.53,66.72
+TAPAH Toll,BIDOR Toll,1.64,3.1,4.1,0.82,1.23
+TAPAH Toll,SUNGKAI Toll,3.2,5.8,7.7,1.56,2.38
+TAPAH Toll,GOPENG Toll,3.53,6.4,8.6,1.72,2.62
+TAPAH Toll,SIMPANG PULAI Toll,4.59,8.4,11.1,2.3,3.44
+TAPAH Toll,SLIM RIVER Toll,5.33,9.7,12.9,2.62,3.94
+TAPAH Toll,Ipoh Selatan Toll,5.9,10.8,14.4,2.95,4.43
+TAPAH Toll,BEHRANG Toll,6.89,12.6,16.9,3.44,5.17
+TAPAH Toll,Tg. Malim Toll,8.61,15.7,20.9,4.26,6.48
+TAPAH Toll,KUALA KANGSAR Toll,8.77,16.1,21.4,4.43,6.56
+TAPAH Toll,LEMBAH BERINGIN Toll,9.59,17.5,23.4,4.76,7.22
+TAPAH Toll,BUKIT TAGAR Toll,10.58,19.3,25.7,5.25,7.87
+TAPAH Toll,CANGKAT JERING Toll,11.15,20.4,27.2,5.58,8.36
+TAPAH Toll,BUKIT BERUNTUNG Toll,11.56,21.1,28.1,5.74,8.69
+TAPAH Toll,SUNGAI BUAYA Toll,12.3,22.5,30,6.15,9.27
+TAPAH Toll,TAIPING UTARA Toll,12.96,23.6,31.5,6.48,9.68
+TAPAH Toll,RAWANG Toll,13.28,24.3,32.4,6.64,9.92
+TAPAH Toll,RAWANG SELATAN Toll,13.78,25.2,33.6,6.89,10.33
+TAPAH Toll,BUKIT MERAH Toll,14.19,25.9,34.5,7.05,10.58
+TAPAH Toll,SG. BULOH HOSPITAL Toll,14.43,26.4,35.2,7.22,10.82
+TAPAH Toll,SG. BULOH Toll,14.68,26.8,35.8,7.3,10.99
+TAPAH Toll,KOTA DAMANSARA Toll,15.33,28,37.4,7.71,11.48
+TAPAH Toll,ALOR PONGSU Toll,15.58,28.5,38.1,7.79,11.73
+TAPAH Toll,DAMANSARA Toll,15.74,28.9,38.5,7.87,11.81
+TAPAH Toll,Jalan Duta Toll,15.91,29.2,38.9,7.95,11.97
+TAPAH Toll,SUBANG Toll,15.91,29.2,38.9,7.95,11.97
+TAPAH Toll,BANDAR BAHARU Toll,16.07,29.5,39.3,8.04,12.05
+TAPAH Toll,Shah Alam Toll,16.48,30.2,40.2,8.28,12.38
+TAPAH Toll,Seafield Toll,17.14,31.4,41.8,8.61,12.79
+TAPAH Toll,Setia Alam Toll,17.38,31.8,42.4,8.69,13.04
+TAPAH Toll,USJ Toll,17.55,32.1,42.8,8.77,13.12
+TAPAH Toll,JAWI Toll,17.63,32.2,42.9,8.77,13.2
+TAPAH Toll,Bukit Raja Toll,17.63,32.2,43,8.77,13.2
+TAPAH Toll,PUTRA HEIGHTS Toll,18.04,33.1,44.1,9.02,13.53
+TAPAH Toll,Bandar Saujana Putra Toll,18.37,33.6,44.8,9.18,13.78
+TAPAH Toll,BKT. TAMBUN UTARA Toll,18.94,34.7,46.2,9.51,14.19
+TAPAH Toll,BANDAR GAMUDA COVE Toll,19.52,35.6,47.5,9.76,14.6
+TAPAH Toll,JURU Toll,19.68,36,48,9.84,14.76
+TAPAH Toll,Putra Jaya Toll,19.93,36.5,48.6,10,14.92
+TAPAH Toll,BANDAR SERENIA Toll,20.66,37.9,50.5,10.33,15.5
+TAPAH Toll,KLIA Toll,21.24,38.6,51.2,10.82,15.99
+TAPAH Toll,BERTAM Toll,20.99,38.3,51.1,10.57,16.36
+TAPAH Toll,Nilai Toll,22.47,41.1,54.7,11.23,16.81
+TAPAH Toll,Putera Mahkota Toll,22.47,41.2,54.8,11.32,16.81
+TAPAH Toll,SG. PETANI SELATAN Toll,22.63,41.3,55,11.39,17.05
+TAPAH Toll,SOUTHVILLE CITY Toll,22.88,41.9,55.8,11.48,17.14
+TAPAH Toll,BANGI Toll,23.29,42.6,56.8,11.64,17.47
+TAPAH Toll,SG. PETANI UTARA Toll,23.37,42.6,56.8,11.72,17.54
+TAPAH Toll,KAJANG Toll,23.94,43.8,58.4,12.05,17.96
+TAPAH Toll,Bandar Ainsdale Toll,24.11,44.1,58.8,12.14,18.04
+TAPAH Toll,UPM Toll,24.19,44.2,58.9,12.14,18.12
+TAPAH Toll,SEREMBAN Toll,24.44,44.8,59.6,12.3,18.29
+TAPAH Toll,Sg. Besi Toll,24.68,45.2,60.2,12.38,18.45
+TAPAH Toll,Port Dickson Toll,24.85,45.5,60.6,12.46,18.61
+TAPAH Toll,GURUN Toll,25.17,46,61.3,12.71,18.94
+TAPAH Toll,Senawang Toll,25.26,46.3,61.7,12.71,18.94
+TAPAH Toll,PEDAS LINGGI Toll,27.14,49.6,66.1,13.61,20.34
+TAPAH Toll,PENDANG Toll,27.38,50,66.6,13.77,20.58
+TAPAH Toll,Simpang Ampat Toll,29.68,54.3,72.4,14.92,22.22
+TAPAH Toll,Alor Setar Selatan Toll,29.02,53,70.6,14.59,22.26
+TAPAH Toll,Alor Setar Utara Toll,29.68,54.1,72.1,14.92,22.3
+TAPAH Toll,Hutan Kampung Toll,30.34,55.4,73.8,15.25,23.06
+TAPAH Toll,Ayer Keroh Toll,32.06,58.7,78.2,16.07,24.03
+TAPAH Toll,Jasin Toll,33.87,62,82.6,16.97,25.42
+TAPAH Toll,Tangkak Toll,35.01,64.1,85.4,17.55,26.24
+TAPAH Toll,Bukit Gambir Toll,36.41,66.6,88.7,18.2,27.22
+TAPAH Toll,Pagoh Toll,38.13,69.7,92.9,19.11,28.54
+TAPAH Toll,Yong Peng Utara Toll,42.89,78.5,104.6,21.48,32.14
+TAPAH Toll,Ayer Hitam Toll,45.1,82.5,109.9,22.55,33.78
+TAPAH Toll,Machap Toll,45.92,84,111.9,22.96,34.44
+TAPAH Toll,Spg. Renggam Toll,47.48,86.9,115.8,23.78,35.59
+TAPAH Toll,Sedenak Toll,49.53,90.6,120.8,24.85,37.15
+TAPAH Toll,KULAI Toll,51,93.4,124.5,25.58,38.29
+TAPAH Toll,Senai Utara Toll,52.07,95.2,126.9,26.08,39.03
+TAPAH Toll,Skudai Toll,52.4,95.8,127.7,26.24,39.28
+TAPAH Toll,BANDAR CASSIA Toll,24.87,65.2,116.4,18.07,40.56
+TELEMUNG Toll,Kuala Terengganu (Kg Gemuroh) Toll,1.7,3.5,5.2,0.9,1.7
+TELEMUNG Toll,AJIL Toll,2.9,5.9,8.8,1.5,2.9
+TELEMUNG Toll,BUKIT BESI Toll,7.4,14.8,22.2,3.7,7.4
+TELEMUNG Toll,DUNGUN Toll,9.4,18.8,28.2,4.7,9.4
+TELEMUNG Toll,PAKA Toll,11.4,22.9,34.3,5.7,11.4
+TELEMUNG Toll,KERTEH Toll,13,26,39.1,6.5,13
+TELEMUNG Toll,KIJAL Toll,14.5,29.1,43.6,7.3,14.5
+TELEMUNG Toll,CUKAI Toll,16.8,33.5,50.3,8.4,16.8
+TELEMUNG Toll,CHENEH Toll,18.5,37,55.5,9.3,18.5
+TELUK INTAN Toll,HUTAN MELINTANG Toll,2.9,5.8,8.7,1.5,2.2
+TELUK PANGLIMA GARANG Toll,Saujana Putra SKVE Toll,2.7,4.1,5.4,1.4,1.7
+TELUK PANGLIMA GARANG Toll,PULAU INDAH Toll,4.2,6.2,8.3,2.1,2.6
+TELUK PANGLIMA GARANG Toll,Ayer Hitam SKVE Toll,4.5,6.7,8.9,2.2,2.8
+TEMERLOH Toll,CHENEH Toll,0,36.5,0,0,0
+TEMERLOH Toll,CHENOR Toll,2,3.9,5.9,1,2
+TEMERLOH Toll,LANCANG Toll,3.4,6.9,10.3,1.7,3.4
+TEMERLOH Toll,MARAN Toll,6,12,17.9,3,6
+TEMERLOH Toll,KARAK Toll,6,12,18,3,6
+TEMERLOH Toll,SRI JAYA Toll,7.7,15.3,23,3.8,7.7
+TEMERLOH Toll,GAMBANG Toll,11.1,22.2,33.3,5.6,11.1
+TEMERLOH Toll,JABOR Toll,15.3,30.6,45.8,7.6,15.3
+TEMERLOH Toll,KUANTAN Toll,18.8,37.6,56.4,9.4,18.8
+TEMERLOH Toll,CUKAI Toll,0,39.4,0,9.8,19.7
+TEMERLOH Toll,KIJAL Toll,22,43.9,65.9,10.9,22
+TEMERLOH Toll,KERTEH Toll,23.7,47.3,71,11.8,23.7
+TEMERLOH Toll,PAKA Toll,25.1,50.1,75.2,12.5,25.1
+TEMERLOH Toll,DUNGUN Toll,27.3,54.5,81.8,13.6,27.3
+TEMERLOH Toll,BUKIT BESI Toll,29.3,58.6,87.9,14.6,29.3
+TEMERLOH Toll,AJIL Toll,33.9,67.9,101.8,16.9,33.9
+TEMERLOH Toll,TELEMUNG Toll,36.3,72.6,108.8,18.1,36.3
+TEMERLOH Toll,Kuala Terengganu (Kg Gemuroh) Toll,37.5,74.9,112.4,18.7,37.5
+Tg. Malim Toll,LEMBAH BERINGIN Toll,1.39,2.5,3.4,0.74,1.07
+Tg. Malim Toll,BEHRANG Toll,1.64,3.1,4.1,0.82,1.23
+Tg. Malim Toll,BUKIT TAGAR Toll,2.38,4.4,5.8,1.23,1.8
+Tg. Malim Toll,BUKIT BERUNTUNG Toll,3.36,6.1,8.2,1.64,2.54
+Tg. Malim Toll,SLIM RIVER Toll,3.36,6.2,8.3,1.72,2.54
+Tg. Malim Toll,SUNGAI BUAYA Toll,4.18,7.6,10.2,2.13,3.12
+Tg. Malim Toll,RAWANG Toll,5.08,9.3,12.4,2.54,3.77
+Tg. Malim Toll,SUNGKAI Toll,5.49,10.1,13.5,2.79,4.1
+Tg. Malim Toll,RAWANG SELATAN Toll,5.66,10.3,13.7,2.79,4.26
+Tg. Malim Toll,SG. BULOH HOSPITAL Toll,6.31,11.5,15.4,3.12,4.76
+Tg. Malim Toll,SG. BULOH Toll,6.48,11.8,15.8,3.2,4.84
+Tg. Malim Toll,BIDOR Toll,7.05,12.9,17.3,3.53,5.33
+Tg. Malim Toll,KOTA DAMANSARA Toll,7.22,13.2,17.5,3.61,5.41
+Tg. Malim Toll,DAMANSARA Toll,7.54,13.9,18.5,3.77,5.66
+Tg. Malim Toll,Jalan Duta Toll,7.79,14.2,18.9,3.85,5.82
+Tg. Malim Toll,SUBANG Toll,7.79,14.3,19,3.94,5.82
+Tg. Malim Toll,Shah Alam Toll,8.36,15.3,20.4,4.18,6.31
+Tg. Malim Toll,TAPAH Toll,8.61,15.7,20.9,4.26,6.48
+Tg. Malim Toll,Seafield Toll,9.02,16.6,22,4.59,6.72
+Tg. Malim Toll,Setia Alam Toll,9.35,17,22.7,4.67,6.97
+Tg. Malim Toll,USJ Toll,9.43,17.3,23,4.76,7.05
+Tg. Malim Toll,Bukit Raja Toll,9.51,17.3,23.1,4.76,7.13
+Tg. Malim Toll,PUTRA HEIGHTS Toll,9.92,18.3,24.3,5,7.46
+Tg. Malim Toll,Bandar Saujana Putra Toll,10.25,18.8,25,5.17,7.71
+Tg. Malim Toll,BANDAR GAMUDA COVE Toll,11.4,20.9,27.8,5.74,8.53
+Tg. Malim Toll,Putra Jaya Toll,11.81,21.7,28.8,5.99,8.86
+Tg. Malim Toll,GOPENG Toll,11.97,21.8,29.1,5.99,8.94
+Tg. Malim Toll,BANDAR SERENIA Toll,12.63,23.1,30.8,6.31,9.43
+Tg. Malim Toll,SIMPANG PULAI Toll,12.96,23.8,31.7,6.48,9.76
+Tg. Malim Toll,KLIA Toll,13.12,23.7,31.4,6.72,9.84
+Tg. Malim Toll,Ipoh Selatan Toll,14.35,26.2,34.9,7.13,10.74
+Tg. Malim Toll,Nilai Toll,14.27,26.2,34.9,7.22,10.74
+Tg. Malim Toll,Putera Mahkota Toll,14.35,26.3,35,7.22,10.74
+Tg. Malim Toll,SOUTHVILLE CITY Toll,14.76,27,36,7.38,11.07
+Tg. Malim Toll,BANGI Toll,15.17,27.7,36.9,7.63,11.32
+Tg. Malim Toll,KAJANG Toll,15.83,28.9,38.5,7.95,11.81
+Tg. Malim Toll,Bandar Ainsdale Toll,15.99,29.4,39.1,8.04,11.97
+Tg. Malim Toll,UPM Toll,15.99,29.4,39.1,8.04,11.97
+Tg. Malim Toll,SEREMBAN Toll,16.32,29.9,39.8,8.2,12.22
+Tg. Malim Toll,Sg. Besi Toll,16.56,30.3,40.3,8.28,12.38
+Tg. Malim Toll,Port Dickson Toll,16.73,30.7,40.8,8.45,12.55
+Tg. Malim Toll,KUALA KANGSAR Toll,17.22,31.5,41.9,8.61,12.87
+Tg. Malim Toll,Senawang Toll,17.22,31.5,41.9,8.61,12.87
+Tg. Malim Toll,PEDAS LINGGI Toll,18.94,34.8,46.3,9.51,14.19
+Tg. Malim Toll,CANGKAT JERING Toll,19.6,35.8,47.7,9.76,14.68
+Tg. Malim Toll,TAIPING UTARA Toll,21.4,39,52,10.66,15.99
+Tg. Malim Toll,Simpang Ampat Toll,21.57,39.4,52.5,10.82,16.15
+Tg. Malim Toll,BUKIT MERAH Toll,22.63,41.3,55,11.23,16.89
+Tg. Malim Toll,Ayer Keroh Toll,23.94,43.8,58.4,12.05,17.96
+Tg. Malim Toll,ALOR PONGSU Toll,24.03,43.9,58.6,12.05,18.04
+Tg. Malim Toll,BANDAR BAHARU Toll,24.52,44.9,59.8,12.22,18.37
+Tg. Malim Toll,Jasin Toll,25.75,47.1,62.7,12.87,19.27
+Tg. Malim Toll,JAWI Toll,26.08,47.6,63.4,12.96,19.52
+Tg. Malim Toll,Tangkak Toll,26.9,49.2,65.6,13.53,20.17
+Tg. Malim Toll,BKT. TAMBUN UTARA Toll,27.39,50.1,66.7,13.69,20.5
+Tg. Malim Toll,JURU Toll,28.13,51.4,68.5,14.02,21.07
+Tg. Malim Toll,Bukit Gambir Toll,28.21,51.7,68.9,14.19,21.16
+Tg. Malim Toll,Pagoh Toll,30.01,54.9,73.2,15.09,22.47
+Tg. Malim Toll,BERTAM Toll,29.44,53.7,71.6,14.75,22.67
+Tg. Malim Toll,SG. PETANI SELATAN Toll,31.08,56.7,75.5,15.57,23.36
+Tg. Malim Toll,SG. PETANI UTARA Toll,31.82,58,77.3,15.9,23.85
+Tg. Malim Toll,GURUN Toll,33.62,61.4,81.8,16.89,25.25
+Tg. Malim Toll,Yong Peng Utara Toll,34.77,63.6,84.8,17.38,26.08
+Tg. Malim Toll,PENDANG Toll,35.83,65.4,87.1,17.95,26.89
+Tg. Malim Toll,Ayer Hitam Toll,36.9,67.6,90.1,18.53,27.72
+Tg. Malim Toll,Machap Toll,37.8,69.1,92.1,18.94,28.29
+Tg. Malim Toll,Alor Setar Selatan Toll,37.47,68.4,91.1,18.77,28.57
+Tg. Malim Toll,Alor Setar Utara Toll,38.13,69.5,92.6,19.1,28.61
+Tg. Malim Toll,Hutan Kampung Toll,38.79,70.8,94.3,19.43,29.37
+Tg. Malim Toll,Spg. Renggam Toll,39.36,72,95.9,19.68,29.52
+Tg. Malim Toll,Sedenak Toll,41.41,75.7,100.9,20.75,31
+Tg. Malim Toll,KULAI Toll,42.89,78.5,104.6,21.48,32.14
+Tg. Malim Toll,Senai Utara Toll,43.87,80.3,107.1,21.98,32.88
+Tg. Malim Toll,Skudai Toll,44.28,80.9,107.9,22.14,33.13
+Tg. Malim Toll,BANDAR CASSIA Toll,33.32,80.6,136.9,22.25,46.87
+Tiram Toll,Senai Toll,4.5,6.8,9,2.3,2.8
+Tiram Toll,CAHAYA BARU Toll,5.6,8.5,11.3,2.8,3.5
+Tiram Toll,PENAWAR Toll,9.9,14.9,19.9,5,6.2
+UPM Toll,KAJANG Toll,0.33,0.6,0.8,0.16,0.25
+UPM Toll,Sg. Besi Toll,0.66,1.2,1.7,0.33,0.49
+UPM Toll,BANGI Toll,1.07,2,2.6,0.57,0.82
+UPM Toll,SOUTHVILLE CITY Toll,1.23,2.2,3,0.57,0.9
+UPM Toll,Putera Mahkota Toll,1.97,3.6,4.8,0.98,1.48
+UPM Toll,Nilai Toll,2.71,4.9,6.5,1.31,1.97
+UPM Toll,BANDAR SERENIA Toll,3.77,6.9,9.2,1.89,2.87
+UPM Toll,Bandar Ainsdale Toll,4.43,8.1,10.7,2.21,3.28
+UPM Toll,BANDAR GAMUDA COVE Toll,4.59,8.4,11.2,2.3,3.44
+UPM Toll,SEREMBAN Toll,4.76,8.7,11.6,2.38,3.53
+UPM Toll,Port Dickson Toll,5.17,9.4,12.6,2.54,3.85
+UPM Toll,KLIA Toll,5.17,9.2,12.1,2.79,3.94
+UPM Toll,Senawang Toll,5.58,10.2,13.6,2.79,4.18
+UPM Toll,Bandar Saujana Putra Toll,6.07,11,14.7,3.03,4.51
+UPM Toll,Putra Jaya Toll,6.4,11.7,15.6,3.2,4.76
+UPM Toll,PUTRA HEIGHTS Toll,6.48,11.9,15.8,3.28,4.84
+UPM Toll,USJ Toll,6.97,12.8,17,3.53,5.17
+UPM Toll,PEDAS LINGGI Toll,7.38,13.6,18.1,3.69,5.58
+UPM Toll,Seafield Toll,7.46,13.6,18.2,3.69,5.58
+UPM Toll,Ebor Selatan Toll,7.46,13.7,18.2,3.77,5.58
+UPM Toll,Shah Alam Toll,8.12,14.8,19.7,4.02,6.07
+UPM Toll,SUBANG Toll,8.53,15.7,20.9,4.35,6.4
+UPM Toll,Setia Alam Toll,9.02,16.4,21.9,4.43,6.72
+UPM Toll,DAMANSARA Toll,9.02,16.5,21.9,4.51,6.72
+UPM Toll,Bukit Raja Toll,9.1,16.6,22.2,4.51,6.81
+UPM Toll,KOTA DAMANSARA Toll,9.18,16.9,22.5,4.67,6.89
+UPM Toll,SG. BULOH Toll,9.84,18,24,4.92,7.38
+UPM Toll,Simpang Ampat Toll,10,18.2,24.3,5,7.46
+UPM Toll,SG. BULOH HOSPITAL Toll,10.09,18.6,24.7,5.08,7.54
+UPM Toll,Jalan Duta Toll,10.33,19,25.2,5.25,7.71
+UPM Toll,RAWANG SELATAN Toll,10.66,19.6,26,5.41,7.95
+UPM Toll,RAWANG Toll,11.23,20.6,27.4,5.66,8.36
+UPM Toll,SUNGAI BUAYA Toll,12.22,22.4,29.8,6.15,9.18
+UPM Toll,Ayer Keroh Toll,12.38,22.6,30.2,6.15,9.27
+UPM Toll,BUKIT BERUNTUNG Toll,12.87,23.6,31.5,6.48,9.68
+UPM Toll,BUKIT TAGAR Toll,13.94,25.5,33.9,6.97,10.41
+UPM Toll,Jasin Toll,14.19,25.9,34.5,7.05,10.66
+UPM Toll,LEMBAH BERINGIN Toll,15.01,27.4,36.5,7.54,11.23
+UPM Toll,Tangkak Toll,15.33,28,37.3,7.63,11.48
+UPM Toll,Tg. Malim Toll,15.99,29.4,39.1,8.04,11.97
+UPM Toll,Bukit Gambir Toll,16.65,30.5,40.6,8.36,12.46
+UPM Toll,BEHRANG Toll,17.3,31.7,42.2,8.69,12.96
+UPM Toll,Pagoh Toll,18.45,33.7,44.9,9.18,13.86
+UPM Toll,SLIM RIVER Toll,19.02,34.9,46.4,9.59,14.27
+UPM Toll,SUNGKAI Toll,21.16,38.7,51.6,10.66,15.83
+UPM Toll,BIDOR Toll,22.71,41.6,55.4,11.4,17.06
+UPM Toll,Yong Peng Utara Toll,23.21,42.4,56.6,11.56,17.38
+UPM Toll,TAPAH Toll,24.19,44.2,58.9,12.14,18.12
+UPM Toll,Ayer Hitam Toll,25.34,46.4,61.9,12.71,19.02
+UPM Toll,Machap Toll,26.24,47.9,63.9,13.12,19.68
+UPM Toll,GOPENG Toll,27.55,50.4,67.1,13.78,20.58
+UPM Toll,Spg. Renggam Toll,27.8,50.8,67.7,13.86,20.83
+UPM Toll,SIMPANG PULAI Toll,28.54,52.3,69.7,14.35,21.4
+UPM Toll,Sedenak Toll,29.85,54.5,72.7,14.92,22.39
+UPM Toll,Ipoh Selatan Toll,29.93,54.7,72.9,15.01,22.39
+UPM Toll,KULAI Toll,31.32,57.3,76.4,15.66,23.53
+UPM Toll,Senai Utara Toll,32.31,59.1,78.9,16.15,24.27
+UPM Toll,Skudai Toll,32.64,59.7,79.7,16.32,24.52
+UPM Toll,KUALA KANGSAR Toll,32.8,60,79.9,16.48,24.52
+UPM Toll,CANGKAT JERING Toll,35.18,64.3,85.7,17.63,26.32
+UPM Toll,TAIPING UTARA Toll,36.98,67.5,90,18.53,27.63
+UPM Toll,BUKIT MERAH Toll,38.21,69.8,93,19.11,28.54
+UPM Toll,ALOR PONGSU Toll,39.61,72.4,96.6,19.84,29.68
+UPM Toll,BANDAR BAHARU Toll,40.1,73.4,97.8,20.09,30.01
+UPM Toll,JAWI Toll,41.66,76.1,101.4,20.83,31.16
+UPM Toll,BKT. TAMBUN UTARA Toll,42.97,78.6,104.7,21.57,32.14
+UPM Toll,JURU Toll,43.71,79.9,106.5,21.89,32.72
+UPM Toll,BERTAM Toll,45.02,82.2,109.6,22.62,34.32
+UPM Toll,SG. PETANI SELATAN Toll,46.66,85.2,113.5,23.44,35.01
+UPM Toll,SG. PETANI UTARA Toll,47.4,86.5,115.3,23.77,35.5
+UPM Toll,GURUN Toll,49.2,89.9,119.8,24.76,36.9
+UPM Toll,PENDANG Toll,51.41,93.9,125.1,25.82,38.54
+UPM Toll,Alor Setar Selatan Toll,53.05,96.9,129.1,26.64,40.22
+UPM Toll,Alor Setar Utara Toll,53.71,98,130.6,26.97,40.26
+UPM Toll,Hutan Kampung Toll,54.37,99.3,132.3,27.3,41.02
+UPM Toll,BANDAR CASSIA Toll,48.9,109.1,174.9,30.12,58.52
+USJ Toll,Seafield Toll,0.82,1.5,1.9,0.41,0.57
+USJ Toll,Ebor Selatan Toll,0.82,1.5,2,0.41,0.66
+USJ Toll,PUTRA HEIGHTS Toll,0.9,1.6,2.2,0.41,0.66
+USJ Toll,Bandar Saujana Putra Toll,1.23,2.2,2.9,0.57,0.9
+USJ Toll,Shah Alam Toll,1.48,2.6,3.5,0.74,1.07
+USJ Toll,SUBANG Toll,1.89,3.5,4.7,0.98,1.48
+USJ Toll,Setia Alam Toll,2.3,4.1,5.5,1.15,1.72
+USJ Toll,BANDAR GAMUDA COVE Toll,2.3,4.2,5.6,1.15,1.72
+USJ Toll,DAMANSARA Toll,2.38,4.3,5.8,1.15,1.8
+USJ Toll,Bukit Raja Toll,2.46,4.5,6,1.23,1.89
+USJ Toll,KOTA DAMANSARA Toll,2.54,4.6,6.2,1.23,1.89
+USJ Toll,Putra Jaya Toll,2.71,5,6.7,1.39,2.05
+USJ Toll,SG. BULOH Toll,3.2,5.9,7.8,1.64,2.38
+USJ Toll,SG. BULOH HOSPITAL Toll,3.53,6.4,8.5,1.72,2.62
+USJ Toll,BANDAR SERENIA Toll,3.53,6.4,8.6,1.72,2.62
+USJ Toll,Jalan Duta Toll,3.77,6.9,9.2,1.89,2.79
+USJ Toll,RAWANG SELATAN Toll,4.02,7.3,9.7,1.97,2.95
+USJ Toll,KLIA Toll,3.85,6.8,8.9,2.13,3.03
+USJ Toll,RAWANG Toll,4.67,8.5,11.4,2.3,3.53
+USJ Toll,Nilai Toll,5.17,9.5,12.6,2.62,3.85
+USJ Toll,Putera Mahkota Toll,5.25,9.7,12.9,2.71,3.94
+USJ Toll,SUNGAI BUAYA Toll,5.58,10.3,13.7,2.79,4.18
+USJ Toll,SOUTHVILLE CITY Toll,5.66,10.4,13.9,2.87,4.26
+USJ Toll,BANGI Toll,6.07,11.1,14.8,3.03,4.51
+USJ Toll,BUKIT BERUNTUNG Toll,6.31,11.5,15.3,3.12,4.67
+USJ Toll,KAJANG Toll,6.72,12.4,16.4,3.44,5
+USJ Toll,Bandar Ainsdale Toll,6.89,12.7,16.8,3.53,5.17
+USJ Toll,UPM Toll,6.97,12.8,17,3.53,5.17
+USJ Toll,BUKIT TAGAR Toll,7.22,13.2,17.6,3.61,5.41
+USJ Toll,SEREMBAN Toll,7.22,13.3,17.6,3.69,5.41
+USJ Toll,Sg. Besi Toll,7.46,13.7,18.2,3.77,5.58
+USJ Toll,Port Dickson Toll,7.63,14,18.6,3.85,5.74
+USJ Toll,Senawang Toll,8.04,14.8,19.7,4.1,6.07
+USJ Toll,LEMBAH BERINGIN Toll,8.36,15.2,20.3,4.18,6.23
+USJ Toll,Tg. Malim Toll,9.43,17.3,23,4.76,7.05
+USJ Toll,PEDAS LINGGI Toll,9.92,18.2,24.2,5,7.38
+USJ Toll,BEHRANG Toll,10.66,19.5,26,5.33,8.04
+USJ Toll,SLIM RIVER Toll,12.38,22.7,30.3,6.23,9.27
+USJ Toll,Simpang Ampat Toll,12.46,22.9,30.4,6.31,9.35
+USJ Toll,SUNGKAI Toll,14.51,26.6,35.4,7.3,10.91
+USJ Toll,Ayer Keroh Toll,14.84,27.1,36.1,7.46,11.07
+USJ Toll,BIDOR Toll,16.07,29.4,39.2,8.04,12.05
+USJ Toll,Jasin Toll,16.65,30.5,40.6,8.36,12.46
+USJ Toll,TAPAH Toll,17.55,32.1,42.8,8.77,13.12
+USJ Toll,Tangkak Toll,17.79,32.6,43.3,8.94,13.28
+USJ Toll,Bukit Gambir Toll,19.19,35.1,46.7,9.59,14.35
+USJ Toll,GOPENG Toll,20.91,38.2,50.9,10.41,15.66
+USJ Toll,Pagoh Toll,20.91,38.3,51,10.5,15.66
+USJ Toll,SIMPANG PULAI Toll,21.98,40.2,53.6,10.99,16.48
+USJ Toll,Ipoh Selatan Toll,23.37,42.7,56.9,11.64,17.47
+USJ Toll,Yong Peng Utara Toll,25.67,47,62.6,12.87,19.27
+USJ Toll,KUALA KANGSAR Toll,26.24,48,63.9,13.12,19.6
+USJ Toll,Ayer Hitam Toll,27.88,51,67.9,13.94,20.91
+USJ Toll,CANGKAT JERING Toll,28.62,52.3,69.7,14.27,21.4
+USJ Toll,Machap Toll,28.62,52.4,69.9,14.35,21.48
+USJ Toll,Spg. Renggam Toll,30.18,55.3,73.7,15.17,22.63
+USJ Toll,TAIPING UTARA Toll,30.42,55.5,74,15.17,22.71
+USJ Toll,BUKIT MERAH Toll,31.65,57.8,77,15.74,23.62
+USJ Toll,Sedenak Toll,32.31,59.2,78.8,16.24,24.19
+USJ Toll,ALOR PONGSU Toll,33.05,60.4,80.5,16.48,24.76
+USJ Toll,BANDAR BAHARU Toll,33.54,61.4,81.8,16.73,25.09
+USJ Toll,KULAI Toll,33.78,61.8,82.4,16.89,25.34
+USJ Toll,Senai Utara Toll,34.77,63.6,84.8,17.47,26.08
+USJ Toll,JAWI Toll,35.1,64.1,85.4,17.47,26.24
+USJ Toll,Skudai Toll,35.18,64.4,85.8,17.63,26.32
+USJ Toll,BKT. TAMBUN UTARA Toll,36.41,66.6,88.7,18.2,27.22
+USJ Toll,JURU Toll,37.15,67.9,90.5,18.53,27.8
+USJ Toll,BERTAM Toll,38.46,70.2,93.6,19.26,29.4
+USJ Toll,SG. PETANI SELATAN Toll,40.1,73.2,97.5,20.08,30.09
+USJ Toll,SG. PETANI UTARA Toll,40.84,74.5,99.3,20.41,30.58
+USJ Toll,GURUN Toll,42.64,77.9,103.8,21.4,31.98
+USJ Toll,PENDANG Toll,44.85,81.9,109.1,22.46,33.62
+USJ Toll,Alor Setar Selatan Toll,46.49,84.9,113.1,23.28,35.3
+USJ Toll,Alor Setar Utara Toll,47.15,86,114.6,23.61,35.34
+USJ Toll,Hutan Kampung Toll,47.81,87.3,116.3,23.94,36.1
+USJ Toll,BANDAR CASSIA Toll,42.34,97.1,158.9,26.76,53.6
+Yong Peng Selatan Toll,Ayer Hitam Toll,1.8,3.3,4.4,0.9,1.31
+Yong Peng Selatan Toll,Machap Toll,2.62,4.8,6.4,1.31,1.97
+Yong Peng Selatan Toll,Spg. Renggam Toll,4.18,7.6,10.2,2.13,3.12
+Yong Peng Selatan Toll,Sedenak Toll,6.23,11.4,15.2,3.12,4.67
+Yong Peng Selatan Toll,KULAI Toll,7.79,14.2,18.9,3.85,5.82
+Yong Peng Selatan Toll,Senai Utara Toll,8.77,16,21.3,4.35,6.56
+Yong Peng Selatan Toll,Skudai Toll,9.1,16.6,22.2,4.51,6.81
+Yong Peng Utara Toll,Ayer Hitam Toll,2.38,4.3,5.7,1.15,1.72
+Yong Peng Utara Toll,Machap Toll,3.2,5.8,7.7,1.56,2.38
+Yong Peng Utara Toll,Spg. Renggam Toll,4.67,8.6,11.4,2.38,3.53
+Yong Peng Utara Toll,Pagoh Toll,5,9.1,12.1,2.46,3.69
+Yong Peng Utara Toll,Bukit Gambir Toll,6.64,12.1,16.2,3.28,5
+Yong Peng Utara Toll,Sedenak Toll,6.81,12.4,16.6,3.36,5.08
+Yong Peng Utara Toll,Tangkak Toll,7.95,14.5,19.3,3.94,5.9
+Yong Peng Utara Toll,KULAI Toll,8.28,15.2,20.3,4.18,6.23
+Yong Peng Utara Toll,Senai Utara Toll,9.27,16.9,22.6,4.59,6.97
+Yong Peng Utara Toll,Jasin Toll,9.35,17.1,22.8,4.67,7.05
+Yong Peng Utara Toll,Skudai Toll,9.68,17.6,23.5,4.84,7.22
+Yong Peng Utara Toll,Ayer Keroh Toll,10.91,19.9,26.5,5.41,8.12
+Yong Peng Utara Toll,Simpang Ampat Toll,13.37,24.5,32.6,6.72,10
+Yong Peng Utara Toll,PEDAS LINGGI Toll,15.91,29.2,38.9,7.95,11.97
+Yong Peng Utara Toll,Senawang Toll,17.79,32.5,43.4,8.86,13.37
+Yong Peng Utara Toll,Port Dickson Toll,18.04,33,44,9.02,13.53
+Yong Peng Utara Toll,SEREMBAN Toll,18.45,33.7,45,9.27,13.86
+Yong Peng Utara Toll,Bandar Ainsdale Toll,19.19,35.1,46.8,9.59,14.35
+Yong Peng Utara Toll,Nilai Toll,20.99,38.3,51.1,10.5,15.74
+Yong Peng Utara Toll,Putera Mahkota Toll,21.48,39.3,52.3,10.74,16.07
+Yong Peng Utara Toll,SOUTHVILLE CITY Toll,21.89,40.1,53.4,10.99,16.4
+Yong Peng Utara Toll,BANGI Toll,22.22,40.7,54.2,11.15,16.65
+Yong Peng Utara Toll,BANDAR SERENIA Toll,22.55,41.2,54.9,11.23,16.89
+Yong Peng Utara Toll,KAJANG Toll,22.96,42,56,11.48,17.22
+Yong Peng Utara Toll,UPM Toll,23.21,42.4,56.6,11.56,17.38
+Yong Peng Utara Toll,BANDAR GAMUDA COVE Toll,23.29,42.6,56.9,11.64,17.47
+Yong Peng Utara Toll,Sg. Besi Toll,23.7,43.3,57.8,11.89,17.79
+Yong Peng Utara Toll,KLIA Toll,23.86,43.4,57.7,12.14,18.04
+Yong Peng Utara Toll,Bandar Saujana Putra Toll,24.76,45.2,60.3,12.38,18.61
+Yong Peng Utara Toll,Putra Jaya Toll,25.09,45.9,61.2,12.55,18.86
+Yong Peng Utara Toll,PUTRA HEIGHTS Toll,25.17,46.1,61.4,12.63,18.94
+Yong Peng Utara Toll,USJ Toll,25.67,47,62.6,12.87,19.27
+Yong Peng Utara Toll,Seafield Toll,26.16,47.8,63.8,13.04,19.68
+Yong Peng Utara Toll,Ebor Selatan Toll,26.16,47.9,63.8,13.12,19.68
+Yong Peng Utara Toll,Shah Alam Toll,26.81,49,65.3,13.37,20.17
+Yong Peng Utara Toll,SUBANG Toll,27.31,50,66.5,13.69,20.42
+Yong Peng Utara Toll,Setia Alam Toll,27.72,50.7,67.6,13.86,20.75
+Yong Peng Utara Toll,DAMANSARA Toll,27.72,50.8,67.6,13.94,20.75
+Yong Peng Utara Toll,Bukit Raja Toll,27.88,50.9,67.9,13.86,20.83
+Yong Peng Utara Toll,KOTA DAMANSARA Toll,27.96,51.2,68.2,14.02,20.91
+Yong Peng Utara Toll,SG. BULOH Toll,28.54,52.3,69.7,14.35,21.4
+Yong Peng Utara Toll,SG. BULOH HOSPITAL Toll,28.86,52.8,70.3,14.43,21.65
+Yong Peng Utara Toll,Jalan Duta Toll,29.11,53.2,70.9,14.6,21.81
+Yong Peng Utara Toll,RAWANG SELATAN Toll,29.44,53.8,71.7,14.76,22.06
+Yong Peng Utara Toll,RAWANG Toll,29.93,54.8,73.1,15.01,22.47
+Yong Peng Utara Toll,SUNGAI BUAYA Toll,31,56.7,75.5,15.5,23.21
+Yong Peng Utara Toll,BUKIT BERUNTUNG Toll,31.65,57.9,77.1,15.83,23.7
+Yong Peng Utara Toll,BUKIT TAGAR Toll,32.64,59.7,79.6,16.4,24.44
+Yong Peng Utara Toll,LEMBAH BERINGIN Toll,33.7,61.7,82.2,16.89,25.26
+Yong Peng Utara Toll,Tg. Malim Toll,34.77,63.6,84.8,17.38,26.08
+Yong Peng Utara Toll,BEHRANG Toll,36.08,66,87.9,18.04,26.98
+Yong Peng Utara Toll,SLIM RIVER Toll,37.8,69.1,92.1,18.94,28.29
+Yong Peng Utara Toll,SUNGKAI Toll,39.85,73,97.3,20.01,29.93
+Yong Peng Utara Toll,BIDOR Toll,41.49,75.8,101.1,20.75,31.08
+Yong Peng Utara Toll,TAPAH Toll,42.89,78.5,104.6,21.48,32.14
+Yong Peng Utara Toll,GOPENG Toll,46.25,84.6,112.8,23.21,34.69
+Yong Peng Utara Toll,SIMPANG PULAI Toll,47.31,86.6,115.3,23.7,35.42
+Yong Peng Utara Toll,Ipoh Selatan Toll,48.63,89,118.6,24.35,36.49
+Yong Peng Utara Toll,KUALA KANGSAR Toll,51.5,94.3,125.6,25.83,38.62
+Yong Peng Utara Toll,CANGKAT JERING Toll,53.87,98.6,131.4,26.98,40.43
+Yong Peng Utara Toll,TAIPING UTARA Toll,55.68,101.8,135.7,27.88,41.74
+Yong Peng Utara Toll,BUKIT MERAH Toll,56.91,104.1,138.7,28.45,42.64
+Yong Peng Utara Toll,ALOR PONGSU Toll,58.38,106.7,142.3,29.19,43.79
+Yong Peng Utara Toll,BANDAR BAHARU Toll,58.79,107.7,143.5,29.44,44.12
+Yong Peng Utara Toll,JAWI Toll,60.35,110.4,147.1,30.18,45.26
+Yong Peng Utara Toll,BKT. TAMBUN UTARA Toll,61.66,112.9,150.4,30.91,46.25
+Yong Peng Utara Toll,JURU Toll,62.4,114.2,152.2,31.24,46.82
+Yong Peng Utara Toll,BERTAM Toll,63.71,116.5,155.3,31.97,48.42
+Yong Peng Utara Toll,SG. PETANI SELATAN Toll,65.35,119.5,159.2,32.79,49.11
+Yong Peng Utara Toll,SG. PETANI UTARA Toll,66.09,120.8,161,33.12,49.6
+Yong Peng Utara Toll,GURUN Toll,67.89,124.2,165.5,34.11,51
+Yong Peng Utara Toll,PENDANG Toll,70.1,128.2,170.8,35.17,52.64
+Yong Peng Utara Toll,Alor Setar Selatan Toll,71.74,131.2,174.8,35.99,54.32
+Yong Peng Utara Toll,Alor Setar Utara Toll,72.4,132.3,176.3,36.32,54.36
+Yong Peng Utara Toll,Hutan Kampung Toll,73.06,133.6,178,36.65,55.12
+Yong Peng Utara Toll,BANDAR CASSIA Toll,67.59,143.4,220.6,39.47,72.62`
+export default c3

@@ -261,27 +261,22 @@ export default {
       })
     },
     tollType(data,index){
-      // if(data.plaza!= "Sg. Petani Utara Toll") return
-      let toll = this.openTolls.find(t=>t.name.toLowerCase().replace(".","").trim() == data.plaza.toLowerCase().replace(".","").trim())
+      let toll = this.openTolls.find(t=>t.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
       if(toll) return "OPEN"
       if(index > 0){
-        let closedToll = this.closedTolls.find(t=>{
-          console.log(t.name);
-          return t.name.toLowerCase().replace(".","").trim() == data.plaza.toLowerCase().replace(".","").trim()
-        })
+        let closedToll = this.closedTolls.find(t=>t.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
         if(closedToll){
           return "CLOSED"
           let prevReport = this.tollReports[index-1]
-          let prevClosedToll = this.closedTolls.find(x=>x.name.toLowerCase().replace(".","").trim() == prevReport.plaza.toLowerCase().replace(".","").trim())
+          let prevClosedToll = this.closedTolls.find(x=>x.name.toLowerCase().trim() == prevReport.plaza.toLowerCase().trim())
           if(prevClosedToll){
-            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name.toLowerCase().replace(".","").trim() == data.plaza.toLowerCase().replace(".","").trim())
+            let priceFromPrev = prevClosedToll.tolls.find(p=>p.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
             if(priceFromPrev){
               return "CLOSED"
             }
           }
         }
       }
-      console.log("........");
       return ""
     },
     tollPrice(data, index) {
@@ -290,7 +285,7 @@ export default {
     },
     calculateClosedTollPrice(data, index) {
       
-      let name = "";
+      let name = "class1";
 
       if (this.className === "Class 1") {
         name = "class1"
@@ -304,25 +299,24 @@ export default {
         name = "class5"
       }
 
-      let toll = this.openTolls.find(t=>t.name.toLowerCase().replace(".","").trim() ==data.plaza.toLowerCase().replace(".","").trim())
+      let toll = this.openTolls.find(t=>t.name.toLowerCase().trim() ==data.plaza.toLowerCase().trim())
       if(toll) {
         if (typeof toll.price === "object") {
           let priceData =  toll.price.find(p => p.className === name);
-
           if (priceData && priceData.price) return priceData.price;
         }
-
-        return toll.price;
+        let priceData =  toll.price.find(p => p.className === name);
+        if (priceData && priceData.price) return priceData.price;
       }
 
       if(index > 0) {
-        let closedToll = this.closedTolls.find(t=>t.name.toLowerCase().replace(".","").trim() == data.plaza.toLowerCase().replace(".","").trim())
+        let closedToll = this.closedTolls.find(t=>t.name.toLowerCase().trim() == data.plaza.toLowerCase().trim())
         if(closedToll){
           let prevReport = this.tollReports[index-1]
-          let prevClosedToll = this.closedTolls.find(x=>x.name.toLowerCase().replace(".","").trim() == prevReport.plaza.toLowerCase().replace(".","").trim())
+          let prevClosedToll = this.closedTolls.find(x=>x.name.toLowerCase().trim() == prevReport.plaza.toLowerCase().trim())
           if(prevClosedToll){
             let priceFromPrev = prevClosedToll.tolls.find(p=>{
-              return p.name.toLowerCase().replace(".","").trim() == data.plaza.toLowerCase().replace(".","").trim()
+              return p.name.toLowerCase().trim() == data.plaza.toLowerCase().trim()
             })
             if(priceFromPrev) {
               let priceData =  priceFromPrev.price.find(p => p.className === name);

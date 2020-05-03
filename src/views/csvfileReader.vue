@@ -21,15 +21,13 @@ export default {
     };
   },
   created() {
-    // this.readCsv(csvString).then(res=>{
-    //     this.csvData = res
-    //     console.log("CSV_DATD",res)
-    //     this.makeClosedTollData()
-    // })
-
-    this.geofences.forEach(geo => {
-      console.log(geo.name);
+    this.readCsv(csvString).then(res=>{
+        this.csvData = res
+        console.log("CSV_DATD",res)
+        this.makeClosedTollData()
     })
+
+    // this.downloadJSON()
 
     // this.uploadCl()
 
@@ -97,37 +95,14 @@ export default {
       }
     },
     makeClosedTollData(){
-        let final = []
-        console.log(this.geofences);
-        this.geofences.forEach(g => {
-          console.log(g.name.toUpperCase())
-        })
-        this.csvData.forEach(csvD => {
-          let geofence = this.geofences.find(geo => csvD.From.toLowerCase().trim() == geo.name.toLowerCase().trim())
-          if(geofence){
-            let obj = Object.assign({},geofence,{tolls:[]})
-            let csvs = this.csvData.filter(csv => csv.From.toLowerCase().trim() == geofence.name.toLowerCase().trim())
-            if(csvs){
-                csvs.forEach(csv => {
-                    let geos = this.geofences.filter(g => g.name.toLowerCase().trim() == csv.To.toLowerCase().trim())
-                    if(geos){
-                        geos.forEach(geo => {
-                            let tObj = Object.assign({},geo,{price:[
-                                {className: "class1", price: parseFloat(csv['Class 1'])},
-                                {className: "class2", price: parseFloat(csv['Class 2'])},
-                                {className: "class3", price: parseFloat(csv['Class 3'])},
-                                {className: "class4", price: parseFloat(csv['Class 4'])},
-                                {className: "class5", price: parseFloat(csv['Class 5'])},
-                            ]})
-                            obj.tolls.push(tObj)
-                        })
-                    }
-                })
-            }
-            final.push(obj)
-          }
-        })
-        // this.geofences.forEach(geofence => {
+        // let final = []
+        // console.log(this.geofences);
+        // this.geofences.forEach(g => {
+        //   console.log(g.name.toUpperCase())
+        // })
+        // this.csvData.forEach(csvD => {
+        //   let geofence = this.geofences.find(geo => csvD.From.toLowerCase().trim() == geo.name.toLowerCase().trim())
+        //   if(geofence){
         //     let obj = Object.assign({},geofence,{tolls:[]})
         //     let csvs = this.csvData.filter(csv => csv.From.toLowerCase().trim() == geofence.name.toLowerCase().trim())
         //     if(csvs){
@@ -148,25 +123,77 @@ export default {
         //         })
         //     }
         //     final.push(obj)
+        //   }
         // })
-        final = final.filter( (value, index, self) => index === self.findIndex((t) => (t.id === value.id)))
+        this.geofences.forEach(geofence => {
+            let obj = Object.assign({},geofence,{tolls:[]})
+            let csvs = this.csvData.filter(csv => csv.From.toLowerCase().trim() == geofence.name.toLowerCase().trim())
+            if(csvs){
+                csvs.forEach(csv => {
+                    let geos = this.geofences.filter(g => g.name.toLowerCase().trim() == csv.To.toLowerCase().trim())
+                    if(geos){
+                        geos.forEach(geo => {
+                            let tObj = Object.assign({},geo,{price:[
+                                {className: "class1", price: parseFloat(csv['Class 1'])},
+                                {className: "class2", price: parseFloat(csv['Class 2'])},
+                                {className: "class3", price: parseFloat(csv['Class 3'])},
+                                {className: "class4", price: parseFloat(csv['Class 4'])},
+                                {className: "class5", price: parseFloat(csv['Class 5'])},
+                            ]})
+                            obj.tolls.push(tObj)
+                        })
+                    }
+                })
+            }
+            final.push(obj)
+        })
+        // final = final.filter( (value, index, self) => index === self.findIndex((t) => (t.id === value.id)))
         // console.log("FINAL",final)
         // final.forEach(async toll => {
         //   await db.collection("closedToll").doc("geotoll"+toll.id).get().then(doc => {
         //     console.log(doc.id, doc.data(),toll.id);
         //   })
         // })
-        this.saveToFirebase(final)
+        // this.saveToFirebase(final)
     },
     async saveToFirebase(closedTolls){
-        for(let i = 0;i<closedTolls.length;i++){
-            let  toll = closedTolls[i]
-            console.log("TOLL",toll);
-            await db.collection("closedToll").doc(`geotoll${toll.id}`).set(toll)
-        }
+      console.log(closedTolls);
+      for(let i = 0;i<closedTolls.length;i++){
+          let  toll = closedTolls[i]
+          console.log(i+1, closedTolls.length, toll);
+          await db.collection("closedToll").doc(`geotoll${toll.id}`).set(toll)
+      }
     },
     async readCsv(csvString) {
       return await csvtojsonV2({}).fromString(csvString).then(csvRow => csvRow)
+    },
+    downloadJSON(){
+      const data = JSON.stringify(this.geofences)
+      const blob = new Blob([data], { type: 'text/plain' })
+      const e = document.createEvent('MouseEvents'),
+        a = document.createElement('a')
+      a.download = 'fields.json'
+      a.href = window.URL.createObjectURL(blob)
+      a.dataset.downloadurl = ['text/json', a.download, a.href].join(':')
+      e.initEvent(
+        'click',
+        true,
+        false,
+        window,
+        0,
+        0,
+        0,
+        0,
+        0,
+        false,
+        false,
+        false,
+        false,
+        0,
+        null
+      )
+      a.dispatchEvent(e)
+      this.finishedDialog = true
     },
     read(event) {
       const reader = new FileReader();

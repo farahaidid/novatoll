@@ -1,0 +1,926 @@
+[
+  { "id": 1, "name": "Alor Setar Selatan Toll", "destination": "Plaza Tol" },
+  {
+    "id": 2,
+    "name": "Kota Kemuning Toll",
+    "destination": "Plaza toll Kota Kemuning"
+  },
+  { "id": 3, "name": "Sri Muda Toll", "destination": "Plaza Toll Sri Muda" },
+  {
+    "id": 4,
+    "name": "Ipoh Selatan Toll",
+    "destination": "Lebuhraya Utara - Selatan, Ipoh"
+  },
+  {
+    "id": 5,
+    "name": "Alam Impian Toll",
+    "destination": "Plaza toll Alam Impian"
+  },
+  { "id": 6, "name": "Seafield Toll", "destination": "Plaza toll Seafield" },
+  {
+    "id": 7,
+    "name": "Ebor Selatan Toll",
+    "destination": "Plaza toll Ebor Selatan 2 Outbound"
+  },
+  {
+    "id": 8,
+    "name": "Ebor Utara Toll",
+    "destination": "Inbound Toll Plaza North Ebor"
+  },
+  {
+    "id": 9,
+    "name": "Sunway (Kesas) Toll",
+    "destination": "Towards the Sunway toll plaza Usj"
+  },
+  {
+    "id": 10,
+    "name": "Petaling Jaya Selatan Towards Puchong Toll",
+    "destination": "Petaling Jaya Selatan toll plaza Towards Puchong"
+  },
+  {
+    "id": 11,
+    "name": "Awan Besar Toll",
+    "destination": "Plaza Tol Awan Besar"
+  },
+  {
+    "id": 12,
+    "name": "West Towards Awan Besar Bukit Jalil Toll",
+    "destination": "Toll Plaza West Towards Awan Besar Bukit Jalil"
+  },
+  {
+    "id": 13,
+    "name": "Mines North Towards Sungai Besi Toll",
+    "destination": "Mines Toll Plaza North Towards Sungai Besi"
+  },
+  {
+    "id": 14,
+    "name": "Mines Selatan Toll",
+    "destination": "Plaza Tol Mines Selatan"
+  },
+  { "id": 15, "name": "Sg. Besi Toll", "destination": "Plaza Tol Sungai Besi" },
+  {
+    "id": 16,
+    "name": "Mex Seri Kembanagan Toll",
+    "destination": "Lebuhraya Kuala Lumpur - Putrajaya, Rizab Melayu Sungai Kuyoh, Seri Kembangan"
+  },
+  { "id": 17, "name": "UPM Toll", "destination": "Plaza tol UPM" },
+  {
+    "id": 18,
+    "name": "Alor Setar Utara Toll",
+    "destination": "Alor Setar Utara Toll Plaza"
+  },
+  {
+    "id": 19,
+    "name": "Hutan Kampung Toll",
+    "destination": "Hutan Kampung Toll Plaza Towards Kepala Batas"
+  },
+  {
+    "id": 20,
+    "name": "Ayer Hitam Toll",
+    "destination": "Plaza Tol Ayer Hitam"
+  },
+  {
+    "id": 21,
+    "name": "Ayer Keroh Toll",
+    "destination": "Plaza Tol Ayer Keroh"
+  },
+  {
+    "id": 22,
+    "name": "Ayer Panas Towards Setiawangsa Toll",
+    "destination": "Plaza Tol Ayer Panas Towards Setiawangsa"
+  },
+  {
+    "id": 23,
+    "name": "Sentul Pasar Toll",
+    "destination": "Plaza Tol Sentul Pasar"
+  },
+  {
+    "id": 24,
+    "name": "Sentul Pasar Tambahan Toll",
+    "destination": "Plaza Toll Sentul Pasar Tambahan"
+  },
+  { "id": 25, "name": "Batu Toll", "destination": "Batu Toll Plaza" },
+  {
+    "id": 26,
+    "name": "Mainline Segambut Toll",
+    "destination": "Plaza Toll Mainline Segambut"
+  },
+  { "id": 27, "name": "Jalan Duta Toll", "destination": "Jalan Duta" },
+  {
+    "id": 28,
+    "name": "Bukit Kiara Toll",
+    "destination": "Plaza Tol Bukit Kiara"
+  },
+  {
+    "id": 29,
+    "name": "Kajang Toll",
+    "destination": "E26 & Lebuhraya Lembah Klang Selatan, Kajang"
+  },
+  {
+    "id": 30,
+    "name": "Mex Seri Kembangan Toll",
+    "destination": "Jalan Indah 1/11B, Taman Universiti Indah, Seri Kembangan"
+  },
+  {
+    "id": 31,
+    "name": "Puchong Selatan Toll",
+    "destination": "Lebuhraya Damansara - Puchong, Puchong"
+  },
+  {
+    "id": 33,
+    "name": "Bandar Saujana Putra Toll",
+    "destination": "Lebuhraya Utara-Selatan Linkaran Tengah & Ah2, Puchong"
+  },
+  {
+    "id": 34,
+    "name": "Putra Jaya Toll",
+    "destination": "Lingkaran Putrajaya, Puchong"
+  },
+  {
+    "id": 35,
+    "name": "Putrajaya (MEX) Toll",
+    "destination": "Lebuhraya Kuala Lumpur - Putrajaya, Cyberjaya"
+  },
+  { "id": 36, "name": "KLIA Toll", "destination": "E6, Klia" },
+  {
+    "id": 37,
+    "name": "Nilai Toll",
+    "destination": "Jalan Dillenia 6, Dillenia, Nilai"
+  },
+  {
+    "id": 38,
+    "name": "Putera Mahkota Toll",
+    "destination": "Jalan Seri Putra 2/2, Bandar Seri Putra, Kajang"
+  },
+  {
+    "id": 39,
+    "name": "ECO MAJESTIC Toll",
+    "destination": "43700 Beranang, Beranang"
+  },
+  {
+    "id": 40,
+    "name": "Kajang Selatan Toll",
+    "destination": "Lekas, Bandar Kajang, Kajang"
+  },
+  {
+    "id": 41,
+    "name": "Bukit Kajang Toll",
+    "destination": "Lebuhraya Silk & Sistem Lingkaran-Lebuhraya Kajang, Taman Kajang Prima, Kajang"
+  },
+  { "id": 42, "name": "Bandar Ainsdale Toll", "destination": "" },
+  {
+    "id": 43,
+    "name": "Seremban (C) Southbound Toll",
+    "destination": "E2 & North-South Expressway, Seremban"
+  },
+  {
+    "id": 44,
+    "name": "Seremban (A) Inbound Toll",
+    "destination": "E2 & North-South Expressway, Seremban"
+  },
+  {
+    "id": 45,
+    "name": "Port Dickson Toll",
+    "destination": "Jalan Rasah & Lebuhraya Utara-Selatan, Seremban"
+  },
+  {
+    "id": 46,
+    "name": "Mambau Toll",
+    "destination": "Lebuhraya Seremban - Port Dickson, Seremban"
+  },
+  { "id": 47, "name": "Senawang Toll", "destination": "Seremban, Seremban" },
+  {
+    "id": 48,
+    "name": "Pedas Linggi Toll",
+    "destination": "N9 & Lebuhraya Utara-Selatan, Pedas"
+  },
+  { "id": 49, "name": "Ampangan Toll", "destination": "Lekas, Seremban" },
+  {
+    "id": 50,
+    "name": "Setul North Bound Toll",
+    "destination": "Lekas, Seremban"
+  },
+  {
+    "id": 51,
+    "name": "Mantin Toll",
+    "destination": "Lebuhraya Kajang - Seremban & 1, Mantin"
+  },
+  {
+    "id": 52,
+    "name": "Pajam Toll",
+    "destination": "Lebuhraya Kajang - Seremban & E21, Mantin"
+  },
+  {
+    "id": 53,
+    "name": "LBR Seremban - Port Dickson Toll",
+    "destination": "Lebuhraya Seremban - Port Dickson & Jalan Seremban, Port Dickson"
+  },
+  {
+    "id": 54,
+    "name": "LBR Seremban Toll",
+    "destination": "Lebuhraya Seremban - Port Dickson & Jalan Seremban, Port Dickson"
+  },
+  {
+    "id": 55,
+    "name": "Simpang Ampat Toll",
+    "destination": "E2 & North-South Expressway, Alor Gajah"
+  },
+  {
+    "id": 56,
+    "name": "Gerbang Ayer Keroh Toll",
+    "destination": "Lebuh Ayer Keroh, Lebuh Ayer Keroh"
+  },
+  { "id": 57, "name": "Jasin Toll", "destination": "77200 Jasin, Jasin" },
+  {
+    "id": 58,
+    "name": "Tangkak Toll",
+    "destination": "Jln Muar - Tangkak, Kampung Tanjong Batu 15, Tangkak"
+  },
+  {
+    "id": 59,
+    "name": "Bukit Gambir Toll",
+    "destination": "Jln Bukit Gambir, Kampung Parit Pulai, Gerisek"
+  },
+  {
+    "id": 60,
+    "name": "Pagoh Toll",
+    "destination": "E2 & North-South Expressway, Pagoh"
+  },
+  {
+    "id": 61,
+    "name": "Yong Peng Utara Toll",
+    "destination": "Lebuhraya Utara-Selatan, Yong Peng"
+  },
+  {
+    "id": 62,
+    "name": "Yong Peng Selatan Toll",
+    "destination": "E2 & North-South Expressway, Yong Peng"
+  },
+  {
+    "id": 63,
+    "name": "Machap Toll",
+    "destination": "E2 & North-South Expressway, Simpang Renggam"
+  },
+  {
+    "id": 65,
+    "name": "Spg. Renggam Toll",
+    "destination": "Jalan Besar Benut, Simpang Renggam"
+  },
+  { "id": 66, "name": "Sedenak Toll", "destination": "J107, Kulai" },
+  {
+    "id": 67,
+    "name": "Kubang Semang Toll",
+    "destination": "E15, Permatang Pauh"
+  },
+  {
+    "id": 68,
+    "name": "Senai Utara Toll",
+    "destination": "Malaysia-Singapore Second Link, Senai"
+  },
+  {
+    "id": 69,
+    "name": "Skudai Toll",
+    "destination": "Lebuhraya Utara-Selatan, Senai"
+  },
+  {
+    "id": 70,
+    "name": "Kempas Toll",
+    "destination": "Lebuhraya Utara-Selatan, Johor Bahru"
+  },
+  {
+    "id": 71,
+    "name": "Senai Toll",
+    "destination": "Lebuhraya Senai-Desaru, Senai"
+  },
+  {
+    "id": 72,
+    "name": "Tiram Toll",
+    "destination": "Lebuhraya Senai-Desaru, Ulu Tiram"
+  },
+  {
+    "id": 73,
+    "name": "Cahaya Baru Toll",
+    "destination": "Lebuhraya Senai-Desaru, Taman Tanjung Puteri Resort, Pasir Gudang"
+  },
+  {
+    "id": 74,
+    "name": "Perling Toll",
+    "destination": "Lebuhraya Hubungan Kedua Malaysia - Singapura, Johor Bahru"
+  },
+  {
+    "id": 75,
+    "name": "Lima Kedai Toll",
+    "destination": "Malaysia-Singapore Second Link, Johor Bahru"
+  },
+  {
+    "id": 76,
+    "name": "Tanjung Kupang Toll",
+    "destination": "Malaysia-Singapore Second Link, Kampung Tiram Duku Kiri, Gelang Patah"
+  },
+  {
+    "id": 77,
+    "name": "Kapar Toll",
+    "destination": "Jalan Kapar, Batu 4, Klang"
+  },
+  {
+    "id": 78,
+    "name": "Bukit Raja to NKVE Toll",
+    "destination": "Lebuhraya Pintas Selat Klang Utara Baru, Kawasan 17, Klang"
+  },
+  {
+    "id": 79,
+    "name": "Bukit Raja Toll",
+    "destination": "Lebuhraya Baru Lembah Klang, Klang"
+  },
+  {
+    "id": 80,
+    "name": "Setia Alam Toll",
+    "destination": "Persiaran Setia Alam, Setia Alam, Shah Alam"
+  },
+  {
+    "id": 81,
+    "name": "Shah Alam Toll",
+    "destination": "Jalan Ruang, Shah Alam"
+  },
+  {
+    "id": 82,
+    "name": "USJ Toll",
+    "destination": "Lebuhraya Utara-Selatan Linkaran Tengah & Ah2, Subang Jaya"
+  },
+  {
+    "id": 83,
+    "name": "Putra Height Toll",
+    "destination": "Lebuhraya Utara-Selatan Linkaran Tengah & Ah2, Subang Jaya"
+  },
+  {
+    "id": 84,
+    "name": "Saujana Putra SKVE Toll",
+    "destination": "Jalan Saujana Putra, Bandar Saujana Putra, Jenjarom"
+  },
+  {
+    "id": 85,
+    "name": "Subang Toll",
+    "destination": "5 & Jalan Lapangan Terbang Subang, Ss 7, Petaling Jaya"
+  },
+  {
+    "id": 86,
+    "name": "NPE From Petaling Jaya Toll",
+    "destination": "Lebuhraya Baru Pantai, Kampung Pasir"
+  },
+  {
+    "id": 87,
+    "name": "Pantai Dalam Toll",
+    "destination": "Lebuhraya Baru Pantai, Kampung Pasir, Kuala Lumpur"
+  },
+  {
+    "id": 88,
+    "name": "PJS 5 Toll",
+    "destination": "Lebuhraya Baru Pantai, Kampung Ghandi, Petaling Jaya"
+  },
+  {
+    "id": 89,
+    "name": "Puchong Barat Toll",
+    "destination": "47100 Puchong, Puchong"
+  },
+  {
+    "id": 90,
+    "name": "Bandar Serenia Toll",
+    "destination": "43800 Dengkil, Dengkil"
+  },
+  {
+    "id": 91,
+    "name": "Bandar Gamuda Cove Toll",
+    "destination": "Elite, Banting"
+  },
+  {
+    "id": 92,
+    "name": "Bangi Toll",
+    "destination": "E2 & North-South Expressway, Bandar Baru Bangi"
+  },
+  {
+    "id": 93,
+    "name": "Salak Selatan Toll",
+    "destination": "Lebuhraya Kuala Lumpur - Putrajaya, Salak Selatan, Kuala Lumpur"
+  },
+  {
+    "id": 94,
+    "name": "Loke Yew Toll",
+    "destination": "Besraya Eastern Extension Expressway & Jalan Cheras, Kuala Lumpur"
+  },
+  {
+    "id": 95,
+    "name": "Smart Toll",
+    "destination": "Lebuhraya Smart, Kuala Lumpur"
+  },
+  {
+    "id": 97,
+    "name": "Smart Toll",
+    "destination": "E38 & Smart Tunnel, Kuala Lumpur"
+  },
+  {
+    "id": 98,
+    "name": "Smart Toll",
+    "destination": "E38 & Smart Tunnel, Kuala Lumpur"
+  },
+  {
+    "id": 99,
+    "name": "Smart Toll",
+    "destination": "Lebuhraya Kuala Lumpur - Seremban, Kuala Lumpur"
+  },
+  {
+    "id": 100,
+    "name": "Pantai SPRINT Toll",
+    "destination": "Sistem Penyuraian Trafik Kuala Lumpur Barat, Kuala Lumpur"
+  },
+  { "id": 101, "name": "Sg. Petani Utara Toll", "destination": "New" },
+  {
+    "id": 102,
+    "name": "Damansara Plaza A Toll",
+    "destination": "Damansara Toll Plaza A Towards Jalan Damansara"
+  },
+  {
+    "id": 103,
+    "name": "Jalan Damansara Toll",
+    "destination": "Jalan 16/11, Petaling Jaya"
+  },
+  {
+    "id": 104,
+    "name": "Damansara Toll",
+    "destination": "Sistem Penyuraian Trafik Kuala Lumpur Barat, Kampung Sungai Kayu Ara, Petaling Jaya"
+  },
+  {
+    "id": 105,
+    "name": "Kota Damansara Toll",
+    "destination": "To E1 Lebuhraya Nkve, Kota Damansara, Petaling Jaya"
+  },
+  {
+    "id": 106,
+    "name": "Penchala Toll",
+    "destination": "Lebuhraya Damansara - Puchong, Kuala Lumpur"
+  },
+  {
+    "id": 107,
+    "name": "Sg. Buloh Toll",
+    "destination": "Jalan Kuala Selangor & Lebuhraya Utara - Selatan, Sungai Buloh"
+  },
+  {
+    "id": 108,
+    "name": "Sg. Buloh Hospital Toll",
+    "destination": "E1 & North-South Expressway, Sungai Buloh"
+  },
+  {
+    "id": 109,
+    "name": "Elmina Toll",
+    "destination": "Lebuhraya Koridor Guthrie, Sungai Buloh"
+  },
+  {
+    "id": 110,
+    "name": "Rawang Selatan Toll",
+    "destination": "B29 & Jalan Lagong, Rawang"
+  },
+  {
+    "id": 111,
+    "name": "Kuang Timur Toll",
+    "destination": "Lebuhraya Kuala Lumpur-Kuala Selangor, Rawang"
+  },
+  {
+    "id": 112,
+    "name": "Ijok Toll",
+    "destination": "Lebuhraya Kuala Lumpur-Kuala Selangor, Bestari Jaya"
+  },
+  {
+    "id": 113,
+    "name": "Kundang (Barat) Exit 2505 Toll",
+    "destination": "Lebuhraya Kuala Lumpur-Kuala Selangor, Rawang"
+  },
+  {
+    "id": 114,
+    "name": "Kundang (Timur) Toll",
+    "destination": "E25 & Jalan Kampung Baru Sri Kundang, Rawang"
+  },
+  {
+    "id": 115,
+    "name": "Kuang Barat Toll",
+    "destination": "Lebuhraya Kuala Lumpur-Kuala Selangor, Rawang"
+  },
+  {
+    "id": 116,
+    "name": "Rawang Toll",
+    "destination": "E1 & North-South Expressway, Rawang"
+  },
+  {
+    "id": 117,
+    "name": "Sungai Buaya Toll",
+    "destination": "North-South Expressway, Rawang"
+  },
+  {
+    "id": 118,
+    "name": "Bukit Beruntung Toll",
+    "destination": "E1 & North-South Expressway, Rawang"
+  },
+  {
+    "id": 119,
+    "name": "Bukit Tagar Toll",
+    "destination": "45500 Kuala Kubu Baru, Kuala Kubu Baru"
+  },
+  {
+    "id": 120,
+    "name": "Lembah Beringin Toll",
+    "destination": "Lebuhraya Utara - Selatan, Kuala Kubu Baru"
+  },
+  {
+    "id": 121,
+    "name": "Tg. Malim Toll",
+    "destination": "1 & Lebuhraya Utara - Selatan, Kerling"
+  },
+  {
+    "id": 122,
+    "name": "Behrang Toll",
+    "destination": "1 & Lebuhraya Utara - Selatan, Behrang Ulu"
+  },
+  {
+    "id": 123,
+    "name": "Slim River Toll",
+    "destination": "Jalan Orkid, Slim River"
+  },
+  {
+    "id": 124,
+    "name": "Sungkai Toll",
+    "destination": "Kampung Gajah, Sungkai"
+  },
+  {
+    "id": 125,
+    "name": "Bidor Toll",
+    "destination": "A131 & Lebuhraya Utara - Selatan, Bidor"
+  },
+  {
+    "id": 126,
+    "name": "Tapah Toll",
+    "destination": "North-South Expressway, Tapah"
+  },
+  {
+    "id": 127,
+    "name": "Teluk Intan Toll",
+    "destination": "36000 Teluk Intan, Teluk Intan"
+  },
+  {
+    "id": 129,
+    "name": "Kg Lekir Toll",
+    "destination": "32400 Sitiawan, Sitiawan"
+  },
+  {
+    "id": 130,
+    "name": "Setiawan (N) Toll",
+    "destination": "32400 Ayer Tawar, Ayer Tawar"
+  },
+  {
+    "id": 131,
+    "name": "Setiawan Toll",
+    "destination": "32000 Sitiawan, Sitiawan"
+  },
+  {
+    "id": 132,
+    "name": "Changkat Cermin Toll",
+    "destination": "32400 Ayer Tawar, Ayer Tawar"
+  },
+  {
+    "id": 133,
+    "name": "Gopeng Toll",
+    "destination": "1 & Lebuhraya Utara - Selatan, Gopeng"
+  },
+  {
+    "id": 134,
+    "name": "Simpang Pulai Toll",
+    "destination": "Jalan Raja Dr. Nazrin Shah, Taman Pulai Jaya, Ipoh"
+  },
+  {
+    "id": 135,
+    "name": "JPP Toll",
+    "destination": "Jambatan Pulau Pinang, Kawasan Perusahaan Bebas Perai, Perai"
+  },
+  {
+    "id": 136,
+    "name": "Ipoh Selatan Toll",
+    "destination": "Lebuhraya Utara - Selatan, Ipoh"
+  },
+  {
+    "id": 137,
+    "name": "Ipoh Utara Toll",
+    "destination": "Lebuhraya Utara - Selatan, Ipoh"
+  },
+  {
+    "id": 138,
+    "name": "Ipoh Utara Toll",
+    "destination": "Lebuhraya Utara - Selatan, Ipoh"
+  },
+  {
+    "id": 139,
+    "name": "Jelapang Utara Toll",
+    "destination": "Jalan Chemur, Ipoh"
+  },
+  {
+    "id": 140,
+    "name": "Kuala Kangsar Toll",
+    "destination": "North-South Expressway, Padang Rengas"
+  },
+  {
+    "id": 141,
+    "name": "Cangkat Jering Toll",
+    "destination": "E1 & North-South Expressway, Changkat Jering"
+  },
+  {
+    "id": 142,
+    "name": "Taiping Utara Toll",
+    "destination": "Lebuhraya Utara - Selatan, Matang"
+  },
+  {
+    "id": 143,
+    "name": "Bukit Merah Toll",
+    "destination": "E1 & North-South Expressway, Kampung Kubu Gajah, Simpang Empat Semanggol"
+  },
+  {
+    "id": 144,
+    "name": "Alor Pongsu Toll",
+    "destination": "34300 Bagan Serai, Bagan Serai"
+  },
+  {
+    "id": 145,
+    "name": "Bandar Baharu Toll",
+    "destination": "6 & North-South Expressway, Bandar Baharu"
+  },
+  {
+    "id": 146,
+    "name": "Jawi Toll",
+    "destination": "1 & Lebuhraya Utara - Selatan, Nibong Tebal"
+  },
+  {
+    "id": 147,
+    "name": "Bandar Cassia Toll",
+    "destination": "Jambatan Sultan Abdul Halim Muadzam Shah, Bayan Lepas"
+  },
+  {
+    "id": 148,
+    "name": "JK2PP Toll",
+    "destination": "Jambatan Sultan Abdul Halim Muadzam Shah, Bayan Lepas"
+  },
+  {
+    "id": 149,
+    "name": "Bkt. Tambun Utara Toll",
+    "destination": "E1 & North-South Expressway, Simpang Ampat"
+  },
+  {
+    "id": 150,
+    "name": "Bkt. Tambun Selatan Toll",
+    "destination": "Jalan Paboi & Lebuhraya Utara - Selatan, Simpang Ampat"
+  },
+  {
+    "id": 151,
+    "name": "Juru Toll",
+    "destination": "Lebuhraya Utara - Selatan, Bukit Mertajam"
+  },
+  {
+    "id": 152,
+    "name": "Kubang Semang Toll",
+    "destination": "E15, Permatang Pauh"
+  },
+  {
+    "id": 153,
+    "name": "Perai Lama Toll",
+    "destination": "Jalan Perai, Taman Inderawasih, Perai"
+  },
+  {
+    "id": 154,
+    "name": "Sungai Nyior Toll",
+    "destination": "Lebuhraya Butterworth - Kulim, Butterworth"
+  },
+  {
+    "id": 155,
+    "name": "Borr Towards Bagan Ajam Bagan Ajam Toll",
+    "destination": "Lebuhraya Lingkaran Luar Butterworth, Butterworth"
+  },
+  {
+    "id": 156,
+    "name": "Sg. Dua Toll",
+    "destination": "Lebuhraya Utara - Selatan, Butterworth"
+  },
+  {
+    "id": 157,
+    "name": "Lunas Toll",
+    "destination": "Lebuhraya Butterworth - Kulim, Butterworth"
+  },
+  {
+    "id": 158,
+    "name": "Bertam Toll",
+    "destination": "Plaza Tol Bertam, Kepala Batas"
+  },
+  {
+    "id": 159,
+    "name": "Sg. Petani Selatan Toll",
+    "destination": "Jln Lencongan Barat, Sungai Petani"
+  },
+  {
+    "id": 162,
+    "name": "Gurun Toll",
+    "destination": "North-South Expressway, Kampung Sungai Ibor, Gurun"
+  },
+  {
+    "id": 163,
+    "name": "Pendang Toll",
+    "destination": "K128 & Lebuhraya Utara - Selatan, Kampung Dalam Baroh, Pendang"
+  },
+  {
+    "id": 164,
+    "name": "Jitra Toll",
+    "destination": "Lebuhraya Utara - Selatan, Jitra"
+  },
+  {
+    "id": 165,
+    "name": "Kuala Terengganu (Kg Gemuroh) Toll",
+    "destination": "E Coast Expy, Kuala Terengganu"
+  },
+  {
+    "id": 166,
+    "name": "Telemung Toll",
+    "destination": "Lebuhraya Pantai Timur & Jalan Bukit Payung - Telemong, Kuala Terengganu"
+  },
+  {
+    "id": 167,
+    "name": "Ajil Toll",
+    "destination": "Lebuhraya Pantai Timur & Jalan Ajil - Kuala Berang, Ajil"
+  },
+  {
+    "id": 168,
+    "name": "Bukit Besi Toll",
+    "destination": "Jalan Bukit Besi - Dungun, Bukit Besi"
+  },
+  {
+    "id": 169,
+    "name": "Dungun Toll",
+    "destination": "East Coast Expressway & E8, Kuala Dungun"
+  },
+  { "id": 170, "name": "Paka Toll", "destination": "E Coast Expy, Kerteh" },
+  { "id": 171, "name": "Kerteh Toll", "destination": "24300 Kerteh, Kerteh" },
+  { "id": 172, "name": "Kijal Toll", "destination": "24000 Chukai, Chukai" },
+  {
+    "id": 173,
+    "name": "Cukai Toll",
+    "destination": "Plaza Tol Chukai, Jalan Air Putih, Kampung Pasir Gajah, Chukai"
+  },
+  {
+    "id": 174,
+    "name": "Cheneh Toll",
+    "destination": "Plaza Tol Chenih, E Coast Expy, Chukai"
+  },
+  { "id": 175, "name": "Jabor Toll", "destination": "Gebeng Bypass, Chukai" },
+  { "id": 176, "name": "Kuantan Toll", "destination": "E Coast Expy, Kuantan" },
+  {
+    "id": 177,
+    "name": "Dungun Toll",
+    "destination": "East Coast Expressway & E8, Kuala Dungun"
+  },
+  { "id": 178, "name": "Sri Jaya Toll", "destination": "Maran, Maran" },
+  { "id": 179, "name": "Maran Toll", "destination": "26500 Maran, Maran" },
+  {
+    "id": 180,
+    "name": "Chenor Toll",
+    "destination": "East Coast Expressway & E8, Chenor"
+  },
+  {
+    "id": 181,
+    "name": "Temerloh Toll",
+    "destination": "East Coast Expressway & E8, Temerloh"
+  },
+  {
+    "id": 182,
+    "name": "Lanchang Toll",
+    "destination": "Jalan Bolok - Mempaga, Kampung Cempaka Kanan, Lanchang"
+  },
+  { "id": 183, "name": "Karak Toll", "destination": "E Coast Expy, Karak" },
+  {
+    "id": 184,
+    "name": "Bentong Toll",
+    "destination": "Lebuhraya Kuala Lumpur - Gua Musang, Bentong"
+  },
+  {
+    "id": 185,
+    "name": "Gombak Toll",
+    "destination": "Lebuhraya Kuala Lumpur - Gua Musang, Batu Caves"
+  },
+  {
+    "id": 186,
+    "name": "Bukit Jelutong Toll",
+    "destination": "Lebuhraya Koridor Guthrie, Shah Alam"
+  },
+  {
+    "id": 187,
+    "name": "Lukut Toll",
+    "destination": "Jalan Seremban, Lukut, Port Dickson"
+  },
+  {
+    "id": 188,
+    "name": "Lukut Toll",
+    "destination": "Lebuhraya Seremban - Port Dickson & Jalan Seremban, Port Dickson"
+  },
+  {
+    "id": 189,
+    "name": "Southville CIty Toll",
+    "destination": "Lebuhraya Utara-Selatan, Bandar Baru Bangi"
+  },
+  {
+    "id": 190,
+    "name": "Jambatan Pulau Pinang Toll",
+    "destination": "Jambatan Pulau Pinang, Kawasan Perusahaan Bebas Perai, Perai"
+  },
+  {
+    "id": 191,
+    "name": "Hutan Melintang Toll",
+    "destination": "Negeri Perak, Negeri Perak"
+  },
+  { "id": 193, "name": "Beruas Toll", "destination": "32700 Beruas, Beruas" },
+  {
+    "id": 194,
+    "name": "Batu 9 Toll",
+    "destination": "Lebuhraya Cheras - Kajang, Cheras, Batu Cheras"
+  },
+  {
+    "id": 195,
+    "name": "Batu 11 Toll",
+    "destination": "Lebuhraya Cheras - Kajang, Cheras, Batu Cheras"
+  },
+  {
+    "id": 196,
+    "name": "Taman Rimba Templar Toll",
+    "destination": "Lebuhraya Kuala Lumpur-Kuala Selangor, Rawang"
+  },
+  {
+    "id": 197,
+    "name": "Ayer Hitam SKVE Toll",
+    "destination": "Persiaran Sierra Utama, Bandar 16 Sierra, Puchong"
+  },
+  {
+    "id": 198,
+    "name": "Pulau Indah Toll",
+    "destination": "Lebuhraya Lembah Klang Selatan, Pulau Indah"
+  },
+  {
+    "id": 199,
+    "name": "Teluk Panglima Garang Toll",
+    "destination": "42600 Jenjarom, Jenjarom"
+  },
+  {
+    "id": 200,
+    "name": "Penawar Toll",
+    "destination": "Lebuhraya Senai-Desaru, Kota Tinggi"
+  },
+  { "id": 201, "name": "Semenyih Toll", "destination": "Selangor, Selangor" },
+  {
+    "id": 202,
+    "name": "Selak Selatan Toll",
+    "destination": "Lebuhraya Kuala Lumpur - Putrajaya, Salak Selatan, Kuala Lumpur"
+  },
+  {
+    "id": 203,
+    "name": "Lagong Toll",
+    "destination": "Lebuhraya Koridor Guthrie, Rawang"
+  },
+  {
+    "id": 204,
+    "name": "Gambang Toll",
+    "destination": "Lebuhraya Mec, Kampung Melayu Gambang, Gambang"
+  },
+  {
+    "id": 205,
+    "name": "Lancang Toll",
+    "destination": "East Coast Expressway & E8, Kampung Cempaka Kanan, Lanchang"
+  },
+  {
+    "id": 206,
+    "name": "Sungai Balak Toll",
+    "destination": "Lebuhraya Silk & Sistem Lingkaran-Lebuhraya Kajang, Taman Cheras Prima, Kajang"
+  },
+  {
+    "id": 207,
+    "name": "Sungai Long Toll",
+    "destination": "Sistem Lingkaran-Lebuhraya Kajang, Kajang"
+  },
+  {
+    "id": 208,
+    "name": "Sungai Ramal Toll",
+    "destination": "Sistem Lingkaran-Lebuhraya Kajang, 43000 Kajang, Selangor, Malaysia"
+  },
+  {
+    "id": 209,
+    "name": "PJS 2 Toll",
+    "destination": "Lebuhraya Baru Pantai, Petaling Jaya"
+  },
+  {
+    "id": 210,
+    "name": "MOC B Toll",
+    "destination": "5 & Jalan Klang - Teluk Intan, Klang"
+  },
+  {
+    "id": 211,
+    "name": "Keramat Toll",
+    "destination": "E12, Kampung Datuk Keramat, Kuala Lumpur"
+  }
+]
